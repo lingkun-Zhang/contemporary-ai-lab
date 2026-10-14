@@ -1,0 +1,691 @@
+{
+  "status": "passed",
+  "run_count": 29,
+  "model_counts": {
+    "LR": 7,
+    "MLP": 17,
+    "SVM": 5
+  },
+  "mlp_history_count": 17,
+  "mlp_epoch_row_count": 1430,
+  "public_file_checksums_verified": 385,
+  "probability_ce_max_absolute_error": 7.216449660063518e-16,
+  "training_prediction_count": 170926,
+  "validation_prediction_count": 42746,
+  "comparison_group_count": 17,
+  "comparison_case_rows_verified": 35376,
+  "warning_count": 0,
+  "shared_fresh_baselines": {
+    "lr_c100": 3,
+    "mlp_lr0001_e30": 2,
+    "mlp_width50_s42": 5,
+    "mlp_width100_s42": 5,
+    "svm_c100": 2
+  },
+  "historical_results_reused": false,
+  "history_comparison_count": 41,
+  "unique_new_configs_matched_to_history": 24,
+  "new_configs_without_original_file_records": [
+    "lr_c0.1",
+    "lr_c1",
+    "lr_c10",
+    "lr_class7_w1.5",
+    "lr_class7_w2"
+  ],
+  "history_comparison_max_metric_delta": 1.1102230246251565e-16,
+  "historical_comparisons": [
+    {
+      "historical_config": "lr_results/vocabulary_20261013_195507_556938/features10000/config.json",
+      "new_run_id": "lr_vocab10000",
+      "deltas": {
+        "train_accuracy": 0.0,
+        "val_accuracy": -1.1102230246251565e-16,
+        "train_loss": -6.591949208711867e-17,
+        "val_loss": -5.551115123125783e-17
+      }
+    },
+    {
+      "historical_config": "lr_results/vocabulary_20261013_195507_556938/features5000/config.json",
+      "new_run_id": "lr_c100",
+      "deltas": {
+        "train_accuracy": 0.0,
+        "val_accuracy": -1.1102230246251565e-16,
+        "train_loss": -2.0816681711721685e-17,
+        "val_loss": 0.0
+      }
+    },
+    {
+      "historical_config": "mlp_results/lr0.0001_e100_20261013_002035_997296/config.json",
+      "new_run_id": "mlp_width50_s42",
+      "deltas": {
+        "train_accuracy": 0.0,
+        "val_accuracy": 0.0,
+        "train_loss": 0.0,
+        "val_loss": 0.0
+      }
+    },
+    {
+      "historical_config": "mlp_results/lr0.0001_e100_20261013_003846_215423/config.json",
+      "new_run_id": "mlp_width50_s42",
+      "deltas": {
+        "train_accuracy": 0.0,
+        "val_accuracy": 0.0,
+        "train_loss": 0.0,
+        "val_loss": 0.0
+      }
+    },
+    {
+      "historical_config": "mlp_results/lr0.0001_e100_20261013_005349_235602/config.json",
+      "new_run_id": "mlp_alpha05_e100",
+      "deltas": {
+        "train_accuracy": 0.0,
+        "val_accuracy": 0.0,
+        "train_loss": 0.0,
+        "val_loss": 0.0
+      }
+    },
+    {
+      "historical_config": "mlp_results/lr0.0001_e100_20261013_010040_372356/config.json",
+      "new_run_id": "mlp_alpha05_e100",
+      "deltas": {
+        "train_accuracy": 0.0,
+        "val_accuracy": 0.0,
+        "train_loss": 0.0,
+        "val_loss": 0.0
+      }
+    },
+    {
+      "historical_config": "mlp_results/lr0.0001_e100_20261013_100238_523654/config.json",
+      "new_run_id": "mlp_alpha05_e100",
+      "deltas": {
+        "train_accuracy": 0.0,
+        "val_accuracy": 0.0,
+        "train_loss": 0.0,
+        "val_loss": 0.0
+      }
+    },
+    {
+      "historical_config": "mlp_results/lr0.0001_e30_20261013_000721_531364/config.json",
+      "new_run_id": "mlp_lr0001_e30",
+      "deltas": {
+        "train_accuracy": 0.0,
+        "val_accuracy": 0.0,
+        "train_loss": 0.0,
+        "val_loss": 0.0
+      }
+    },
+    {
+      "historical_config": "mlp_results/lr0.0001_e50_20261013_001457_774075/config.json",
+      "new_run_id": "mlp_alpha005_e50",
+      "deltas": {
+        "train_accuracy": 0.0,
+        "val_accuracy": 0.0,
+        "train_loss": 0.0,
+        "val_loss": 0.0
+      }
+    },
+    {
+      "historical_config": "mlp_results/lr0.0001_e60_20261013_001259_742321/config.json",
+      "new_run_id": "mlp_alpha001_e60",
+      "deltas": {
+        "train_accuracy": 0.0,
+        "val_accuracy": 0.0,
+        "train_loss": 0.0,
+        "val_loss": 0.0
+      }
+    },
+    {
+      "historical_config": "mlp_results/lr0.0001_e60_20261013_001700_215270/config.json",
+      "new_run_id": "mlp_alpha005_e60",
+      "deltas": {
+        "train_accuracy": 0.0,
+        "val_accuracy": 0.0,
+        "train_loss": 0.0,
+        "val_loss": 0.0
+      }
+    },
+    {
+      "historical_config": "mlp_results/lr0.001_e30_20261012_230742_099331/config.json",
+      "new_run_id": "mlp_lr001_e30",
+      "deltas": {
+        "train_accuracy": 0.0,
+        "val_accuracy": 0.0,
+        "train_loss": 0.0,
+        "val_loss": 0.0
+      }
+    },
+    {
+      "historical_config": "mlp_results/lr0.001_e30_20261012_234905_229553/config.json",
+      "new_run_id": "mlp_lr001_e30",
+      "deltas": {
+        "train_accuracy": 0.0,
+        "val_accuracy": 0.0,
+        "train_loss": 0.0,
+        "val_loss": 0.0
+      }
+    },
+    {
+      "historical_config": "mlp_results/ngram_20261013_113012_819787/unigram/config.json",
+      "new_run_id": "mlp_width100_s42",
+      "deltas": {
+        "train_accuracy": 0.0,
+        "val_accuracy": 0.0,
+        "train_loss": 0.0,
+        "val_loss": 0.0
+      }
+    },
+    {
+      "historical_config": "mlp_results/ngram_20261013_113012_819787/unigram_bigram/config.json",
+      "new_run_id": "mlp_bigram",
+      "deltas": {
+        "train_accuracy": 0.0,
+        "val_accuracy": 0.0,
+        "train_loss": 0.0,
+        "val_loss": 0.0
+      }
+    },
+    {
+      "historical_config": "mlp_results/stability_20261013_110002_306417/seed42_hidden100/config.json",
+      "new_run_id": "mlp_width100_s42",
+      "deltas": {
+        "train_accuracy": 0.0,
+        "val_accuracy": 0.0,
+        "train_loss": 0.0,
+        "val_loss": 0.0
+      }
+    },
+    {
+      "historical_config": "mlp_results/stability_20261013_110002_306417/seed42_hidden50/config.json",
+      "new_run_id": "mlp_width50_s42",
+      "deltas": {
+        "train_accuracy": 0.0,
+        "val_accuracy": 0.0,
+        "train_loss": 0.0,
+        "val_loss": 0.0
+      }
+    },
+    {
+      "historical_config": "mlp_results/stability_20261013_110002_306417/seed43_hidden100/config.json",
+      "new_run_id": "mlp_width100_s43",
+      "deltas": {
+        "train_accuracy": 0.0,
+        "val_accuracy": 0.0,
+        "train_loss": 0.0,
+        "val_loss": 0.0
+      }
+    },
+    {
+      "historical_config": "mlp_results/stability_20261013_110002_306417/seed43_hidden50/config.json",
+      "new_run_id": "mlp_width50_s43",
+      "deltas": {
+        "train_accuracy": 0.0,
+        "val_accuracy": 0.0,
+        "train_loss": 0.0,
+        "val_loss": 0.0
+      }
+    },
+    {
+      "historical_config": "mlp_results/stability_20261013_110002_306417/seed44_hidden100/config.json",
+      "new_run_id": "mlp_width100_s44",
+      "deltas": {
+        "train_accuracy": 0.0,
+        "val_accuracy": 0.0,
+        "train_loss": 0.0,
+        "val_loss": 0.0
+      }
+    },
+    {
+      "historical_config": "mlp_results/stability_20261013_110002_306417/seed44_hidden50/config.json",
+      "new_run_id": "mlp_width50_s44",
+      "deltas": {
+        "train_accuracy": 0.0,
+        "val_accuracy": 0.0,
+        "train_loss": 0.0,
+        "val_loss": 0.0
+      }
+    },
+    {
+      "historical_config": "mlp_results/structure_20261013_103724_651177/hidden100/config.json",
+      "new_run_id": "mlp_width100_s42",
+      "deltas": {
+        "train_accuracy": 0.0,
+        "val_accuracy": 0.0,
+        "train_loss": 0.0,
+        "val_loss": 0.0
+      }
+    },
+    {
+      "historical_config": "mlp_results/structure_20261013_103724_651177/hidden25/config.json",
+      "new_run_id": "mlp_width25_s42",
+      "deltas": {
+        "train_accuracy": 0.0,
+        "val_accuracy": 0.0,
+        "train_loss": 0.0,
+        "val_loss": 0.0
+      }
+    },
+    {
+      "historical_config": "mlp_results/structure_20261013_103724_651177/hidden50/config.json",
+      "new_run_id": "mlp_width50_s42",
+      "deltas": {
+        "train_accuracy": 0.0,
+        "val_accuracy": 0.0,
+        "train_loss": 0.0,
+        "val_loss": 0.0
+      }
+    },
+    {
+      "historical_config": "mlp_results/tf_scaling_20261013_114947_907546/log_tf/config.json",
+      "new_run_id": "mlp_logtf",
+      "deltas": {
+        "train_accuracy": 0.0,
+        "val_accuracy": 0.0,
+        "train_loss": 0.0,
+        "val_loss": 0.0
+      }
+    },
+    {
+      "historical_config": "mlp_results/tf_scaling_20261013_114947_907546/ordinary_tf/config.json",
+      "new_run_id": "mlp_width100_s42",
+      "deltas": {
+        "train_accuracy": 0.0,
+        "val_accuracy": 0.0,
+        "train_loss": 0.0,
+        "val_loss": 0.0
+      }
+    },
+    {
+      "historical_config": "mlp_results/vocabulary_20261013_203212_922430/features10000/config.json",
+      "new_run_id": "mlp_vocab10000",
+      "deltas": {
+        "train_accuracy": 0.0,
+        "val_accuracy": 0.0,
+        "train_loss": 0.0,
+        "val_loss": 0.0
+      }
+    },
+    {
+      "historical_config": "mlp_results/vocabulary_20261013_203212_922430/features5000/config.json",
+      "new_run_id": "mlp_width100_s42",
+      "deltas": {
+        "train_accuracy": 0.0,
+        "val_accuracy": 0.0,
+        "train_loss": 0.0,
+        "val_loss": 0.0
+      }
+    },
+    {
+      "historical_config": "mlp_results/weighting_class2_20261013_011529_259979/weight1/config.json",
+      "new_run_id": "mlp_width50_s42",
+      "deltas": {
+        "train_accuracy": 0.0,
+        "val_accuracy": 0.0,
+        "train_loss": 0.0,
+        "val_loss": 0.0
+      }
+    },
+    {
+      "historical_config": "mlp_results/weighting_class2_20261013_011529_259979/weight1.5/config.json",
+      "new_run_id": "mlp_class2_w1.5",
+      "deltas": {
+        "train_accuracy": 0.0,
+        "val_accuracy": 0.0,
+        "train_loss": 0.0,
+        "val_loss": 0.0
+      }
+    },
+    {
+      "historical_config": "mlp_results/weighting_class2_20261013_100936_411556/weight1/config.json",
+      "new_run_id": "mlp_width50_s42",
+      "deltas": {
+        "train_accuracy": 0.0,
+        "val_accuracy": 0.0,
+        "train_loss": 0.0,
+        "val_loss": 0.0
+      }
+    },
+    {
+      "historical_config": "mlp_results/weighting_class2_20261013_100936_411556/weight1.5/config.json",
+      "new_run_id": "mlp_class2_w1.5",
+      "deltas": {
+        "train_accuracy": 0.0,
+        "val_accuracy": 0.0,
+        "train_loss": 0.0,
+        "val_loss": 0.0
+      }
+    },
+    {
+      "historical_config": "svm_results/linear_C_20261013_121347_531213/C0.1/config.json",
+      "new_run_id": "svm_c0.1",
+      "deltas": {
+        "train_accuracy": 0.0,
+        "val_accuracy": 0.0
+      }
+    },
+    {
+      "historical_config": "svm_results/linear_C_20261013_121347_531213/C1/config.json",
+      "new_run_id": "svm_c1",
+      "deltas": {
+        "train_accuracy": 1.1102230246251565e-16,
+        "val_accuracy": -1.1102230246251565e-16
+      }
+    },
+    {
+      "historical_config": "svm_results/linear_C_20261013_121347_531213/C10/config.json",
+      "new_run_id": "svm_c10",
+      "deltas": {
+        "train_accuracy": 0.0,
+        "val_accuracy": 0.0
+      }
+    },
+    {
+      "historical_config": "svm_results/linear_C_20261013_193635_918184/C0.1/config.json",
+      "new_run_id": "svm_c0.1",
+      "deltas": {
+        "train_accuracy": 0.0,
+        "val_accuracy": 0.0
+      }
+    },
+    {
+      "historical_config": "svm_results/linear_C_20261013_193635_918184/C1/config.json",
+      "new_run_id": "svm_c1",
+      "deltas": {
+        "train_accuracy": 1.1102230246251565e-16,
+        "val_accuracy": -1.1102230246251565e-16
+      }
+    },
+    {
+      "historical_config": "svm_results/linear_C_20261013_193635_918184/C10/config.json",
+      "new_run_id": "svm_c10",
+      "deltas": {
+        "train_accuracy": 0.0,
+        "val_accuracy": 0.0
+      }
+    },
+    {
+      "historical_config": "svm_results/linear_C_20261013_193635_918184/C100/config.json",
+      "new_run_id": "svm_c100",
+      "deltas": {
+        "train_accuracy": 0.0,
+        "val_accuracy": 0.0
+      }
+    },
+    {
+      "historical_config": "svm_results/vocabulary_20261013_202547_413463/features10000/config.json",
+      "new_run_id": "svm_vocab10000",
+      "deltas": {
+        "train_accuracy": 0.0,
+        "val_accuracy": 0.0
+      }
+    },
+    {
+      "historical_config": "svm_results/vocabulary_20261013_202547_413463/features5000/config.json",
+      "new_run_id": "svm_c100",
+      "deltas": {
+        "train_accuracy": 0.0,
+        "val_accuracy": 0.0
+      }
+    }
+  ],
+  "runs": [
+    {
+      "run_id": "lr_c0.1",
+      "model": "LR",
+      "val_accuracy": 0.8419267299864315,
+      "wrong_count": 233,
+      "val_loss": 1.5460279423625214
+    },
+    {
+      "run_id": "lr_c1",
+      "model": "LR",
+      "val_accuracy": 0.898236092265943,
+      "wrong_count": 150,
+      "val_loss": 0.6860074928234717
+    },
+    {
+      "run_id": "lr_c10",
+      "model": "LR",
+      "val_accuracy": 0.9131614654002713,
+      "wrong_count": 128,
+      "val_loss": 0.3601759539399817
+    },
+    {
+      "run_id": "lr_c100",
+      "model": "LR",
+      "val_accuracy": 0.9145183175033921,
+      "wrong_count": 126,
+      "val_loss": 0.2961772230832473
+    },
+    {
+      "run_id": "lr_class7_w1.5",
+      "model": "LR",
+      "val_accuracy": 0.9172320217096337,
+      "wrong_count": 122,
+      "val_loss": 0.29709748071642744
+    },
+    {
+      "run_id": "lr_class7_w2",
+      "model": "LR",
+      "val_accuracy": 0.9090909090909091,
+      "wrong_count": 134,
+      "val_loss": 0.30274259521355745
+    },
+    {
+      "run_id": "lr_vocab10000",
+      "model": "LR",
+      "val_accuracy": 0.9301221166892809,
+      "wrong_count": 103,
+      "val_loss": 0.27087955189826496
+    },
+    {
+      "run_id": "mlp_lr001_e30",
+      "model": "MLP",
+      "val_accuracy": 0.9151967435549525,
+      "wrong_count": 125,
+      "val_loss": 0.26635259678700196,
+      "epochs": 30,
+      "train_loss_increases": 0,
+      "val_loss_increases": 7
+    },
+    {
+      "run_id": "mlp_lr0001_e30",
+      "model": "MLP",
+      "val_accuracy": 0.8921302578018996,
+      "wrong_count": 159,
+      "val_loss": 0.6766136752593569,
+      "epochs": 30,
+      "train_loss_increases": 0,
+      "val_loss_increases": 0
+    },
+    {
+      "run_id": "mlp_alpha001_e60",
+      "model": "MLP",
+      "val_accuracy": 0.9097693351424695,
+      "wrong_count": 133,
+      "val_loss": 0.36388818028031455,
+      "epochs": 60,
+      "train_loss_increases": 0,
+      "val_loss_increases": 0
+    },
+    {
+      "run_id": "mlp_alpha005_e50",
+      "model": "MLP",
+      "val_accuracy": 0.9063772048846676,
+      "wrong_count": 138,
+      "val_loss": 0.43457588888792914,
+      "epochs": 50,
+      "train_loss_increases": 0,
+      "val_loss_increases": 0
+    },
+    {
+      "run_id": "mlp_alpha005_e60",
+      "model": "MLP",
+      "val_accuracy": 0.9090909090909091,
+      "wrong_count": 134,
+      "val_loss": 0.3791863576557359,
+      "epochs": 60,
+      "train_loss_increases": 0,
+      "val_loss_increases": 0
+    },
+    {
+      "run_id": "mlp_width50_s42",
+      "model": "MLP",
+      "val_accuracy": 0.9158751696065129,
+      "wrong_count": 124,
+      "val_loss": 0.2939817545521942,
+      "epochs": 100,
+      "train_loss_increases": 0,
+      "val_loss_increases": 0
+    },
+    {
+      "run_id": "mlp_alpha05_e100",
+      "model": "MLP",
+      "val_accuracy": 0.9043419267299865,
+      "wrong_count": 141,
+      "val_loss": 0.4300562318991572,
+      "epochs": 100,
+      "train_loss_increases": 0,
+      "val_loss_increases": 0
+    },
+    {
+      "run_id": "mlp_width25_s42",
+      "model": "MLP",
+      "val_accuracy": 0.9151967435549525,
+      "wrong_count": 125,
+      "val_loss": 0.3453042999020315,
+      "epochs": 100,
+      "train_loss_increases": 0,
+      "val_loss_increases": 0
+    },
+    {
+      "run_id": "mlp_width100_s42",
+      "model": "MLP",
+      "val_accuracy": 0.9206241519674355,
+      "wrong_count": 117,
+      "val_loss": 0.28214975585922003,
+      "epochs": 100,
+      "train_loss_increases": 0,
+      "val_loss_increases": 0
+    },
+    {
+      "run_id": "mlp_width50_s43",
+      "model": "MLP",
+      "val_accuracy": 0.9185888738127544,
+      "wrong_count": 120,
+      "val_loss": 0.29773611041679837,
+      "epochs": 100,
+      "train_loss_increases": 0,
+      "val_loss_increases": 0
+    },
+    {
+      "run_id": "mlp_width100_s43",
+      "model": "MLP",
+      "val_accuracy": 0.9226594301221167,
+      "wrong_count": 114,
+      "val_loss": 0.28146142863283713,
+      "epochs": 100,
+      "train_loss_increases": 0,
+      "val_loss_increases": 2
+    },
+    {
+      "run_id": "mlp_width50_s44",
+      "model": "MLP",
+      "val_accuracy": 0.9158751696065129,
+      "wrong_count": 124,
+      "val_loss": 0.29191142535432246,
+      "epochs": 100,
+      "train_loss_increases": 0,
+      "val_loss_increases": 0
+    },
+    {
+      "run_id": "mlp_width100_s44",
+      "model": "MLP",
+      "val_accuracy": 0.9206241519674355,
+      "wrong_count": 117,
+      "val_loss": 0.28021984742095474,
+      "epochs": 100,
+      "train_loss_increases": 0,
+      "val_loss_increases": 1
+    },
+    {
+      "run_id": "mlp_class2_w1.5",
+      "model": "MLP",
+      "val_accuracy": 0.9192672998643148,
+      "wrong_count": 119,
+      "val_loss": 0.2959806005514077,
+      "epochs": 100,
+      "train_loss_increases": 0,
+      "val_loss_increases": 0
+    },
+    {
+      "run_id": "mlp_bigram",
+      "model": "MLP",
+      "val_accuracy": 0.9050203527815468,
+      "wrong_count": 140,
+      "val_loss": 0.3261396547703433,
+      "epochs": 100,
+      "train_loss_increases": 0,
+      "val_loss_increases": 0
+    },
+    {
+      "run_id": "mlp_logtf",
+      "model": "MLP",
+      "val_accuracy": 0.917910447761194,
+      "wrong_count": 121,
+      "val_loss": 0.2701315690633181,
+      "epochs": 100,
+      "train_loss_increases": 0,
+      "val_loss_increases": 1
+    },
+    {
+      "run_id": "mlp_vocab10000",
+      "model": "MLP",
+      "val_accuracy": 0.9287652645861602,
+      "wrong_count": 105,
+      "val_loss": 0.2609554862364661,
+      "epochs": 100,
+      "train_loss_increases": 0,
+      "val_loss_increases": 1
+    },
+    {
+      "run_id": "svm_c0.1",
+      "model": "SVM",
+      "val_accuracy": 0.8120759837177748,
+      "wrong_count": 277,
+      "val_loss": null
+    },
+    {
+      "run_id": "svm_c1",
+      "model": "SVM",
+      "val_accuracy": 0.9023066485753053,
+      "wrong_count": 144,
+      "val_loss": null
+    },
+    {
+      "run_id": "svm_c10",
+      "model": "SVM",
+      "val_accuracy": 0.907055630936228,
+      "wrong_count": 137,
+      "val_loss": null
+    },
+    {
+      "run_id": "svm_c100",
+      "model": "SVM",
+      "val_accuracy": 0.9104477611940298,
+      "wrong_count": 132,
+      "val_loss": null
+    },
+    {
+      "run_id": "svm_vocab10000",
+      "model": "SVM",
+      "val_accuracy": 0.917910447761194,
+      "wrong_count": 121,
+      "val_loss": null
+    }
+  ],
+  "audit_limits": [
+    "Training probabilities are not stored publicly; training accuracy is independently recomputed, training CE is checked against full-epoch history, not independently recalculated from probabilities.",
+    "Checksums verify internal integrity, not historical training source identity. Historical adapter is explicitly not the exact original script.",
+    "Historical missing outputs remain missing; these fresh reproductions are not original measurements."
+  ]
+}

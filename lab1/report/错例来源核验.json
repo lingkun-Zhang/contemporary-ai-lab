@@ -1,0 +1,32 @@
+{
+  "cases": [
+    {
+      "source_index": 3520,
+      "true_label": 2,
+      "baseline_prediction": 7,
+      "weighted_prediction": 2,
+      "excerpt": "information about this drive. Switch settings, geometry..etc.",
+      "excerpt_normalization": "whitespace only; no names or contact information included",
+      "baseline_probability_class2": 0.3377840523720383,
+      "weighted_probability_class2": 0.3789493137483796,
+      "weighted_probability_class1": 0.0404809728115811
+    },
+    {
+      "source_index": 6878,
+      "true_label": 1,
+      "baseline_prediction": 1,
+      "weighted_prediction": 2,
+      "excerpt": "I'm running a 286dx-25 with a 85mb hdd. I also have windows 3.1",
+      "excerpt_normalization": "whitespace only; no names or contact information included",
+      "baseline_probability_class2": 0.3823213908741698,
+      "weighted_probability_class2": 0.4660256816238021,
+      "weighted_probability_class1": 0.458406649013722
+    }
+  ],
+  "comparison_csv_sha256": "a37dad1933cd42a869f432cb9303c8bf2915a3949adce2d5f8671d4a6dbaf544",
+  "selection": "first corrected in validation order; the only introduced error",
+  "baseline_private_source_sha256": "837fa9dbb492b765fe6befbaef4d407048b9dcd608b3f5f945a127cb9e8cc5fc",
+  "weighted_private_source_sha256": "b05e97a495298f86ade0519a18b595d8d5e61b70436583786999b3c58b73bc32",
+  "private_texts_copied": false,
+  "new_training": false
+}

@@ -1,0 +1,7 @@
+﻿validation_index,source_index,true_label,prediction_5000,prediction_10000
+185,3520,2,2,7
+598,3804,2,2,3
+747,3227,2,2,6
+901,2196,2,2,0
+974,1827,0,0,2
+1060,1585,3,3,8

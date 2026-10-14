@@ -1,0 +1,200 @@
+[
+  {
+    "result_root": "mlp_results",
+    "run_directory": "lr0.0001_e100_20261013_002035_997296",
+    "status": "archived_all_files",
+    "file_count": 4,
+    "config_count": 1,
+    "history_count": 1,
+    "validation_predictions_count": 0
+  },
+  {
+    "result_root": "mlp_results",
+    "run_directory": "lr0.0001_e100_20261013_003846_215423",
+    "status": "archived_all_files",
+    "file_count": 7,
+    "config_count": 1,
+    "history_count": 1,
+    "validation_predictions_count": 1
+  },
+  {
+    "result_root": "mlp_results",
+    "run_directory": "lr0.0001_e100_20261013_005349_235602",
+    "status": "archived_all_files",
+    "file_count": 7,
+    "config_count": 1,
+    "history_count": 1,
+    "validation_predictions_count": 1
+  },
+  {
+    "result_root": "mlp_results",
+    "run_directory": "lr0.0001_e100_20261013_010040_372356",
+    "status": "archived_all_files",
+    "file_count": 7,
+    "config_count": 1,
+    "history_count": 1,
+    "validation_predictions_count": 1
+  },
+  {
+    "result_root": "mlp_results",
+    "run_directory": "lr0.0001_e100_20261013_100238_523654",
+    "status": "archived_all_files",
+    "file_count": 7,
+    "config_count": 1,
+    "history_count": 1,
+    "validation_predictions_count": 1
+  },
+  {
+    "result_root": "mlp_results",
+    "run_directory": "lr0.0001_e30_20261013_000721_531364",
+    "status": "archived_all_files",
+    "file_count": 4,
+    "config_count": 1,
+    "history_count": 1,
+    "validation_predictions_count": 0
+  },
+  {
+    "result_root": "mlp_results",
+    "run_directory": "lr0.0001_e50_20261013_001457_774075",
+    "status": "archived_all_files",
+    "file_count": 4,
+    "config_count": 1,
+    "history_count": 1,
+    "validation_predictions_count": 0
+  },
+  {
+    "result_root": "mlp_results",
+    "run_directory": "lr0.0001_e60_20261013_001259_742321",
+    "status": "archived_all_files",
+    "file_count": 4,
+    "config_count": 1,
+    "history_count": 1,
+    "validation_predictions_count": 0
+  },
+  {
+    "result_root": "mlp_results",
+    "run_directory": "lr0.0001_e60_20261013_001700_215270",
+    "status": "archived_all_files",
+    "file_count": 4,
+    "config_count": 1,
+    "history_count": 1,
+    "validation_predictions_count": 0
+  },
+  {
+    "result_root": "mlp_results",
+    "run_directory": "lr0.001_e30_20261012_230742_099331",
+    "status": "archived_all_files",
+    "file_count": 4,
+    "config_count": 1,
+    "history_count": 1,
+    "validation_predictions_count": 0
+  },
+  {
+    "result_root": "mlp_results",
+    "run_directory": "lr0.001_e30_20261012_234905_229553",
+    "status": "archived_all_files",
+    "file_count": 4,
+    "config_count": 1,
+    "history_count": 1,
+    "validation_predictions_count": 0
+  },
+  {
+    "result_root": "mlp_results",
+    "run_directory": "ngram_20261013_113012_819787",
+    "status": "archived_all_files",
+    "file_count": 17,
+    "config_count": 2,
+    "history_count": 2,
+    "validation_predictions_count": 2
+  },
+  {
+    "result_root": "mlp_results",
+    "run_directory": "stability_20261013_110002_306417",
+    "status": "archived_all_files",
+    "file_count": 34,
+    "config_count": 6,
+    "history_count": 6,
+    "validation_predictions_count": 6
+  },
+  {
+    "result_root": "mlp_results",
+    "run_directory": "structure_20261013_103724_651177",
+    "status": "archived_all_files",
+    "file_count": 18,
+    "config_count": 3,
+    "history_count": 3,
+    "validation_predictions_count": 3
+  },
+  {
+    "result_root": "mlp_results",
+    "run_directory": "tf_scaling_20261013_114947_907546",
+    "status": "archived_all_files",
+    "file_count": 17,
+    "config_count": 2,
+    "history_count": 2,
+    "validation_predictions_count": 2
+  },
+  {
+    "result_root": "mlp_results",
+    "run_directory": "vocabulary_20261013_203212_922430",
+    "status": "archived_all_files",
+    "file_count": 19,
+    "config_count": 2,
+    "history_count": 2,
+    "validation_predictions_count": 2
+  },
+  {
+    "result_root": "mlp_results",
+    "run_directory": "weighting_class2_20261013_011529_259979",
+    "status": "archived_all_files",
+    "file_count": 16,
+    "config_count": 2,
+    "history_count": 2,
+    "validation_predictions_count": 2
+  },
+  {
+    "result_root": "mlp_results",
+    "run_directory": "weighting_class2_20261013_100936_411556",
+    "status": "archived_all_files",
+    "file_count": 15,
+    "config_count": 2,
+    "history_count": 2,
+    "validation_predictions_count": 2
+  },
+  {
+    "result_root": "lr_results",
+    "run_directory": "vocabulary_20261013_195507_556938",
+    "status": "archived_all_files",
+    "file_count": 17,
+    "config_count": 2,
+    "history_count": 0,
+    "validation_predictions_count": 2
+  },
+  {
+    "result_root": "svm_results",
+    "run_directory": "linear_C_20261013_121347_531213",
+    "status": "archived_all_files",
+    "file_count": 19,
+    "config_count": 3,
+    "history_count": 0,
+    "validation_predictions_count": 3
+  },
+  {
+    "result_root": "svm_results",
+    "run_directory": "linear_C_20261013_193635_918184",
+    "status": "archived_all_files",
+    "file_count": 27,
+    "config_count": 4,
+    "history_count": 0,
+    "validation_predictions_count": 4
+  },
+  {
+    "result_root": "svm_results",
+    "run_directory": "vocabulary_20261013_202547_413463",
+    "status": "archived_all_files",
+    "file_count": 20,
+    "config_count": 2,
+    "history_count": 0,
+    "validation_predictions_count": 2
+  }
+]

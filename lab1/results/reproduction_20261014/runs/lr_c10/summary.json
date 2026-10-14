@@ -1,0 +1,33 @@
+{
+  "run_id": "lr_c10",
+  "model": "LR",
+  "max_features": 5000,
+  "ngram_range": [
+    1,
+    1
+  ],
+  "sublinear_tf": false,
+  "seed": 42,
+  "weight_class": null,
+  "relative_weight": 1.0,
+  "C": 10,
+  "train_accuracy": 0.999151679674245,
+  "val_accuracy": 0.9131614654002713,
+  "wrong_count": 128,
+  "train_loss": 0.1090970973210937,
+  "val_loss": 0.3601759539399817,
+  "actual_feature_count": 5000,
+  "word_features": 5000,
+  "bigram_features": 0,
+  "vocabulary_sha256": "dca5f7cce0f86acfbf3cbffe40475b507eac70cb0bba9da91b7eb4ad2c2fbad6",
+  "idf_sha256": "7e5621a23ce7411f8f04b2d070a00e49323831a653d458daa8d9d56dcd7cd816",
+  "fit_nnz": 676418,
+  "val_nnz": 170361,
+  "training_seconds": 1.478915200001211,
+  "accuracy_gap": 0.08599021427397369,
+  "result_origin": "fresh_reproduction",
+  "evaluation": "final configured epoch or completed fit",
+  "parameter_count": 50010,
+  "optimizer_iterations": 80,
+  "converged": true
+}

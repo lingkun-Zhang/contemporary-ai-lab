@@ -1,0 +1,4280 @@
+[
+  {
+    "source_relative_path": "mlp_results/lr0.0001_e100_20261013_002035_997296/accuracy_curve.png",
+    "source_sha256": "0c51ef5da7acfc7b1ba7313163d2884932579703f72569b9a8a8a70ce6a8b57a",
+    "status": "byte_copy",
+    "reason": "complete historical plot; no redraw or cropping",
+    "public_relative_path": "raw/mlp_results/lr0.0001_e100_20261013_002035_997296/accuracy_curve.png",
+    "public_sha256": "0c51ef5da7acfc7b1ba7313163d2884932579703f72569b9a8a8a70ce6a8b57a",
+    "public_size_bytes": 133872
+  },
+  {
+    "source_relative_path": "mlp_results/lr0.0001_e100_20261013_002035_997296/config.json",
+    "source_sha256": "7d6a01395e3ce60dfefa13db6595c7736be3de7de641d88da9d84f2dea3f3617",
+    "status": "transformed",
+    "reason": "JSON audited; local lab paths normalized; no metric values removed",
+    "public_relative_path": "raw/mlp_results/lr0.0001_e100_20261013_002035_997296/config.json",
+    "public_sha256": "21017a642ef84dda54368d22bd98387ee94deee7c11342b2c37e4c62dacbe280",
+    "public_size_bytes": 439
+  },
+  {
+    "source_relative_path": "mlp_results/lr0.0001_e100_20261013_002035_997296/history.csv",
+    "source_sha256": "5036f16ce854dc0db700801612204113acf5059f4c235b4e8f8a78f790fa2fca",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 100,
+    "public_row_count": 100,
+    "removed_columns": [],
+    "retained_columns": [
+      "epoch",
+      "train_loss",
+      "val_loss",
+      "train_accuracy",
+      "val_accuracy",
+      "training_seconds"
+    ],
+    "public_relative_path": "raw/mlp_results/lr0.0001_e100_20261013_002035_997296/history.csv",
+    "public_sha256": "5036f16ce854dc0db700801612204113acf5059f4c235b4e8f8a78f790fa2fca",
+    "public_size_bytes": 9904
+  },
+  {
+    "source_relative_path": "mlp_results/lr0.0001_e100_20261013_002035_997296/loss_curve.png",
+    "source_sha256": "7ec55272cbad352fde1d967e2017f8c711869cb6c65dc101db7666d80a0e5d4c",
+    "status": "byte_copy",
+    "reason": "complete historical plot; no redraw or cropping",
+    "public_relative_path": "raw/mlp_results/lr0.0001_e100_20261013_002035_997296/loss_curve.png",
+    "public_sha256": "7ec55272cbad352fde1d967e2017f8c711869cb6c65dc101db7666d80a0e5d4c",
+    "public_size_bytes": 218315
+  },
+  {
+    "source_relative_path": "mlp_results/lr0.0001_e100_20261013_003846_215423/accuracy_curve.png",
+    "source_sha256": "0c51ef5da7acfc7b1ba7313163d2884932579703f72569b9a8a8a70ce6a8b57a",
+    "status": "byte_copy",
+    "reason": "complete historical plot; no redraw or cropping",
+    "public_relative_path": "raw/mlp_results/lr0.0001_e100_20261013_003846_215423/accuracy_curve.png",
+    "public_sha256": "0c51ef5da7acfc7b1ba7313163d2884932579703f72569b9a8a8a70ce6a8b57a",
+    "public_size_bytes": 133872
+  },
+  {
+    "source_relative_path": "mlp_results/lr0.0001_e100_20261013_003846_215423/classification_report.txt",
+    "source_sha256": "8a709c2f52a1888798ec35051939482ef3e865665584f8d27fb93f985828c089",
+    "status": "transformed",
+    "reason": "numeric classification/convergence report audited; lab paths normalized",
+    "public_relative_path": "raw/mlp_results/lr0.0001_e100_20261013_003846_215423/classification_report.txt",
+    "public_sha256": "8a709c2f52a1888798ec35051939482ef3e865665584f8d27fb93f985828c089",
+    "public_size_bytes": 852
+  },
+  {
+    "source_relative_path": "mlp_results/lr0.0001_e100_20261013_003846_215423/config.json",
+    "source_sha256": "7d6a01395e3ce60dfefa13db6595c7736be3de7de641d88da9d84f2dea3f3617",
+    "status": "transformed",
+    "reason": "JSON audited; local lab paths normalized; no metric values removed",
+    "public_relative_path": "raw/mlp_results/lr0.0001_e100_20261013_003846_215423/config.json",
+    "public_sha256": "21017a642ef84dda54368d22bd98387ee94deee7c11342b2c37e4c62dacbe280",
+    "public_size_bytes": 439
+  },
+  {
+    "source_relative_path": "mlp_results/lr0.0001_e100_20261013_003846_215423/history.csv",
+    "source_sha256": "56bf498798928cdd7450ee4486d08b5f419e51da804097551ad8f7e95680d4b2",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 100,
+    "public_row_count": 100,
+    "removed_columns": [],
+    "retained_columns": [
+      "epoch",
+      "train_loss",
+      "val_loss",
+      "train_accuracy",
+      "val_accuracy",
+      "training_seconds"
+    ],
+    "public_relative_path": "raw/mlp_results/lr0.0001_e100_20261013_003846_215423/history.csv",
+    "public_sha256": "56bf498798928cdd7450ee4486d08b5f419e51da804097551ad8f7e95680d4b2",
+    "public_size_bytes": 9897
+  },
+  {
+    "source_relative_path": "mlp_results/lr0.0001_e100_20261013_003846_215423/loss_curve.png",
+    "source_sha256": "7ec55272cbad352fde1d967e2017f8c711869cb6c65dc101db7666d80a0e5d4c",
+    "status": "byte_copy",
+    "reason": "complete historical plot; no redraw or cropping",
+    "public_relative_path": "raw/mlp_results/lr0.0001_e100_20261013_003846_215423/loss_curve.png",
+    "public_sha256": "7ec55272cbad352fde1d967e2017f8c711869cb6c65dc101db7666d80a0e5d4c",
+    "public_size_bytes": 218315
+  },
+  {
+    "source_relative_path": "mlp_results/lr0.0001_e100_20261013_003846_215423/validation_predictions.csv",
+    "source_sha256": "9e079772a92f2fe16e56d37be3e2c73fa569eed638ba1066e72b6c03c6872ec1",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 1474,
+    "public_row_count": 1474,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct"
+    ],
+    "public_relative_path": "raw/mlp_results/lr0.0001_e100_20261013_003846_215423/validation_predictions.csv",
+    "public_sha256": "019feb4c02740d7e43e225b54cc14ad9f47de69a8a55cc3805cfb8ac32a2856b",
+    "public_size_bytes": 90143
+  },
+  {
+    "source_relative_path": "mlp_results/lr0.0001_e100_20261013_003846_215423/wrong_predictions.csv",
+    "source_sha256": "e72e043b1bf425e4876e0bbac7c72616a081c30548b04635b18ad361d060f7bc",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 124,
+    "public_row_count": 124,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct"
+    ],
+    "public_relative_path": "raw/mlp_results/lr0.0001_e100_20261013_003846_215423/wrong_predictions.csv",
+    "public_sha256": "cd003055b94ba7e928218960003791c599d90504860be4fff57b4ad7c0ab70fb",
+    "public_size_bytes": 7938
+  },
+  {
+    "source_relative_path": "mlp_results/lr0.0001_e100_20261013_005349_235602/accuracy_curve.png",
+    "source_sha256": "1617c7f8cb408fb18ef2ae316c6cb97f4334e6e1077a890ccf870e41a295f718",
+    "status": "byte_copy",
+    "reason": "complete historical plot; no redraw or cropping",
+    "public_relative_path": "raw/mlp_results/lr0.0001_e100_20261013_005349_235602/accuracy_curve.png",
+    "public_sha256": "1617c7f8cb408fb18ef2ae316c6cb97f4334e6e1077a890ccf870e41a295f718",
+    "public_size_bytes": 132145
+  },
+  {
+    "source_relative_path": "mlp_results/lr0.0001_e100_20261013_005349_235602/classification_report.txt",
+    "source_sha256": "11aad0892c13aea8dc1d7ac4e6a377b56faace7b56c9492a2053983a20480398",
+    "status": "transformed",
+    "reason": "numeric classification/convergence report audited; lab paths normalized",
+    "public_relative_path": "raw/mlp_results/lr0.0001_e100_20261013_005349_235602/classification_report.txt",
+    "public_sha256": "11aad0892c13aea8dc1d7ac4e6a377b56faace7b56c9492a2053983a20480398",
+    "public_size_bytes": 852
+  },
+  {
+    "source_relative_path": "mlp_results/lr0.0001_e100_20261013_005349_235602/config.json",
+    "source_sha256": "a37a4df213851f59acf7df64e598c11ff221f1504434fea978d58d6a8894ff25",
+    "status": "transformed",
+    "reason": "JSON audited; local lab paths normalized; no metric values removed",
+    "public_relative_path": "raw/mlp_results/lr0.0001_e100_20261013_005349_235602/config.json",
+    "public_sha256": "b4a9d5f74f75f3234f1f8a87f61348acae4de18aad99212a42d24e80991513c1",
+    "public_size_bytes": 438
+  },
+  {
+    "source_relative_path": "mlp_results/lr0.0001_e100_20261013_005349_235602/history.csv",
+    "source_sha256": "a3cf29f30989aa339aa3cc103ecf9cd32ae78292fa3b7e61b0bbffec5a71ff80",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 100,
+    "public_row_count": 100,
+    "removed_columns": [],
+    "retained_columns": [
+      "epoch",
+      "train_loss",
+      "val_loss",
+      "train_accuracy",
+      "val_accuracy",
+      "training_seconds"
+    ],
+    "public_relative_path": "raw/mlp_results/lr0.0001_e100_20261013_005349_235602/history.csv",
+    "public_sha256": "a3cf29f30989aa339aa3cc103ecf9cd32ae78292fa3b7e61b0bbffec5a71ff80",
+    "public_size_bytes": 9899
+  },
+  {
+    "source_relative_path": "mlp_results/lr0.0001_e100_20261013_005349_235602/loss_curve.png",
+    "source_sha256": "77357dca08d20be4c44297e6621a5761b5301ec9ff142213e63983532be6e185",
+    "status": "byte_copy",
+    "reason": "complete historical plot; no redraw or cropping",
+    "public_relative_path": "raw/mlp_results/lr0.0001_e100_20261013_005349_235602/loss_curve.png",
+    "public_sha256": "77357dca08d20be4c44297e6621a5761b5301ec9ff142213e63983532be6e185",
+    "public_size_bytes": 216809
+  },
+  {
+    "source_relative_path": "mlp_results/lr0.0001_e100_20261013_005349_235602/validation_predictions.csv",
+    "source_sha256": "aa2059c01a7e2550073ca2d2af84473a402bba44d332f49bd1603c4da946d9a4",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 1474,
+    "public_row_count": 1474,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct"
+    ],
+    "public_relative_path": "raw/mlp_results/lr0.0001_e100_20261013_005349_235602/validation_predictions.csv",
+    "public_sha256": "4cc920f9d1e82116521d628fb729806e2a8de66f3d2c7f18fbb1c0f3aa54e6c9",
+    "public_size_bytes": 90277
+  },
+  {
+    "source_relative_path": "mlp_results/lr0.0001_e100_20261013_005349_235602/wrong_predictions.csv",
+    "source_sha256": "50d4ec4b8033b461dcef730b9e09ce146461953da00b22db81edee4da932b40d",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 141,
+    "public_row_count": 141,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct"
+    ],
+    "public_relative_path": "raw/mlp_results/lr0.0001_e100_20261013_005349_235602/wrong_predictions.csv",
+    "public_sha256": "8603866ab33d8fc74d43cd6f4798edf738ef0d00441f4bcda43d2ad0b5cea87a",
+    "public_size_bytes": 8987
+  },
+  {
+    "source_relative_path": "mlp_results/lr0.0001_e100_20261013_010040_372356/accuracy_curve.png",
+    "source_sha256": "1617c7f8cb408fb18ef2ae316c6cb97f4334e6e1077a890ccf870e41a295f718",
+    "status": "byte_copy",
+    "reason": "complete historical plot; no redraw or cropping",
+    "public_relative_path": "raw/mlp_results/lr0.0001_e100_20261013_010040_372356/accuracy_curve.png",
+    "public_sha256": "1617c7f8cb408fb18ef2ae316c6cb97f4334e6e1077a890ccf870e41a295f718",
+    "public_size_bytes": 132145
+  },
+  {
+    "source_relative_path": "mlp_results/lr0.0001_e100_20261013_010040_372356/classification_report.txt",
+    "source_sha256": "11aad0892c13aea8dc1d7ac4e6a377b56faace7b56c9492a2053983a20480398",
+    "status": "transformed",
+    "reason": "numeric classification/convergence report audited; lab paths normalized",
+    "public_relative_path": "raw/mlp_results/lr0.0001_e100_20261013_010040_372356/classification_report.txt",
+    "public_sha256": "11aad0892c13aea8dc1d7ac4e6a377b56faace7b56c9492a2053983a20480398",
+    "public_size_bytes": 852
+  },
+  {
+    "source_relative_path": "mlp_results/lr0.0001_e100_20261013_010040_372356/config.json",
+    "source_sha256": "a37a4df213851f59acf7df64e598c11ff221f1504434fea978d58d6a8894ff25",
+    "status": "transformed",
+    "reason": "JSON audited; local lab paths normalized; no metric values removed",
+    "public_relative_path": "raw/mlp_results/lr0.0001_e100_20261013_010040_372356/config.json",
+    "public_sha256": "b4a9d5f74f75f3234f1f8a87f61348acae4de18aad99212a42d24e80991513c1",
+    "public_size_bytes": 438
+  },
+  {
+    "source_relative_path": "mlp_results/lr0.0001_e100_20261013_010040_372356/history.csv",
+    "source_sha256": "5e5f4fc4583acdb80e930dc21735a4cd892744a3d52802d6f69b1dfea5fd0706",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 100,
+    "public_row_count": 100,
+    "removed_columns": [],
+    "retained_columns": [
+      "epoch",
+      "train_loss",
+      "val_loss",
+      "train_accuracy",
+      "val_accuracy",
+      "training_seconds"
+    ],
+    "public_relative_path": "raw/mlp_results/lr0.0001_e100_20261013_010040_372356/history.csv",
+    "public_sha256": "5e5f4fc4583acdb80e930dc21735a4cd892744a3d52802d6f69b1dfea5fd0706",
+    "public_size_bytes": 9899
+  },
+  {
+    "source_relative_path": "mlp_results/lr0.0001_e100_20261013_010040_372356/loss_curve.png",
+    "source_sha256": "77357dca08d20be4c44297e6621a5761b5301ec9ff142213e63983532be6e185",
+    "status": "byte_copy",
+    "reason": "complete historical plot; no redraw or cropping",
+    "public_relative_path": "raw/mlp_results/lr0.0001_e100_20261013_010040_372356/loss_curve.png",
+    "public_sha256": "77357dca08d20be4c44297e6621a5761b5301ec9ff142213e63983532be6e185",
+    "public_size_bytes": 216809
+  },
+  {
+    "source_relative_path": "mlp_results/lr0.0001_e100_20261013_010040_372356/validation_predictions.csv",
+    "source_sha256": "aa2059c01a7e2550073ca2d2af84473a402bba44d332f49bd1603c4da946d9a4",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 1474,
+    "public_row_count": 1474,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct"
+    ],
+    "public_relative_path": "raw/mlp_results/lr0.0001_e100_20261013_010040_372356/validation_predictions.csv",
+    "public_sha256": "4cc920f9d1e82116521d628fb729806e2a8de66f3d2c7f18fbb1c0f3aa54e6c9",
+    "public_size_bytes": 90277
+  },
+  {
+    "source_relative_path": "mlp_results/lr0.0001_e100_20261013_010040_372356/wrong_predictions.csv",
+    "source_sha256": "50d4ec4b8033b461dcef730b9e09ce146461953da00b22db81edee4da932b40d",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 141,
+    "public_row_count": 141,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct"
+    ],
+    "public_relative_path": "raw/mlp_results/lr0.0001_e100_20261013_010040_372356/wrong_predictions.csv",
+    "public_sha256": "8603866ab33d8fc74d43cd6f4798edf738ef0d00441f4bcda43d2ad0b5cea87a",
+    "public_size_bytes": 8987
+  },
+  {
+    "source_relative_path": "mlp_results/lr0.0001_e100_20261013_100238_523654/accuracy_curve.png",
+    "source_sha256": "1617c7f8cb408fb18ef2ae316c6cb97f4334e6e1077a890ccf870e41a295f718",
+    "status": "byte_copy",
+    "reason": "complete historical plot; no redraw or cropping",
+    "public_relative_path": "raw/mlp_results/lr0.0001_e100_20261013_100238_523654/accuracy_curve.png",
+    "public_sha256": "1617c7f8cb408fb18ef2ae316c6cb97f4334e6e1077a890ccf870e41a295f718",
+    "public_size_bytes": 132145
+  },
+  {
+    "source_relative_path": "mlp_results/lr0.0001_e100_20261013_100238_523654/classification_report.txt",
+    "source_sha256": "11aad0892c13aea8dc1d7ac4e6a377b56faace7b56c9492a2053983a20480398",
+    "status": "transformed",
+    "reason": "numeric classification/convergence report audited; lab paths normalized",
+    "public_relative_path": "raw/mlp_results/lr0.0001_e100_20261013_100238_523654/classification_report.txt",
+    "public_sha256": "11aad0892c13aea8dc1d7ac4e6a377b56faace7b56c9492a2053983a20480398",
+    "public_size_bytes": 852
+  },
+  {
+    "source_relative_path": "mlp_results/lr0.0001_e100_20261013_100238_523654/config.json",
+    "source_sha256": "a37a4df213851f59acf7df64e598c11ff221f1504434fea978d58d6a8894ff25",
+    "status": "transformed",
+    "reason": "JSON audited; local lab paths normalized; no metric values removed",
+    "public_relative_path": "raw/mlp_results/lr0.0001_e100_20261013_100238_523654/config.json",
+    "public_sha256": "b4a9d5f74f75f3234f1f8a87f61348acae4de18aad99212a42d24e80991513c1",
+    "public_size_bytes": 438
+  },
+  {
+    "source_relative_path": "mlp_results/lr0.0001_e100_20261013_100238_523654/history.csv",
+    "source_sha256": "974255d263605dc701136b14950fcbe9812ef9c01053573f9a98c2e220847eee",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 100,
+    "public_row_count": 100,
+    "removed_columns": [],
+    "retained_columns": [
+      "epoch",
+      "train_loss",
+      "val_loss",
+      "train_accuracy",
+      "val_accuracy",
+      "training_seconds"
+    ],
+    "public_relative_path": "raw/mlp_results/lr0.0001_e100_20261013_100238_523654/history.csv",
+    "public_sha256": "974255d263605dc701136b14950fcbe9812ef9c01053573f9a98c2e220847eee",
+    "public_size_bytes": 9880
+  },
+  {
+    "source_relative_path": "mlp_results/lr0.0001_e100_20261013_100238_523654/loss_curve.png",
+    "source_sha256": "77357dca08d20be4c44297e6621a5761b5301ec9ff142213e63983532be6e185",
+    "status": "byte_copy",
+    "reason": "complete historical plot; no redraw or cropping",
+    "public_relative_path": "raw/mlp_results/lr0.0001_e100_20261013_100238_523654/loss_curve.png",
+    "public_sha256": "77357dca08d20be4c44297e6621a5761b5301ec9ff142213e63983532be6e185",
+    "public_size_bytes": 216809
+  },
+  {
+    "source_relative_path": "mlp_results/lr0.0001_e100_20261013_100238_523654/validation_predictions.csv",
+    "source_sha256": "aa2059c01a7e2550073ca2d2af84473a402bba44d332f49bd1603c4da946d9a4",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 1474,
+    "public_row_count": 1474,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct"
+    ],
+    "public_relative_path": "raw/mlp_results/lr0.0001_e100_20261013_100238_523654/validation_predictions.csv",
+    "public_sha256": "4cc920f9d1e82116521d628fb729806e2a8de66f3d2c7f18fbb1c0f3aa54e6c9",
+    "public_size_bytes": 90277
+  },
+  {
+    "source_relative_path": "mlp_results/lr0.0001_e100_20261013_100238_523654/wrong_predictions.csv",
+    "source_sha256": "50d4ec4b8033b461dcef730b9e09ce146461953da00b22db81edee4da932b40d",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 141,
+    "public_row_count": 141,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct"
+    ],
+    "public_relative_path": "raw/mlp_results/lr0.0001_e100_20261013_100238_523654/wrong_predictions.csv",
+    "public_sha256": "8603866ab33d8fc74d43cd6f4798edf738ef0d00441f4bcda43d2ad0b5cea87a",
+    "public_size_bytes": 8987
+  },
+  {
+    "source_relative_path": "mlp_results/lr0.0001_e30_20261013_000721_531364/accuracy_curve.png",
+    "source_sha256": "68c47bb764c1cc6ab66e0488e5621a374fa25027610205b6ce393eabfb94aa82",
+    "status": "byte_copy",
+    "reason": "complete historical plot; no redraw or cropping",
+    "public_relative_path": "raw/mlp_results/lr0.0001_e30_20261013_000721_531364/accuracy_curve.png",
+    "public_sha256": "68c47bb764c1cc6ab66e0488e5621a374fa25027610205b6ce393eabfb94aa82",
+    "public_size_bytes": 140735
+  },
+  {
+    "source_relative_path": "mlp_results/lr0.0001_e30_20261013_000721_531364/config.json",
+    "source_sha256": "019708f70bf9d9af48931eddf0170e658002a66bb4bdc59faf14063b7539b6be",
+    "status": "transformed",
+    "reason": "JSON audited; local lab paths normalized; no metric values removed",
+    "public_relative_path": "raw/mlp_results/lr0.0001_e30_20261013_000721_531364/config.json",
+    "public_sha256": "cac871064a178653f19fb50c0410011926ebfea1e282be0a4b10792e672d139b",
+    "public_size_bytes": 438
+  },
+  {
+    "source_relative_path": "mlp_results/lr0.0001_e30_20261013_000721_531364/history.csv",
+    "source_sha256": "6cc156539a6cc543279e53d063b6f149005c42b2126f2b94da5ebbd52f7295ff",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 30,
+    "public_row_count": 30,
+    "removed_columns": [],
+    "retained_columns": [
+      "epoch",
+      "train_loss",
+      "val_loss",
+      "train_accuracy",
+      "val_accuracy",
+      "training_seconds"
+    ],
+    "public_relative_path": "raw/mlp_results/lr0.0001_e30_20261013_000721_531364/history.csv",
+    "public_sha256": "6cc156539a6cc543279e53d063b6f149005c42b2126f2b94da5ebbd52f7295ff",
+    "public_size_bytes": 3013
+  },
+  {
+    "source_relative_path": "mlp_results/lr0.0001_e30_20261013_000721_531364/loss_curve.png",
+    "source_sha256": "1e4d3ddbe91aa66e74475fc4e91b58827295857ce48701e6f7b6761202a2a589",
+    "status": "byte_copy",
+    "reason": "complete historical plot; no redraw or cropping",
+    "public_relative_path": "raw/mlp_results/lr0.0001_e30_20261013_000721_531364/loss_curve.png",
+    "public_sha256": "1e4d3ddbe91aa66e74475fc4e91b58827295857ce48701e6f7b6761202a2a589",
+    "public_size_bytes": 214339
+  },
+  {
+    "source_relative_path": "mlp_results/lr0.0001_e50_20261013_001457_774075/accuracy_curve.png",
+    "source_sha256": "38dc940b2f9ef211ce1d7d1447de5aa284babbf9097fad16db6f637a32e5879f",
+    "status": "byte_copy",
+    "reason": "complete historical plot; no redraw or cropping",
+    "public_relative_path": "raw/mlp_results/lr0.0001_e50_20261013_001457_774075/accuracy_curve.png",
+    "public_sha256": "38dc940b2f9ef211ce1d7d1447de5aa284babbf9097fad16db6f637a32e5879f",
+    "public_size_bytes": 137465
+  },
+  {
+    "source_relative_path": "mlp_results/lr0.0001_e50_20261013_001457_774075/config.json",
+    "source_sha256": "b3d4e6d04d284bcd4fb01543a6f495ce5b01fc9e8aa6ebf3a8e396fb720cd5bc",
+    "status": "transformed",
+    "reason": "JSON audited; local lab paths normalized; no metric values removed",
+    "public_relative_path": "raw/mlp_results/lr0.0001_e50_20261013_001457_774075/config.json",
+    "public_sha256": "3f4fa74fe864960baa9c3e1f97a4a09594333ad8df4c02ff269e43790959fb3a",
+    "public_size_bytes": 438
+  },
+  {
+    "source_relative_path": "mlp_results/lr0.0001_e50_20261013_001457_774075/history.csv",
+    "source_sha256": "7aa8fd088c0ed5bb837190735132220c509ffd07f1e1240ba2da99f701480392",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 50,
+    "public_row_count": 50,
+    "removed_columns": [],
+    "retained_columns": [
+      "epoch",
+      "train_loss",
+      "val_loss",
+      "train_accuracy",
+      "val_accuracy",
+      "training_seconds"
+    ],
+    "public_relative_path": "raw/mlp_results/lr0.0001_e50_20261013_001457_774075/history.csv",
+    "public_sha256": "7aa8fd088c0ed5bb837190735132220c509ffd07f1e1240ba2da99f701480392",
+    "public_size_bytes": 4980
+  },
+  {
+    "source_relative_path": "mlp_results/lr0.0001_e50_20261013_001457_774075/loss_curve.png",
+    "source_sha256": "49bb0eb522f8d704bec73c819a0b5285950e346c597c7b2067a945f240ffdf8f",
+    "status": "byte_copy",
+    "reason": "complete historical plot; no redraw or cropping",
+    "public_relative_path": "raw/mlp_results/lr0.0001_e50_20261013_001457_774075/loss_curve.png",
+    "public_sha256": "49bb0eb522f8d704bec73c819a0b5285950e346c597c7b2067a945f240ffdf8f",
+    "public_size_bytes": 213040
+  },
+  {
+    "source_relative_path": "mlp_results/lr0.0001_e60_20261013_001259_742321/accuracy_curve.png",
+    "source_sha256": "404c4ec0794d32adf762f8c58e785854e47b6f06c57d14012d07f0b1ce2b7b0a",
+    "status": "byte_copy",
+    "reason": "complete historical plot; no redraw or cropping",
+    "public_relative_path": "raw/mlp_results/lr0.0001_e60_20261013_001259_742321/accuracy_curve.png",
+    "public_sha256": "404c4ec0794d32adf762f8c58e785854e47b6f06c57d14012d07f0b1ce2b7b0a",
+    "public_size_bytes": 136857
+  },
+  {
+    "source_relative_path": "mlp_results/lr0.0001_e60_20261013_001259_742321/config.json",
+    "source_sha256": "9b0425ee780bc87677542d032703322c3e7c356621d3d2b3be7c24345f5964f6",
+    "status": "transformed",
+    "reason": "JSON audited; local lab paths normalized; no metric values removed",
+    "public_relative_path": "raw/mlp_results/lr0.0001_e60_20261013_001259_742321/config.json",
+    "public_sha256": "6417e6719fd4d1aaacef0ccfdfac3013f922b152a2abc70cd90ff9c2026a8a5f",
+    "public_size_bytes": 438
+  },
+  {
+    "source_relative_path": "mlp_results/lr0.0001_e60_20261013_001259_742321/history.csv",
+    "source_sha256": "5a30c98b0e0b52c79a1d00a7daae3a376e7a33116e3d6d422aa401e7bad57f6a",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 60,
+    "public_row_count": 60,
+    "removed_columns": [],
+    "retained_columns": [
+      "epoch",
+      "train_loss",
+      "val_loss",
+      "train_accuracy",
+      "val_accuracy",
+      "training_seconds"
+    ],
+    "public_relative_path": "raw/mlp_results/lr0.0001_e60_20261013_001259_742321/history.csv",
+    "public_sha256": "5a30c98b0e0b52c79a1d00a7daae3a376e7a33116e3d6d422aa401e7bad57f6a",
+    "public_size_bytes": 5971
+  },
+  {
+    "source_relative_path": "mlp_results/lr0.0001_e60_20261013_001259_742321/loss_curve.png",
+    "source_sha256": "86142abff5ae20e9bc2e530cd05e59691b9cb833c5980317496c4bc0d77a5679",
+    "status": "byte_copy",
+    "reason": "complete historical plot; no redraw or cropping",
+    "public_relative_path": "raw/mlp_results/lr0.0001_e60_20261013_001259_742321/loss_curve.png",
+    "public_sha256": "86142abff5ae20e9bc2e530cd05e59691b9cb833c5980317496c4bc0d77a5679",
+    "public_size_bytes": 218145
+  },
+  {
+    "source_relative_path": "mlp_results/lr0.0001_e60_20261013_001700_215270/accuracy_curve.png",
+    "source_sha256": "c1c3032a65a23ed116c0db9222012e4bcb5113441b28dab432144956143a791d",
+    "status": "byte_copy",
+    "reason": "complete historical plot; no redraw or cropping",
+    "public_relative_path": "raw/mlp_results/lr0.0001_e60_20261013_001700_215270/accuracy_curve.png",
+    "public_sha256": "c1c3032a65a23ed116c0db9222012e4bcb5113441b28dab432144956143a791d",
+    "public_size_bytes": 137195
+  },
+  {
+    "source_relative_path": "mlp_results/lr0.0001_e60_20261013_001700_215270/config.json",
+    "source_sha256": "a94ad637eb1838fe2230e470077f5fe3b779c1d6093c99186ccc54b551e87087",
+    "status": "transformed",
+    "reason": "JSON audited; local lab paths normalized; no metric values removed",
+    "public_relative_path": "raw/mlp_results/lr0.0001_e60_20261013_001700_215270/config.json",
+    "public_sha256": "8dfa8bc5df4d668495295f94fcc709e66f7a92a526fef2b426876bc8ccc29cb9",
+    "public_size_bytes": 438
+  },
+  {
+    "source_relative_path": "mlp_results/lr0.0001_e60_20261013_001700_215270/history.csv",
+    "source_sha256": "1a2f7eb3de8d3ca120fc6567362f322f7ba6a92ae31b5126cc0a6ba331027575",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 60,
+    "public_row_count": 60,
+    "removed_columns": [],
+    "retained_columns": [
+      "epoch",
+      "train_loss",
+      "val_loss",
+      "train_accuracy",
+      "val_accuracy",
+      "training_seconds"
+    ],
+    "public_relative_path": "raw/mlp_results/lr0.0001_e60_20261013_001700_215270/history.csv",
+    "public_sha256": "1a2f7eb3de8d3ca120fc6567362f322f7ba6a92ae31b5126cc0a6ba331027575",
+    "public_size_bytes": 5974
+  },
+  {
+    "source_relative_path": "mlp_results/lr0.0001_e60_20261013_001700_215270/loss_curve.png",
+    "source_sha256": "130b4818c1efe4b23ece7ecc1c12944059577a55fd8afd85e2c70af075717d05",
+    "status": "byte_copy",
+    "reason": "complete historical plot; no redraw or cropping",
+    "public_relative_path": "raw/mlp_results/lr0.0001_e60_20261013_001700_215270/loss_curve.png",
+    "public_sha256": "130b4818c1efe4b23ece7ecc1c12944059577a55fd8afd85e2c70af075717d05",
+    "public_size_bytes": 218355
+  },
+  {
+    "source_relative_path": "mlp_results/lr0.001_e30_20261012_230742_099331/accuracy_curve.png",
+    "source_sha256": "1c3d249e0e799415d29f2e80b8937f1873cd503a69ecf55da171b906f3d8b123",
+    "status": "byte_copy",
+    "reason": "complete historical plot; no redraw or cropping",
+    "public_relative_path": "raw/mlp_results/lr0.001_e30_20261012_230742_099331/accuracy_curve.png",
+    "public_sha256": "1c3d249e0e799415d29f2e80b8937f1873cd503a69ecf55da171b906f3d8b123",
+    "public_size_bytes": 117485
+  },
+  {
+    "source_relative_path": "mlp_results/lr0.001_e30_20261012_230742_099331/config.json",
+    "source_sha256": "44dd7c3fd5d9e5271f12f58f8a837dbdb696381183d61d80d2c39edc553f981f",
+    "status": "transformed",
+    "reason": "JSON audited; local lab paths normalized; no metric values removed",
+    "public_relative_path": "raw/mlp_results/lr0.001_e30_20261012_230742_099331/config.json",
+    "public_sha256": "5d47f00012a824fe410bbdfe7715781aa912be1816a32c88d4a39ed59e94b929",
+    "public_size_bytes": 402
+  },
+  {
+    "source_relative_path": "mlp_results/lr0.001_e30_20261012_230742_099331/history.csv",
+    "source_sha256": "b34e1a05dbf9858c0eeeb0378638faf0607bc6c78c91657223e6b56fc791aeea",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 30,
+    "public_row_count": 30,
+    "removed_columns": [],
+    "retained_columns": [
+      "epoch",
+      "train_loss",
+      "val_loss",
+      "train_accuracy",
+      "val_accuracy",
+      "training_seconds"
+    ],
+    "public_relative_path": "raw/mlp_results/lr0.001_e30_20261012_230742_099331/history.csv",
+    "public_sha256": "b34e1a05dbf9858c0eeeb0378638faf0607bc6c78c91657223e6b56fc791aeea",
+    "public_size_bytes": 3008
+  },
+  {
+    "source_relative_path": "mlp_results/lr0.001_e30_20261012_230742_099331/loss_curve.png",
+    "source_sha256": "d42bf6eec96b39d623c32a3d1b00fe189019f8a264f3c124cf93414acfe1fe8f",
+    "status": "byte_copy",
+    "reason": "complete historical plot; no redraw or cropping",
+    "public_relative_path": "raw/mlp_results/lr0.001_e30_20261012_230742_099331/loss_curve.png",
+    "public_sha256": "d42bf6eec96b39d623c32a3d1b00fe189019f8a264f3c124cf93414acfe1fe8f",
+    "public_size_bytes": 207375
+  },
+  {
+    "source_relative_path": "mlp_results/lr0.001_e30_20261012_234905_229553/accuracy_curve.png",
+    "source_sha256": "1c3d249e0e799415d29f2e80b8937f1873cd503a69ecf55da171b906f3d8b123",
+    "status": "byte_copy",
+    "reason": "complete historical plot; no redraw or cropping",
+    "public_relative_path": "raw/mlp_results/lr0.001_e30_20261012_234905_229553/accuracy_curve.png",
+    "public_sha256": "1c3d249e0e799415d29f2e80b8937f1873cd503a69ecf55da171b906f3d8b123",
+    "public_size_bytes": 117485
+  },
+  {
+    "source_relative_path": "mlp_results/lr0.001_e30_20261012_234905_229553/config.json",
+    "source_sha256": "7934dea142344fd67f49c0df1d3ec6803be159f35af02c5c50f6d7884e11af5f",
+    "status": "transformed",
+    "reason": "JSON audited; local lab paths normalized; no metric values removed",
+    "public_relative_path": "raw/mlp_results/lr0.001_e30_20261012_234905_229553/config.json",
+    "public_sha256": "d531db185475ad8c31d0c5b42113b8fa23c6380385c8dc5e76e5da5b3d3c1867",
+    "public_size_bytes": 437
+  },
+  {
+    "source_relative_path": "mlp_results/lr0.001_e30_20261012_234905_229553/history.csv",
+    "source_sha256": "1f7d03961130170d1725a0d1f23e074eef087431a0514ae0109012fa8a4e1919",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 30,
+    "public_row_count": 30,
+    "removed_columns": [],
+    "retained_columns": [
+      "epoch",
+      "train_loss",
+      "val_loss",
+      "train_accuracy",
+      "val_accuracy",
+      "training_seconds"
+    ],
+    "public_relative_path": "raw/mlp_results/lr0.001_e30_20261012_234905_229553/history.csv",
+    "public_sha256": "1f7d03961130170d1725a0d1f23e074eef087431a0514ae0109012fa8a4e1919",
+    "public_size_bytes": 3006
+  },
+  {
+    "source_relative_path": "mlp_results/lr0.001_e30_20261012_234905_229553/loss_curve.png",
+    "source_sha256": "d42bf6eec96b39d623c32a3d1b00fe189019f8a264f3c124cf93414acfe1fe8f",
+    "status": "byte_copy",
+    "reason": "complete historical plot; no redraw or cropping",
+    "public_relative_path": "raw/mlp_results/lr0.001_e30_20261012_234905_229553/loss_curve.png",
+    "public_sha256": "d42bf6eec96b39d623c32a3d1b00fe189019f8a264f3c124cf93414acfe1fe8f",
+    "public_size_bytes": 207375
+  },
+  {
+    "source_relative_path": "mlp_results/ngram_20261013_113012_819787/comparison.csv",
+    "source_sha256": "8574daa9d27bdb6f6d868ed531b18bb8c008b0f7a8a8a8dc4ef6c41689f5025a",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 2,
+    "public_row_count": 2,
+    "removed_columns": [],
+    "retained_columns": [
+      "hidden_units",
+      "parameter_count",
+      "train_accuracy",
+      "val_accuracy",
+      "train_loss",
+      "val_loss",
+      "accuracy_gap",
+      "macro_f1",
+      "wrong_count",
+      "training_seconds",
+      "actual_feature_count",
+      "unigram_count",
+      "bigram_count",
+      "training_nonzero_values",
+      "vocabulary_sha256",
+      "idf_sha256",
+      "group",
+      "ngram_range",
+      "reused",
+      "source_run_dir"
+    ],
+    "public_relative_path": "raw/mlp_results/ngram_20261013_113012_819787/comparison.csv",
+    "public_sha256": "cfacd8d01ba20e396a7758989120c6cb0585fb7c3c3b25bdec1f766b403d20a8",
+    "public_size_bytes": 992
+  },
+  {
+    "source_relative_path": "mlp_results/ngram_20261013_113012_819787/corrected_errors.csv",
+    "source_sha256": "ab713fb73398c8ac8a3be4acabdb227e1e53ea2203566839739f2c24feabfcfa",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 17,
+    "public_row_count": 17,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "validation_index",
+      "source_index",
+      "true_label",
+      "unigram_prediction",
+      "phrase_prediction",
+      "prediction_changed"
+    ],
+    "public_relative_path": "raw/mlp_results/ngram_20261013_113012_819787/corrected_errors.csv",
+    "public_sha256": "fb69f10c0a0c44adc40515698c6f3c9399d8395413f7d5ee0e689e21c75822a4",
+    "public_size_bytes": 458
+  },
+  {
+    "source_relative_path": "mlp_results/ngram_20261013_113012_819787/experiment_config.json",
+    "source_sha256": "87d63d1973ea985de55b43363355d46f82e3632c667a1a1ef2f56f10c06fb86e",
+    "status": "transformed",
+    "reason": "JSON audited; local lab paths normalized; no metric values removed",
+    "public_relative_path": "raw/mlp_results/ngram_20261013_113012_819787/experiment_config.json",
+    "public_sha256": "68c541c5948cf18ae02b65b953ecb25c4b70698200f7e49427bce580eaf901fc",
+    "public_size_bytes": 2940
+  },
+  {
+    "source_relative_path": "mlp_results/ngram_20261013_113012_819787/introduced_errors.csv",
+    "source_sha256": "11cfd9df6e1ce56ff34efdbda40d17847fbeb6b709f207ccf780c7f1b8e8954f",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 40,
+    "public_row_count": 40,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "validation_index",
+      "source_index",
+      "true_label",
+      "unigram_prediction",
+      "phrase_prediction",
+      "prediction_changed"
+    ],
+    "public_relative_path": "raw/mlp_results/ngram_20261013_113012_819787/introduced_errors.csv",
+    "public_sha256": "d956e9693cf3330fb70fc972bdd61249e3a291d353ed8a9eadb835ea3d199262",
+    "public_size_bytes": 940
+  },
+  {
+    "source_relative_path": "mlp_results/ngram_20261013_113012_819787/ngram_comparison.png",
+    "source_sha256": "89602dcdb02ec11548f553f270562b52830dc9bcde080f0e292fe6a0005d853c",
+    "status": "byte_copy",
+    "reason": "complete historical plot; no redraw or cropping",
+    "public_relative_path": "raw/mlp_results/ngram_20261013_113012_819787/ngram_comparison.png",
+    "public_sha256": "89602dcdb02ec11548f553f270562b52830dc9bcde080f0e292fe6a0005d853c",
+    "public_size_bytes": 212596
+  },
+  {
+    "source_relative_path": "mlp_results/ngram_20261013_113012_819787/unigram/classification_report.txt",
+    "source_sha256": "ed3a79942f4bb21140b48677bc8e10d3a8279e5cce850400d6e483457e1f4aa8",
+    "status": "transformed",
+    "reason": "numeric classification/convergence report audited; lab paths normalized",
+    "public_relative_path": "raw/mlp_results/ngram_20261013_113012_819787/unigram/classification_report.txt",
+    "public_sha256": "ed3a79942f4bb21140b48677bc8e10d3a8279e5cce850400d6e483457e1f4aa8",
+    "public_size_bytes": 852
+  },
+  {
+    "source_relative_path": "mlp_results/ngram_20261013_113012_819787/unigram/config.json",
+    "source_sha256": "4500b5ef0a5c0f5cdbccab76da129970a1741449d1841fdd906887dab7ca23ba",
+    "status": "transformed",
+    "reason": "JSON audited; local lab paths normalized; no metric values removed",
+    "public_relative_path": "raw/mlp_results/ngram_20261013_113012_819787/unigram/config.json",
+    "public_sha256": "0e4b73f4ab14794c2eef32e76a7ea31a172c2a61a48b85245158d41dfbf4ccf4",
+    "public_size_bytes": 1952
+  },
+  {
+    "source_relative_path": "mlp_results/ngram_20261013_113012_819787/unigram/features.csv",
+    "source_sha256": "9130170d38308dc228c82ce745a06df0f995cd2d8e6c15f8d8e5db69d9cc329e",
+    "status": "excluded",
+    "reason": "complete feature dictionary kept private",
+    "row_count": 5000
+  },
+  {
+    "source_relative_path": "mlp_results/ngram_20261013_113012_819787/unigram/history.csv",
+    "source_sha256": "16cea98387e9a6e0fa4484a97d0384f0875c93d30b7ffe049a98a7d92a6d896d",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 100,
+    "public_row_count": 100,
+    "removed_columns": [],
+    "retained_columns": [
+      "epoch",
+      "train_loss",
+      "val_loss",
+      "train_accuracy",
+      "val_accuracy",
+      "training_seconds"
+    ],
+    "public_relative_path": "raw/mlp_results/ngram_20261013_113012_819787/unigram/history.csv",
+    "public_sha256": "16cea98387e9a6e0fa4484a97d0384f0875c93d30b7ffe049a98a7d92a6d896d",
+    "public_size_bytes": 9762
+  },
+  {
+    "source_relative_path": "mlp_results/ngram_20261013_113012_819787/unigram/validation_predictions.csv",
+    "source_sha256": "ff6bd34564da1d2578fc57cb7c98c09789800ba823769362a9932b0b519dfeec",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 1474,
+    "public_row_count": 1474,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct"
+    ],
+    "public_relative_path": "raw/mlp_results/ngram_20261013_113012_819787/unigram/validation_predictions.csv",
+    "public_sha256": "b3d38cfa62736cc90bddb32f525e1c22dba3da1880bfe715d6f12083abced951",
+    "public_size_bytes": 90091
+  },
+  {
+    "source_relative_path": "mlp_results/ngram_20261013_113012_819787/unigram/wrong_predictions.csv",
+    "source_sha256": "dae5bea0dc3fb68357d136fc69268d3a925b06810251fe67a00f7b7e683a4cc6",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 117,
+    "public_row_count": 117,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct"
+    ],
+    "public_relative_path": "raw/mlp_results/ngram_20261013_113012_819787/unigram/wrong_predictions.csv",
+    "public_sha256": "b5e75a2f037509b839def6af0118b231277feecb9d675e803fc9c38b04dddcde",
+    "public_size_bytes": 7499
+  },
+  {
+    "source_relative_path": "mlp_results/ngram_20261013_113012_819787/unigram_bigram/classification_report.txt",
+    "source_sha256": "6a5ba958d04d753896496c7aeef2bcafa5bac90ddb17ff772207bb8bc26c8eea",
+    "status": "transformed",
+    "reason": "numeric classification/convergence report audited; lab paths normalized",
+    "public_relative_path": "raw/mlp_results/ngram_20261013_113012_819787/unigram_bigram/classification_report.txt",
+    "public_sha256": "6a5ba958d04d753896496c7aeef2bcafa5bac90ddb17ff772207bb8bc26c8eea",
+    "public_size_bytes": 852
+  },
+  {
+    "source_relative_path": "mlp_results/ngram_20261013_113012_819787/unigram_bigram/config.json",
+    "source_sha256": "84f1458eb4edabe17d60951c8544d386e1c34bb3ebfa65217b5c9dbc89d1435c",
+    "status": "transformed",
+    "reason": "JSON audited; local lab paths normalized; no metric values removed",
+    "public_relative_path": "raw/mlp_results/ngram_20261013_113012_819787/unigram_bigram/config.json",
+    "public_sha256": "e54742a915338014a00f6b94203b54a0117691488323b5b3a169c6a8b2ec301a",
+    "public_size_bytes": 1891
+  },
+  {
+    "source_relative_path": "mlp_results/ngram_20261013_113012_819787/unigram_bigram/features.csv",
+    "source_sha256": "8058171d6127571d2b85cbc627c182d300f12c6f1759cc3bf2a90e23bf4e6af9",
+    "status": "excluded",
+    "reason": "complete feature dictionary kept private",
+    "row_count": 5000
+  },
+  {
+    "source_relative_path": "mlp_results/ngram_20261013_113012_819787/unigram_bigram/history.csv",
+    "source_sha256": "7404e31407a610db284abc0cf982c5be4ad69139562907c12b3b3bd5c88f5663",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 100,
+    "public_row_count": 100,
+    "removed_columns": [],
+    "retained_columns": [
+      "epoch",
+      "train_loss",
+      "val_loss",
+      "train_accuracy",
+      "val_accuracy",
+      "training_seconds"
+    ],
+    "public_relative_path": "raw/mlp_results/ngram_20261013_113012_819787/unigram_bigram/history.csv",
+    "public_sha256": "7404e31407a610db284abc0cf982c5be4ad69139562907c12b3b3bd5c88f5663",
+    "public_size_bytes": 9913
+  },
+  {
+    "source_relative_path": "mlp_results/ngram_20261013_113012_819787/unigram_bigram/validation_predictions.csv",
+    "source_sha256": "689e126d8d4031bf5813405c5554193ec4cb7753333ab36ee4477f3f603599df",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 1474,
+    "public_row_count": 1474,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct"
+    ],
+    "public_relative_path": "raw/mlp_results/ngram_20261013_113012_819787/unigram_bigram/validation_predictions.csv",
+    "public_sha256": "276657e4a0366ba93800328bda4c3fe9712b29a801c59423fb2cf23278e1fb30",
+    "public_size_bytes": 90245
+  },
+  {
+    "source_relative_path": "mlp_results/ngram_20261013_113012_819787/unigram_bigram/wrong_predictions.csv",
+    "source_sha256": "47d710a89b173aae9bd21cb4be73b15151d7a0103763532bd56d8b431b252c6b",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 140,
+    "public_row_count": 140,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct"
+    ],
+    "public_relative_path": "raw/mlp_results/ngram_20261013_113012_819787/unigram_bigram/wrong_predictions.csv",
+    "public_sha256": "b4a2d808651bf1655a276c47c259a171f9de4016df8adc31591b2a58ac2be801",
+    "public_size_bytes": 8949
+  },
+  {
+    "source_relative_path": "mlp_results/stability_20261013_110002_306417/experiment_config.json",
+    "source_sha256": "69def6ea15ef5802c6573e5b266b8129d176937f5189338b739907ae4629f53a",
+    "status": "transformed",
+    "reason": "JSON audited; local lab paths normalized; no metric values removed",
+    "public_relative_path": "raw/mlp_results/stability_20261013_110002_306417/experiment_config.json",
+    "public_sha256": "0c8fb25d9b1c07d98a3ce40bbb11617543ba6f8f3a8cece02c9b3685820eb36d",
+    "public_size_bytes": 4283
+  },
+  {
+    "source_relative_path": "mlp_results/stability_20261013_110002_306417/mean_std.csv",
+    "source_sha256": "c62c3580e1586c6ea593f4c54665c0331d2ad0572915c58eaf2ca85b6732c00c",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 2,
+    "public_row_count": 2,
+    "removed_columns": [],
+    "retained_columns": [
+      "hidden_units",
+      "runs",
+      "parameter_count",
+      "mean_val_accuracy",
+      "std_val_accuracy_pp",
+      "mean_val_loss",
+      "std_val_loss"
+    ],
+    "public_relative_path": "raw/mlp_results/stability_20261013_110002_306417/mean_std.csv",
+    "public_sha256": "c62c3580e1586c6ea593f4c54665c0331d2ad0572915c58eaf2ca85b6732c00c",
+    "public_size_bytes": 290
+  },
+  {
+    "source_relative_path": "mlp_results/stability_20261013_110002_306417/paired_comparison.csv",
+    "source_sha256": "49c14ba19ff731d3b4eddeef87fa734f0c600973632345fa8dd048387456264c",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 3,
+    "public_row_count": 3,
+    "removed_columns": [],
+    "retained_columns": [
+      "seed",
+      "accuracy_50",
+      "accuracy_100",
+      "difference_pp"
+    ],
+    "public_relative_path": "raw/mlp_results/stability_20261013_110002_306417/paired_comparison.csv",
+    "public_sha256": "49c14ba19ff731d3b4eddeef87fa734f0c600973632345fa8dd048387456264c",
+    "public_size_bytes": 233
+  },
+  {
+    "source_relative_path": "mlp_results/stability_20261013_110002_306417/runs.csv",
+    "source_sha256": "095f59747ebb6aaa4e5ab7c2be1238acda9fff331bf9c71935f1edf47bbd95b1",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 6,
+    "public_row_count": 6,
+    "removed_columns": [],
+    "retained_columns": [
+      "hidden_units",
+      "parameter_count",
+      "train_accuracy",
+      "val_accuracy",
+      "train_loss",
+      "val_loss",
+      "accuracy_gap",
+      "macro_f1",
+      "wrong_count",
+      "training_seconds",
+      "seed",
+      "reused",
+      "source_run_dir"
+    ],
+    "public_relative_path": "raw/mlp_results/stability_20261013_110002_306417/runs.csv",
+    "public_sha256": "3e59b57b01b37c3a9fb655ea25df59ec8ddbe4854dcece0096e7d2c0c069aaea",
+    "public_size_bytes": 1240
+  },
+  {
+    "source_relative_path": "mlp_results/stability_20261013_110002_306417/seed42_hidden100/classification_report.txt",
+    "source_sha256": "ed3a79942f4bb21140b48677bc8e10d3a8279e5cce850400d6e483457e1f4aa8",
+    "status": "transformed",
+    "reason": "numeric classification/convergence report audited; lab paths normalized",
+    "public_relative_path": "raw/mlp_results/stability_20261013_110002_306417/seed42_hidden100/classification_report.txt",
+    "public_sha256": "ed3a79942f4bb21140b48677bc8e10d3a8279e5cce850400d6e483457e1f4aa8",
+    "public_size_bytes": 852
+  },
+  {
+    "source_relative_path": "mlp_results/stability_20261013_110002_306417/seed42_hidden100/config.json",
+    "source_sha256": "21d4956f996d24ef6b653d7d9f9ffd4a3ad10d4a99e6d1bba692abde8b38ebf0",
+    "status": "transformed",
+    "reason": "JSON audited; local lab paths normalized; no metric values removed",
+    "public_relative_path": "raw/mlp_results/stability_20261013_110002_306417/seed42_hidden100/config.json",
+    "public_sha256": "1676edf561dd3d91d6de878fb5e8905d09703d9a1c301283da8acb3109035f26",
+    "public_size_bytes": 1414
+  },
+  {
+    "source_relative_path": "mlp_results/stability_20261013_110002_306417/seed42_hidden100/history.csv",
+    "source_sha256": "16cea98387e9a6e0fa4484a97d0384f0875c93d30b7ffe049a98a7d92a6d896d",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 100,
+    "public_row_count": 100,
+    "removed_columns": [],
+    "retained_columns": [
+      "epoch",
+      "train_loss",
+      "val_loss",
+      "train_accuracy",
+      "val_accuracy",
+      "training_seconds"
+    ],
+    "public_relative_path": "raw/mlp_results/stability_20261013_110002_306417/seed42_hidden100/history.csv",
+    "public_sha256": "16cea98387e9a6e0fa4484a97d0384f0875c93d30b7ffe049a98a7d92a6d896d",
+    "public_size_bytes": 9762
+  },
+  {
+    "source_relative_path": "mlp_results/stability_20261013_110002_306417/seed42_hidden100/validation_predictions.csv",
+    "source_sha256": "ff6bd34564da1d2578fc57cb7c98c09789800ba823769362a9932b0b519dfeec",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 1474,
+    "public_row_count": 1474,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct"
+    ],
+    "public_relative_path": "raw/mlp_results/stability_20261013_110002_306417/seed42_hidden100/validation_predictions.csv",
+    "public_sha256": "b3d38cfa62736cc90bddb32f525e1c22dba3da1880bfe715d6f12083abced951",
+    "public_size_bytes": 90091
+  },
+  {
+    "source_relative_path": "mlp_results/stability_20261013_110002_306417/seed42_hidden100/wrong_predictions.csv",
+    "source_sha256": "dae5bea0dc3fb68357d136fc69268d3a925b06810251fe67a00f7b7e683a4cc6",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 117,
+    "public_row_count": 117,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct"
+    ],
+    "public_relative_path": "raw/mlp_results/stability_20261013_110002_306417/seed42_hidden100/wrong_predictions.csv",
+    "public_sha256": "b5e75a2f037509b839def6af0118b231277feecb9d675e803fc9c38b04dddcde",
+    "public_size_bytes": 7499
+  },
+  {
+    "source_relative_path": "mlp_results/stability_20261013_110002_306417/seed42_hidden50/classification_report.txt",
+    "source_sha256": "8a709c2f52a1888798ec35051939482ef3e865665584f8d27fb93f985828c089",
+    "status": "transformed",
+    "reason": "numeric classification/convergence report audited; lab paths normalized",
+    "public_relative_path": "raw/mlp_results/stability_20261013_110002_306417/seed42_hidden50/classification_report.txt",
+    "public_sha256": "8a709c2f52a1888798ec35051939482ef3e865665584f8d27fb93f985828c089",
+    "public_size_bytes": 852
+  },
+  {
+    "source_relative_path": "mlp_results/stability_20261013_110002_306417/seed42_hidden50/config.json",
+    "source_sha256": "9e93aff88ee373468f676c811165c30efbb468857a3eba2163326a21aa811579",
+    "status": "transformed",
+    "reason": "JSON audited; local lab paths normalized; no metric values removed",
+    "public_relative_path": "raw/mlp_results/stability_20261013_110002_306417/seed42_hidden50/config.json",
+    "public_sha256": "57f61d4d50f0bffd1a24eb3403bae99e9c963c5c339cd2b4d5ee7a6d07b44c49",
+    "public_size_bytes": 1412
+  },
+  {
+    "source_relative_path": "mlp_results/stability_20261013_110002_306417/seed42_hidden50/history.csv",
+    "source_sha256": "60838201bdc4818586ecdd244a58a8b4ec8616d3cb81448e00330ba5cea9bf4b",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 100,
+    "public_row_count": 100,
+    "removed_columns": [],
+    "retained_columns": [
+      "epoch",
+      "train_loss",
+      "val_loss",
+      "train_accuracy",
+      "val_accuracy",
+      "training_seconds"
+    ],
+    "public_relative_path": "raw/mlp_results/stability_20261013_110002_306417/seed42_hidden50/history.csv",
+    "public_sha256": "60838201bdc4818586ecdd244a58a8b4ec8616d3cb81448e00330ba5cea9bf4b",
+    "public_size_bytes": 9794
+  },
+  {
+    "source_relative_path": "mlp_results/stability_20261013_110002_306417/seed42_hidden50/validation_predictions.csv",
+    "source_sha256": "9e079772a92f2fe16e56d37be3e2c73fa569eed638ba1066e72b6c03c6872ec1",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 1474,
+    "public_row_count": 1474,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct"
+    ],
+    "public_relative_path": "raw/mlp_results/stability_20261013_110002_306417/seed42_hidden50/validation_predictions.csv",
+    "public_sha256": "019feb4c02740d7e43e225b54cc14ad9f47de69a8a55cc3805cfb8ac32a2856b",
+    "public_size_bytes": 90143
+  },
+  {
+    "source_relative_path": "mlp_results/stability_20261013_110002_306417/seed42_hidden50/wrong_predictions.csv",
+    "source_sha256": "e72e043b1bf425e4876e0bbac7c72616a081c30548b04635b18ad361d060f7bc",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 124,
+    "public_row_count": 124,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct"
+    ],
+    "public_relative_path": "raw/mlp_results/stability_20261013_110002_306417/seed42_hidden50/wrong_predictions.csv",
+    "public_sha256": "cd003055b94ba7e928218960003791c599d90504860be4fff57b4ad7c0ab70fb",
+    "public_size_bytes": 7938
+  },
+  {
+    "source_relative_path": "mlp_results/stability_20261013_110002_306417/seed43_hidden100/classification_report.txt",
+    "source_sha256": "423b4909b8e6a37d0978e0031898f1c8bda93feae56e3149a55e030397ee735a",
+    "status": "transformed",
+    "reason": "numeric classification/convergence report audited; lab paths normalized",
+    "public_relative_path": "raw/mlp_results/stability_20261013_110002_306417/seed43_hidden100/classification_report.txt",
+    "public_sha256": "423b4909b8e6a37d0978e0031898f1c8bda93feae56e3149a55e030397ee735a",
+    "public_size_bytes": 852
+  },
+  {
+    "source_relative_path": "mlp_results/stability_20261013_110002_306417/seed43_hidden100/config.json",
+    "source_sha256": "8c9ed119e64537a081ab2b790e85d4296eab2b0a53fb7202f106d250e99cd293",
+    "status": "transformed",
+    "reason": "JSON audited; local lab paths normalized; no metric values removed",
+    "public_relative_path": "raw/mlp_results/stability_20261013_110002_306417/seed43_hidden100/config.json",
+    "public_sha256": "c51565a5d182df8d3ad94edf8fffc21b391192133ef6269bfb9b3f4cf8163cd2",
+    "public_size_bytes": 1350
+  },
+  {
+    "source_relative_path": "mlp_results/stability_20261013_110002_306417/seed43_hidden100/history.csv",
+    "source_sha256": "7ae03628619e925a16b009c79de43e5675a9612c3bb6083d2109e0d475afb4e0",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 100,
+    "public_row_count": 100,
+    "removed_columns": [],
+    "retained_columns": [
+      "epoch",
+      "train_loss",
+      "val_loss",
+      "train_accuracy",
+      "val_accuracy",
+      "training_seconds"
+    ],
+    "public_relative_path": "raw/mlp_results/stability_20261013_110002_306417/seed43_hidden100/history.csv",
+    "public_sha256": "7ae03628619e925a16b009c79de43e5675a9612c3bb6083d2109e0d475afb4e0",
+    "public_size_bytes": 9925
+  },
+  {
+    "source_relative_path": "mlp_results/stability_20261013_110002_306417/seed43_hidden100/validation_predictions.csv",
+    "source_sha256": "4f9c0944905a7621eeb894ca1fe3cd608ec2ed435ddd9e39665a110c86d80e16",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 1474,
+    "public_row_count": 1474,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct"
+    ],
+    "public_relative_path": "raw/mlp_results/stability_20261013_110002_306417/seed43_hidden100/validation_predictions.csv",
+    "public_sha256": "46ed25f12f157e8cfa4363b8d2e7f5ac27e1975cd6ae73a3ade8b1739f69cc2d",
+    "public_size_bytes": 90113
+  },
+  {
+    "source_relative_path": "mlp_results/stability_20261013_110002_306417/seed43_hidden100/wrong_predictions.csv",
+    "source_sha256": "053815fa6f833fe1fbb1181e62453490ec8503ab73f9fde7d47fa0148692a1f6",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 114,
+    "public_row_count": 114,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct"
+    ],
+    "public_relative_path": "raw/mlp_results/stability_20261013_110002_306417/seed43_hidden100/wrong_predictions.csv",
+    "public_sha256": "a9ebababd3cb8411a3cdb2acf2ab4b2fc7ac0e723195933cb1c980d1058f5289",
+    "public_size_bytes": 7307
+  },
+  {
+    "source_relative_path": "mlp_results/stability_20261013_110002_306417/seed43_hidden50/classification_report.txt",
+    "source_sha256": "9697d56d106a86301ef1ebcf30ca3a2db03970c6c6f851447c2c7c328eb14cdf",
+    "status": "transformed",
+    "reason": "numeric classification/convergence report audited; lab paths normalized",
+    "public_relative_path": "raw/mlp_results/stability_20261013_110002_306417/seed43_hidden50/classification_report.txt",
+    "public_sha256": "9697d56d106a86301ef1ebcf30ca3a2db03970c6c6f851447c2c7c328eb14cdf",
+    "public_size_bytes": 852
+  },
+  {
+    "source_relative_path": "mlp_results/stability_20261013_110002_306417/seed43_hidden50/config.json",
+    "source_sha256": "cad12ae24df7459c1508639018967f6b4a4ccb930919157ee175562551f74395",
+    "status": "transformed",
+    "reason": "JSON audited; local lab paths normalized; no metric values removed",
+    "public_relative_path": "raw/mlp_results/stability_20261013_110002_306417/seed43_hidden50/config.json",
+    "public_sha256": "b2a53642490850507952f4021f70c4e404c37ff0897972ee8ff3396cc224cdba",
+    "public_size_bytes": 1349
+  },
+  {
+    "source_relative_path": "mlp_results/stability_20261013_110002_306417/seed43_hidden50/history.csv",
+    "source_sha256": "e081a21dca358abda50ee6b65a8d2ca986fcf3fffd0f865fa268b718c620b5e8",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 100,
+    "public_row_count": 100,
+    "removed_columns": [],
+    "retained_columns": [
+      "epoch",
+      "train_loss",
+      "val_loss",
+      "train_accuracy",
+      "val_accuracy",
+      "training_seconds"
+    ],
+    "public_relative_path": "raw/mlp_results/stability_20261013_110002_306417/seed43_hidden50/history.csv",
+    "public_sha256": "e081a21dca358abda50ee6b65a8d2ca986fcf3fffd0f865fa268b718c620b5e8",
+    "public_size_bytes": 9899
+  },
+  {
+    "source_relative_path": "mlp_results/stability_20261013_110002_306417/seed43_hidden50/validation_predictions.csv",
+    "source_sha256": "e53ce326683aba873bd449706e37ac622fb154bee3ee01d89ff4d3d7e0a5bcb0",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 1474,
+    "public_row_count": 1474,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct"
+    ],
+    "public_relative_path": "raw/mlp_results/stability_20261013_110002_306417/seed43_hidden50/validation_predictions.csv",
+    "public_sha256": "ba09f9a092e4d9bf5cc9e64162cb525ef318fe6cb4a4a52172c61bdc5e0e67de",
+    "public_size_bytes": 90098
+  },
+  {
+    "source_relative_path": "mlp_results/stability_20261013_110002_306417/seed43_hidden50/wrong_predictions.csv",
+    "source_sha256": "2390ab5b141dc1e88d9642caf38278a06b125f01234a731e5f6d2184c2c8b408",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 120,
+    "public_row_count": 120,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct"
+    ],
+    "public_relative_path": "raw/mlp_results/stability_20261013_110002_306417/seed43_hidden50/wrong_predictions.csv",
+    "public_sha256": "1e05a97e160a334c8aea2a6c9f076ebcc8049ab8516359c08bb15a812ddaac06",
+    "public_size_bytes": 7684
+  },
+  {
+    "source_relative_path": "mlp_results/stability_20261013_110002_306417/seed44_hidden100/classification_report.txt",
+    "source_sha256": "5e508d22e79bb61b6cf1e43f9bda5b9ac1808a8618c1a66b3047aec984edcae3",
+    "status": "transformed",
+    "reason": "numeric classification/convergence report audited; lab paths normalized",
+    "public_relative_path": "raw/mlp_results/stability_20261013_110002_306417/seed44_hidden100/classification_report.txt",
+    "public_sha256": "5e508d22e79bb61b6cf1e43f9bda5b9ac1808a8618c1a66b3047aec984edcae3",
+    "public_size_bytes": 852
+  },
+  {
+    "source_relative_path": "mlp_results/stability_20261013_110002_306417/seed44_hidden100/config.json",
+    "source_sha256": "762083c65afca35d27c3aa1548c9473447fa53cc4b72eccaf91ef75ae3147698",
+    "status": "transformed",
+    "reason": "JSON audited; local lab paths normalized; no metric values removed",
+    "public_relative_path": "raw/mlp_results/stability_20261013_110002_306417/seed44_hidden100/config.json",
+    "public_sha256": "55c2d098f02a0ed446468cee91accdb01fa28f42a4886ad3fade54e424e26d17",
+    "public_size_bytes": 1350
+  },
+  {
+    "source_relative_path": "mlp_results/stability_20261013_110002_306417/seed44_hidden100/history.csv",
+    "source_sha256": "52d3c190542b8856d9c774094cfbb354c6d9273a426274ac4a41ae8e7468915b",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 100,
+    "public_row_count": 100,
+    "removed_columns": [],
+    "retained_columns": [
+      "epoch",
+      "train_loss",
+      "val_loss",
+      "train_accuracy",
+      "val_accuracy",
+      "training_seconds"
+    ],
+    "public_relative_path": "raw/mlp_results/stability_20261013_110002_306417/seed44_hidden100/history.csv",
+    "public_sha256": "52d3c190542b8856d9c774094cfbb354c6d9273a426274ac4a41ae8e7468915b",
+    "public_size_bytes": 9908
+  },
+  {
+    "source_relative_path": "mlp_results/stability_20261013_110002_306417/seed44_hidden100/validation_predictions.csv",
+    "source_sha256": "d59cbaa833f0da6a6dd6061a6325317ab1cb6dfa82eca0e6c2739798c4167a9a",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 1474,
+    "public_row_count": 1474,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct"
+    ],
+    "public_relative_path": "raw/mlp_results/stability_20261013_110002_306417/seed44_hidden100/validation_predictions.csv",
+    "public_sha256": "1dd78b68c4b364a60ecb2ced2be07cd59b648ce35852592aacb7f4eb3518a5b8",
+    "public_size_bytes": 90108
+  },
+  {
+    "source_relative_path": "mlp_results/stability_20261013_110002_306417/seed44_hidden100/wrong_predictions.csv",
+    "source_sha256": "7c4fd235741747a84b81aa8760dfed1a03215d787745c677bb9c4fa2b4a40a5c",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 117,
+    "public_row_count": 117,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct"
+    ],
+    "public_relative_path": "raw/mlp_results/stability_20261013_110002_306417/seed44_hidden100/wrong_predictions.csv",
+    "public_sha256": "f9cee2dbc6347af59435569ff9bd7ce865da7cac8922913adcdd3371d93adfd4",
+    "public_size_bytes": 7500
+  },
+  {
+    "source_relative_path": "mlp_results/stability_20261013_110002_306417/seed44_hidden50/classification_report.txt",
+    "source_sha256": "1d6df7d8e9dcd13088a0afc23d3075adac01ff55b549d340524c4980c70b2b86",
+    "status": "transformed",
+    "reason": "numeric classification/convergence report audited; lab paths normalized",
+    "public_relative_path": "raw/mlp_results/stability_20261013_110002_306417/seed44_hidden50/classification_report.txt",
+    "public_sha256": "1d6df7d8e9dcd13088a0afc23d3075adac01ff55b549d340524c4980c70b2b86",
+    "public_size_bytes": 852
+  },
+  {
+    "source_relative_path": "mlp_results/stability_20261013_110002_306417/seed44_hidden50/config.json",
+    "source_sha256": "f7b2ccc9a7ae07d1259427e3c909ee1c62bc13207fa6251c035dac4bbf296e28",
+    "status": "transformed",
+    "reason": "JSON audited; local lab paths normalized; no metric values removed",
+    "public_relative_path": "raw/mlp_results/stability_20261013_110002_306417/seed44_hidden50/config.json",
+    "public_sha256": "205aed2a21764c3852f6301be8b9a9a0e315b15280a2b9dbe9300549046f4723",
+    "public_size_bytes": 1349
+  },
+  {
+    "source_relative_path": "mlp_results/stability_20261013_110002_306417/seed44_hidden50/history.csv",
+    "source_sha256": "f153a64f0eb72e30a4e3d99da2e65f3a2853a424e429f6666573758c73ec6e19",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 100,
+    "public_row_count": 100,
+    "removed_columns": [],
+    "retained_columns": [
+      "epoch",
+      "train_loss",
+      "val_loss",
+      "train_accuracy",
+      "val_accuracy",
+      "training_seconds"
+    ],
+    "public_relative_path": "raw/mlp_results/stability_20261013_110002_306417/seed44_hidden50/history.csv",
+    "public_sha256": "f153a64f0eb72e30a4e3d99da2e65f3a2853a424e429f6666573758c73ec6e19",
+    "public_size_bytes": 9896
+  },
+  {
+    "source_relative_path": "mlp_results/stability_20261013_110002_306417/seed44_hidden50/validation_predictions.csv",
+    "source_sha256": "a399e5ffff3059e0fdeaf3b4a5701bc6eca36607d2adbdba189ae8bce6bb68fe",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 1474,
+    "public_row_count": 1474,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct"
+    ],
+    "public_relative_path": "raw/mlp_results/stability_20261013_110002_306417/seed44_hidden50/validation_predictions.csv",
+    "public_sha256": "d293e923bba9af7ed366409afef666b14d1952a3b706053c55f124edfb1cff5d",
+    "public_size_bytes": 90152
+  },
+  {
+    "source_relative_path": "mlp_results/stability_20261013_110002_306417/seed44_hidden50/wrong_predictions.csv",
+    "source_sha256": "d2eb5de6e49bcde218beb999b4fb5425404f61ebd5c24aa817453487af3650f5",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 124,
+    "public_row_count": 124,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct"
+    ],
+    "public_relative_path": "raw/mlp_results/stability_20261013_110002_306417/seed44_hidden50/wrong_predictions.csv",
+    "public_sha256": "694ccca5b0b526f2c77b29e77a4c0e77c68590c5b839e4745cb647ee5c5db0d1",
+    "public_size_bytes": 7928
+  },
+  {
+    "source_relative_path": "mlp_results/structure_20261013_103724_651177/comparison.csv",
+    "source_sha256": "59a3c3fe527393eee8e4fd80dbe48aac5183b93eba13ca2a99067ce09c2248e6",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 3,
+    "public_row_count": 3,
+    "removed_columns": [],
+    "retained_columns": [
+      "hidden_units",
+      "parameter_count",
+      "train_accuracy",
+      "val_accuracy",
+      "train_loss",
+      "val_loss",
+      "accuracy_gap",
+      "macro_f1",
+      "wrong_count",
+      "training_seconds"
+    ],
+    "public_relative_path": "raw/mlp_results/structure_20261013_103724_651177/comparison.csv",
+    "public_sha256": "59a3c3fe527393eee8e4fd80dbe48aac5183b93eba13ca2a99067ce09c2248e6",
+    "public_size_bytes": 577
+  },
+  {
+    "source_relative_path": "mlp_results/structure_20261013_103724_651177/experiment_config.json",
+    "source_sha256": "efebf29525f1e203285c7a084f7f607b9f9bd13722f8cbf9a30059b8095fb252",
+    "status": "transformed",
+    "reason": "JSON audited; local lab paths normalized; no metric values removed",
+    "public_relative_path": "raw/mlp_results/structure_20261013_103724_651177/experiment_config.json",
+    "public_sha256": "f723cd0331ff3865473ba79adacdc8781b61d7ee58ac011bc98ad02273370d31",
+    "public_size_bytes": 2363
+  },
+  {
+    "source_relative_path": "mlp_results/structure_20261013_103724_651177/hidden100/classification_report.txt",
+    "source_sha256": "ed3a79942f4bb21140b48677bc8e10d3a8279e5cce850400d6e483457e1f4aa8",
+    "status": "transformed",
+    "reason": "numeric classification/convergence report audited; lab paths normalized",
+    "public_relative_path": "raw/mlp_results/structure_20261013_103724_651177/hidden100/classification_report.txt",
+    "public_sha256": "ed3a79942f4bb21140b48677bc8e10d3a8279e5cce850400d6e483457e1f4aa8",
+    "public_size_bytes": 852
+  },
+  {
+    "source_relative_path": "mlp_results/structure_20261013_103724_651177/hidden100/config.json",
+    "source_sha256": "dc119445770b558fb9f818331d61f4a6521e7b4ac0c244efb3eed7c6324bb521",
+    "status": "transformed",
+    "reason": "JSON audited; local lab paths normalized; no metric values removed",
+    "public_relative_path": "raw/mlp_results/structure_20261013_103724_651177/hidden100/config.json",
+    "public_sha256": "b3d8284eca6193da95cc871871a8bf8048230336cd40e3516a881b85478823c1",
+    "public_size_bytes": 1142
+  },
+  {
+    "source_relative_path": "mlp_results/structure_20261013_103724_651177/hidden100/history.csv",
+    "source_sha256": "e1ea0dc5529aaae68cb8f9609a05999b26cf67d149b93857385b2a93a33bfcd5",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 100,
+    "public_row_count": 100,
+    "removed_columns": [],
+    "retained_columns": [
+      "epoch",
+      "train_loss",
+      "val_loss",
+      "train_accuracy",
+      "val_accuracy",
+      "training_seconds"
+    ],
+    "public_relative_path": "raw/mlp_results/structure_20261013_103724_651177/hidden100/history.csv",
+    "public_sha256": "e1ea0dc5529aaae68cb8f9609a05999b26cf67d149b93857385b2a93a33bfcd5",
+    "public_size_bytes": 9903
+  },
+  {
+    "source_relative_path": "mlp_results/structure_20261013_103724_651177/hidden100/validation_predictions.csv",
+    "source_sha256": "ff6bd34564da1d2578fc57cb7c98c09789800ba823769362a9932b0b519dfeec",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 1474,
+    "public_row_count": 1474,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct"
+    ],
+    "public_relative_path": "raw/mlp_results/structure_20261013_103724_651177/hidden100/validation_predictions.csv",
+    "public_sha256": "b3d38cfa62736cc90bddb32f525e1c22dba3da1880bfe715d6f12083abced951",
+    "public_size_bytes": 90091
+  },
+  {
+    "source_relative_path": "mlp_results/structure_20261013_103724_651177/hidden100/wrong_predictions.csv",
+    "source_sha256": "dae5bea0dc3fb68357d136fc69268d3a925b06810251fe67a00f7b7e683a4cc6",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 117,
+    "public_row_count": 117,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct"
+    ],
+    "public_relative_path": "raw/mlp_results/structure_20261013_103724_651177/hidden100/wrong_predictions.csv",
+    "public_sha256": "b5e75a2f037509b839def6af0118b231277feecb9d675e803fc9c38b04dddcde",
+    "public_size_bytes": 7499
+  },
+  {
+    "source_relative_path": "mlp_results/structure_20261013_103724_651177/hidden25/classification_report.txt",
+    "source_sha256": "159a978060ab8d3e90238dd34e783acba76e8d48e8d6c6a8332b7d08b80a4a03",
+    "status": "transformed",
+    "reason": "numeric classification/convergence report audited; lab paths normalized",
+    "public_relative_path": "raw/mlp_results/structure_20261013_103724_651177/hidden25/classification_report.txt",
+    "public_sha256": "159a978060ab8d3e90238dd34e783acba76e8d48e8d6c6a8332b7d08b80a4a03",
+    "public_size_bytes": 852
+  },
+  {
+    "source_relative_path": "mlp_results/structure_20261013_103724_651177/hidden25/config.json",
+    "source_sha256": "3ed314a1d16fd45281340f9009db65dff0323d2d004076c7dc6454bea91dfcae",
+    "status": "transformed",
+    "reason": "JSON audited; local lab paths normalized; no metric values removed",
+    "public_relative_path": "raw/mlp_results/structure_20261013_103724_651177/hidden25/config.json",
+    "public_sha256": "65d665df5c7a4d0d0238e913396bdcc24348e118235339ce3ca1e58ae2296cb0",
+    "public_size_bytes": 1141
+  },
+  {
+    "source_relative_path": "mlp_results/structure_20261013_103724_651177/hidden25/history.csv",
+    "source_sha256": "e8599557041dec2f5dab4b524f1caa03a2a91bd7ea414449b800bbdc809b1fcc",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 100,
+    "public_row_count": 100,
+    "removed_columns": [],
+    "retained_columns": [
+      "epoch",
+      "train_loss",
+      "val_loss",
+      "train_accuracy",
+      "val_accuracy",
+      "training_seconds"
+    ],
+    "public_relative_path": "raw/mlp_results/structure_20261013_103724_651177/hidden25/history.csv",
+    "public_sha256": "e8599557041dec2f5dab4b524f1caa03a2a91bd7ea414449b800bbdc809b1fcc",
+    "public_size_bytes": 9935
+  },
+  {
+    "source_relative_path": "mlp_results/structure_20261013_103724_651177/hidden25/validation_predictions.csv",
+    "source_sha256": "61e8b6046744352de5ab0ab5b79cc01b6ca2163e77cca7cde089fa26a963394d",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 1474,
+    "public_row_count": 1474,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct"
+    ],
+    "public_relative_path": "raw/mlp_results/structure_20261013_103724_651177/hidden25/validation_predictions.csv",
+    "public_sha256": "22bb5cf1d678f8c915f5aab05eff97c41530d36a377ca42b648f87a0557966fb",
+    "public_size_bytes": 90241
+  },
+  {
+    "source_relative_path": "mlp_results/structure_20261013_103724_651177/hidden25/wrong_predictions.csv",
+    "source_sha256": "5fce344f393c1349a763dec467b377e8167334a0be2b62e9e2fdab377fd4ace1",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 125,
+    "public_row_count": 125,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct"
+    ],
+    "public_relative_path": "raw/mlp_results/structure_20261013_103724_651177/hidden25/wrong_predictions.csv",
+    "public_sha256": "fb5ee56703f4b23e2e3aaeb35d2b44d1ddc40657b4a05f3c740a2d60e1d028cc",
+    "public_size_bytes": 8001
+  },
+  {
+    "source_relative_path": "mlp_results/structure_20261013_103724_651177/hidden50/classification_report.txt",
+    "source_sha256": "8a709c2f52a1888798ec35051939482ef3e865665584f8d27fb93f985828c089",
+    "status": "transformed",
+    "reason": "numeric classification/convergence report audited; lab paths normalized",
+    "public_relative_path": "raw/mlp_results/structure_20261013_103724_651177/hidden50/classification_report.txt",
+    "public_sha256": "8a709c2f52a1888798ec35051939482ef3e865665584f8d27fb93f985828c089",
+    "public_size_bytes": 852
+  },
+  {
+    "source_relative_path": "mlp_results/structure_20261013_103724_651177/hidden50/config.json",
+    "source_sha256": "d6bbd7f9d163b3de60d0883b65e8a79f0e151246eaebaf8e606c8feceb0cc871",
+    "status": "transformed",
+    "reason": "JSON audited; local lab paths normalized; no metric values removed",
+    "public_relative_path": "raw/mlp_results/structure_20261013_103724_651177/hidden50/config.json",
+    "public_sha256": "cebe04e9acbdc9f97dcbb12b2e74d6e2ea98de5c86d0bab420c2c9e8772d77a3",
+    "public_size_bytes": 1141
+  },
+  {
+    "source_relative_path": "mlp_results/structure_20261013_103724_651177/hidden50/history.csv",
+    "source_sha256": "b392fc617557c66b9b2c823898c1ef6745508c221ad18d30677dd3de6b09e2aa",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 100,
+    "public_row_count": 100,
+    "removed_columns": [],
+    "retained_columns": [
+      "epoch",
+      "train_loss",
+      "val_loss",
+      "train_accuracy",
+      "val_accuracy",
+      "training_seconds"
+    ],
+    "public_relative_path": "raw/mlp_results/structure_20261013_103724_651177/hidden50/history.csv",
+    "public_sha256": "b392fc617557c66b9b2c823898c1ef6745508c221ad18d30677dd3de6b09e2aa",
+    "public_size_bytes": 9907
+  },
+  {
+    "source_relative_path": "mlp_results/structure_20261013_103724_651177/hidden50/validation_predictions.csv",
+    "source_sha256": "9e079772a92f2fe16e56d37be3e2c73fa569eed638ba1066e72b6c03c6872ec1",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 1474,
+    "public_row_count": 1474,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct"
+    ],
+    "public_relative_path": "raw/mlp_results/structure_20261013_103724_651177/hidden50/validation_predictions.csv",
+    "public_sha256": "019feb4c02740d7e43e225b54cc14ad9f47de69a8a55cc3805cfb8ac32a2856b",
+    "public_size_bytes": 90143
+  },
+  {
+    "source_relative_path": "mlp_results/structure_20261013_103724_651177/hidden50/wrong_predictions.csv",
+    "source_sha256": "e72e043b1bf425e4876e0bbac7c72616a081c30548b04635b18ad361d060f7bc",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 124,
+    "public_row_count": 124,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct"
+    ],
+    "public_relative_path": "raw/mlp_results/structure_20261013_103724_651177/hidden50/wrong_predictions.csv",
+    "public_sha256": "cd003055b94ba7e928218960003791c599d90504860be4fff57b4ad7c0ab70fb",
+    "public_size_bytes": 7938
+  },
+  {
+    "source_relative_path": "mlp_results/structure_20261013_103724_651177/structure_comparison.png",
+    "source_sha256": "378b6f3bf1310dc09c3bf398081e67de2997681d8a8f188917b40922f08d266c",
+    "status": "byte_copy",
+    "reason": "complete historical plot; no redraw or cropping",
+    "public_relative_path": "raw/mlp_results/structure_20261013_103724_651177/structure_comparison.png",
+    "public_sha256": "378b6f3bf1310dc09c3bf398081e67de2997681d8a8f188917b40922f08d266c",
+    "public_size_bytes": 294825
+  },
+  {
+    "source_relative_path": "mlp_results/tf_scaling_20261013_114947_907546/comparison.csv",
+    "source_sha256": "a44ff20ecb72dcd6b22c2b6cdf7d5d840125c5d7fe926339e5346f6b9e4f86c1",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 2,
+    "public_row_count": 2,
+    "removed_columns": [],
+    "retained_columns": [
+      "hidden_units",
+      "parameter_count",
+      "train_accuracy",
+      "val_accuracy",
+      "train_loss",
+      "val_loss",
+      "accuracy_gap",
+      "macro_f1",
+      "wrong_count",
+      "training_seconds",
+      "actual_feature_count",
+      "sublinear_tf",
+      "training_nonzero_values",
+      "validation_nonzero_values",
+      "vocabulary_sha256",
+      "idf_sha256",
+      "group",
+      "reused",
+      "source_run_dir"
+    ],
+    "public_relative_path": "raw/mlp_results/tf_scaling_20261013_114947_907546/comparison.csv",
+    "public_sha256": "fa7ad93c9d92e78d1950ecf74f5ef505bec927a3d62020775fcc5bdd64c67e6f",
+    "public_size_bytes": 977
+  },
+  {
+    "source_relative_path": "mlp_results/tf_scaling_20261013_114947_907546/corrected_errors.csv",
+    "source_sha256": "4386d16b9fba5d27482b8b62515919a00f6647e05ca2234ee251e3afb1e5e89b",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 12,
+    "public_row_count": 12,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "validation_index",
+      "source_index",
+      "true_label",
+      "ordinary_tf_prediction",
+      "log_tf_prediction",
+      "prediction_changed"
+    ],
+    "public_relative_path": "raw/mlp_results/tf_scaling_20261013_114947_907546/corrected_errors.csv",
+    "public_sha256": "01a4010f664f3e18c161b7f3f328bff599196644494a227d76ff0ad4e5bc05b1",
+    "public_size_bytes": 357
+  },
+  {
+    "source_relative_path": "mlp_results/tf_scaling_20261013_114947_907546/experiment_config.json",
+    "source_sha256": "6ff1aa5427294fb84bd0350c2c1ca14ac4013ddbc5ccd1d989c4b69dbdd83283",
+    "status": "transformed",
+    "reason": "JSON audited; local lab paths normalized; no metric values removed",
+    "public_relative_path": "raw/mlp_results/tf_scaling_20261013_114947_907546/experiment_config.json",
+    "public_sha256": "02ba08b26f94f321860676b4e577c66e614a6bafc91e5dc458820f678540b587",
+    "public_size_bytes": 2866
+  },
+  {
+    "source_relative_path": "mlp_results/tf_scaling_20261013_114947_907546/introduced_errors.csv",
+    "source_sha256": "f9775487968a138a61abe9d37738abf243095ceb8d8b1534f59063d4f620c1c7",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 16,
+    "public_row_count": 16,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "validation_index",
+      "source_index",
+      "true_label",
+      "ordinary_tf_prediction",
+      "log_tf_prediction",
+      "prediction_changed"
+    ],
+    "public_relative_path": "raw/mlp_results/tf_scaling_20261013_114947_907546/introduced_errors.csv",
+    "public_sha256": "95668ad4e8489ca1550792bf8f7a9231500f482fcdf1dfcc99bff662d2ce16cc",
+    "public_size_bytes": 442
+  },
+  {
+    "source_relative_path": "mlp_results/tf_scaling_20261013_114947_907546/log_tf/classification_report.txt",
+    "source_sha256": "3c8e8a90d6e1ce9447e18396e58a0b60bce7eee65754854f4ef16315b766143b",
+    "status": "transformed",
+    "reason": "numeric classification/convergence report audited; lab paths normalized",
+    "public_relative_path": "raw/mlp_results/tf_scaling_20261013_114947_907546/log_tf/classification_report.txt",
+    "public_sha256": "3c8e8a90d6e1ce9447e18396e58a0b60bce7eee65754854f4ef16315b766143b",
+    "public_size_bytes": 852
+  },
+  {
+    "source_relative_path": "mlp_results/tf_scaling_20261013_114947_907546/log_tf/config.json",
+    "source_sha256": "5354ec3395217559f986b26a8b7337e49c2b8fedc070d62e6a62f78c87a91b3e",
+    "status": "transformed",
+    "reason": "JSON audited; local lab paths normalized; no metric values removed",
+    "public_relative_path": "raw/mlp_results/tf_scaling_20261013_114947_907546/log_tf/config.json",
+    "public_sha256": "d1c47f5e686869b048564c097d04817ecf3aca1b285742e5ec333ddd298f07d1",
+    "public_size_bytes": 1820
+  },
+  {
+    "source_relative_path": "mlp_results/tf_scaling_20261013_114947_907546/log_tf/features.csv",
+    "source_sha256": "d0c43a2e008f04ed7241768186c389d5abdb9ff44cd26e35c25120a10284bcbc",
+    "status": "excluded",
+    "reason": "complete feature dictionary kept private",
+    "row_count": 5000
+  },
+  {
+    "source_relative_path": "mlp_results/tf_scaling_20261013_114947_907546/log_tf/history.csv",
+    "source_sha256": "12997382a4c8ecfd6faf88bff5d8e37e95c45b1cc7b5aee3c693531e5cd8bad6",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 100,
+    "public_row_count": 100,
+    "removed_columns": [],
+    "retained_columns": [
+      "epoch",
+      "train_loss",
+      "val_loss",
+      "train_accuracy",
+      "val_accuracy",
+      "training_seconds"
+    ],
+    "public_relative_path": "raw/mlp_results/tf_scaling_20261013_114947_907546/log_tf/history.csv",
+    "public_sha256": "12997382a4c8ecfd6faf88bff5d8e37e95c45b1cc7b5aee3c693531e5cd8bad6",
+    "public_size_bytes": 9934
+  },
+  {
+    "source_relative_path": "mlp_results/tf_scaling_20261013_114947_907546/log_tf/validation_predictions.csv",
+    "source_sha256": "9aac74b99f29caeb2630b25faf7e7733bb614471b032090b4a7d190b959728c3",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 1474,
+    "public_row_count": 1474,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct"
+    ],
+    "public_relative_path": "raw/mlp_results/tf_scaling_20261013_114947_907546/log_tf/validation_predictions.csv",
+    "public_sha256": "ebeae855047dd8b1d681e8d15f949961bed0c0d49df3ae62e7ab2e8e863af811",
+    "public_size_bytes": 90092
+  },
+  {
+    "source_relative_path": "mlp_results/tf_scaling_20261013_114947_907546/log_tf/wrong_predictions.csv",
+    "source_sha256": "6ff2a4ae13987a737c3bce3242a7a33fe0ffca4fe265fb13235a199a6b6902e1",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 121,
+    "public_row_count": 121,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct"
+    ],
+    "public_relative_path": "raw/mlp_results/tf_scaling_20261013_114947_907546/log_tf/wrong_predictions.csv",
+    "public_sha256": "8dc6dc088553a06fe3a38a16978ba94ec75eafb83c4877ea19895e8bfa63f27e",
+    "public_size_bytes": 7745
+  },
+  {
+    "source_relative_path": "mlp_results/tf_scaling_20261013_114947_907546/ordinary_tf/classification_report.txt",
+    "source_sha256": "ed3a79942f4bb21140b48677bc8e10d3a8279e5cce850400d6e483457e1f4aa8",
+    "status": "transformed",
+    "reason": "numeric classification/convergence report audited; lab paths normalized",
+    "public_relative_path": "raw/mlp_results/tf_scaling_20261013_114947_907546/ordinary_tf/classification_report.txt",
+    "public_sha256": "ed3a79942f4bb21140b48677bc8e10d3a8279e5cce850400d6e483457e1f4aa8",
+    "public_size_bytes": 852
+  },
+  {
+    "source_relative_path": "mlp_results/tf_scaling_20261013_114947_907546/ordinary_tf/config.json",
+    "source_sha256": "b9928a34c56de591ef91203e3ff6bc6cdbc6b1c133d92fda365c14420935a603",
+    "status": "transformed",
+    "reason": "JSON audited; local lab paths normalized; no metric values removed",
+    "public_relative_path": "raw/mlp_results/tf_scaling_20261013_114947_907546/ordinary_tf/config.json",
+    "public_sha256": "5d98e66cd69d42db803a0111df357802a67c7d8e049b49a149d665c78f7e4f8a",
+    "public_size_bytes": 1885
+  },
+  {
+    "source_relative_path": "mlp_results/tf_scaling_20261013_114947_907546/ordinary_tf/features.csv",
+    "source_sha256": "d0c43a2e008f04ed7241768186c389d5abdb9ff44cd26e35c25120a10284bcbc",
+    "status": "excluded",
+    "reason": "complete feature dictionary kept private",
+    "row_count": 5000
+  },
+  {
+    "source_relative_path": "mlp_results/tf_scaling_20261013_114947_907546/ordinary_tf/history.csv",
+    "source_sha256": "16cea98387e9a6e0fa4484a97d0384f0875c93d30b7ffe049a98a7d92a6d896d",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 100,
+    "public_row_count": 100,
+    "removed_columns": [],
+    "retained_columns": [
+      "epoch",
+      "train_loss",
+      "val_loss",
+      "train_accuracy",
+      "val_accuracy",
+      "training_seconds"
+    ],
+    "public_relative_path": "raw/mlp_results/tf_scaling_20261013_114947_907546/ordinary_tf/history.csv",
+    "public_sha256": "16cea98387e9a6e0fa4484a97d0384f0875c93d30b7ffe049a98a7d92a6d896d",
+    "public_size_bytes": 9762
+  },
+  {
+    "source_relative_path": "mlp_results/tf_scaling_20261013_114947_907546/ordinary_tf/validation_predictions.csv",
+    "source_sha256": "ff6bd34564da1d2578fc57cb7c98c09789800ba823769362a9932b0b519dfeec",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 1474,
+    "public_row_count": 1474,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct"
+    ],
+    "public_relative_path": "raw/mlp_results/tf_scaling_20261013_114947_907546/ordinary_tf/validation_predictions.csv",
+    "public_sha256": "b3d38cfa62736cc90bddb32f525e1c22dba3da1880bfe715d6f12083abced951",
+    "public_size_bytes": 90091
+  },
+  {
+    "source_relative_path": "mlp_results/tf_scaling_20261013_114947_907546/ordinary_tf/wrong_predictions.csv",
+    "source_sha256": "dae5bea0dc3fb68357d136fc69268d3a925b06810251fe67a00f7b7e683a4cc6",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 117,
+    "public_row_count": 117,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct"
+    ],
+    "public_relative_path": "raw/mlp_results/tf_scaling_20261013_114947_907546/ordinary_tf/wrong_predictions.csv",
+    "public_sha256": "b5e75a2f037509b839def6af0118b231277feecb9d675e803fc9c38b04dddcde",
+    "public_size_bytes": 7499
+  },
+  {
+    "source_relative_path": "mlp_results/tf_scaling_20261013_114947_907546/tf_scaling_comparison.png",
+    "source_sha256": "7b35247ec18334d051e5282a1008148b72736e40baf998ff722966b917ef3240",
+    "status": "byte_copy",
+    "reason": "complete historical plot; no redraw or cropping",
+    "public_relative_path": "raw/mlp_results/tf_scaling_20261013_114947_907546/tf_scaling_comparison.png",
+    "public_sha256": "7b35247ec18334d051e5282a1008148b72736e40baf998ff722966b917ef3240",
+    "public_size_bytes": 215272
+  },
+  {
+    "source_relative_path": "mlp_results/vocabulary_20261013_203212_922430/added_features.csv",
+    "source_sha256": "056a18947f5e6ffeb91bc4485718dc0bbed26414648e4724e755c74cb5b9ee44",
+    "status": "excluded",
+    "reason": "complete feature dictionary kept private",
+    "row_count": 5000
+  },
+  {
+    "source_relative_path": "mlp_results/vocabulary_20261013_203212_922430/comparison.csv",
+    "source_sha256": "c49eaba77f2b113a87499acb5b0e58679dca23163513bd0c76b45938d71a4b34",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 2,
+    "public_row_count": 2,
+    "removed_columns": [],
+    "retained_columns": [
+      "hidden_units",
+      "parameter_count",
+      "train_accuracy",
+      "val_accuracy",
+      "train_loss",
+      "val_loss",
+      "accuracy_gap",
+      "macro_f1",
+      "wrong_count",
+      "training_seconds",
+      "max_features",
+      "actual_feature_count",
+      "reused",
+      "source_run_dir"
+    ],
+    "public_relative_path": "raw/mlp_results/vocabulary_20261013_203212_922430/comparison.csv",
+    "public_sha256": "510988ae9137397071f2514e5a54886d5abd612796dbd14df65980c76fff0f6c",
+    "public_size_bytes": 588
+  },
+  {
+    "source_relative_path": "mlp_results/vocabulary_20261013_203212_922430/corrected_errors.csv",
+    "source_sha256": "41427384cee1acd581456a5b2e4f58ed51740d55bfb73ff0ea09f74030ae5cbb",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 23,
+    "public_row_count": 23,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "validation_index",
+      "source_index",
+      "true_label",
+      "prediction_5000",
+      "prediction_10000"
+    ],
+    "public_relative_path": "raw/mlp_results/vocabulary_20261013_203212_922430/corrected_errors.csv",
+    "public_sha256": "7d0b91936b9a57856dec572673cc54038ab7fe1f70a146bf70ff73410c8128ba",
+    "public_size_bytes": 450
+  },
+  {
+    "source_relative_path": "mlp_results/vocabulary_20261013_203212_922430/experiment_config.json",
+    "source_sha256": "f8c17c19abc8cbafed3498dc37cc9b14ba2d574695c7047a14830267131912fc",
+    "status": "transformed",
+    "reason": "JSON audited; local lab paths normalized; no metric values removed",
+    "public_relative_path": "raw/mlp_results/vocabulary_20261013_203212_922430/experiment_config.json",
+    "public_sha256": "3782f7b1a9014a90c6900fb5be428e4d80b1134d131449e2035ecdd1fdba9403",
+    "public_size_bytes": 2834
+  },
+  {
+    "source_relative_path": "mlp_results/vocabulary_20261013_203212_922430/features10000/classification_report.txt",
+    "source_sha256": "4c4a1eb6b95b7ea632fe1b85b297a17789422ffc0bd69b4983d8ce4e81fcb6cb",
+    "status": "transformed",
+    "reason": "numeric classification/convergence report audited; lab paths normalized",
+    "public_relative_path": "raw/mlp_results/vocabulary_20261013_203212_922430/features10000/classification_report.txt",
+    "public_sha256": "4c4a1eb6b95b7ea632fe1b85b297a17789422ffc0bd69b4983d8ce4e81fcb6cb",
+    "public_size_bytes": 852
+  },
+  {
+    "source_relative_path": "mlp_results/vocabulary_20261013_203212_922430/features10000/config.json",
+    "source_sha256": "46d1e8a7f4b33dcf74f158fbb52280215c2daa9bbaf6c01c446c03363f956752",
+    "status": "transformed",
+    "reason": "JSON audited; local lab paths normalized; no metric values removed",
+    "public_relative_path": "raw/mlp_results/vocabulary_20261013_203212_922430/features10000/config.json",
+    "public_sha256": "b2d8a800438b4820b083adbf3239130bbfb708a6cf7e0cc1a2fe87833a40d9a3",
+    "public_size_bytes": 2916
+  },
+  {
+    "source_relative_path": "mlp_results/vocabulary_20261013_203212_922430/features10000/features.csv",
+    "source_sha256": "a5e920a1c295bb777519d25e735fa219a2f22b7e24257b54b91f9b25dfb89a06",
+    "status": "excluded",
+    "reason": "complete feature dictionary kept private",
+    "row_count": 10000
+  },
+  {
+    "source_relative_path": "mlp_results/vocabulary_20261013_203212_922430/features10000/history.csv",
+    "source_sha256": "0b16806457157150335d6d71e56061b1e15f2189d4850f3ffe92ce822d72fd74",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 100,
+    "public_row_count": 100,
+    "removed_columns": [],
+    "retained_columns": [
+      "epoch",
+      "train_loss",
+      "val_loss",
+      "train_accuracy",
+      "val_accuracy",
+      "training_seconds"
+    ],
+    "public_relative_path": "raw/mlp_results/vocabulary_20261013_203212_922430/features10000/history.csv",
+    "public_sha256": "0b16806457157150335d6d71e56061b1e15f2189d4850f3ffe92ce822d72fd74",
+    "public_size_bytes": 9951
+  },
+  {
+    "source_relative_path": "mlp_results/vocabulary_20261013_203212_922430/features10000/validation_predictions.csv",
+    "source_sha256": "53ad9add2b3972e27b3768be6019535706d27750650202dcaf9ae3c0a3e07bd9",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 1474,
+    "public_row_count": 1474,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct"
+    ],
+    "public_relative_path": "raw/mlp_results/vocabulary_20261013_203212_922430/features10000/validation_predictions.csv",
+    "public_sha256": "8ac7f948785d1b93e364db6801140b746b3aa1efaaca38e68cce98a2f9071e1f",
+    "public_size_bytes": 90095
+  },
+  {
+    "source_relative_path": "mlp_results/vocabulary_20261013_203212_922430/features10000/wrong_predictions.csv",
+    "source_sha256": "898824fdaeda7fed9a6433cdda815ccb0704610270d17666477ff2b2730c6d44",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 105,
+    "public_row_count": 105,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct"
+    ],
+    "public_relative_path": "raw/mlp_results/vocabulary_20261013_203212_922430/features10000/wrong_predictions.csv",
+    "public_sha256": "4104c96fd2f3e39ae9ac3fa39610407d0bfcc33c4ebce4c1c61ff97481f921b9",
+    "public_size_bytes": 6738
+  },
+  {
+    "source_relative_path": "mlp_results/vocabulary_20261013_203212_922430/features5000/baseline_original_config.json",
+    "source_sha256": "dc119445770b558fb9f818331d61f4a6521e7b4ac0c244efb3eed7c6324bb521",
+    "status": "transformed",
+    "reason": "JSON audited; local lab paths normalized; no metric values removed",
+    "public_relative_path": "raw/mlp_results/vocabulary_20261013_203212_922430/features5000/baseline_original_config.json",
+    "public_sha256": "b3d8284eca6193da95cc871871a8bf8048230336cd40e3516a881b85478823c1",
+    "public_size_bytes": 1142
+  },
+  {
+    "source_relative_path": "mlp_results/vocabulary_20261013_203212_922430/features5000/classification_report.txt",
+    "source_sha256": "ed3a79942f4bb21140b48677bc8e10d3a8279e5cce850400d6e483457e1f4aa8",
+    "status": "transformed",
+    "reason": "numeric classification/convergence report audited; lab paths normalized",
+    "public_relative_path": "raw/mlp_results/vocabulary_20261013_203212_922430/features5000/classification_report.txt",
+    "public_sha256": "ed3a79942f4bb21140b48677bc8e10d3a8279e5cce850400d6e483457e1f4aa8",
+    "public_size_bytes": 852
+  },
+  {
+    "source_relative_path": "mlp_results/vocabulary_20261013_203212_922430/features5000/config.json",
+    "source_sha256": "e632056984ccc6e4963d83e91e10cb9b16fc26a21c664f6a23c214b25312991b",
+    "status": "transformed",
+    "reason": "JSON audited; local lab paths normalized; no metric values removed",
+    "public_relative_path": "raw/mlp_results/vocabulary_20261013_203212_922430/features5000/config.json",
+    "public_sha256": "23b8d897bdbea962387729d911d95e1aa80283f757d16427564863811e9c5838",
+    "public_size_bytes": 2974
+  },
+  {
+    "source_relative_path": "mlp_results/vocabulary_20261013_203212_922430/features5000/features.csv",
+    "source_sha256": "d0c43a2e008f04ed7241768186c389d5abdb9ff44cd26e35c25120a10284bcbc",
+    "status": "excluded",
+    "reason": "complete feature dictionary kept private",
+    "row_count": 5000
+  },
+  {
+    "source_relative_path": "mlp_results/vocabulary_20261013_203212_922430/features5000/history.csv",
+    "source_sha256": "16cea98387e9a6e0fa4484a97d0384f0875c93d30b7ffe049a98a7d92a6d896d",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 100,
+    "public_row_count": 100,
+    "removed_columns": [],
+    "retained_columns": [
+      "epoch",
+      "train_loss",
+      "val_loss",
+      "train_accuracy",
+      "val_accuracy",
+      "training_seconds"
+    ],
+    "public_relative_path": "raw/mlp_results/vocabulary_20261013_203212_922430/features5000/history.csv",
+    "public_sha256": "16cea98387e9a6e0fa4484a97d0384f0875c93d30b7ffe049a98a7d92a6d896d",
+    "public_size_bytes": 9762
+  },
+  {
+    "source_relative_path": "mlp_results/vocabulary_20261013_203212_922430/features5000/validation_predictions.csv",
+    "source_sha256": "ff6bd34564da1d2578fc57cb7c98c09789800ba823769362a9932b0b519dfeec",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 1474,
+    "public_row_count": 1474,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct"
+    ],
+    "public_relative_path": "raw/mlp_results/vocabulary_20261013_203212_922430/features5000/validation_predictions.csv",
+    "public_sha256": "b3d38cfa62736cc90bddb32f525e1c22dba3da1880bfe715d6f12083abced951",
+    "public_size_bytes": 90091
+  },
+  {
+    "source_relative_path": "mlp_results/vocabulary_20261013_203212_922430/features5000/wrong_predictions.csv",
+    "source_sha256": "dae5bea0dc3fb68357d136fc69268d3a925b06810251fe67a00f7b7e683a4cc6",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 117,
+    "public_row_count": 117,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct"
+    ],
+    "public_relative_path": "raw/mlp_results/vocabulary_20261013_203212_922430/features5000/wrong_predictions.csv",
+    "public_sha256": "b5e75a2f037509b839def6af0118b231277feecb9d675e803fc9c38b04dddcde",
+    "public_size_bytes": 7499
+  },
+  {
+    "source_relative_path": "mlp_results/vocabulary_20261013_203212_922430/introduced_errors.csv",
+    "source_sha256": "ef473a946a5a3fd502d955e22cd6ab11eb4689325c5803be4150af31b1faa20b",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 11,
+    "public_row_count": 11,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "validation_index",
+      "source_index",
+      "true_label",
+      "prediction_5000",
+      "prediction_10000"
+    ],
+    "public_relative_path": "raw/mlp_results/vocabulary_20261013_203212_922430/introduced_errors.csv",
+    "public_sha256": "b4e311509980f197fb6461323fe0c94f331ffd21b1b728b7604d7d287246a7cb",
+    "public_size_bytes": 257
+  },
+  {
+    "source_relative_path": "mlp_results/vocabulary_20261013_203212_922430/vocabulary_comparison.png",
+    "source_sha256": "e2a3fdb9deb634c051c87445a4ec7d12b37f0356646cab7ab9e0475c0cd8be87",
+    "status": "byte_copy",
+    "reason": "complete historical plot; no redraw or cropping",
+    "public_relative_path": "raw/mlp_results/vocabulary_20261013_203212_922430/vocabulary_comparison.png",
+    "public_sha256": "e2a3fdb9deb634c051c87445a4ec7d12b37f0356646cab7ab9e0475c0cd8be87",
+    "public_size_bytes": 228818
+  },
+  {
+    "source_relative_path": "mlp_results/weighting_class2_20261013_011529_259979/comparison.csv",
+    "source_sha256": "df2c4867f936d83daea1727668f6832139a623f330a8e1b37b68e92d3a2bd73e",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 2,
+    "public_row_count": 2,
+    "removed_columns": [],
+    "retained_columns": [
+      "relative_weight",
+      "train_accuracy",
+      "val_accuracy",
+      "train_loss",
+      "val_loss",
+      "macro_f1",
+      "class2_precision",
+      "class2_recall",
+      "class7_recall",
+      "wrong_count",
+      "training_seconds"
+    ],
+    "public_relative_path": "raw/mlp_results/weighting_class2_20261013_011529_259979/comparison.csv",
+    "public_sha256": "df2c4867f936d83daea1727668f6832139a623f330a8e1b37b68e92d3a2bd73e",
+    "public_size_bytes": 512
+  },
+  {
+    "source_relative_path": "mlp_results/weighting_class2_20261013_011529_259979/corrected_errors.csv",
+    "source_sha256": "84a2c23d25bef3e1e825d3dfb0be5c2999912a37ef7d6a8109d5ede05e068637",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 6,
+    "public_row_count": 6,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "validation_index",
+      "source_index",
+      "true_label",
+      "baseline_prediction",
+      "weighted_prediction",
+      "baseline_predicted_probability",
+      "weighted_predicted_probability"
+    ],
+    "public_relative_path": "raw/mlp_results/weighting_class2_20261013_011529_259979/corrected_errors.csv",
+    "public_sha256": "272b21c78672e4077f48453b1de1dec20d4351a27360aa8acfd33caa85a24d42",
+    "public_size_bytes": 479
+  },
+  {
+    "source_relative_path": "mlp_results/weighting_class2_20261013_011529_259979/experiment_notes.md",
+    "source_sha256": "9ff70fca471afd102ac2b440f7577d5382b4a3f5f72d88dac9ece47503a69421",
+    "status": "excluded",
+    "reason": "non-public artifact type"
+  },
+  {
+    "source_relative_path": "mlp_results/weighting_class2_20261013_011529_259979/introduced_errors.csv",
+    "source_sha256": "3c6cf56fe031f3c07abac9284617ccc1affd0cd627801847a61860d8f03854df",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 1,
+    "public_row_count": 1,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "validation_index",
+      "source_index",
+      "true_label",
+      "baseline_prediction",
+      "weighted_prediction",
+      "baseline_predicted_probability",
+      "weighted_predicted_probability"
+    ],
+    "public_relative_path": "raw/mlp_results/weighting_class2_20261013_011529_259979/introduced_errors.csv",
+    "public_sha256": "408e73c65e16f6a0313f13f1a9d537f9d0dd069c06a9d14c0f053dbd11526af6",
+    "public_size_bytes": 201
+  },
+  {
+    "source_relative_path": "mlp_results/weighting_class2_20261013_011529_259979/summary.json",
+    "source_sha256": "f2f6318859d6ac786e64b99ca74705ede1f4c87ad5534d4f86887c3443e6d7b4",
+    "status": "transformed",
+    "reason": "JSON audited; local lab paths normalized; no metric values removed",
+    "public_relative_path": "raw/mlp_results/weighting_class2_20261013_011529_259979/summary.json",
+    "public_sha256": "edad660e423185d8326db64bacbc53eb822b8959edc31f1cbee337fd1ff2321a",
+    "public_size_bytes": 1244
+  },
+  {
+    "source_relative_path": "mlp_results/weighting_class2_20261013_011529_259979/weight1/classification_report.txt",
+    "source_sha256": "8a709c2f52a1888798ec35051939482ef3e865665584f8d27fb93f985828c089",
+    "status": "transformed",
+    "reason": "numeric classification/convergence report audited; lab paths normalized",
+    "public_relative_path": "raw/mlp_results/weighting_class2_20261013_011529_259979/weight1/classification_report.txt",
+    "public_sha256": "8a709c2f52a1888798ec35051939482ef3e865665584f8d27fb93f985828c089",
+    "public_size_bytes": 852
+  },
+  {
+    "source_relative_path": "mlp_results/weighting_class2_20261013_011529_259979/weight1/config.json",
+    "source_sha256": "189253399f7b8d417905710025204db857f5b7c1fd647689be75b8286e5a89bf",
+    "status": "transformed",
+    "reason": "JSON audited; local lab paths normalized; no metric values removed",
+    "public_relative_path": "raw/mlp_results/weighting_class2_20261013_011529_259979/weight1/config.json",
+    "public_sha256": "51dd18fa26c368ff05c5164be4a405fc349f7adc8478a4fff00f8e1c3e722314",
+    "public_size_bytes": 847
+  },
+  {
+    "source_relative_path": "mlp_results/weighting_class2_20261013_011529_259979/weight1/history.csv",
+    "source_sha256": "912e87b33794f2b25e6687e920e1735857fa1366fa42a2930f6a0831cf492f75",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 100,
+    "public_row_count": 100,
+    "removed_columns": [],
+    "retained_columns": [
+      "epoch",
+      "train_loss",
+      "val_loss",
+      "train_accuracy",
+      "val_accuracy",
+      "training_seconds"
+    ],
+    "public_relative_path": "raw/mlp_results/weighting_class2_20261013_011529_259979/weight1/history.csv",
+    "public_sha256": "912e87b33794f2b25e6687e920e1735857fa1366fa42a2930f6a0831cf492f75",
+    "public_size_bytes": 9907
+  },
+  {
+    "source_relative_path": "mlp_results/weighting_class2_20261013_011529_259979/weight1/validation_predictions.csv",
+    "source_sha256": "9e079772a92f2fe16e56d37be3e2c73fa569eed638ba1066e72b6c03c6872ec1",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 1474,
+    "public_row_count": 1474,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct"
+    ],
+    "public_relative_path": "raw/mlp_results/weighting_class2_20261013_011529_259979/weight1/validation_predictions.csv",
+    "public_sha256": "019feb4c02740d7e43e225b54cc14ad9f47de69a8a55cc3805cfb8ac32a2856b",
+    "public_size_bytes": 90143
+  },
+  {
+    "source_relative_path": "mlp_results/weighting_class2_20261013_011529_259979/weight1/wrong_predictions.csv",
+    "source_sha256": "e72e043b1bf425e4876e0bbac7c72616a081c30548b04635b18ad361d060f7bc",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 124,
+    "public_row_count": 124,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct"
+    ],
+    "public_relative_path": "raw/mlp_results/weighting_class2_20261013_011529_259979/weight1/wrong_predictions.csv",
+    "public_sha256": "cd003055b94ba7e928218960003791c599d90504860be4fff57b4ad7c0ab70fb",
+    "public_size_bytes": 7938
+  },
+  {
+    "source_relative_path": "mlp_results/weighting_class2_20261013_011529_259979/weight1.5/classification_report.txt",
+    "source_sha256": "4295adea3c3d364ed582b6471d476a4234899d1d98b5db638abba0997b96737c",
+    "status": "transformed",
+    "reason": "numeric classification/convergence report audited; lab paths normalized",
+    "public_relative_path": "raw/mlp_results/weighting_class2_20261013_011529_259979/weight1.5/classification_report.txt",
+    "public_sha256": "4295adea3c3d364ed582b6471d476a4234899d1d98b5db638abba0997b96737c",
+    "public_size_bytes": 852
+  },
+  {
+    "source_relative_path": "mlp_results/weighting_class2_20261013_011529_259979/weight1.5/config.json",
+    "source_sha256": "6e76de91c49de3e9e1ed03e8d82910c24097c88a1c394cdbcbb17cc224126029",
+    "status": "transformed",
+    "reason": "JSON audited; local lab paths normalized; no metric values removed",
+    "public_relative_path": "raw/mlp_results/weighting_class2_20261013_011529_259979/weight1.5/config.json",
+    "public_sha256": "adec19c0347fb93142e5dd17dfe648601f343375151eebe5d15ecf9935b335bf",
+    "public_size_bytes": 847
+  },
+  {
+    "source_relative_path": "mlp_results/weighting_class2_20261013_011529_259979/weight1.5/history.csv",
+    "source_sha256": "2ab4c56b2f54b7e007971877dd44587c4eb12e359a026bc72848395c099f59a2",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 100,
+    "public_row_count": 100,
+    "removed_columns": [],
+    "retained_columns": [
+      "epoch",
+      "train_loss",
+      "val_loss",
+      "train_accuracy",
+      "val_accuracy",
+      "training_seconds"
+    ],
+    "public_relative_path": "raw/mlp_results/weighting_class2_20261013_011529_259979/weight1.5/history.csv",
+    "public_sha256": "2ab4c56b2f54b7e007971877dd44587c4eb12e359a026bc72848395c099f59a2",
+    "public_size_bytes": 9906
+  },
+  {
+    "source_relative_path": "mlp_results/weighting_class2_20261013_011529_259979/weight1.5/validation_predictions.csv",
+    "source_sha256": "37b84eddcfd25ff6652c63b86fe73499e7382644a94d2cec91793a569285f922",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 1474,
+    "public_row_count": 1474,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct"
+    ],
+    "public_relative_path": "raw/mlp_results/weighting_class2_20261013_011529_259979/weight1.5/validation_predictions.csv",
+    "public_sha256": "a5b7f0a81b3150e85c2db97c7d7612d927b437b7c9f9631934435f601924744d",
+    "public_size_bytes": 90149
+  },
+  {
+    "source_relative_path": "mlp_results/weighting_class2_20261013_011529_259979/weight1.5/wrong_predictions.csv",
+    "source_sha256": "55ef921a77367f0d7cd828406b96ed92f99730862d49c8199c8c25ca3250392e",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 119,
+    "public_row_count": 119,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct"
+    ],
+    "public_relative_path": "raw/mlp_results/weighting_class2_20261013_011529_259979/weight1.5/wrong_predictions.csv",
+    "public_sha256": "085515bf2429aa9370e507a9bc508297dd0cf5cd13af18069bbeef32f0089ec0",
+    "public_size_bytes": 7638
+  },
+  {
+    "source_relative_path": "mlp_results/weighting_class2_20261013_011529_259979/weight_comparison.png",
+    "source_sha256": "26699341cbd63a649fbd11a76e8c042e9673e61fcb33a75575dcefddc0dfe651",
+    "status": "byte_copy",
+    "reason": "complete historical plot; no redraw or cropping",
+    "public_relative_path": "raw/mlp_results/weighting_class2_20261013_011529_259979/weight_comparison.png",
+    "public_sha256": "26699341cbd63a649fbd11a76e8c042e9673e61fcb33a75575dcefddc0dfe651",
+    "public_size_bytes": 194278
+  },
+  {
+    "source_relative_path": "mlp_results/weighting_class2_20261013_100936_411556/comparison.csv",
+    "source_sha256": "a509492ae2f76d6d601b51dad65b91ca6ea811f7fb26c52616f8f15fce138a5c",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 2,
+    "public_row_count": 2,
+    "removed_columns": [],
+    "retained_columns": [
+      "relative_weight",
+      "train_accuracy",
+      "val_accuracy",
+      "train_loss",
+      "val_loss",
+      "macro_f1",
+      "class2_precision",
+      "class2_recall",
+      "class7_recall",
+      "wrong_count",
+      "target_class_count",
+      "target_class_missed",
+      "target_class_false_positive",
+      "training_seconds"
+    ],
+    "public_relative_path": "raw/mlp_results/weighting_class2_20261013_100936_411556/comparison.csv",
+    "public_sha256": "a509492ae2f76d6d601b51dad65b91ca6ea811f7fb26c52616f8f15fce138a5c",
+    "public_size_bytes": 597
+  },
+  {
+    "source_relative_path": "mlp_results/weighting_class2_20261013_100936_411556/corrected_errors.csv",
+    "source_sha256": "84a2c23d25bef3e1e825d3dfb0be5c2999912a37ef7d6a8109d5ede05e068637",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 6,
+    "public_row_count": 6,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "validation_index",
+      "source_index",
+      "true_label",
+      "baseline_prediction",
+      "weighted_prediction",
+      "baseline_predicted_probability",
+      "weighted_predicted_probability"
+    ],
+    "public_relative_path": "raw/mlp_results/weighting_class2_20261013_100936_411556/corrected_errors.csv",
+    "public_sha256": "272b21c78672e4077f48453b1de1dec20d4351a27360aa8acfd33caa85a24d42",
+    "public_size_bytes": 479
+  },
+  {
+    "source_relative_path": "mlp_results/weighting_class2_20261013_100936_411556/introduced_errors.csv",
+    "source_sha256": "3c6cf56fe031f3c07abac9284617ccc1affd0cd627801847a61860d8f03854df",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 1,
+    "public_row_count": 1,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "validation_index",
+      "source_index",
+      "true_label",
+      "baseline_prediction",
+      "weighted_prediction",
+      "baseline_predicted_probability",
+      "weighted_predicted_probability"
+    ],
+    "public_relative_path": "raw/mlp_results/weighting_class2_20261013_100936_411556/introduced_errors.csv",
+    "public_sha256": "408e73c65e16f6a0313f13f1a9d537f9d0dd069c06a9d14c0f053dbd11526af6",
+    "public_size_bytes": 201
+  },
+  {
+    "source_relative_path": "mlp_results/weighting_class2_20261013_100936_411556/summary.json",
+    "source_sha256": "7977196d7ee077e2a05f064782081a1c0c92dff682ae59ea49bfb2030c608e31",
+    "status": "transformed",
+    "reason": "JSON audited; local lab paths normalized; no metric values removed",
+    "public_relative_path": "raw/mlp_results/weighting_class2_20261013_100936_411556/summary.json",
+    "public_sha256": "89944f4fdaf63ed769569772d9780502baa5776585320bfc07549553781defb3",
+    "public_size_bytes": 1462
+  },
+  {
+    "source_relative_path": "mlp_results/weighting_class2_20261013_100936_411556/weight1/classification_report.txt",
+    "source_sha256": "8a709c2f52a1888798ec35051939482ef3e865665584f8d27fb93f985828c089",
+    "status": "transformed",
+    "reason": "numeric classification/convergence report audited; lab paths normalized",
+    "public_relative_path": "raw/mlp_results/weighting_class2_20261013_100936_411556/weight1/classification_report.txt",
+    "public_sha256": "8a709c2f52a1888798ec35051939482ef3e865665584f8d27fb93f985828c089",
+    "public_size_bytes": 852
+  },
+  {
+    "source_relative_path": "mlp_results/weighting_class2_20261013_100936_411556/weight1/config.json",
+    "source_sha256": "189253399f7b8d417905710025204db857f5b7c1fd647689be75b8286e5a89bf",
+    "status": "transformed",
+    "reason": "JSON audited; local lab paths normalized; no metric values removed",
+    "public_relative_path": "raw/mlp_results/weighting_class2_20261013_100936_411556/weight1/config.json",
+    "public_sha256": "51dd18fa26c368ff05c5164be4a405fc349f7adc8478a4fff00f8e1c3e722314",
+    "public_size_bytes": 847
+  },
+  {
+    "source_relative_path": "mlp_results/weighting_class2_20261013_100936_411556/weight1/history.csv",
+    "source_sha256": "ccc2e18ece408647bb055b3c7ecf6123677d864c568bc9bc3bcbb1426c82ee7c",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 100,
+    "public_row_count": 100,
+    "removed_columns": [],
+    "retained_columns": [
+      "epoch",
+      "train_loss",
+      "val_loss",
+      "train_accuracy",
+      "val_accuracy",
+      "training_seconds"
+    ],
+    "public_relative_path": "raw/mlp_results/weighting_class2_20261013_100936_411556/weight1/history.csv",
+    "public_sha256": "ccc2e18ece408647bb055b3c7ecf6123677d864c568bc9bc3bcbb1426c82ee7c",
+    "public_size_bytes": 9912
+  },
+  {
+    "source_relative_path": "mlp_results/weighting_class2_20261013_100936_411556/weight1/validation_predictions.csv",
+    "source_sha256": "9e079772a92f2fe16e56d37be3e2c73fa569eed638ba1066e72b6c03c6872ec1",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 1474,
+    "public_row_count": 1474,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct"
+    ],
+    "public_relative_path": "raw/mlp_results/weighting_class2_20261013_100936_411556/weight1/validation_predictions.csv",
+    "public_sha256": "019feb4c02740d7e43e225b54cc14ad9f47de69a8a55cc3805cfb8ac32a2856b",
+    "public_size_bytes": 90143
+  },
+  {
+    "source_relative_path": "mlp_results/weighting_class2_20261013_100936_411556/weight1/wrong_predictions.csv",
+    "source_sha256": "e72e043b1bf425e4876e0bbac7c72616a081c30548b04635b18ad361d060f7bc",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 124,
+    "public_row_count": 124,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct"
+    ],
+    "public_relative_path": "raw/mlp_results/weighting_class2_20261013_100936_411556/weight1/wrong_predictions.csv",
+    "public_sha256": "cd003055b94ba7e928218960003791c599d90504860be4fff57b4ad7c0ab70fb",
+    "public_size_bytes": 7938
+  },
+  {
+    "source_relative_path": "mlp_results/weighting_class2_20261013_100936_411556/weight1.5/classification_report.txt",
+    "source_sha256": "4295adea3c3d364ed582b6471d476a4234899d1d98b5db638abba0997b96737c",
+    "status": "transformed",
+    "reason": "numeric classification/convergence report audited; lab paths normalized",
+    "public_relative_path": "raw/mlp_results/weighting_class2_20261013_100936_411556/weight1.5/classification_report.txt",
+    "public_sha256": "4295adea3c3d364ed582b6471d476a4234899d1d98b5db638abba0997b96737c",
+    "public_size_bytes": 852
+  },
+  {
+    "source_relative_path": "mlp_results/weighting_class2_20261013_100936_411556/weight1.5/config.json",
+    "source_sha256": "6e76de91c49de3e9e1ed03e8d82910c24097c88a1c394cdbcbb17cc224126029",
+    "status": "transformed",
+    "reason": "JSON audited; local lab paths normalized; no metric values removed",
+    "public_relative_path": "raw/mlp_results/weighting_class2_20261013_100936_411556/weight1.5/config.json",
+    "public_sha256": "adec19c0347fb93142e5dd17dfe648601f343375151eebe5d15ecf9935b335bf",
+    "public_size_bytes": 847
+  },
+  {
+    "source_relative_path": "mlp_results/weighting_class2_20261013_100936_411556/weight1.5/history.csv",
+    "source_sha256": "a062e06108d747049d7c9278304fc6c8b489c048f0bf2039b1d1b3c63ee0496d",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 100,
+    "public_row_count": 100,
+    "removed_columns": [],
+    "retained_columns": [
+      "epoch",
+      "train_loss",
+      "val_loss",
+      "train_accuracy",
+      "val_accuracy",
+      "training_seconds"
+    ],
+    "public_relative_path": "raw/mlp_results/weighting_class2_20261013_100936_411556/weight1.5/history.csv",
+    "public_sha256": "a062e06108d747049d7c9278304fc6c8b489c048f0bf2039b1d1b3c63ee0496d",
+    "public_size_bytes": 9905
+  },
+  {
+    "source_relative_path": "mlp_results/weighting_class2_20261013_100936_411556/weight1.5/validation_predictions.csv",
+    "source_sha256": "37b84eddcfd25ff6652c63b86fe73499e7382644a94d2cec91793a569285f922",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 1474,
+    "public_row_count": 1474,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct"
+    ],
+    "public_relative_path": "raw/mlp_results/weighting_class2_20261013_100936_411556/weight1.5/validation_predictions.csv",
+    "public_sha256": "a5b7f0a81b3150e85c2db97c7d7612d927b437b7c9f9631934435f601924744d",
+    "public_size_bytes": 90149
+  },
+  {
+    "source_relative_path": "mlp_results/weighting_class2_20261013_100936_411556/weight1.5/wrong_predictions.csv",
+    "source_sha256": "55ef921a77367f0d7cd828406b96ed92f99730862d49c8199c8c25ca3250392e",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 119,
+    "public_row_count": 119,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct"
+    ],
+    "public_relative_path": "raw/mlp_results/weighting_class2_20261013_100936_411556/weight1.5/wrong_predictions.csv",
+    "public_sha256": "085515bf2429aa9370e507a9bc508297dd0cf5cd13af18069bbeef32f0089ec0",
+    "public_size_bytes": 7638
+  },
+  {
+    "source_relative_path": "mlp_results/weighting_class2_20261013_100936_411556/weight_comparison.png",
+    "source_sha256": "3064c01092ebc6cea617e218f44ad0a55e5a66c1182b28eb125185f228146509",
+    "status": "byte_copy",
+    "reason": "complete historical plot; no redraw or cropping",
+    "public_relative_path": "raw/mlp_results/weighting_class2_20261013_100936_411556/weight_comparison.png",
+    "public_sha256": "3064c01092ebc6cea617e218f44ad0a55e5a66c1182b28eb125185f228146509",
+    "public_size_bytes": 194294
+  },
+  {
+    "source_relative_path": "lr_results/vocabulary_20261013_195507_556938/added_features.csv",
+    "source_sha256": "056a18947f5e6ffeb91bc4485718dc0bbed26414648e4724e755c74cb5b9ee44",
+    "status": "excluded",
+    "reason": "complete feature dictionary kept private",
+    "row_count": 5000
+  },
+  {
+    "source_relative_path": "lr_results/vocabulary_20261013_195507_556938/comparison.csv",
+    "source_sha256": "7b92defa8dcb895eaeb351006bea118c855020cc92956459a03482605ba96001",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 2,
+    "public_row_count": 2,
+    "removed_columns": [],
+    "retained_columns": [
+      "max_features",
+      "actual_feature_count",
+      "parameter_count",
+      "train_accuracy",
+      "val_accuracy",
+      "train_loss",
+      "val_loss",
+      "accuracy_gap",
+      "wrong_count",
+      "training_seconds",
+      "solver_iterations",
+      "converged"
+    ],
+    "public_relative_path": "raw/lr_results/vocabulary_20261013_195507_556938/comparison.csv",
+    "public_sha256": "7b92defa8dcb895eaeb351006bea118c855020cc92956459a03482605ba96001",
+    "public_size_bytes": 464
+  },
+  {
+    "source_relative_path": "lr_results/vocabulary_20261013_195507_556938/corrected_errors.csv",
+    "source_sha256": "c2018cad238df637022e07c9abb64bd377cf91974e533fe7f7d33a26a595de51",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 29,
+    "public_row_count": 29,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "validation_index",
+      "source_index",
+      "true_label",
+      "prediction_5000",
+      "prediction_10000"
+    ],
+    "public_relative_path": "raw/lr_results/vocabulary_20261013_195507_556938/corrected_errors.csv",
+    "public_sha256": "d9470061f197233e45b9cd2c23024f54d8057bea781f921e05901fbb2a8f7cf6",
+    "public_size_bytes": 546
+  },
+  {
+    "source_relative_path": "lr_results/vocabulary_20261013_195507_556938/dropped_features.csv",
+    "source_sha256": "73f055f049da8ebe9510955ffc0c732270dcb147bdd3c82da07fa73a3a29627e",
+    "status": "excluded",
+    "reason": "complete feature dictionary kept private",
+    "row_count": 0
+  },
+  {
+    "source_relative_path": "lr_results/vocabulary_20261013_195507_556938/experiment_config.json",
+    "source_sha256": "1a35350055a20e9d6c746a1ead1e15eb09503e4b92024e89b1265389d82fba2f",
+    "status": "transformed",
+    "reason": "JSON audited; local lab paths normalized; no metric values removed",
+    "public_relative_path": "raw/lr_results/vocabulary_20261013_195507_556938/experiment_config.json",
+    "public_sha256": "2bccd90b263d006fedadaa22bd8aacc8c27b01ff8637d79aa49929f2d5272a37",
+    "public_size_bytes": 2746
+  },
+  {
+    "source_relative_path": "lr_results/vocabulary_20261013_195507_556938/features10000/classification_report.txt",
+    "source_sha256": "25f43374719b128cfa661a9c81f493089c6300ace849b96b3692c6c4458e4ecb",
+    "status": "transformed",
+    "reason": "numeric classification/convergence report audited; lab paths normalized",
+    "public_relative_path": "raw/lr_results/vocabulary_20261013_195507_556938/features10000/classification_report.txt",
+    "public_sha256": "25f43374719b128cfa661a9c81f493089c6300ace849b96b3692c6c4458e4ecb",
+    "public_size_bytes": 774
+  },
+  {
+    "source_relative_path": "lr_results/vocabulary_20261013_195507_556938/features10000/config.json",
+    "source_sha256": "e4797b98d369b5380acda6bc00d0c7fb71a3e55afcd60649ee4df7d4735e4e8a",
+    "status": "transformed",
+    "reason": "JSON audited; local lab paths normalized; no metric values removed",
+    "public_relative_path": "raw/lr_results/vocabulary_20261013_195507_556938/features10000/config.json",
+    "public_sha256": "ed605a39f5ca693690ca4308878a29a3658255e35b49fa980fee945a629bd861",
+    "public_size_bytes": 2725
+  },
+  {
+    "source_relative_path": "lr_results/vocabulary_20261013_195507_556938/features10000/features.csv",
+    "source_sha256": "a5e920a1c295bb777519d25e735fa219a2f22b7e24257b54b91f9b25dfb89a06",
+    "status": "excluded",
+    "reason": "complete feature dictionary kept private",
+    "row_count": 10000
+  },
+  {
+    "source_relative_path": "lr_results/vocabulary_20261013_195507_556938/features10000/validation_predictions.csv",
+    "source_sha256": "3c7b0e8df72e3600c6e00175c7eb6653a59e14420d728d1bbc3eb85f5648d818",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 1474,
+    "public_row_count": 1474,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "is_correct",
+      "predicted_probability",
+      "true_probability"
+    ],
+    "public_relative_path": "raw/lr_results/vocabulary_20261013_195507_556938/features10000/validation_predictions.csv",
+    "public_sha256": "99f1cef514acccfa817fef42f6dbda2cc7b3a9848f20e4b90f9af0de7ee7f54f",
+    "public_size_bytes": 84232
+  },
+  {
+    "source_relative_path": "lr_results/vocabulary_20261013_195507_556938/features10000/wrong_predictions.csv",
+    "source_sha256": "5ad4fd718be18a52d6e108a0edfc45010da49d1a51c8e7fd245899e29e99440c",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 103,
+    "public_row_count": 103,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "is_correct",
+      "predicted_probability",
+      "true_probability"
+    ],
+    "public_relative_path": "raw/lr_results/vocabulary_20261013_195507_556938/features10000/wrong_predictions.csv",
+    "public_sha256": "0afcd2aa58f792f8900f5d7317774581222474ee581b5e266984fa5b92feaded",
+    "public_size_bytes": 6211
+  },
+  {
+    "source_relative_path": "lr_results/vocabulary_20261013_195507_556938/features5000/classification_report.txt",
+    "source_sha256": "142a0b75752db92c7bd625751555ff2754ed43d5a265a58354c4cd1acfe8f7ce",
+    "status": "transformed",
+    "reason": "numeric classification/convergence report audited; lab paths normalized",
+    "public_relative_path": "raw/lr_results/vocabulary_20261013_195507_556938/features5000/classification_report.txt",
+    "public_sha256": "142a0b75752db92c7bd625751555ff2754ed43d5a265a58354c4cd1acfe8f7ce",
+    "public_size_bytes": 774
+  },
+  {
+    "source_relative_path": "lr_results/vocabulary_20261013_195507_556938/features5000/config.json",
+    "source_sha256": "73c32918c702873c646fa71402f6ef901308d9eae965895e447a52f909ba1f94",
+    "status": "transformed",
+    "reason": "JSON audited; local lab paths normalized; no metric values removed",
+    "public_relative_path": "raw/lr_results/vocabulary_20261013_195507_556938/features5000/config.json",
+    "public_sha256": "d8311e8f1a22649cbbc177cd1c3296afca258df7fe6ce7e5e578a5a2ea8e1b6f",
+    "public_size_bytes": 2721
+  },
+  {
+    "source_relative_path": "lr_results/vocabulary_20261013_195507_556938/features5000/features.csv",
+    "source_sha256": "d0c43a2e008f04ed7241768186c389d5abdb9ff44cd26e35c25120a10284bcbc",
+    "status": "excluded",
+    "reason": "complete feature dictionary kept private",
+    "row_count": 5000
+  },
+  {
+    "source_relative_path": "lr_results/vocabulary_20261013_195507_556938/features5000/validation_predictions.csv",
+    "source_sha256": "0e6847526a091d1370d0c8d4d2f2f6ff1dce9ac10702808dc666a8c81e6db4e4",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 1474,
+    "public_row_count": 1474,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "is_correct",
+      "predicted_probability",
+      "true_probability"
+    ],
+    "public_relative_path": "raw/lr_results/vocabulary_20261013_195507_556938/features5000/validation_predictions.csv",
+    "public_sha256": "af1cf671f6563a20e0df85f8ef6c87e198cd733bc2581cbe0ee495b638ee5fcd",
+    "public_size_bytes": 84250
+  },
+  {
+    "source_relative_path": "lr_results/vocabulary_20261013_195507_556938/features5000/wrong_predictions.csv",
+    "source_sha256": "f55cb1cad8035b31743fcf1192191fe9b7de35d641f0aafee8d35b68554866d2",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 126,
+    "public_row_count": 126,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "is_correct",
+      "predicted_probability",
+      "true_probability"
+    ],
+    "public_relative_path": "raw/lr_results/vocabulary_20261013_195507_556938/features5000/wrong_predictions.csv",
+    "public_sha256": "a1dd919e6e23107fe738605e2643389831d282b650cc9ed09510a2d8dee2b201",
+    "public_size_bytes": 7551
+  },
+  {
+    "source_relative_path": "lr_results/vocabulary_20261013_195507_556938/introduced_errors.csv",
+    "source_sha256": "cb6401b3fcbcd99a8f305dda0d9ef405dd1d2bdb81d7bef1412d43b1b772fb49",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 6,
+    "public_row_count": 6,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "validation_index",
+      "source_index",
+      "true_label",
+      "prediction_5000",
+      "prediction_10000"
+    ],
+    "public_relative_path": "raw/lr_results/vocabulary_20261013_195507_556938/introduced_errors.csv",
+    "public_sha256": "8ce217fb67ce6f800d8196c920bcdf88782040d8b7029493a383f804eedd6114",
+    "public_size_bytes": 175
+  },
+  {
+    "source_relative_path": "lr_results/vocabulary_20261013_195507_556938/vocabulary_comparison.png",
+    "source_sha256": "e6e841a4de78131abac08b695523838c56d2c3960f85268fc2b06ae5d2685ee7",
+    "status": "byte_copy",
+    "reason": "complete historical plot; no redraw or cropping",
+    "public_relative_path": "raw/lr_results/vocabulary_20261013_195507_556938/vocabulary_comparison.png",
+    "public_sha256": "e6e841a4de78131abac08b695523838c56d2c3960f85268fc2b06ae5d2685ee7",
+    "public_size_bytes": 100499
+  },
+  {
+    "source_relative_path": "svm_results/linear_C_20261013_121347_531213/C0.1/classification_report.txt",
+    "source_sha256": "befe06df3922a4ed98900ff5602051dc533be2fca28c379cffdb614be4cfaa0b",
+    "status": "transformed",
+    "reason": "numeric classification/convergence report audited; lab paths normalized",
+    "public_relative_path": "raw/svm_results/linear_C_20261013_121347_531213/C0.1/classification_report.txt",
+    "public_sha256": "befe06df3922a4ed98900ff5602051dc533be2fca28c379cffdb614be4cfaa0b",
+    "public_size_bytes": 774
+  },
+  {
+    "source_relative_path": "svm_results/linear_C_20261013_121347_531213/C0.1/config.json",
+    "source_sha256": "f693c80903989b4db5588e7d8e26959f51189b7b43fa9f02e55f956d2d4c69dc",
+    "status": "transformed",
+    "reason": "JSON audited; local lab paths normalized; no metric values removed",
+    "public_relative_path": "raw/svm_results/linear_C_20261013_121347_531213/C0.1/config.json",
+    "public_sha256": "81968b0e574c757bf0d07e79cf933ddd998d20d9c4e580dd72cd109e01513d1a",
+    "public_size_bytes": 3090
+  },
+  {
+    "source_relative_path": "svm_results/linear_C_20261013_121347_531213/C0.1/confusion_matrix.csv",
+    "source_sha256": "15637a8e0d9fd3eee6a6522b778e0a8ebfb22d26e1e91a51f0ac50d23cc84daa",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 10,
+    "public_row_count": 10,
+    "removed_columns": [],
+    "retained_columns": [
+      "true_label / predicted_label",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "public_relative_path": "raw/svm_results/linear_C_20261013_121347_531213/C0.1/confusion_matrix.csv",
+    "public_sha256": "15637a8e0d9fd3eee6a6522b778e0a8ebfb22d26e1e91a51f0ac50d23cc84daa",
+    "public_size_bytes": 315
+  },
+  {
+    "source_relative_path": "svm_results/linear_C_20261013_121347_531213/C0.1/validation_predictions.csv",
+    "source_sha256": "5b09571b6966a0bb48addf4013f6e6933012d8c26537e30c9ebedbc47f17a68f",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 1474,
+    "public_row_count": 1474,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "is_correct"
+    ],
+    "public_relative_path": "raw/svm_results/linear_C_20261013_121347_531213/C0.1/validation_predictions.csv",
+    "public_sha256": "360c55f06ed8e6ad536e619eed7c135fcc09a6eaeebc2a9988587285b717db91",
+    "public_size_bytes": 28500
+  },
+  {
+    "source_relative_path": "svm_results/linear_C_20261013_121347_531213/C0.1/wrong_predictions.csv",
+    "source_sha256": "11e4619d0e319215d493937e57a993c4658cf1f692479d974055829baeb72506",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 277,
+    "public_row_count": 277,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "is_correct"
+    ],
+    "public_relative_path": "raw/svm_results/linear_C_20261013_121347_531213/C0.1/wrong_predictions.csv",
+    "public_sha256": "1e1853dab6b8a03d345946f3982ed9c2459eedb150cfe9afc2693d3ffbfe5a93",
+    "public_size_bytes": 5637
+  },
+  {
+    "source_relative_path": "svm_results/linear_C_20261013_121347_531213/C1/classification_report.txt",
+    "source_sha256": "5d79ed8182976e1943d69b46924886d50e51c1a7e301e586a77c9bb371d074c9",
+    "status": "transformed",
+    "reason": "numeric classification/convergence report audited; lab paths normalized",
+    "public_relative_path": "raw/svm_results/linear_C_20261013_121347_531213/C1/classification_report.txt",
+    "public_sha256": "5d79ed8182976e1943d69b46924886d50e51c1a7e301e586a77c9bb371d074c9",
+    "public_size_bytes": 774
+  },
+  {
+    "source_relative_path": "svm_results/linear_C_20261013_121347_531213/C1/config.json",
+    "source_sha256": "5e3b852a5d60757c17ae23be55a8f3929e53be1c45476049e2eb652ffbd331a0",
+    "status": "transformed",
+    "reason": "JSON audited; local lab paths normalized; no metric values removed",
+    "public_relative_path": "raw/svm_results/linear_C_20261013_121347_531213/C1/config.json",
+    "public_sha256": "1a987a5299bf33db854fe6da0f1162156ecd666f7c7cbcb07a0460b926e53dc8",
+    "public_size_bytes": 3129
+  },
+  {
+    "source_relative_path": "svm_results/linear_C_20261013_121347_531213/C1/confusion_matrix.csv",
+    "source_sha256": "98ef04a2292ce834899155bf25b640f1583938fcad10f4cfa15ff7e89739be4f",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 10,
+    "public_row_count": 10,
+    "removed_columns": [],
+    "retained_columns": [
+      "true_label / predicted_label",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "public_relative_path": "raw/svm_results/linear_C_20261013_121347_531213/C1/confusion_matrix.csv",
+    "public_sha256": "98ef04a2292ce834899155bf25b640f1583938fcad10f4cfa15ff7e89739be4f",
+    "public_size_bytes": 305
+  },
+  {
+    "source_relative_path": "svm_results/linear_C_20261013_121347_531213/C1/validation_predictions.csv",
+    "source_sha256": "203ef1119385cdb10d7430194a59caa97fb01da505ebabeb45162ddbc944ea57",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 1474,
+    "public_row_count": 1474,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "is_correct"
+    ],
+    "public_relative_path": "raw/svm_results/linear_C_20261013_121347_531213/C1/validation_predictions.csv",
+    "public_sha256": "c3a5b3ebed7820e0ff934946503b9aaf2ad6b91b8a36c269f0b74e57626a85b8",
+    "public_size_bytes": 28367
+  },
+  {
+    "source_relative_path": "svm_results/linear_C_20261013_121347_531213/C1/wrong_predictions.csv",
+    "source_sha256": "b6f748d0433f689cce82262b2fb800b4dedc01f8d7950f3a6cbb4064abeba38e",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 144,
+    "public_row_count": 144,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "is_correct"
+    ],
+    "public_relative_path": "raw/svm_results/linear_C_20261013_121347_531213/C1/wrong_predictions.csv",
+    "public_sha256": "ef97c737f34ac8e0186e2fadc1f0e2c9f41973160c7e432a797d4955c2a2b72d",
+    "public_size_bytes": 2962
+  },
+  {
+    "source_relative_path": "svm_results/linear_C_20261013_121347_531213/C10/classification_report.txt",
+    "source_sha256": "f62aaa88fc323f58dcf838c592f88d27b5bfb65a6e47a805e9f9fdbcc8cd0e29",
+    "status": "transformed",
+    "reason": "numeric classification/convergence report audited; lab paths normalized",
+    "public_relative_path": "raw/svm_results/linear_C_20261013_121347_531213/C10/classification_report.txt",
+    "public_sha256": "f62aaa88fc323f58dcf838c592f88d27b5bfb65a6e47a805e9f9fdbcc8cd0e29",
+    "public_size_bytes": 774
+  },
+  {
+    "source_relative_path": "svm_results/linear_C_20261013_121347_531213/C10/config.json",
+    "source_sha256": "53a8b384504d28f25c5887c7fb004c84d64b9360ef44d978c81a6f01fa49aa4a",
+    "status": "transformed",
+    "reason": "JSON audited; local lab paths normalized; no metric values removed",
+    "public_relative_path": "raw/svm_results/linear_C_20261013_121347_531213/C10/config.json",
+    "public_sha256": "a12b2887cb25a598fd8c7c120831923c7caf5893e0b4d5a500477f53961b5603",
+    "public_size_bytes": 3133
+  },
+  {
+    "source_relative_path": "svm_results/linear_C_20261013_121347_531213/C10/confusion_matrix.csv",
+    "source_sha256": "e1e2625dd3f35cd1d8e4ecec0fe47c352ef91e387a032c19839bd68ab41d23ea",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 10,
+    "public_row_count": 10,
+    "removed_columns": [],
+    "retained_columns": [
+      "true_label / predicted_label",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "public_relative_path": "raw/svm_results/linear_C_20261013_121347_531213/C10/confusion_matrix.csv",
+    "public_sha256": "e1e2625dd3f35cd1d8e4ecec0fe47c352ef91e387a032c19839bd68ab41d23ea",
+    "public_size_bytes": 305
+  },
+  {
+    "source_relative_path": "svm_results/linear_C_20261013_121347_531213/C10/validation_predictions.csv",
+    "source_sha256": "fd7b9f6d41081e70d71185f683df966e64061a5e612c357bfa91c5e2af2f7338",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 1474,
+    "public_row_count": 1474,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "is_correct"
+    ],
+    "public_relative_path": "raw/svm_results/linear_C_20261013_121347_531213/C10/validation_predictions.csv",
+    "public_sha256": "a7aea209bc73f52b273167dfd3dda48b0adaeed01f794b20dc23ba6d2be50b1b",
+    "public_size_bytes": 28360
+  },
+  {
+    "source_relative_path": "svm_results/linear_C_20261013_121347_531213/C10/wrong_predictions.csv",
+    "source_sha256": "a8e058aab6fe53211085bf2e3d13167c8fb161dde334951a71d54735d6f7a0ce",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 137,
+    "public_row_count": 137,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "is_correct"
+    ],
+    "public_relative_path": "raw/svm_results/linear_C_20261013_121347_531213/C10/wrong_predictions.csv",
+    "public_sha256": "29d641a573bab4ecbde5722fecb546c13038800289369e8a66a2915a35487853",
+    "public_size_bytes": 2819
+  },
+  {
+    "source_relative_path": "svm_results/linear_C_20261013_121347_531213/comparison.csv",
+    "source_sha256": "132a92167d61921cdfd5467c91d5a4779bc5c3669c000fbc30420d303c734a46",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 3,
+    "public_row_count": 3,
+    "removed_columns": [],
+    "retained_columns": [
+      "C",
+      "train_accuracy",
+      "val_accuracy",
+      "accuracy_gap",
+      "wrong_count",
+      "support_vector_count",
+      "support_vector_fraction",
+      "training_seconds",
+      "fit_status"
+    ],
+    "public_relative_path": "raw/svm_results/linear_C_20261013_121347_531213/comparison.csv",
+    "public_sha256": "132a92167d61921cdfd5467c91d5a4779bc5c3669c000fbc30420d303c734a46",
+    "public_size_bytes": 465
+  },
+  {
+    "source_relative_path": "svm_results/linear_C_20261013_121347_531213/experiment_config.json",
+    "source_sha256": "db56e12832c0c287d5e6bf67e7cd3175d845692c656a2d473e5839a4d8ff6997",
+    "status": "transformed",
+    "reason": "JSON audited; local lab paths normalized; no metric values removed",
+    "public_relative_path": "raw/svm_results/linear_C_20261013_121347_531213/experiment_config.json",
+    "public_sha256": "88411a94c57d366163c8275fe93075baa9326666486f0e434dec17b3e2ed4143",
+    "public_size_bytes": 2759
+  },
+  {
+    "source_relative_path": "svm_results/linear_C_20261013_121347_531213/features.csv",
+    "source_sha256": "d0c43a2e008f04ed7241768186c389d5abdb9ff44cd26e35c25120a10284bcbc",
+    "status": "excluded",
+    "reason": "complete feature dictionary kept private",
+    "row_count": 5000
+  },
+  {
+    "source_relative_path": "svm_results/linear_C_20261013_121347_531213/svm_comparison.png",
+    "source_sha256": "672e2a36434ef6df42def433e67bfa156ef72aad973a0b259b4e65ddf0552254",
+    "status": "byte_copy",
+    "reason": "complete historical plot; no redraw or cropping",
+    "public_relative_path": "raw/svm_results/linear_C_20261013_121347_531213/svm_comparison.png",
+    "public_sha256": "672e2a36434ef6df42def433e67bfa156ef72aad973a0b259b4e65ddf0552254",
+    "public_size_bytes": 144745
+  },
+  {
+    "source_relative_path": "svm_results/linear_C_20261013_193635_918184/C0.1/classification_report.txt",
+    "source_sha256": "befe06df3922a4ed98900ff5602051dc533be2fca28c379cffdb614be4cfaa0b",
+    "status": "transformed",
+    "reason": "numeric classification/convergence report audited; lab paths normalized",
+    "public_relative_path": "raw/svm_results/linear_C_20261013_193635_918184/C0.1/classification_report.txt",
+    "public_sha256": "befe06df3922a4ed98900ff5602051dc533be2fca28c379cffdb614be4cfaa0b",
+    "public_size_bytes": 774
+  },
+  {
+    "source_relative_path": "svm_results/linear_C_20261013_193635_918184/C0.1/config.json",
+    "source_sha256": "f693c80903989b4db5588e7d8e26959f51189b7b43fa9f02e55f956d2d4c69dc",
+    "status": "transformed",
+    "reason": "JSON audited; local lab paths normalized; no metric values removed",
+    "public_relative_path": "raw/svm_results/linear_C_20261013_193635_918184/C0.1/config.json",
+    "public_sha256": "81968b0e574c757bf0d07e79cf933ddd998d20d9c4e580dd72cd109e01513d1a",
+    "public_size_bytes": 3090
+  },
+  {
+    "source_relative_path": "svm_results/linear_C_20261013_193635_918184/C0.1/confusion_matrix.csv",
+    "source_sha256": "15637a8e0d9fd3eee6a6522b778e0a8ebfb22d26e1e91a51f0ac50d23cc84daa",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 10,
+    "public_row_count": 10,
+    "removed_columns": [],
+    "retained_columns": [
+      "true_label / predicted_label",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "public_relative_path": "raw/svm_results/linear_C_20261013_193635_918184/C0.1/confusion_matrix.csv",
+    "public_sha256": "15637a8e0d9fd3eee6a6522b778e0a8ebfb22d26e1e91a51f0ac50d23cc84daa",
+    "public_size_bytes": 315
+  },
+  {
+    "source_relative_path": "svm_results/linear_C_20261013_193635_918184/C0.1/reuse_note.json",
+    "source_sha256": "06f978b30e6712cb21bf8c52936bf966151df15afbe2db9e1a7ac7e1b2e451e8",
+    "status": "transformed",
+    "reason": "JSON audited; local lab paths normalized; no metric values removed",
+    "public_relative_path": "raw/svm_results/linear_C_20261013_193635_918184/C0.1/reuse_note.json",
+    "public_sha256": "9969f05c5dbaa9cfc4040c6be8a9cc8652ee60056d685d1dc002a80a51bbf0f9",
+    "public_size_bytes": 299
+  },
+  {
+    "source_relative_path": "svm_results/linear_C_20261013_193635_918184/C0.1/validation_predictions.csv",
+    "source_sha256": "5b09571b6966a0bb48addf4013f6e6933012d8c26537e30c9ebedbc47f17a68f",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 1474,
+    "public_row_count": 1474,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "is_correct"
+    ],
+    "public_relative_path": "raw/svm_results/linear_C_20261013_193635_918184/C0.1/validation_predictions.csv",
+    "public_sha256": "360c55f06ed8e6ad536e619eed7c135fcc09a6eaeebc2a9988587285b717db91",
+    "public_size_bytes": 28500
+  },
+  {
+    "source_relative_path": "svm_results/linear_C_20261013_193635_918184/C0.1/wrong_predictions.csv",
+    "source_sha256": "11e4619d0e319215d493937e57a993c4658cf1f692479d974055829baeb72506",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 277,
+    "public_row_count": 277,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "is_correct"
+    ],
+    "public_relative_path": "raw/svm_results/linear_C_20261013_193635_918184/C0.1/wrong_predictions.csv",
+    "public_sha256": "1e1853dab6b8a03d345946f3982ed9c2459eedb150cfe9afc2693d3ffbfe5a93",
+    "public_size_bytes": 5637
+  },
+  {
+    "source_relative_path": "svm_results/linear_C_20261013_193635_918184/C1/classification_report.txt",
+    "source_sha256": "5d79ed8182976e1943d69b46924886d50e51c1a7e301e586a77c9bb371d074c9",
+    "status": "transformed",
+    "reason": "numeric classification/convergence report audited; lab paths normalized",
+    "public_relative_path": "raw/svm_results/linear_C_20261013_193635_918184/C1/classification_report.txt",
+    "public_sha256": "5d79ed8182976e1943d69b46924886d50e51c1a7e301e586a77c9bb371d074c9",
+    "public_size_bytes": 774
+  },
+  {
+    "source_relative_path": "svm_results/linear_C_20261013_193635_918184/C1/config.json",
+    "source_sha256": "5e3b852a5d60757c17ae23be55a8f3929e53be1c45476049e2eb652ffbd331a0",
+    "status": "transformed",
+    "reason": "JSON audited; local lab paths normalized; no metric values removed",
+    "public_relative_path": "raw/svm_results/linear_C_20261013_193635_918184/C1/config.json",
+    "public_sha256": "1a987a5299bf33db854fe6da0f1162156ecd666f7c7cbcb07a0460b926e53dc8",
+    "public_size_bytes": 3129
+  },
+  {
+    "source_relative_path": "svm_results/linear_C_20261013_193635_918184/C1/confusion_matrix.csv",
+    "source_sha256": "98ef04a2292ce834899155bf25b640f1583938fcad10f4cfa15ff7e89739be4f",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 10,
+    "public_row_count": 10,
+    "removed_columns": [],
+    "retained_columns": [
+      "true_label / predicted_label",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "public_relative_path": "raw/svm_results/linear_C_20261013_193635_918184/C1/confusion_matrix.csv",
+    "public_sha256": "98ef04a2292ce834899155bf25b640f1583938fcad10f4cfa15ff7e89739be4f",
+    "public_size_bytes": 305
+  },
+  {
+    "source_relative_path": "svm_results/linear_C_20261013_193635_918184/C1/reuse_note.json",
+    "source_sha256": "9f36e9f69642f6bbdb35924a0e34988701f3386d4089bf95d1d2337add63447d",
+    "status": "transformed",
+    "reason": "JSON audited; local lab paths normalized; no metric values removed",
+    "public_relative_path": "raw/svm_results/linear_C_20261013_193635_918184/C1/reuse_note.json",
+    "public_sha256": "cedd1297e0ff4ac3b3713501a1882a96d4e72bb8a225de4c25fc9e9c5d339556",
+    "public_size_bytes": 297
+  },
+  {
+    "source_relative_path": "svm_results/linear_C_20261013_193635_918184/C1/validation_predictions.csv",
+    "source_sha256": "203ef1119385cdb10d7430194a59caa97fb01da505ebabeb45162ddbc944ea57",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 1474,
+    "public_row_count": 1474,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "is_correct"
+    ],
+    "public_relative_path": "raw/svm_results/linear_C_20261013_193635_918184/C1/validation_predictions.csv",
+    "public_sha256": "c3a5b3ebed7820e0ff934946503b9aaf2ad6b91b8a36c269f0b74e57626a85b8",
+    "public_size_bytes": 28367
+  },
+  {
+    "source_relative_path": "svm_results/linear_C_20261013_193635_918184/C1/wrong_predictions.csv",
+    "source_sha256": "b6f748d0433f689cce82262b2fb800b4dedc01f8d7950f3a6cbb4064abeba38e",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 144,
+    "public_row_count": 144,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "is_correct"
+    ],
+    "public_relative_path": "raw/svm_results/linear_C_20261013_193635_918184/C1/wrong_predictions.csv",
+    "public_sha256": "ef97c737f34ac8e0186e2fadc1f0e2c9f41973160c7e432a797d4955c2a2b72d",
+    "public_size_bytes": 2962
+  },
+  {
+    "source_relative_path": "svm_results/linear_C_20261013_193635_918184/C10/classification_report.txt",
+    "source_sha256": "f62aaa88fc323f58dcf838c592f88d27b5bfb65a6e47a805e9f9fdbcc8cd0e29",
+    "status": "transformed",
+    "reason": "numeric classification/convergence report audited; lab paths normalized",
+    "public_relative_path": "raw/svm_results/linear_C_20261013_193635_918184/C10/classification_report.txt",
+    "public_sha256": "f62aaa88fc323f58dcf838c592f88d27b5bfb65a6e47a805e9f9fdbcc8cd0e29",
+    "public_size_bytes": 774
+  },
+  {
+    "source_relative_path": "svm_results/linear_C_20261013_193635_918184/C10/config.json",
+    "source_sha256": "53a8b384504d28f25c5887c7fb004c84d64b9360ef44d978c81a6f01fa49aa4a",
+    "status": "transformed",
+    "reason": "JSON audited; local lab paths normalized; no metric values removed",
+    "public_relative_path": "raw/svm_results/linear_C_20261013_193635_918184/C10/config.json",
+    "public_sha256": "a12b2887cb25a598fd8c7c120831923c7caf5893e0b4d5a500477f53961b5603",
+    "public_size_bytes": 3133
+  },
+  {
+    "source_relative_path": "svm_results/linear_C_20261013_193635_918184/C10/confusion_matrix.csv",
+    "source_sha256": "e1e2625dd3f35cd1d8e4ecec0fe47c352ef91e387a032c19839bd68ab41d23ea",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 10,
+    "public_row_count": 10,
+    "removed_columns": [],
+    "retained_columns": [
+      "true_label / predicted_label",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "public_relative_path": "raw/svm_results/linear_C_20261013_193635_918184/C10/confusion_matrix.csv",
+    "public_sha256": "e1e2625dd3f35cd1d8e4ecec0fe47c352ef91e387a032c19839bd68ab41d23ea",
+    "public_size_bytes": 305
+  },
+  {
+    "source_relative_path": "svm_results/linear_C_20261013_193635_918184/C10/reuse_note.json",
+    "source_sha256": "5c143b5aa2ee03626cb92df1f2cd481808aa217cc50b5b53752d5f02f53875a4",
+    "status": "transformed",
+    "reason": "JSON audited; local lab paths normalized; no metric values removed",
+    "public_relative_path": "raw/svm_results/linear_C_20261013_193635_918184/C10/reuse_note.json",
+    "public_sha256": "51fcbb2dbaafa93866f56f008597bf7104825e20ec2bec224ce55cf6bf19f0d0",
+    "public_size_bytes": 298
+  },
+  {
+    "source_relative_path": "svm_results/linear_C_20261013_193635_918184/C10/validation_predictions.csv",
+    "source_sha256": "fd7b9f6d41081e70d71185f683df966e64061a5e612c357bfa91c5e2af2f7338",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 1474,
+    "public_row_count": 1474,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "is_correct"
+    ],
+    "public_relative_path": "raw/svm_results/linear_C_20261013_193635_918184/C10/validation_predictions.csv",
+    "public_sha256": "a7aea209bc73f52b273167dfd3dda48b0adaeed01f794b20dc23ba6d2be50b1b",
+    "public_size_bytes": 28360
+  },
+  {
+    "source_relative_path": "svm_results/linear_C_20261013_193635_918184/C10/wrong_predictions.csv",
+    "source_sha256": "a8e058aab6fe53211085bf2e3d13167c8fb161dde334951a71d54735d6f7a0ce",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 137,
+    "public_row_count": 137,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "is_correct"
+    ],
+    "public_relative_path": "raw/svm_results/linear_C_20261013_193635_918184/C10/wrong_predictions.csv",
+    "public_sha256": "29d641a573bab4ecbde5722fecb546c13038800289369e8a66a2915a35487853",
+    "public_size_bytes": 2819
+  },
+  {
+    "source_relative_path": "svm_results/linear_C_20261013_193635_918184/C100/classification_report.txt",
+    "source_sha256": "9b570419c7c5d5f2016e9a804e0bc286caa342f3040e7ac6c088063d1c5ef968",
+    "status": "transformed",
+    "reason": "numeric classification/convergence report audited; lab paths normalized",
+    "public_relative_path": "raw/svm_results/linear_C_20261013_193635_918184/C100/classification_report.txt",
+    "public_sha256": "9b570419c7c5d5f2016e9a804e0bc286caa342f3040e7ac6c088063d1c5ef968",
+    "public_size_bytes": 774
+  },
+  {
+    "source_relative_path": "svm_results/linear_C_20261013_193635_918184/C100/config.json",
+    "source_sha256": "d13877b862037d089bda9749d3ad97b04cf7d5975d63bbafa928287039f4cf49",
+    "status": "transformed",
+    "reason": "JSON audited; local lab paths normalized; no metric values removed",
+    "public_relative_path": "raw/svm_results/linear_C_20261013_193635_918184/C100/config.json",
+    "public_sha256": "dad8b649cf1483148098729fe0230fd7e8e86e8d2df8cdb96e6f53a92dce1a8f",
+    "public_size_bytes": 3198
+  },
+  {
+    "source_relative_path": "svm_results/linear_C_20261013_193635_918184/C100/confusion_matrix.csv",
+    "source_sha256": "1c00f1d4bfc845ab9425d89dfb2d608638c858898cf33a7d6cedc6efec8ec499",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 10,
+    "public_row_count": 10,
+    "removed_columns": [],
+    "retained_columns": [
+      "true_label / predicted_label",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "public_relative_path": "raw/svm_results/linear_C_20261013_193635_918184/C100/confusion_matrix.csv",
+    "public_sha256": "1c00f1d4bfc845ab9425d89dfb2d608638c858898cf33a7d6cedc6efec8ec499",
+    "public_size_bytes": 304
+  },
+  {
+    "source_relative_path": "svm_results/linear_C_20261013_193635_918184/C100/validation_predictions.csv",
+    "source_sha256": "2002fd87e56ad807c814b8c045b2e8035e45310687095e20989b3be28dc397f9",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 1474,
+    "public_row_count": 1474,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "is_correct"
+    ],
+    "public_relative_path": "raw/svm_results/linear_C_20261013_193635_918184/C100/validation_predictions.csv",
+    "public_sha256": "1777ca441b6c890e20848cb74f72fdc37f1fd5c3f664ca4c393b4af4307d4c83",
+    "public_size_bytes": 28355
+  },
+  {
+    "source_relative_path": "svm_results/linear_C_20261013_193635_918184/C100/wrong_predictions.csv",
+    "source_sha256": "5e18f630ed210caf0fde8e67efd490be18a4d7ba08bc95299b733e0720416b53",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 132,
+    "public_row_count": 132,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "is_correct"
+    ],
+    "public_relative_path": "raw/svm_results/linear_C_20261013_193635_918184/C100/wrong_predictions.csv",
+    "public_sha256": "4ff6e17ccb6e87d105dc762ae31cbd676630b6aff255075515e2b63cd2c3103f",
+    "public_size_bytes": 2717
+  },
+  {
+    "source_relative_path": "svm_results/linear_C_20261013_193635_918184/comparison.csv",
+    "source_sha256": "6cf6ae98851db760f55fde88c28fdc8dac8c27c91d3e738a13c19a3651e76f25",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 4,
+    "public_row_count": 4,
+    "removed_columns": [],
+    "retained_columns": [
+      "C",
+      "train_accuracy",
+      "val_accuracy",
+      "accuracy_gap",
+      "wrong_count",
+      "support_vector_count",
+      "support_vector_fraction",
+      "training_seconds",
+      "fit_status",
+      "reused",
+      "source_run_dir"
+    ],
+    "public_relative_path": "raw/svm_results/linear_C_20261013_193635_918184/comparison.csv",
+    "public_sha256": "c1eecd641bcc13ad802733f1cc04f0aca4b73888c490721b8ec0523e4c4451b8",
+    "public_size_bytes": 795
+  },
+  {
+    "source_relative_path": "svm_results/linear_C_20261013_193635_918184/experiment_config.json",
+    "source_sha256": "052cfd527cd13da7a5392345a5623e3f654781abca9f20b4beeaaa9a0b146524",
+    "status": "transformed",
+    "reason": "JSON audited; local lab paths normalized; no metric values removed",
+    "public_relative_path": "raw/svm_results/linear_C_20261013_193635_918184/experiment_config.json",
+    "public_sha256": "61b3959c25637a3ef7d3058ca161cf095ed81d921d4fe0570f6491cc89199ce6",
+    "public_size_bytes": 3515
+  },
+  {
+    "source_relative_path": "svm_results/linear_C_20261013_193635_918184/features.csv",
+    "source_sha256": "d0c43a2e008f04ed7241768186c389d5abdb9ff44cd26e35c25120a10284bcbc",
+    "status": "excluded",
+    "reason": "complete feature dictionary kept private",
+    "row_count": 5000
+  },
+  {
+    "source_relative_path": "svm_results/linear_C_20261013_193635_918184/svm_comparison.png",
+    "source_sha256": "10bd1090221edbb6e299bc65aecdba8d878c4590c50b791231feab6aebc3c304",
+    "status": "byte_copy",
+    "reason": "complete historical plot; no redraw or cropping",
+    "public_relative_path": "raw/svm_results/linear_C_20261013_193635_918184/svm_comparison.png",
+    "public_sha256": "10bd1090221edbb6e299bc65aecdba8d878c4590c50b791231feab6aebc3c304",
+    "public_size_bytes": 144264
+  },
+  {
+    "source_relative_path": "svm_results/vocabulary_20261013_202547_413463/added_features.csv",
+    "source_sha256": "056a18947f5e6ffeb91bc4485718dc0bbed26414648e4724e755c74cb5b9ee44",
+    "status": "excluded",
+    "reason": "complete feature dictionary kept private",
+    "row_count": 5000
+  },
+  {
+    "source_relative_path": "svm_results/vocabulary_20261013_202547_413463/comparison.csv",
+    "source_sha256": "62485750e57cecfa905e6aa8f5227b7e80c44494077a90bbcb869fc29f8ea543",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 2,
+    "public_row_count": 2,
+    "removed_columns": [],
+    "retained_columns": [
+      "C",
+      "train_accuracy",
+      "val_accuracy",
+      "accuracy_gap",
+      "wrong_count",
+      "support_vector_count",
+      "support_vector_fraction",
+      "training_seconds",
+      "fit_status",
+      "max_features",
+      "actual_feature_count",
+      "reused",
+      "source_run_dir"
+    ],
+    "public_relative_path": "raw/svm_results/vocabulary_20261013_202547_413463/comparison.csv",
+    "public_sha256": "3466e75583ab79e4f198faf66f97b71c0900926806c26ec21b76fb5a443d074c",
+    "public_size_bytes": 505
+  },
+  {
+    "source_relative_path": "svm_results/vocabulary_20261013_202547_413463/corrected_errors.csv",
+    "source_sha256": "9f59f3a2500a3a4464fea6eb6ac594c6e1e0a30ad1ba33a6748a984eace13d32",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 34,
+    "public_row_count": 34,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "validation_index",
+      "source_index",
+      "true_label",
+      "prediction_5000",
+      "prediction_10000"
+    ],
+    "public_relative_path": "raw/svm_results/vocabulary_20261013_202547_413463/corrected_errors.csv",
+    "public_sha256": "06ebfab98ba844db8d18ee8332fc39227ce928cd5fff5e2d9064c001d4530ef6",
+    "public_size_bytes": 625
+  },
+  {
+    "source_relative_path": "svm_results/vocabulary_20261013_202547_413463/experiment_config.json",
+    "source_sha256": "b8d8fd7c7251a8a23c059d1f1989386105e9994cc2317dda06ed7a7cba5cf6cd",
+    "status": "transformed",
+    "reason": "JSON audited; local lab paths normalized; no metric values removed",
+    "public_relative_path": "raw/svm_results/vocabulary_20261013_202547_413463/experiment_config.json",
+    "public_sha256": "a068ea4bfb07a0d9623a7119f2628b455192b6d120c4c27bc28c48152e9309d0",
+    "public_size_bytes": 2625
+  },
+  {
+    "source_relative_path": "svm_results/vocabulary_20261013_202547_413463/features10000/classification_report.txt",
+    "source_sha256": "8c477baebae714cd3f196bc46913583f312683568358b349a63e6a3ac325beec",
+    "status": "transformed",
+    "reason": "numeric classification/convergence report audited; lab paths normalized",
+    "public_relative_path": "raw/svm_results/vocabulary_20261013_202547_413463/features10000/classification_report.txt",
+    "public_sha256": "8c477baebae714cd3f196bc46913583f312683568358b349a63e6a3ac325beec",
+    "public_size_bytes": 774
+  },
+  {
+    "source_relative_path": "svm_results/vocabulary_20261013_202547_413463/features10000/config.json",
+    "source_sha256": "acefcd7ec9fb8f873ca7c60d2283c2ad53f3abe29c2bf4cea75930f5db4a1dac",
+    "status": "transformed",
+    "reason": "JSON audited; local lab paths normalized; no metric values removed",
+    "public_relative_path": "raw/svm_results/vocabulary_20261013_202547_413463/features10000/config.json",
+    "public_sha256": "53bc6fb47177850e0b1f47584ca09ae28766ced78252688ced65ba09e41e6ef1",
+    "public_size_bytes": 2764
+  },
+  {
+    "source_relative_path": "svm_results/vocabulary_20261013_202547_413463/features10000/confusion_matrix.csv",
+    "source_sha256": "e7217bdda8546d974348cd2654b8e12b2163795f3792d4dbda01783f6674addf",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 10,
+    "public_row_count": 10,
+    "removed_columns": [],
+    "retained_columns": [
+      "true_label / predicted_label",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "public_relative_path": "raw/svm_results/vocabulary_20261013_202547_413463/features10000/confusion_matrix.csv",
+    "public_sha256": "e7217bdda8546d974348cd2654b8e12b2163795f3792d4dbda01783f6674addf",
+    "public_size_bytes": 304
+  },
+  {
+    "source_relative_path": "svm_results/vocabulary_20261013_202547_413463/features10000/features.csv",
+    "source_sha256": "a5e920a1c295bb777519d25e735fa219a2f22b7e24257b54b91f9b25dfb89a06",
+    "status": "excluded",
+    "reason": "complete feature dictionary kept private",
+    "row_count": 10000
+  },
+  {
+    "source_relative_path": "svm_results/vocabulary_20261013_202547_413463/features10000/solver_details.json",
+    "source_sha256": "2435c3cedb40154117610926c061e22f53e1189175d22da8558e48a38e636666",
+    "status": "transformed",
+    "reason": "JSON audited; local lab paths normalized; no metric values removed",
+    "public_relative_path": "raw/svm_results/vocabulary_20261013_202547_413463/features10000/solver_details.json",
+    "public_sha256": "94a64e9a97316d278946c166a71be00ab568274bdf4be98c7cd5ec6e6621ea37",
+    "public_size_bytes": 781
+  },
+  {
+    "source_relative_path": "svm_results/vocabulary_20261013_202547_413463/features10000/validation_predictions.csv",
+    "source_sha256": "5e2f3b19ce9123438eeec0bb2c9ddd1f597ecefb2b176e6d818cb6321e26e732",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 1474,
+    "public_row_count": 1474,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "is_correct"
+    ],
+    "public_relative_path": "raw/svm_results/vocabulary_20261013_202547_413463/features10000/validation_predictions.csv",
+    "public_sha256": "650842a2c45d0357625ff59c29ae7d5b5268a9ccb77a5071fd02d15769b95f67",
+    "public_size_bytes": 28344
+  },
+  {
+    "source_relative_path": "svm_results/vocabulary_20261013_202547_413463/features10000/wrong_predictions.csv",
+    "source_sha256": "68048b93a5d1c4348d83c6fd905be979ccfdcccf65a3ee7369104a91178ceeee",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 121,
+    "public_row_count": 121,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "is_correct"
+    ],
+    "public_relative_path": "raw/svm_results/vocabulary_20261013_202547_413463/features10000/wrong_predictions.csv",
+    "public_sha256": "76068a20b0a9d1829d84c01ab15936a789876ccaa7745881b973e0b620d29915",
+    "public_size_bytes": 2496
+  },
+  {
+    "source_relative_path": "svm_results/vocabulary_20261013_202547_413463/features5000/baseline_original_config.json",
+    "source_sha256": "d13877b862037d089bda9749d3ad97b04cf7d5975d63bbafa928287039f4cf49",
+    "status": "transformed",
+    "reason": "JSON audited; local lab paths normalized; no metric values removed",
+    "public_relative_path": "raw/svm_results/vocabulary_20261013_202547_413463/features5000/baseline_original_config.json",
+    "public_sha256": "dad8b649cf1483148098729fe0230fd7e8e86e8d2df8cdb96e6f53a92dce1a8f",
+    "public_size_bytes": 3198
+  },
+  {
+    "source_relative_path": "svm_results/vocabulary_20261013_202547_413463/features5000/classification_report.txt",
+    "source_sha256": "9b570419c7c5d5f2016e9a804e0bc286caa342f3040e7ac6c088063d1c5ef968",
+    "status": "transformed",
+    "reason": "numeric classification/convergence report audited; lab paths normalized",
+    "public_relative_path": "raw/svm_results/vocabulary_20261013_202547_413463/features5000/classification_report.txt",
+    "public_sha256": "9b570419c7c5d5f2016e9a804e0bc286caa342f3040e7ac6c088063d1c5ef968",
+    "public_size_bytes": 774
+  },
+  {
+    "source_relative_path": "svm_results/vocabulary_20261013_202547_413463/features5000/config.json",
+    "source_sha256": "96e32567e99ef6a1671d65e66fb776ed9b85e0060c197454a070397fd2620ca1",
+    "status": "transformed",
+    "reason": "JSON audited; local lab paths normalized; no metric values removed",
+    "public_relative_path": "raw/svm_results/vocabulary_20261013_202547_413463/features5000/config.json",
+    "public_sha256": "80045bbc6d3ff7c44570b36e05c264f94651d3c4cb542607fc8170f29b607fdf",
+    "public_size_bytes": 2817
+  },
+  {
+    "source_relative_path": "svm_results/vocabulary_20261013_202547_413463/features5000/confusion_matrix.csv",
+    "source_sha256": "1c00f1d4bfc845ab9425d89dfb2d608638c858898cf33a7d6cedc6efec8ec499",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 10,
+    "public_row_count": 10,
+    "removed_columns": [],
+    "retained_columns": [
+      "true_label / predicted_label",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "public_relative_path": "raw/svm_results/vocabulary_20261013_202547_413463/features5000/confusion_matrix.csv",
+    "public_sha256": "1c00f1d4bfc845ab9425d89dfb2d608638c858898cf33a7d6cedc6efec8ec499",
+    "public_size_bytes": 304
+  },
+  {
+    "source_relative_path": "svm_results/vocabulary_20261013_202547_413463/features5000/features.csv",
+    "source_sha256": "d0c43a2e008f04ed7241768186c389d5abdb9ff44cd26e35c25120a10284bcbc",
+    "status": "excluded",
+    "reason": "complete feature dictionary kept private",
+    "row_count": 5000
+  },
+  {
+    "source_relative_path": "svm_results/vocabulary_20261013_202547_413463/features5000/validation_predictions.csv",
+    "source_sha256": "2002fd87e56ad807c814b8c045b2e8035e45310687095e20989b3be28dc397f9",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 1474,
+    "public_row_count": 1474,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "is_correct"
+    ],
+    "public_relative_path": "raw/svm_results/vocabulary_20261013_202547_413463/features5000/validation_predictions.csv",
+    "public_sha256": "1777ca441b6c890e20848cb74f72fdc37f1fd5c3f664ca4c393b4af4307d4c83",
+    "public_size_bytes": 28355
+  },
+  {
+    "source_relative_path": "svm_results/vocabulary_20261013_202547_413463/features5000/wrong_predictions.csv",
+    "source_sha256": "5e18f630ed210caf0fde8e67efd490be18a4d7ba08bc95299b733e0720416b53",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 132,
+    "public_row_count": 132,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "is_correct"
+    ],
+    "public_relative_path": "raw/svm_results/vocabulary_20261013_202547_413463/features5000/wrong_predictions.csv",
+    "public_sha256": "4ff6e17ccb6e87d105dc762ae31cbd676630b6aff255075515e2b63cd2c3103f",
+    "public_size_bytes": 2717
+  },
+  {
+    "source_relative_path": "svm_results/vocabulary_20261013_202547_413463/introduced_errors.csv",
+    "source_sha256": "06d2f61c50656a5bc63b3f48aa7b5fa1d94df221706a82d5a96cbe04b714f6a1",
+    "status": "transformed",
+    "reason": "all rows retained; text columns removed; lab paths normalized",
+    "source_row_count": 23,
+    "public_row_count": 23,
+    "removed_columns": [
+      "text"
+    ],
+    "retained_columns": [
+      "validation_index",
+      "source_index",
+      "true_label",
+      "prediction_5000",
+      "prediction_10000"
+    ],
+    "public_relative_path": "raw/svm_results/vocabulary_20261013_202547_413463/introduced_errors.csv",
+    "public_sha256": "d481f26bc4cd1f1eac8d61f6f4f4b906d49f322b0a156d7589b1f423d50efa59",
+    "public_size_bytes": 448
+  },
+  {
+    "source_relative_path": "svm_results/vocabulary_20261013_202547_413463/vocabulary_comparison.png",
+    "source_sha256": "4f8a80c094043edb99223509af9e37267d400e19f054c6af7b6dd6dda83e397f",
+    "status": "byte_copy",
+    "reason": "complete historical plot; no redraw or cropping",
+    "public_relative_path": "raw/svm_results/vocabulary_20261013_202547_413463/vocabulary_comparison.png",
+    "public_sha256": "4f8a80c094043edb99223509af9e37267d400e19f054c6af7b6dd6dda83e397f",
+    "public_size_bytes": 94264
+  }
+]

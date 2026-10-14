@@ -1,0 +1,32 @@
+START mlp_lr0001_e30 {"run_id": "mlp_lr0001_e30", "model": "MLP", "max_features": 5000, "ngram_range": [1, 1], "sublinear_tf": false, "seed": 42, "weight_class": null, "relative_weight": 1.0, "hidden_units": 50, "learning_rate_init": 0.0001, "alpha": 0.001, "batch_size": 64, "epochs": 30}
+mlp_lr0001_e30 epoch=1 trainCE=2.28269562 valCE=2.28478240 trainAcc=0.17984391 valAcc=0.18046133
+mlp_lr0001_e30 epoch=2 trainCE=2.23241544 valCE=2.23791771 trainAcc=0.18103156 valAcc=0.17842605
+mlp_lr0001_e30 epoch=3 trainCE=2.16456240 valCE=2.17511775 trainAcc=0.24312861 valAcc=0.22930801
+mlp_lr0001_e30 epoch=4 trainCE=2.08932170 valCE=2.10561567 trainAcc=0.38819138 valAcc=0.35481682
+mlp_lr0001_e30 epoch=5 trainCE=2.01177727 valCE=2.03402251 trainAcc=0.54597896 valAcc=0.50203528
+mlp_lr0001_e30 epoch=6 trainCE=1.92846915 valCE=1.95717098 trainAcc=0.70308789 valAcc=0.63636364
+mlp_lr0001_e30 epoch=7 trainCE=1.84353166 valCE=1.87907029 trainAcc=0.79759077 valAcc=0.71777476
+mlp_lr0001_e30 epoch=8 trainCE=1.75721663 valCE=1.79961519 trainAcc=0.85052596 valAcc=0.77815468
+mlp_lr0001_e30 epoch=9 trainCE=1.66993506 valCE=1.71939271 trainAcc=0.88327112 valAcc=0.81614654
+mlp_lr0001_e30 epoch=10 trainCE=1.58324552 valCE=1.64002909 trainAcc=0.90397014 valAcc=0.84260516
+mlp_lr0001_e30 epoch=11 trainCE=1.49790593 valCE=1.56172862 trainAcc=0.91347133 valAcc=0.86024423
+mlp_lr0001_e30 epoch=12 trainCE=1.41470508 valCE=1.48548092 trainAcc=0.92144554 valAcc=0.86838535
+mlp_lr0001_e30 epoch=13 trainCE=1.33452701 valCE=1.41218439 trainAcc=0.92789277 valAcc=0.87381275
+mlp_lr0001_e30 epoch=14 trainCE=1.25789902 valCE=1.34214491 trainAcc=0.93128605 valAcc=0.87652646
+mlp_lr0001_e30 epoch=15 trainCE=1.18517187 valCE=1.27577583 trainAcc=0.93298269 valAcc=0.88059701
+mlp_lr0001_e30 epoch=16 trainCE=1.11645723 valCE=1.21323063 trainAcc=0.93620631 valAcc=0.88059701
+mlp_lr0001_e30 epoch=17 trainCE=1.05185094 valCE=1.15463423 trainAcc=0.93892094 valAcc=0.88127544
+mlp_lr0001_e30 epoch=18 trainCE=0.99142800 valCE=1.09963780 trainAcc=0.94112657 valAcc=0.88534600
+mlp_lr0001_e30 epoch=19 trainCE=0.93523606 valCE=1.04879101 trainAcc=0.94265355 valAcc=0.88738128
+mlp_lr0001_e30 epoch=20 trainCE=0.88281691 valCE=1.00135849 trainAcc=0.94401086 valAcc=0.88602442
+mlp_lr0001_e30 epoch=21 trainCE=0.83402183 valCE=0.95723145 trainAcc=0.94621649 valAcc=0.88602442
+mlp_lr0001_e30 epoch=22 trainCE=0.78860867 valCE=0.91611334 trainAcc=0.94808280 valAcc=0.88534600
+mlp_lr0001_e30 epoch=23 trainCE=0.74643699 valCE=0.87807037 trainAcc=0.94960977 valAcc=0.88805970
+mlp_lr0001_e30 epoch=24 trainCE=0.70735986 valCE=0.84269486 trainAcc=0.95028843 valAcc=0.88873813
+mlp_lr0001_e30 epoch=25 trainCE=0.67095291 valCE=0.80981104 trainAcc=0.95147608 valAcc=0.88873813
+mlp_lr0001_e30 epoch=26 trainCE=0.63717015 valCE=0.77928969 trainAcc=0.95300305 valAcc=0.88873813
+mlp_lr0001_e30 epoch=27 trainCE=0.60561532 valCE=0.75084694 trainAcc=0.95436037 valAcc=0.88873813
+mlp_lr0001_e30 epoch=28 trainCE=0.57619708 valCE=0.72435804 trainAcc=0.95486936 valAcc=0.88873813
+mlp_lr0001_e30 epoch=29 trainCE=0.54877041 valCE=0.69958168 trainAcc=0.95673566 valAcc=0.89009498
+mlp_lr0001_e30 epoch=30 trainCE=0.52319023 valCE=0.67661368 trainAcc=0.95741432 valAcc=0.89213026
+DONE mlp_lr0001_e30 {"run_id": "mlp_lr0001_e30", "model": "MLP", "max_features": 5000, "ngram_range": [1, 1], "sublinear_tf": false, "seed": 42, "weight_class": null, "relative_weight": 1.0, "hidden_units": 50, "learning_rate_init": 0.0001, "alpha": 0.001, "batch_size": 64, "epochs": 30, "train_accuracy": 0.9574143196470988, "val_accuracy": 0.8921302578018996, "wrong_count": 159, "train_loss": 0.5231902318956433, "val_loss": 0.6766136752593569, "epoch": 30, "training_seconds": 47.848136399989016, "optimizer_reported_loss": 0.5462299249414563, "samples_seen": 176820, "actual_feature_count": 5000, "word_features": 5000, "bigram_features": 0, "vocabulary_sha256": "dca5f7cce0f86acfbf3cbffe40475b507eac70cb0bba9da91b7eb4ad2c2fbad6", "idf_sha256": "7e5621a23ce7411f8f04b2d070a00e49323831a653d458daa8d9d56dcd7cd816", "fit_nnz": 676418, "val_nnz": 170361, "accuracy_gap": 0.06528406184519919, "result_origin": "fresh_reproduction", "evaluation": "final configured epoch or completed fit", "parameter_count": 250560}

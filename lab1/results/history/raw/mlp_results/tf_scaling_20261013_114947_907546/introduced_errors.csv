@@ -1,0 +1,17 @@
+﻿validation_index,source_index,true_label,ordinary_tf_prediction,log_tf_prediction,prediction_changed
+128,3856,7,7,6,True
+260,324,0,0,7,True
+319,6751,9,9,0,True
+469,4103,2,2,7,True
+533,22,8,8,0,True
+596,4339,3,3,4,True
+598,3804,2,2,7,True
+688,6580,2,2,0,True
+690,6629,2,2,1,True
+741,4666,9,9,0,True
+966,2184,2,2,0,True
+1073,2589,2,2,1,True
+1269,2152,2,2,0,True
+1281,4378,1,1,2,True
+1310,1831,6,6,1,True
+1469,150,7,7,6,True

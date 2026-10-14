@@ -1,0 +1,14 @@
+{
+  "run_id": "svm_c0.1",
+  "model": "SVM",
+  "max_features": 5000,
+  "ngram_range": [
+    1,
+    1
+  ],
+  "sublinear_tf": false,
+  "seed": 42,
+  "weight_class": null,
+  "relative_weight": 1.0,
+  "C": 0.1
+}

@@ -1,0 +1,28 @@
+{
+  "comparison": "LR_weight",
+  "runs": [
+    "lr_c100",
+    "lr_class7_w1.5",
+    "lr_class7_w2"
+  ],
+  "input_files": [
+    {
+      "file": "../results/reproduction_20261014/runs/lr_c100/summary.json",
+      "sha256": "0c11732ff777e55cfb77aab474a71f7a4a1a97f7676528c9d55c565f3a4c83e3"
+    },
+    {
+      "file": "../results/reproduction_20261014/runs/lr_class7_w1.5/summary.json",
+      "sha256": "7d834f9f881b9dd5316ed69795f0c2aa52b87059f3db9c91d9a522fe343e608f"
+    },
+    {
+      "file": "../results/reproduction_20261014/runs/lr_class7_w2/summary.json",
+      "sha256": "7bc35abc36cde4ecb4981c63853b5f7a43ef0d08fdb02655c996befc04f6a23c"
+    }
+  ],
+  "smooth": false,
+  "interpolation": false,
+  "points_removed": false,
+  "y_axis_note": "cross-entropy excludes L2; accuracy is fraction",
+  "plot_sha256": "448178eedde88f2978fd6a016105efe84c16d2a0303c758e03f03e330eea8a40",
+  "reference_base": "this JSON file's directory"
+}

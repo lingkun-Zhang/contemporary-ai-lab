@@ -1,0 +1,23 @@
+{
+  "comparison": "SVM_vocabulary",
+  "runs": [
+    "svm_c100",
+    "svm_vocab10000"
+  ],
+  "input_files": [
+    {
+      "file": "../results/reproduction_20261014/runs/svm_c100/summary.json",
+      "sha256": "9892b77618267779ce2912726a2f6feea109a925167b67f2b14216661bf83f0f"
+    },
+    {
+      "file": "../results/reproduction_20261014/runs/svm_vocab10000/summary.json",
+      "sha256": "94042fd045c3593b72a7ed81a773133491bc2a32ca717134e8b90c2b15155982"
+    }
+  ],
+  "smooth": false,
+  "interpolation": false,
+  "points_removed": false,
+  "y_axis_note": "cross-entropy excludes L2; accuracy is fraction",
+  "plot_sha256": "2e22212af0fc33ae4a90374428fd4d0f240358c5c1aea8b624247c49c4247935",
+  "reference_base": "this JSON file's directory"
+}

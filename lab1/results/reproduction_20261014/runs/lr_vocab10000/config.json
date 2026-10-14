@@ -1,0 +1,14 @@
+{
+  "run_id": "lr_vocab10000",
+  "model": "LR",
+  "max_features": 10000,
+  "ngram_range": [
+    1,
+    1
+  ],
+  "sublinear_tf": false,
+  "seed": 42,
+  "weight_class": null,
+  "relative_weight": 1.0,
+  "C": 100
+}

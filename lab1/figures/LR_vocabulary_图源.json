@@ -1,0 +1,23 @@
+{
+  "comparison": "LR_vocabulary",
+  "runs": [
+    "lr_c100",
+    "lr_vocab10000"
+  ],
+  "input_files": [
+    {
+      "file": "../results/reproduction_20261014/runs/lr_c100/summary.json",
+      "sha256": "0c11732ff777e55cfb77aab474a71f7a4a1a97f7676528c9d55c565f3a4c83e3"
+    },
+    {
+      "file": "../results/reproduction_20261014/runs/lr_vocab10000/summary.json",
+      "sha256": "ac31a623dfe6a10ebab8e50dbad88ba66add2c559058bd5f14826babc19bbaa1"
+    }
+  ],
+  "smooth": false,
+  "interpolation": false,
+  "points_removed": false,
+  "y_axis_note": "cross-entropy excludes L2; accuracy is fraction",
+  "plot_sha256": "4373a95cb70b812962fd98af0210bd7160170c0c14d8b88823833c7f26337624",
+  "reference_base": "this JSON file's directory"
+}

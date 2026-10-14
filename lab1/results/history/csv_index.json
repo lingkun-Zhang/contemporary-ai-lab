@@ -1,0 +1,2188 @@
+[
+  {
+    "relative_path": "mlp_results/lr0.0001_e100_20261013_002035_997296/history.csv",
+    "columns": [
+      "epoch",
+      "train_loss",
+      "val_loss",
+      "train_accuracy",
+      "val_accuracy",
+      "training_seconds"
+    ],
+    "row_count": 100,
+    "sha256": "5036f16ce854dc0db700801612204113acf5059f4c235b4e8f8a78f790fa2fca"
+  },
+  {
+    "relative_path": "mlp_results/lr0.0001_e100_20261013_003846_215423/history.csv",
+    "columns": [
+      "epoch",
+      "train_loss",
+      "val_loss",
+      "train_accuracy",
+      "val_accuracy",
+      "training_seconds"
+    ],
+    "row_count": 100,
+    "sha256": "56bf498798928cdd7450ee4486d08b5f419e51da804097551ad8f7e95680d4b2"
+  },
+  {
+    "relative_path": "mlp_results/lr0.0001_e100_20261013_003846_215423/validation_predictions.csv",
+    "columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct",
+      "text"
+    ],
+    "row_count": 1474,
+    "sha256": "9e079772a92f2fe16e56d37be3e2c73fa569eed638ba1066e72b6c03c6872ec1"
+  },
+  {
+    "relative_path": "mlp_results/lr0.0001_e100_20261013_003846_215423/wrong_predictions.csv",
+    "columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct",
+      "text"
+    ],
+    "row_count": 124,
+    "sha256": "e72e043b1bf425e4876e0bbac7c72616a081c30548b04635b18ad361d060f7bc"
+  },
+  {
+    "relative_path": "mlp_results/lr0.0001_e100_20261013_005349_235602/history.csv",
+    "columns": [
+      "epoch",
+      "train_loss",
+      "val_loss",
+      "train_accuracy",
+      "val_accuracy",
+      "training_seconds"
+    ],
+    "row_count": 100,
+    "sha256": "a3cf29f30989aa339aa3cc103ecf9cd32ae78292fa3b7e61b0bbffec5a71ff80"
+  },
+  {
+    "relative_path": "mlp_results/lr0.0001_e100_20261013_005349_235602/validation_predictions.csv",
+    "columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct",
+      "text"
+    ],
+    "row_count": 1474,
+    "sha256": "aa2059c01a7e2550073ca2d2af84473a402bba44d332f49bd1603c4da946d9a4"
+  },
+  {
+    "relative_path": "mlp_results/lr0.0001_e100_20261013_005349_235602/wrong_predictions.csv",
+    "columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct",
+      "text"
+    ],
+    "row_count": 141,
+    "sha256": "50d4ec4b8033b461dcef730b9e09ce146461953da00b22db81edee4da932b40d"
+  },
+  {
+    "relative_path": "mlp_results/lr0.0001_e100_20261013_010040_372356/history.csv",
+    "columns": [
+      "epoch",
+      "train_loss",
+      "val_loss",
+      "train_accuracy",
+      "val_accuracy",
+      "training_seconds"
+    ],
+    "row_count": 100,
+    "sha256": "5e5f4fc4583acdb80e930dc21735a4cd892744a3d52802d6f69b1dfea5fd0706"
+  },
+  {
+    "relative_path": "mlp_results/lr0.0001_e100_20261013_010040_372356/validation_predictions.csv",
+    "columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct",
+      "text"
+    ],
+    "row_count": 1474,
+    "sha256": "aa2059c01a7e2550073ca2d2af84473a402bba44d332f49bd1603c4da946d9a4"
+  },
+  {
+    "relative_path": "mlp_results/lr0.0001_e100_20261013_010040_372356/wrong_predictions.csv",
+    "columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct",
+      "text"
+    ],
+    "row_count": 141,
+    "sha256": "50d4ec4b8033b461dcef730b9e09ce146461953da00b22db81edee4da932b40d"
+  },
+  {
+    "relative_path": "mlp_results/lr0.0001_e100_20261013_100238_523654/history.csv",
+    "columns": [
+      "epoch",
+      "train_loss",
+      "val_loss",
+      "train_accuracy",
+      "val_accuracy",
+      "training_seconds"
+    ],
+    "row_count": 100,
+    "sha256": "974255d263605dc701136b14950fcbe9812ef9c01053573f9a98c2e220847eee"
+  },
+  {
+    "relative_path": "mlp_results/lr0.0001_e100_20261013_100238_523654/validation_predictions.csv",
+    "columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct",
+      "text"
+    ],
+    "row_count": 1474,
+    "sha256": "aa2059c01a7e2550073ca2d2af84473a402bba44d332f49bd1603c4da946d9a4"
+  },
+  {
+    "relative_path": "mlp_results/lr0.0001_e100_20261013_100238_523654/wrong_predictions.csv",
+    "columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct",
+      "text"
+    ],
+    "row_count": 141,
+    "sha256": "50d4ec4b8033b461dcef730b9e09ce146461953da00b22db81edee4da932b40d"
+  },
+  {
+    "relative_path": "mlp_results/lr0.0001_e30_20261013_000721_531364/history.csv",
+    "columns": [
+      "epoch",
+      "train_loss",
+      "val_loss",
+      "train_accuracy",
+      "val_accuracy",
+      "training_seconds"
+    ],
+    "row_count": 30,
+    "sha256": "6cc156539a6cc543279e53d063b6f149005c42b2126f2b94da5ebbd52f7295ff"
+  },
+  {
+    "relative_path": "mlp_results/lr0.0001_e50_20261013_001457_774075/history.csv",
+    "columns": [
+      "epoch",
+      "train_loss",
+      "val_loss",
+      "train_accuracy",
+      "val_accuracy",
+      "training_seconds"
+    ],
+    "row_count": 50,
+    "sha256": "7aa8fd088c0ed5bb837190735132220c509ffd07f1e1240ba2da99f701480392"
+  },
+  {
+    "relative_path": "mlp_results/lr0.0001_e60_20261013_001259_742321/history.csv",
+    "columns": [
+      "epoch",
+      "train_loss",
+      "val_loss",
+      "train_accuracy",
+      "val_accuracy",
+      "training_seconds"
+    ],
+    "row_count": 60,
+    "sha256": "5a30c98b0e0b52c79a1d00a7daae3a376e7a33116e3d6d422aa401e7bad57f6a"
+  },
+  {
+    "relative_path": "mlp_results/lr0.0001_e60_20261013_001700_215270/history.csv",
+    "columns": [
+      "epoch",
+      "train_loss",
+      "val_loss",
+      "train_accuracy",
+      "val_accuracy",
+      "training_seconds"
+    ],
+    "row_count": 60,
+    "sha256": "1a2f7eb3de8d3ca120fc6567362f322f7ba6a92ae31b5126cc0a6ba331027575"
+  },
+  {
+    "relative_path": "mlp_results/lr0.001_e30_20261012_230742_099331/history.csv",
+    "columns": [
+      "epoch",
+      "train_loss",
+      "val_loss",
+      "train_accuracy",
+      "val_accuracy",
+      "training_seconds"
+    ],
+    "row_count": 30,
+    "sha256": "b34e1a05dbf9858c0eeeb0378638faf0607bc6c78c91657223e6b56fc791aeea"
+  },
+  {
+    "relative_path": "mlp_results/lr0.001_e30_20261012_234905_229553/history.csv",
+    "columns": [
+      "epoch",
+      "train_loss",
+      "val_loss",
+      "train_accuracy",
+      "val_accuracy",
+      "training_seconds"
+    ],
+    "row_count": 30,
+    "sha256": "1f7d03961130170d1725a0d1f23e074eef087431a0514ae0109012fa8a4e1919"
+  },
+  {
+    "relative_path": "mlp_results/ngram_20261013_113012_819787/comparison.csv",
+    "columns": [
+      "hidden_units",
+      "parameter_count",
+      "train_accuracy",
+      "val_accuracy",
+      "train_loss",
+      "val_loss",
+      "accuracy_gap",
+      "macro_f1",
+      "wrong_count",
+      "training_seconds",
+      "actual_feature_count",
+      "unigram_count",
+      "bigram_count",
+      "training_nonzero_values",
+      "vocabulary_sha256",
+      "idf_sha256",
+      "group",
+      "ngram_range",
+      "reused",
+      "source_run_dir"
+    ],
+    "row_count": 2,
+    "sha256": "8574daa9d27bdb6f6d868ed531b18bb8c008b0f7a8a8a8dc4ef6c41689f5025a"
+  },
+  {
+    "relative_path": "mlp_results/ngram_20261013_113012_819787/corrected_errors.csv",
+    "columns": [
+      "validation_index",
+      "source_index",
+      "true_label",
+      "unigram_prediction",
+      "phrase_prediction",
+      "prediction_changed",
+      "text"
+    ],
+    "row_count": 17,
+    "sha256": "ab713fb73398c8ac8a3be4acabdb227e1e53ea2203566839739f2c24feabfcfa"
+  },
+  {
+    "relative_path": "mlp_results/ngram_20261013_113012_819787/introduced_errors.csv",
+    "columns": [
+      "validation_index",
+      "source_index",
+      "true_label",
+      "unigram_prediction",
+      "phrase_prediction",
+      "prediction_changed",
+      "text"
+    ],
+    "row_count": 40,
+    "sha256": "11cfd9df6e1ce56ff34efdbda40d17847fbeb6b709f207ccf780c7f1b8e8954f"
+  },
+  {
+    "relative_path": "mlp_results/ngram_20261013_113012_819787/unigram/features.csv",
+    "columns": [
+      "feature_index",
+      "feature",
+      "kind",
+      "idf"
+    ],
+    "row_count": 5000,
+    "sha256": "9130170d38308dc228c82ce745a06df0f995cd2d8e6c15f8d8e5db69d9cc329e"
+  },
+  {
+    "relative_path": "mlp_results/ngram_20261013_113012_819787/unigram/history.csv",
+    "columns": [
+      "epoch",
+      "train_loss",
+      "val_loss",
+      "train_accuracy",
+      "val_accuracy",
+      "training_seconds"
+    ],
+    "row_count": 100,
+    "sha256": "16cea98387e9a6e0fa4484a97d0384f0875c93d30b7ffe049a98a7d92a6d896d"
+  },
+  {
+    "relative_path": "mlp_results/ngram_20261013_113012_819787/unigram/validation_predictions.csv",
+    "columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct",
+      "text"
+    ],
+    "row_count": 1474,
+    "sha256": "ff6bd34564da1d2578fc57cb7c98c09789800ba823769362a9932b0b519dfeec"
+  },
+  {
+    "relative_path": "mlp_results/ngram_20261013_113012_819787/unigram/wrong_predictions.csv",
+    "columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct",
+      "text"
+    ],
+    "row_count": 117,
+    "sha256": "dae5bea0dc3fb68357d136fc69268d3a925b06810251fe67a00f7b7e683a4cc6"
+  },
+  {
+    "relative_path": "mlp_results/ngram_20261013_113012_819787/unigram_bigram/features.csv",
+    "columns": [
+      "feature_index",
+      "feature",
+      "kind",
+      "idf"
+    ],
+    "row_count": 5000,
+    "sha256": "8058171d6127571d2b85cbc627c182d300f12c6f1759cc3bf2a90e23bf4e6af9"
+  },
+  {
+    "relative_path": "mlp_results/ngram_20261013_113012_819787/unigram_bigram/history.csv",
+    "columns": [
+      "epoch",
+      "train_loss",
+      "val_loss",
+      "train_accuracy",
+      "val_accuracy",
+      "training_seconds"
+    ],
+    "row_count": 100,
+    "sha256": "7404e31407a610db284abc0cf982c5be4ad69139562907c12b3b3bd5c88f5663"
+  },
+  {
+    "relative_path": "mlp_results/ngram_20261013_113012_819787/unigram_bigram/validation_predictions.csv",
+    "columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct",
+      "text"
+    ],
+    "row_count": 1474,
+    "sha256": "689e126d8d4031bf5813405c5554193ec4cb7753333ab36ee4477f3f603599df"
+  },
+  {
+    "relative_path": "mlp_results/ngram_20261013_113012_819787/unigram_bigram/wrong_predictions.csv",
+    "columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct",
+      "text"
+    ],
+    "row_count": 140,
+    "sha256": "47d710a89b173aae9bd21cb4be73b15151d7a0103763532bd56d8b431b252c6b"
+  },
+  {
+    "relative_path": "mlp_results/stability_20261013_110002_306417/mean_std.csv",
+    "columns": [
+      "hidden_units",
+      "runs",
+      "parameter_count",
+      "mean_val_accuracy",
+      "std_val_accuracy_pp",
+      "mean_val_loss",
+      "std_val_loss"
+    ],
+    "row_count": 2,
+    "sha256": "c62c3580e1586c6ea593f4c54665c0331d2ad0572915c58eaf2ca85b6732c00c"
+  },
+  {
+    "relative_path": "mlp_results/stability_20261013_110002_306417/paired_comparison.csv",
+    "columns": [
+      "seed",
+      "accuracy_50",
+      "accuracy_100",
+      "difference_pp"
+    ],
+    "row_count": 3,
+    "sha256": "49c14ba19ff731d3b4eddeef87fa734f0c600973632345fa8dd048387456264c"
+  },
+  {
+    "relative_path": "mlp_results/stability_20261013_110002_306417/runs.csv",
+    "columns": [
+      "hidden_units",
+      "parameter_count",
+      "train_accuracy",
+      "val_accuracy",
+      "train_loss",
+      "val_loss",
+      "accuracy_gap",
+      "macro_f1",
+      "wrong_count",
+      "training_seconds",
+      "seed",
+      "reused",
+      "source_run_dir"
+    ],
+    "row_count": 6,
+    "sha256": "095f59747ebb6aaa4e5ab7c2be1238acda9fff331bf9c71935f1edf47bbd95b1"
+  },
+  {
+    "relative_path": "mlp_results/stability_20261013_110002_306417/seed42_hidden100/history.csv",
+    "columns": [
+      "epoch",
+      "train_loss",
+      "val_loss",
+      "train_accuracy",
+      "val_accuracy",
+      "training_seconds"
+    ],
+    "row_count": 100,
+    "sha256": "16cea98387e9a6e0fa4484a97d0384f0875c93d30b7ffe049a98a7d92a6d896d"
+  },
+  {
+    "relative_path": "mlp_results/stability_20261013_110002_306417/seed42_hidden100/validation_predictions.csv",
+    "columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct",
+      "text"
+    ],
+    "row_count": 1474,
+    "sha256": "ff6bd34564da1d2578fc57cb7c98c09789800ba823769362a9932b0b519dfeec"
+  },
+  {
+    "relative_path": "mlp_results/stability_20261013_110002_306417/seed42_hidden100/wrong_predictions.csv",
+    "columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct",
+      "text"
+    ],
+    "row_count": 117,
+    "sha256": "dae5bea0dc3fb68357d136fc69268d3a925b06810251fe67a00f7b7e683a4cc6"
+  },
+  {
+    "relative_path": "mlp_results/stability_20261013_110002_306417/seed42_hidden50/history.csv",
+    "columns": [
+      "epoch",
+      "train_loss",
+      "val_loss",
+      "train_accuracy",
+      "val_accuracy",
+      "training_seconds"
+    ],
+    "row_count": 100,
+    "sha256": "60838201bdc4818586ecdd244a58a8b4ec8616d3cb81448e00330ba5cea9bf4b"
+  },
+  {
+    "relative_path": "mlp_results/stability_20261013_110002_306417/seed42_hidden50/validation_predictions.csv",
+    "columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct",
+      "text"
+    ],
+    "row_count": 1474,
+    "sha256": "9e079772a92f2fe16e56d37be3e2c73fa569eed638ba1066e72b6c03c6872ec1"
+  },
+  {
+    "relative_path": "mlp_results/stability_20261013_110002_306417/seed42_hidden50/wrong_predictions.csv",
+    "columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct",
+      "text"
+    ],
+    "row_count": 124,
+    "sha256": "e72e043b1bf425e4876e0bbac7c72616a081c30548b04635b18ad361d060f7bc"
+  },
+  {
+    "relative_path": "mlp_results/stability_20261013_110002_306417/seed43_hidden100/history.csv",
+    "columns": [
+      "epoch",
+      "train_loss",
+      "val_loss",
+      "train_accuracy",
+      "val_accuracy",
+      "training_seconds"
+    ],
+    "row_count": 100,
+    "sha256": "7ae03628619e925a16b009c79de43e5675a9612c3bb6083d2109e0d475afb4e0"
+  },
+  {
+    "relative_path": "mlp_results/stability_20261013_110002_306417/seed43_hidden100/validation_predictions.csv",
+    "columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct",
+      "text"
+    ],
+    "row_count": 1474,
+    "sha256": "4f9c0944905a7621eeb894ca1fe3cd608ec2ed435ddd9e39665a110c86d80e16"
+  },
+  {
+    "relative_path": "mlp_results/stability_20261013_110002_306417/seed43_hidden100/wrong_predictions.csv",
+    "columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct",
+      "text"
+    ],
+    "row_count": 114,
+    "sha256": "053815fa6f833fe1fbb1181e62453490ec8503ab73f9fde7d47fa0148692a1f6"
+  },
+  {
+    "relative_path": "mlp_results/stability_20261013_110002_306417/seed43_hidden50/history.csv",
+    "columns": [
+      "epoch",
+      "train_loss",
+      "val_loss",
+      "train_accuracy",
+      "val_accuracy",
+      "training_seconds"
+    ],
+    "row_count": 100,
+    "sha256": "e081a21dca358abda50ee6b65a8d2ca986fcf3fffd0f865fa268b718c620b5e8"
+  },
+  {
+    "relative_path": "mlp_results/stability_20261013_110002_306417/seed43_hidden50/validation_predictions.csv",
+    "columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct",
+      "text"
+    ],
+    "row_count": 1474,
+    "sha256": "e53ce326683aba873bd449706e37ac622fb154bee3ee01d89ff4d3d7e0a5bcb0"
+  },
+  {
+    "relative_path": "mlp_results/stability_20261013_110002_306417/seed43_hidden50/wrong_predictions.csv",
+    "columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct",
+      "text"
+    ],
+    "row_count": 120,
+    "sha256": "2390ab5b141dc1e88d9642caf38278a06b125f01234a731e5f6d2184c2c8b408"
+  },
+  {
+    "relative_path": "mlp_results/stability_20261013_110002_306417/seed44_hidden100/history.csv",
+    "columns": [
+      "epoch",
+      "train_loss",
+      "val_loss",
+      "train_accuracy",
+      "val_accuracy",
+      "training_seconds"
+    ],
+    "row_count": 100,
+    "sha256": "52d3c190542b8856d9c774094cfbb354c6d9273a426274ac4a41ae8e7468915b"
+  },
+  {
+    "relative_path": "mlp_results/stability_20261013_110002_306417/seed44_hidden100/validation_predictions.csv",
+    "columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct",
+      "text"
+    ],
+    "row_count": 1474,
+    "sha256": "d59cbaa833f0da6a6dd6061a6325317ab1cb6dfa82eca0e6c2739798c4167a9a"
+  },
+  {
+    "relative_path": "mlp_results/stability_20261013_110002_306417/seed44_hidden100/wrong_predictions.csv",
+    "columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct",
+      "text"
+    ],
+    "row_count": 117,
+    "sha256": "7c4fd235741747a84b81aa8760dfed1a03215d787745c677bb9c4fa2b4a40a5c"
+  },
+  {
+    "relative_path": "mlp_results/stability_20261013_110002_306417/seed44_hidden50/history.csv",
+    "columns": [
+      "epoch",
+      "train_loss",
+      "val_loss",
+      "train_accuracy",
+      "val_accuracy",
+      "training_seconds"
+    ],
+    "row_count": 100,
+    "sha256": "f153a64f0eb72e30a4e3d99da2e65f3a2853a424e429f6666573758c73ec6e19"
+  },
+  {
+    "relative_path": "mlp_results/stability_20261013_110002_306417/seed44_hidden50/validation_predictions.csv",
+    "columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct",
+      "text"
+    ],
+    "row_count": 1474,
+    "sha256": "a399e5ffff3059e0fdeaf3b4a5701bc6eca36607d2adbdba189ae8bce6bb68fe"
+  },
+  {
+    "relative_path": "mlp_results/stability_20261013_110002_306417/seed44_hidden50/wrong_predictions.csv",
+    "columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct",
+      "text"
+    ],
+    "row_count": 124,
+    "sha256": "d2eb5de6e49bcde218beb999b4fb5425404f61ebd5c24aa817453487af3650f5"
+  },
+  {
+    "relative_path": "mlp_results/structure_20261013_103724_651177/comparison.csv",
+    "columns": [
+      "hidden_units",
+      "parameter_count",
+      "train_accuracy",
+      "val_accuracy",
+      "train_loss",
+      "val_loss",
+      "accuracy_gap",
+      "macro_f1",
+      "wrong_count",
+      "training_seconds"
+    ],
+    "row_count": 3,
+    "sha256": "59a3c3fe527393eee8e4fd80dbe48aac5183b93eba13ca2a99067ce09c2248e6"
+  },
+  {
+    "relative_path": "mlp_results/structure_20261013_103724_651177/hidden100/history.csv",
+    "columns": [
+      "epoch",
+      "train_loss",
+      "val_loss",
+      "train_accuracy",
+      "val_accuracy",
+      "training_seconds"
+    ],
+    "row_count": 100,
+    "sha256": "e1ea0dc5529aaae68cb8f9609a05999b26cf67d149b93857385b2a93a33bfcd5"
+  },
+  {
+    "relative_path": "mlp_results/structure_20261013_103724_651177/hidden100/validation_predictions.csv",
+    "columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct",
+      "text"
+    ],
+    "row_count": 1474,
+    "sha256": "ff6bd34564da1d2578fc57cb7c98c09789800ba823769362a9932b0b519dfeec"
+  },
+  {
+    "relative_path": "mlp_results/structure_20261013_103724_651177/hidden100/wrong_predictions.csv",
+    "columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct",
+      "text"
+    ],
+    "row_count": 117,
+    "sha256": "dae5bea0dc3fb68357d136fc69268d3a925b06810251fe67a00f7b7e683a4cc6"
+  },
+  {
+    "relative_path": "mlp_results/structure_20261013_103724_651177/hidden25/history.csv",
+    "columns": [
+      "epoch",
+      "train_loss",
+      "val_loss",
+      "train_accuracy",
+      "val_accuracy",
+      "training_seconds"
+    ],
+    "row_count": 100,
+    "sha256": "e8599557041dec2f5dab4b524f1caa03a2a91bd7ea414449b800bbdc809b1fcc"
+  },
+  {
+    "relative_path": "mlp_results/structure_20261013_103724_651177/hidden25/validation_predictions.csv",
+    "columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct",
+      "text"
+    ],
+    "row_count": 1474,
+    "sha256": "61e8b6046744352de5ab0ab5b79cc01b6ca2163e77cca7cde089fa26a963394d"
+  },
+  {
+    "relative_path": "mlp_results/structure_20261013_103724_651177/hidden25/wrong_predictions.csv",
+    "columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct",
+      "text"
+    ],
+    "row_count": 125,
+    "sha256": "5fce344f393c1349a763dec467b377e8167334a0be2b62e9e2fdab377fd4ace1"
+  },
+  {
+    "relative_path": "mlp_results/structure_20261013_103724_651177/hidden50/history.csv",
+    "columns": [
+      "epoch",
+      "train_loss",
+      "val_loss",
+      "train_accuracy",
+      "val_accuracy",
+      "training_seconds"
+    ],
+    "row_count": 100,
+    "sha256": "b392fc617557c66b9b2c823898c1ef6745508c221ad18d30677dd3de6b09e2aa"
+  },
+  {
+    "relative_path": "mlp_results/structure_20261013_103724_651177/hidden50/validation_predictions.csv",
+    "columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct",
+      "text"
+    ],
+    "row_count": 1474,
+    "sha256": "9e079772a92f2fe16e56d37be3e2c73fa569eed638ba1066e72b6c03c6872ec1"
+  },
+  {
+    "relative_path": "mlp_results/structure_20261013_103724_651177/hidden50/wrong_predictions.csv",
+    "columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct",
+      "text"
+    ],
+    "row_count": 124,
+    "sha256": "e72e043b1bf425e4876e0bbac7c72616a081c30548b04635b18ad361d060f7bc"
+  },
+  {
+    "relative_path": "mlp_results/tf_scaling_20261013_114947_907546/comparison.csv",
+    "columns": [
+      "hidden_units",
+      "parameter_count",
+      "train_accuracy",
+      "val_accuracy",
+      "train_loss",
+      "val_loss",
+      "accuracy_gap",
+      "macro_f1",
+      "wrong_count",
+      "training_seconds",
+      "actual_feature_count",
+      "sublinear_tf",
+      "training_nonzero_values",
+      "validation_nonzero_values",
+      "vocabulary_sha256",
+      "idf_sha256",
+      "group",
+      "reused",
+      "source_run_dir"
+    ],
+    "row_count": 2,
+    "sha256": "a44ff20ecb72dcd6b22c2b6cdf7d5d840125c5d7fe926339e5346f6b9e4f86c1"
+  },
+  {
+    "relative_path": "mlp_results/tf_scaling_20261013_114947_907546/corrected_errors.csv",
+    "columns": [
+      "validation_index",
+      "source_index",
+      "true_label",
+      "ordinary_tf_prediction",
+      "log_tf_prediction",
+      "prediction_changed",
+      "text"
+    ],
+    "row_count": 12,
+    "sha256": "4386d16b9fba5d27482b8b62515919a00f6647e05ca2234ee251e3afb1e5e89b"
+  },
+  {
+    "relative_path": "mlp_results/tf_scaling_20261013_114947_907546/introduced_errors.csv",
+    "columns": [
+      "validation_index",
+      "source_index",
+      "true_label",
+      "ordinary_tf_prediction",
+      "log_tf_prediction",
+      "prediction_changed",
+      "text"
+    ],
+    "row_count": 16,
+    "sha256": "f9775487968a138a61abe9d37738abf243095ceb8d8b1534f59063d4f620c1c7"
+  },
+  {
+    "relative_path": "mlp_results/tf_scaling_20261013_114947_907546/log_tf/features.csv",
+    "columns": [
+      "feature_index",
+      "feature",
+      "idf"
+    ],
+    "row_count": 5000,
+    "sha256": "d0c43a2e008f04ed7241768186c389d5abdb9ff44cd26e35c25120a10284bcbc"
+  },
+  {
+    "relative_path": "mlp_results/tf_scaling_20261013_114947_907546/log_tf/history.csv",
+    "columns": [
+      "epoch",
+      "train_loss",
+      "val_loss",
+      "train_accuracy",
+      "val_accuracy",
+      "training_seconds"
+    ],
+    "row_count": 100,
+    "sha256": "12997382a4c8ecfd6faf88bff5d8e37e95c45b1cc7b5aee3c693531e5cd8bad6"
+  },
+  {
+    "relative_path": "mlp_results/tf_scaling_20261013_114947_907546/log_tf/validation_predictions.csv",
+    "columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct",
+      "text"
+    ],
+    "row_count": 1474,
+    "sha256": "9aac74b99f29caeb2630b25faf7e7733bb614471b032090b4a7d190b959728c3"
+  },
+  {
+    "relative_path": "mlp_results/tf_scaling_20261013_114947_907546/log_tf/wrong_predictions.csv",
+    "columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct",
+      "text"
+    ],
+    "row_count": 121,
+    "sha256": "6ff2a4ae13987a737c3bce3242a7a33fe0ffca4fe265fb13235a199a6b6902e1"
+  },
+  {
+    "relative_path": "mlp_results/tf_scaling_20261013_114947_907546/ordinary_tf/features.csv",
+    "columns": [
+      "feature_index",
+      "feature",
+      "idf"
+    ],
+    "row_count": 5000,
+    "sha256": "d0c43a2e008f04ed7241768186c389d5abdb9ff44cd26e35c25120a10284bcbc"
+  },
+  {
+    "relative_path": "mlp_results/tf_scaling_20261013_114947_907546/ordinary_tf/history.csv",
+    "columns": [
+      "epoch",
+      "train_loss",
+      "val_loss",
+      "train_accuracy",
+      "val_accuracy",
+      "training_seconds"
+    ],
+    "row_count": 100,
+    "sha256": "16cea98387e9a6e0fa4484a97d0384f0875c93d30b7ffe049a98a7d92a6d896d"
+  },
+  {
+    "relative_path": "mlp_results/tf_scaling_20261013_114947_907546/ordinary_tf/validation_predictions.csv",
+    "columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct",
+      "text"
+    ],
+    "row_count": 1474,
+    "sha256": "ff6bd34564da1d2578fc57cb7c98c09789800ba823769362a9932b0b519dfeec"
+  },
+  {
+    "relative_path": "mlp_results/tf_scaling_20261013_114947_907546/ordinary_tf/wrong_predictions.csv",
+    "columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct",
+      "text"
+    ],
+    "row_count": 117,
+    "sha256": "dae5bea0dc3fb68357d136fc69268d3a925b06810251fe67a00f7b7e683a4cc6"
+  },
+  {
+    "relative_path": "mlp_results/vocabulary_20261013_203212_922430/added_features.csv",
+    "columns": [
+      "feature_index",
+      "feature",
+      "idf"
+    ],
+    "row_count": 5000,
+    "sha256": "056a18947f5e6ffeb91bc4485718dc0bbed26414648e4724e755c74cb5b9ee44"
+  },
+  {
+    "relative_path": "mlp_results/vocabulary_20261013_203212_922430/comparison.csv",
+    "columns": [
+      "hidden_units",
+      "parameter_count",
+      "train_accuracy",
+      "val_accuracy",
+      "train_loss",
+      "val_loss",
+      "accuracy_gap",
+      "macro_f1",
+      "wrong_count",
+      "training_seconds",
+      "max_features",
+      "actual_feature_count",
+      "reused",
+      "source_run_dir"
+    ],
+    "row_count": 2,
+    "sha256": "c49eaba77f2b113a87499acb5b0e58679dca23163513bd0c76b45938d71a4b34"
+  },
+  {
+    "relative_path": "mlp_results/vocabulary_20261013_203212_922430/corrected_errors.csv",
+    "columns": [
+      "validation_index",
+      "source_index",
+      "true_label",
+      "prediction_5000",
+      "prediction_10000",
+      "text"
+    ],
+    "row_count": 23,
+    "sha256": "41427384cee1acd581456a5b2e4f58ed51740d55bfb73ff0ea09f74030ae5cbb"
+  },
+  {
+    "relative_path": "mlp_results/vocabulary_20261013_203212_922430/features10000/features.csv",
+    "columns": [
+      "feature_index",
+      "feature",
+      "idf"
+    ],
+    "row_count": 10000,
+    "sha256": "a5e920a1c295bb777519d25e735fa219a2f22b7e24257b54b91f9b25dfb89a06"
+  },
+  {
+    "relative_path": "mlp_results/vocabulary_20261013_203212_922430/features10000/history.csv",
+    "columns": [
+      "epoch",
+      "train_loss",
+      "val_loss",
+      "train_accuracy",
+      "val_accuracy",
+      "training_seconds"
+    ],
+    "row_count": 100,
+    "sha256": "0b16806457157150335d6d71e56061b1e15f2189d4850f3ffe92ce822d72fd74"
+  },
+  {
+    "relative_path": "mlp_results/vocabulary_20261013_203212_922430/features10000/validation_predictions.csv",
+    "columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct",
+      "text"
+    ],
+    "row_count": 1474,
+    "sha256": "53ad9add2b3972e27b3768be6019535706d27750650202dcaf9ae3c0a3e07bd9"
+  },
+  {
+    "relative_path": "mlp_results/vocabulary_20261013_203212_922430/features10000/wrong_predictions.csv",
+    "columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct",
+      "text"
+    ],
+    "row_count": 105,
+    "sha256": "898824fdaeda7fed9a6433cdda815ccb0704610270d17666477ff2b2730c6d44"
+  },
+  {
+    "relative_path": "mlp_results/vocabulary_20261013_203212_922430/features5000/features.csv",
+    "columns": [
+      "feature_index",
+      "feature",
+      "idf"
+    ],
+    "row_count": 5000,
+    "sha256": "d0c43a2e008f04ed7241768186c389d5abdb9ff44cd26e35c25120a10284bcbc"
+  },
+  {
+    "relative_path": "mlp_results/vocabulary_20261013_203212_922430/features5000/history.csv",
+    "columns": [
+      "epoch",
+      "train_loss",
+      "val_loss",
+      "train_accuracy",
+      "val_accuracy",
+      "training_seconds"
+    ],
+    "row_count": 100,
+    "sha256": "16cea98387e9a6e0fa4484a97d0384f0875c93d30b7ffe049a98a7d92a6d896d"
+  },
+  {
+    "relative_path": "mlp_results/vocabulary_20261013_203212_922430/features5000/validation_predictions.csv",
+    "columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct",
+      "text"
+    ],
+    "row_count": 1474,
+    "sha256": "ff6bd34564da1d2578fc57cb7c98c09789800ba823769362a9932b0b519dfeec"
+  },
+  {
+    "relative_path": "mlp_results/vocabulary_20261013_203212_922430/features5000/wrong_predictions.csv",
+    "columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct",
+      "text"
+    ],
+    "row_count": 117,
+    "sha256": "dae5bea0dc3fb68357d136fc69268d3a925b06810251fe67a00f7b7e683a4cc6"
+  },
+  {
+    "relative_path": "mlp_results/vocabulary_20261013_203212_922430/introduced_errors.csv",
+    "columns": [
+      "validation_index",
+      "source_index",
+      "true_label",
+      "prediction_5000",
+      "prediction_10000",
+      "text"
+    ],
+    "row_count": 11,
+    "sha256": "ef473a946a5a3fd502d955e22cd6ab11eb4689325c5803be4150af31b1faa20b"
+  },
+  {
+    "relative_path": "mlp_results/weighting_class2_20261013_011529_259979/comparison.csv",
+    "columns": [
+      "relative_weight",
+      "train_accuracy",
+      "val_accuracy",
+      "train_loss",
+      "val_loss",
+      "macro_f1",
+      "class2_precision",
+      "class2_recall",
+      "class7_recall",
+      "wrong_count",
+      "training_seconds"
+    ],
+    "row_count": 2,
+    "sha256": "df2c4867f936d83daea1727668f6832139a623f330a8e1b37b68e92d3a2bd73e"
+  },
+  {
+    "relative_path": "mlp_results/weighting_class2_20261013_011529_259979/corrected_errors.csv",
+    "columns": [
+      "validation_index",
+      "source_index",
+      "true_label",
+      "baseline_prediction",
+      "weighted_prediction",
+      "baseline_predicted_probability",
+      "weighted_predicted_probability",
+      "text"
+    ],
+    "row_count": 6,
+    "sha256": "84a2c23d25bef3e1e825d3dfb0be5c2999912a37ef7d6a8109d5ede05e068637"
+  },
+  {
+    "relative_path": "mlp_results/weighting_class2_20261013_011529_259979/introduced_errors.csv",
+    "columns": [
+      "validation_index",
+      "source_index",
+      "true_label",
+      "baseline_prediction",
+      "weighted_prediction",
+      "baseline_predicted_probability",
+      "weighted_predicted_probability",
+      "text"
+    ],
+    "row_count": 1,
+    "sha256": "3c6cf56fe031f3c07abac9284617ccc1affd0cd627801847a61860d8f03854df"
+  },
+  {
+    "relative_path": "mlp_results/weighting_class2_20261013_011529_259979/weight1/history.csv",
+    "columns": [
+      "epoch",
+      "train_loss",
+      "val_loss",
+      "train_accuracy",
+      "val_accuracy",
+      "training_seconds"
+    ],
+    "row_count": 100,
+    "sha256": "912e87b33794f2b25e6687e920e1735857fa1366fa42a2930f6a0831cf492f75"
+  },
+  {
+    "relative_path": "mlp_results/weighting_class2_20261013_011529_259979/weight1/validation_predictions.csv",
+    "columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct",
+      "text"
+    ],
+    "row_count": 1474,
+    "sha256": "9e079772a92f2fe16e56d37be3e2c73fa569eed638ba1066e72b6c03c6872ec1"
+  },
+  {
+    "relative_path": "mlp_results/weighting_class2_20261013_011529_259979/weight1/wrong_predictions.csv",
+    "columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct",
+      "text"
+    ],
+    "row_count": 124,
+    "sha256": "e72e043b1bf425e4876e0bbac7c72616a081c30548b04635b18ad361d060f7bc"
+  },
+  {
+    "relative_path": "mlp_results/weighting_class2_20261013_011529_259979/weight1.5/history.csv",
+    "columns": [
+      "epoch",
+      "train_loss",
+      "val_loss",
+      "train_accuracy",
+      "val_accuracy",
+      "training_seconds"
+    ],
+    "row_count": 100,
+    "sha256": "2ab4c56b2f54b7e007971877dd44587c4eb12e359a026bc72848395c099f59a2"
+  },
+  {
+    "relative_path": "mlp_results/weighting_class2_20261013_011529_259979/weight1.5/validation_predictions.csv",
+    "columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct",
+      "text"
+    ],
+    "row_count": 1474,
+    "sha256": "37b84eddcfd25ff6652c63b86fe73499e7382644a94d2cec91793a569285f922"
+  },
+  {
+    "relative_path": "mlp_results/weighting_class2_20261013_011529_259979/weight1.5/wrong_predictions.csv",
+    "columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct",
+      "text"
+    ],
+    "row_count": 119,
+    "sha256": "55ef921a77367f0d7cd828406b96ed92f99730862d49c8199c8c25ca3250392e"
+  },
+  {
+    "relative_path": "mlp_results/weighting_class2_20261013_100936_411556/comparison.csv",
+    "columns": [
+      "relative_weight",
+      "train_accuracy",
+      "val_accuracy",
+      "train_loss",
+      "val_loss",
+      "macro_f1",
+      "class2_precision",
+      "class2_recall",
+      "class7_recall",
+      "wrong_count",
+      "target_class_count",
+      "target_class_missed",
+      "target_class_false_positive",
+      "training_seconds"
+    ],
+    "row_count": 2,
+    "sha256": "a509492ae2f76d6d601b51dad65b91ca6ea811f7fb26c52616f8f15fce138a5c"
+  },
+  {
+    "relative_path": "mlp_results/weighting_class2_20261013_100936_411556/corrected_errors.csv",
+    "columns": [
+      "validation_index",
+      "source_index",
+      "true_label",
+      "baseline_prediction",
+      "weighted_prediction",
+      "baseline_predicted_probability",
+      "weighted_predicted_probability",
+      "text"
+    ],
+    "row_count": 6,
+    "sha256": "84a2c23d25bef3e1e825d3dfb0be5c2999912a37ef7d6a8109d5ede05e068637"
+  },
+  {
+    "relative_path": "mlp_results/weighting_class2_20261013_100936_411556/introduced_errors.csv",
+    "columns": [
+      "validation_index",
+      "source_index",
+      "true_label",
+      "baseline_prediction",
+      "weighted_prediction",
+      "baseline_predicted_probability",
+      "weighted_predicted_probability",
+      "text"
+    ],
+    "row_count": 1,
+    "sha256": "3c6cf56fe031f3c07abac9284617ccc1affd0cd627801847a61860d8f03854df"
+  },
+  {
+    "relative_path": "mlp_results/weighting_class2_20261013_100936_411556/weight1/history.csv",
+    "columns": [
+      "epoch",
+      "train_loss",
+      "val_loss",
+      "train_accuracy",
+      "val_accuracy",
+      "training_seconds"
+    ],
+    "row_count": 100,
+    "sha256": "ccc2e18ece408647bb055b3c7ecf6123677d864c568bc9bc3bcbb1426c82ee7c"
+  },
+  {
+    "relative_path": "mlp_results/weighting_class2_20261013_100936_411556/weight1/validation_predictions.csv",
+    "columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct",
+      "text"
+    ],
+    "row_count": 1474,
+    "sha256": "9e079772a92f2fe16e56d37be3e2c73fa569eed638ba1066e72b6c03c6872ec1"
+  },
+  {
+    "relative_path": "mlp_results/weighting_class2_20261013_100936_411556/weight1/wrong_predictions.csv",
+    "columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct",
+      "text"
+    ],
+    "row_count": 124,
+    "sha256": "e72e043b1bf425e4876e0bbac7c72616a081c30548b04635b18ad361d060f7bc"
+  },
+  {
+    "relative_path": "mlp_results/weighting_class2_20261013_100936_411556/weight1.5/history.csv",
+    "columns": [
+      "epoch",
+      "train_loss",
+      "val_loss",
+      "train_accuracy",
+      "val_accuracy",
+      "training_seconds"
+    ],
+    "row_count": 100,
+    "sha256": "a062e06108d747049d7c9278304fc6c8b489c048f0bf2039b1d1b3c63ee0496d"
+  },
+  {
+    "relative_path": "mlp_results/weighting_class2_20261013_100936_411556/weight1.5/validation_predictions.csv",
+    "columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct",
+      "text"
+    ],
+    "row_count": 1474,
+    "sha256": "37b84eddcfd25ff6652c63b86fe73499e7382644a94d2cec91793a569285f922"
+  },
+  {
+    "relative_path": "mlp_results/weighting_class2_20261013_100936_411556/weight1.5/wrong_predictions.csv",
+    "columns": [
+      "epoch",
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "predicted_probability",
+      "true_label_probability",
+      "is_correct",
+      "text"
+    ],
+    "row_count": 119,
+    "sha256": "55ef921a77367f0d7cd828406b96ed92f99730862d49c8199c8c25ca3250392e"
+  },
+  {
+    "relative_path": "lr_results/vocabulary_20261013_195507_556938/added_features.csv",
+    "columns": [
+      "feature_index",
+      "feature",
+      "idf"
+    ],
+    "row_count": 5000,
+    "sha256": "056a18947f5e6ffeb91bc4485718dc0bbed26414648e4724e755c74cb5b9ee44"
+  },
+  {
+    "relative_path": "lr_results/vocabulary_20261013_195507_556938/comparison.csv",
+    "columns": [
+      "max_features",
+      "actual_feature_count",
+      "parameter_count",
+      "train_accuracy",
+      "val_accuracy",
+      "train_loss",
+      "val_loss",
+      "accuracy_gap",
+      "wrong_count",
+      "training_seconds",
+      "solver_iterations",
+      "converged"
+    ],
+    "row_count": 2,
+    "sha256": "7b92defa8dcb895eaeb351006bea118c855020cc92956459a03482605ba96001"
+  },
+  {
+    "relative_path": "lr_results/vocabulary_20261013_195507_556938/corrected_errors.csv",
+    "columns": [
+      "validation_index",
+      "source_index",
+      "true_label",
+      "prediction_5000",
+      "prediction_10000",
+      "text"
+    ],
+    "row_count": 29,
+    "sha256": "c2018cad238df637022e07c9abb64bd377cf91974e533fe7f7d33a26a595de51"
+  },
+  {
+    "relative_path": "lr_results/vocabulary_20261013_195507_556938/dropped_features.csv",
+    "columns": [
+      "feature_index",
+      "feature",
+      "idf"
+    ],
+    "row_count": 0,
+    "sha256": "73f055f049da8ebe9510955ffc0c732270dcb147bdd3c82da07fa73a3a29627e"
+  },
+  {
+    "relative_path": "lr_results/vocabulary_20261013_195507_556938/features10000/features.csv",
+    "columns": [
+      "feature_index",
+      "feature",
+      "idf"
+    ],
+    "row_count": 10000,
+    "sha256": "a5e920a1c295bb777519d25e735fa219a2f22b7e24257b54b91f9b25dfb89a06"
+  },
+  {
+    "relative_path": "lr_results/vocabulary_20261013_195507_556938/features10000/validation_predictions.csv",
+    "columns": [
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "is_correct",
+      "predicted_probability",
+      "true_probability",
+      "text"
+    ],
+    "row_count": 1474,
+    "sha256": "3c7b0e8df72e3600c6e00175c7eb6653a59e14420d728d1bbc3eb85f5648d818"
+  },
+  {
+    "relative_path": "lr_results/vocabulary_20261013_195507_556938/features10000/wrong_predictions.csv",
+    "columns": [
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "is_correct",
+      "predicted_probability",
+      "true_probability",
+      "text"
+    ],
+    "row_count": 103,
+    "sha256": "5ad4fd718be18a52d6e108a0edfc45010da49d1a51c8e7fd245899e29e99440c"
+  },
+  {
+    "relative_path": "lr_results/vocabulary_20261013_195507_556938/features5000/features.csv",
+    "columns": [
+      "feature_index",
+      "feature",
+      "idf"
+    ],
+    "row_count": 5000,
+    "sha256": "d0c43a2e008f04ed7241768186c389d5abdb9ff44cd26e35c25120a10284bcbc"
+  },
+  {
+    "relative_path": "lr_results/vocabulary_20261013_195507_556938/features5000/validation_predictions.csv",
+    "columns": [
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "is_correct",
+      "predicted_probability",
+      "true_probability",
+      "text"
+    ],
+    "row_count": 1474,
+    "sha256": "0e6847526a091d1370d0c8d4d2f2f6ff1dce9ac10702808dc666a8c81e6db4e4"
+  },
+  {
+    "relative_path": "lr_results/vocabulary_20261013_195507_556938/features5000/wrong_predictions.csv",
+    "columns": [
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "is_correct",
+      "predicted_probability",
+      "true_probability",
+      "text"
+    ],
+    "row_count": 126,
+    "sha256": "f55cb1cad8035b31743fcf1192191fe9b7de35d641f0aafee8d35b68554866d2"
+  },
+  {
+    "relative_path": "lr_results/vocabulary_20261013_195507_556938/introduced_errors.csv",
+    "columns": [
+      "validation_index",
+      "source_index",
+      "true_label",
+      "prediction_5000",
+      "prediction_10000",
+      "text"
+    ],
+    "row_count": 6,
+    "sha256": "cb6401b3fcbcd99a8f305dda0d9ef405dd1d2bdb81d7bef1412d43b1b772fb49"
+  },
+  {
+    "relative_path": "svm_results/linear_C_20261013_121347_531213/C0.1/confusion_matrix.csv",
+    "columns": [
+      "true_label / predicted_label",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "row_count": 10,
+    "sha256": "15637a8e0d9fd3eee6a6522b778e0a8ebfb22d26e1e91a51f0ac50d23cc84daa"
+  },
+  {
+    "relative_path": "svm_results/linear_C_20261013_121347_531213/C0.1/validation_predictions.csv",
+    "columns": [
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "is_correct",
+      "text"
+    ],
+    "row_count": 1474,
+    "sha256": "5b09571b6966a0bb48addf4013f6e6933012d8c26537e30c9ebedbc47f17a68f"
+  },
+  {
+    "relative_path": "svm_results/linear_C_20261013_121347_531213/C0.1/wrong_predictions.csv",
+    "columns": [
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "is_correct",
+      "text"
+    ],
+    "row_count": 277,
+    "sha256": "11e4619d0e319215d493937e57a993c4658cf1f692479d974055829baeb72506"
+  },
+  {
+    "relative_path": "svm_results/linear_C_20261013_121347_531213/C1/confusion_matrix.csv",
+    "columns": [
+      "true_label / predicted_label",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "row_count": 10,
+    "sha256": "98ef04a2292ce834899155bf25b640f1583938fcad10f4cfa15ff7e89739be4f"
+  },
+  {
+    "relative_path": "svm_results/linear_C_20261013_121347_531213/C1/validation_predictions.csv",
+    "columns": [
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "is_correct",
+      "text"
+    ],
+    "row_count": 1474,
+    "sha256": "203ef1119385cdb10d7430194a59caa97fb01da505ebabeb45162ddbc944ea57"
+  },
+  {
+    "relative_path": "svm_results/linear_C_20261013_121347_531213/C1/wrong_predictions.csv",
+    "columns": [
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "is_correct",
+      "text"
+    ],
+    "row_count": 144,
+    "sha256": "b6f748d0433f689cce82262b2fb800b4dedc01f8d7950f3a6cbb4064abeba38e"
+  },
+  {
+    "relative_path": "svm_results/linear_C_20261013_121347_531213/C10/confusion_matrix.csv",
+    "columns": [
+      "true_label / predicted_label",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "row_count": 10,
+    "sha256": "e1e2625dd3f35cd1d8e4ecec0fe47c352ef91e387a032c19839bd68ab41d23ea"
+  },
+  {
+    "relative_path": "svm_results/linear_C_20261013_121347_531213/C10/validation_predictions.csv",
+    "columns": [
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "is_correct",
+      "text"
+    ],
+    "row_count": 1474,
+    "sha256": "fd7b9f6d41081e70d71185f683df966e64061a5e612c357bfa91c5e2af2f7338"
+  },
+  {
+    "relative_path": "svm_results/linear_C_20261013_121347_531213/C10/wrong_predictions.csv",
+    "columns": [
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "is_correct",
+      "text"
+    ],
+    "row_count": 137,
+    "sha256": "a8e058aab6fe53211085bf2e3d13167c8fb161dde334951a71d54735d6f7a0ce"
+  },
+  {
+    "relative_path": "svm_results/linear_C_20261013_121347_531213/comparison.csv",
+    "columns": [
+      "C",
+      "train_accuracy",
+      "val_accuracy",
+      "accuracy_gap",
+      "wrong_count",
+      "support_vector_count",
+      "support_vector_fraction",
+      "training_seconds",
+      "fit_status"
+    ],
+    "row_count": 3,
+    "sha256": "132a92167d61921cdfd5467c91d5a4779bc5c3669c000fbc30420d303c734a46"
+  },
+  {
+    "relative_path": "svm_results/linear_C_20261013_121347_531213/features.csv",
+    "columns": [
+      "feature_index",
+      "feature",
+      "idf"
+    ],
+    "row_count": 5000,
+    "sha256": "d0c43a2e008f04ed7241768186c389d5abdb9ff44cd26e35c25120a10284bcbc"
+  },
+  {
+    "relative_path": "svm_results/linear_C_20261013_193635_918184/C0.1/confusion_matrix.csv",
+    "columns": [
+      "true_label / predicted_label",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "row_count": 10,
+    "sha256": "15637a8e0d9fd3eee6a6522b778e0a8ebfb22d26e1e91a51f0ac50d23cc84daa"
+  },
+  {
+    "relative_path": "svm_results/linear_C_20261013_193635_918184/C0.1/validation_predictions.csv",
+    "columns": [
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "is_correct",
+      "text"
+    ],
+    "row_count": 1474,
+    "sha256": "5b09571b6966a0bb48addf4013f6e6933012d8c26537e30c9ebedbc47f17a68f"
+  },
+  {
+    "relative_path": "svm_results/linear_C_20261013_193635_918184/C0.1/wrong_predictions.csv",
+    "columns": [
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "is_correct",
+      "text"
+    ],
+    "row_count": 277,
+    "sha256": "11e4619d0e319215d493937e57a993c4658cf1f692479d974055829baeb72506"
+  },
+  {
+    "relative_path": "svm_results/linear_C_20261013_193635_918184/C1/confusion_matrix.csv",
+    "columns": [
+      "true_label / predicted_label",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "row_count": 10,
+    "sha256": "98ef04a2292ce834899155bf25b640f1583938fcad10f4cfa15ff7e89739be4f"
+  },
+  {
+    "relative_path": "svm_results/linear_C_20261013_193635_918184/C1/validation_predictions.csv",
+    "columns": [
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "is_correct",
+      "text"
+    ],
+    "row_count": 1474,
+    "sha256": "203ef1119385cdb10d7430194a59caa97fb01da505ebabeb45162ddbc944ea57"
+  },
+  {
+    "relative_path": "svm_results/linear_C_20261013_193635_918184/C1/wrong_predictions.csv",
+    "columns": [
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "is_correct",
+      "text"
+    ],
+    "row_count": 144,
+    "sha256": "b6f748d0433f689cce82262b2fb800b4dedc01f8d7950f3a6cbb4064abeba38e"
+  },
+  {
+    "relative_path": "svm_results/linear_C_20261013_193635_918184/C10/confusion_matrix.csv",
+    "columns": [
+      "true_label / predicted_label",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "row_count": 10,
+    "sha256": "e1e2625dd3f35cd1d8e4ecec0fe47c352ef91e387a032c19839bd68ab41d23ea"
+  },
+  {
+    "relative_path": "svm_results/linear_C_20261013_193635_918184/C10/validation_predictions.csv",
+    "columns": [
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "is_correct",
+      "text"
+    ],
+    "row_count": 1474,
+    "sha256": "fd7b9f6d41081e70d71185f683df966e64061a5e612c357bfa91c5e2af2f7338"
+  },
+  {
+    "relative_path": "svm_results/linear_C_20261013_193635_918184/C10/wrong_predictions.csv",
+    "columns": [
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "is_correct",
+      "text"
+    ],
+    "row_count": 137,
+    "sha256": "a8e058aab6fe53211085bf2e3d13167c8fb161dde334951a71d54735d6f7a0ce"
+  },
+  {
+    "relative_path": "svm_results/linear_C_20261013_193635_918184/C100/confusion_matrix.csv",
+    "columns": [
+      "true_label / predicted_label",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "row_count": 10,
+    "sha256": "1c00f1d4bfc845ab9425d89dfb2d608638c858898cf33a7d6cedc6efec8ec499"
+  },
+  {
+    "relative_path": "svm_results/linear_C_20261013_193635_918184/C100/validation_predictions.csv",
+    "columns": [
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "is_correct",
+      "text"
+    ],
+    "row_count": 1474,
+    "sha256": "2002fd87e56ad807c814b8c045b2e8035e45310687095e20989b3be28dc397f9"
+  },
+  {
+    "relative_path": "svm_results/linear_C_20261013_193635_918184/C100/wrong_predictions.csv",
+    "columns": [
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "is_correct",
+      "text"
+    ],
+    "row_count": 132,
+    "sha256": "5e18f630ed210caf0fde8e67efd490be18a4d7ba08bc95299b733e0720416b53"
+  },
+  {
+    "relative_path": "svm_results/linear_C_20261013_193635_918184/comparison.csv",
+    "columns": [
+      "C",
+      "train_accuracy",
+      "val_accuracy",
+      "accuracy_gap",
+      "wrong_count",
+      "support_vector_count",
+      "support_vector_fraction",
+      "training_seconds",
+      "fit_status",
+      "reused",
+      "source_run_dir"
+    ],
+    "row_count": 4,
+    "sha256": "6cf6ae98851db760f55fde88c28fdc8dac8c27c91d3e738a13c19a3651e76f25"
+  },
+  {
+    "relative_path": "svm_results/linear_C_20261013_193635_918184/features.csv",
+    "columns": [
+      "feature_index",
+      "feature",
+      "idf"
+    ],
+    "row_count": 5000,
+    "sha256": "d0c43a2e008f04ed7241768186c389d5abdb9ff44cd26e35c25120a10284bcbc"
+  },
+  {
+    "relative_path": "svm_results/vocabulary_20261013_202547_413463/added_features.csv",
+    "columns": [
+      "feature_index",
+      "feature",
+      "idf"
+    ],
+    "row_count": 5000,
+    "sha256": "056a18947f5e6ffeb91bc4485718dc0bbed26414648e4724e755c74cb5b9ee44"
+  },
+  {
+    "relative_path": "svm_results/vocabulary_20261013_202547_413463/comparison.csv",
+    "columns": [
+      "C",
+      "train_accuracy",
+      "val_accuracy",
+      "accuracy_gap",
+      "wrong_count",
+      "support_vector_count",
+      "support_vector_fraction",
+      "training_seconds",
+      "fit_status",
+      "max_features",
+      "actual_feature_count",
+      "reused",
+      "source_run_dir"
+    ],
+    "row_count": 2,
+    "sha256": "62485750e57cecfa905e6aa8f5227b7e80c44494077a90bbcb869fc29f8ea543"
+  },
+  {
+    "relative_path": "svm_results/vocabulary_20261013_202547_413463/corrected_errors.csv",
+    "columns": [
+      "validation_index",
+      "source_index",
+      "true_label",
+      "prediction_5000",
+      "prediction_10000",
+      "text"
+    ],
+    "row_count": 34,
+    "sha256": "9f59f3a2500a3a4464fea6eb6ac594c6e1e0a30ad1ba33a6748a984eace13d32"
+  },
+  {
+    "relative_path": "svm_results/vocabulary_20261013_202547_413463/features10000/confusion_matrix.csv",
+    "columns": [
+      "true_label / predicted_label",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "row_count": 10,
+    "sha256": "e7217bdda8546d974348cd2654b8e12b2163795f3792d4dbda01783f6674addf"
+  },
+  {
+    "relative_path": "svm_results/vocabulary_20261013_202547_413463/features10000/features.csv",
+    "columns": [
+      "feature_index",
+      "feature",
+      "idf"
+    ],
+    "row_count": 10000,
+    "sha256": "a5e920a1c295bb777519d25e735fa219a2f22b7e24257b54b91f9b25dfb89a06"
+  },
+  {
+    "relative_path": "svm_results/vocabulary_20261013_202547_413463/features10000/validation_predictions.csv",
+    "columns": [
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "is_correct",
+      "text"
+    ],
+    "row_count": 1474,
+    "sha256": "5e2f3b19ce9123438eeec0bb2c9ddd1f597ecefb2b176e6d818cb6321e26e732"
+  },
+  {
+    "relative_path": "svm_results/vocabulary_20261013_202547_413463/features10000/wrong_predictions.csv",
+    "columns": [
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "is_correct",
+      "text"
+    ],
+    "row_count": 121,
+    "sha256": "68048b93a5d1c4348d83c6fd905be979ccfdcccf65a3ee7369104a91178ceeee"
+  },
+  {
+    "relative_path": "svm_results/vocabulary_20261013_202547_413463/features5000/confusion_matrix.csv",
+    "columns": [
+      "true_label / predicted_label",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "row_count": 10,
+    "sha256": "1c00f1d4bfc845ab9425d89dfb2d608638c858898cf33a7d6cedc6efec8ec499"
+  },
+  {
+    "relative_path": "svm_results/vocabulary_20261013_202547_413463/features5000/features.csv",
+    "columns": [
+      "feature_index",
+      "feature",
+      "idf"
+    ],
+    "row_count": 5000,
+    "sha256": "d0c43a2e008f04ed7241768186c389d5abdb9ff44cd26e35c25120a10284bcbc"
+  },
+  {
+    "relative_path": "svm_results/vocabulary_20261013_202547_413463/features5000/validation_predictions.csv",
+    "columns": [
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "is_correct",
+      "text"
+    ],
+    "row_count": 1474,
+    "sha256": "2002fd87e56ad807c814b8c045b2e8035e45310687095e20989b3be28dc397f9"
+  },
+  {
+    "relative_path": "svm_results/vocabulary_20261013_202547_413463/features5000/wrong_predictions.csv",
+    "columns": [
+      "validation_index",
+      "source_index",
+      "true_label",
+      "predicted_label",
+      "is_correct",
+      "text"
+    ],
+    "row_count": 132,
+    "sha256": "5e18f630ed210caf0fde8e67efd490be18a4d7ba08bc95299b733e0720416b53"
+  },
+  {
+    "relative_path": "svm_results/vocabulary_20261013_202547_413463/introduced_errors.csv",
+    "columns": [
+      "validation_index",
+      "source_index",
+      "true_label",
+      "prediction_5000",
+      "prediction_10000",
+      "text"
+    ],
+    "row_count": 23,
+    "sha256": "06d2f61c50656a5bc63b3f48aa7b5fa1d94df221706a82d5a96cbe04b714f6a1"
+  }
+]

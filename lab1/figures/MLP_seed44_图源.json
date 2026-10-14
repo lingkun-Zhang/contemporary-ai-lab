@@ -1,0 +1,41 @@
+{
+  "comparison": "MLP_seed44",
+  "runs": [
+    "mlp_width50_s44",
+    "mlp_width100_s44"
+  ],
+  "input_files": [
+    {
+      "file": "../results/reproduction_20261014/runs/mlp_width50_s44/summary.json",
+      "sha256": "f212ad6f854661fff181c0bcb502ca8031df7db720f6b3489ac84a73ae49a3ae"
+    },
+    {
+      "file": "../results/reproduction_20261014/runs/mlp_width100_s44/summary.json",
+      "sha256": "ad9cf1641c540ddea9e501d8e098e59a2f4e7b42f236b1eb0c675899fe86d9c9"
+    },
+    {
+      "file": "../results/reproduction_20261014/runs/mlp_width50_s44/history.csv",
+      "sha256": "f2c760288c92274572e6727bf0da845ce7a8613637622904d52ce24ec2b8cb87",
+      "points": 100,
+      "epochs": [
+        1,
+        100
+      ]
+    },
+    {
+      "file": "../results/reproduction_20261014/runs/mlp_width100_s44/history.csv",
+      "sha256": "92f140ec34a0da02b50b3f0a26d8b37ae10b83346e7e356fa6f53424ea545ccd",
+      "points": 100,
+      "epochs": [
+        1,
+        100
+      ]
+    }
+  ],
+  "smooth": false,
+  "interpolation": false,
+  "points_removed": false,
+  "y_axis_note": "cross-entropy excludes L2; accuracy is fraction",
+  "plot_sha256": "f14e3b555cb9371f138723a862a4650c0576f04e1ebe41ddee4e7740756f91a3",
+  "reference_base": "this JSON file's directory"
+}

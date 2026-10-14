@@ -1,0 +1,18 @@
+{
+  "run_id": "mlp_alpha05_e100",
+  "model": "MLP",
+  "max_features": 5000,
+  "ngram_range": [
+    1,
+    1
+  ],
+  "sublinear_tf": false,
+  "seed": 42,
+  "weight_class": null,
+  "relative_weight": 1.0,
+  "hidden_units": 50,
+  "learning_rate_init": 0.0001,
+  "alpha": 0.05,
+  "batch_size": 64,
+  "epochs": 100
+}

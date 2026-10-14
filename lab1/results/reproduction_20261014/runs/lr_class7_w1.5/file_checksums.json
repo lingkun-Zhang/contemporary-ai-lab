@@ -1,0 +1,17 @@
+{
+  "public": {
+    "classification_report.json": "d74b937bc917d231abd0e29e7a1aeff120799b127bb944b82f7bbd3800166601",
+    "config.json": "8aadf1f6dbce81087da3d43df77c26dadad0ea1d080a8a3680a0afd9d72172e1",
+    "confusion_matrix.csv": "fe2daabe8a481eba77a2a87537c8fdebdbe8e6b66e9c3f4abbea4c19914cfd1e",
+    "console.log": "5801f73af3bf3882e6af30e59f3916d8181a273e5db44658ae7773b0f21064a7",
+    "feature_metadata.json": "08dabdeac680ebd5d4601a83c119b44e46f5ed4dfdedebcd4ef073243154298a",
+    "model_parameters.json": "f4d57e8ed1c8e2c0eba8723c7c66178843035eddba49d544bb3b315d27e81928",
+    "status.json": "30d83100418b3caf2a86858969a2aa0957e298b2e4b03c3b1f72443e9f8901bd",
+    "summary.json": "7d834f9f881b9dd5316ed69795f0c2aa52b87059f3db9c91d9a522fe343e608f",
+    "training_predictions.csv": "f89239c41aab79daede769b9ef06733970a3f5979f28f52e708968590ab3b398",
+    "training_weights.csv": "e654f21645b3b66a9a5492ccea59dcc1808681a948651c906ea94b9b7ffefdb6",
+    "validation_predictions.csv": "89780afbfef5e76ea18c2ea8581a28bdb53eb8ff8eabbaaf01c4a2123ffcee20",
+    "warnings.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "wrong_predictions.csv": "a50c9466c192c777a9cebf2bfdfc0330f6a42826714983427eedc79d93d6f744"
+  }
+}

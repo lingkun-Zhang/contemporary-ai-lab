@@ -1,0 +1,18 @@
+{
+  "public": {
+    "classification_report.json": "f05fdb89682d9d82c456828ca0cfa71610389300d9ae45903e81a40479ac2965",
+    "config.json": "6adda81d4404f837ac7c301696a4b270c61edd78758a2e4dfe10d632b597cfc0",
+    "confusion_matrix.csv": "1eda12f131a0f22c69620b9d7e0b751a0577edd46ee6f45e3b2f080c3a6ce0c7",
+    "console.log": "b354417991565553919a1ed3a9e1ff60b54d0cc85fe84fc8bd97a925f6101d81",
+    "curves.png": "2ffcfa85b4dc2ff81458f1fa9d05bf8b243b16dca821d50e8783eedec9c332e1",
+    "feature_metadata.json": "08dabdeac680ebd5d4601a83c119b44e46f5ed4dfdedebcd4ef073243154298a",
+    "history.csv": "a5dcf285d11edeba7122e45b5115113430d1bbf3087f2c03d8906e03bd4d2572",
+    "model_parameters.json": "fb988209f91bbb23ccdbeb9999b5ad6f2831180bd8c37c568340dfcc5b83eb01",
+    "status.json": "9a77531c8d1d09c6bbb474d2bc78ea451488b69070c137a8da30fe6bcb2511e9",
+    "summary.json": "8372c1dfa30e231e85553dabfe0346d30804082e2428f33b5c0bb812c99688fe",
+    "training_predictions.csv": "e9b4e1346fd83db86b5aed92301ed77dfdb701cd10965df088736db39f531096",
+    "validation_predictions.csv": "9752aba26c2769045aa03daf05d869bd191ef6e118409611dfb7784978f528ae",
+    "warnings.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "wrong_predictions.csv": "bc6917d1983ae41da39755ac707d359c83f01b9ee24299fcc52670d73d485183"
+  }
+}

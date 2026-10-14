@@ -1,0 +1,606 @@
+{
+  "started_at": "2026-10-13T17:49:10.284245+00:00",
+  "hashes": {
+    "train_data_sha256": "484667d165458da7f73ba36d172d67e14864e1aa5ab1ee6262e2966dd295c863",
+    "train_indices_sha256": "3879a9f98d7eecafe7c4528992e24a95fb4c471e507eea236ab6eadd0b6fc651",
+    "val_indices_sha256": "22c9613f164cc5af824e5bb7e9c2532ba523e6413b52e9aa0317f9131ecd2711",
+    "runner_sha256": "3ffd2dd11791921e0d477ba5f885c4b4d39ef75f6e52120c4efd0c0de1145906"
+  },
+  "configurations": [
+    {
+      "run_id": "lr_c0.1",
+      "model": "LR",
+      "max_features": 5000,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": false,
+      "seed": 42,
+      "weight_class": null,
+      "relative_weight": 1.0,
+      "C": 0.1
+    },
+    {
+      "run_id": "lr_c1",
+      "model": "LR",
+      "max_features": 5000,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": false,
+      "seed": 42,
+      "weight_class": null,
+      "relative_weight": 1.0,
+      "C": 1
+    },
+    {
+      "run_id": "lr_c10",
+      "model": "LR",
+      "max_features": 5000,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": false,
+      "seed": 42,
+      "weight_class": null,
+      "relative_weight": 1.0,
+      "C": 10
+    },
+    {
+      "run_id": "lr_c100",
+      "model": "LR",
+      "max_features": 5000,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": false,
+      "seed": 42,
+      "weight_class": null,
+      "relative_weight": 1.0,
+      "C": 100
+    },
+    {
+      "run_id": "lr_class7_w1.5",
+      "model": "LR",
+      "max_features": 5000,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": false,
+      "seed": 42,
+      "weight_class": 7,
+      "relative_weight": 1.5,
+      "C": 100
+    },
+    {
+      "run_id": "lr_class7_w2",
+      "model": "LR",
+      "max_features": 5000,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": false,
+      "seed": 42,
+      "weight_class": 7,
+      "relative_weight": 2.0,
+      "C": 100
+    },
+    {
+      "run_id": "lr_vocab10000",
+      "model": "LR",
+      "max_features": 10000,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": false,
+      "seed": 42,
+      "weight_class": null,
+      "relative_weight": 1.0,
+      "C": 100
+    },
+    {
+      "run_id": "mlp_lr001_e30",
+      "model": "MLP",
+      "max_features": 5000,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": false,
+      "seed": 42,
+      "weight_class": null,
+      "relative_weight": 1.0,
+      "hidden_units": 50,
+      "learning_rate_init": 0.001,
+      "alpha": 0.001,
+      "batch_size": 64,
+      "epochs": 30
+    },
+    {
+      "run_id": "mlp_lr0001_e30",
+      "model": "MLP",
+      "max_features": 5000,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": false,
+      "seed": 42,
+      "weight_class": null,
+      "relative_weight": 1.0,
+      "hidden_units": 50,
+      "learning_rate_init": 0.0001,
+      "alpha": 0.001,
+      "batch_size": 64,
+      "epochs": 30
+    },
+    {
+      "run_id": "mlp_alpha001_e60",
+      "model": "MLP",
+      "max_features": 5000,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": false,
+      "seed": 42,
+      "weight_class": null,
+      "relative_weight": 1.0,
+      "hidden_units": 50,
+      "learning_rate_init": 0.0001,
+      "alpha": 0.001,
+      "batch_size": 64,
+      "epochs": 60
+    },
+    {
+      "run_id": "mlp_alpha005_e50",
+      "model": "MLP",
+      "max_features": 5000,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": false,
+      "seed": 42,
+      "weight_class": null,
+      "relative_weight": 1.0,
+      "hidden_units": 50,
+      "learning_rate_init": 0.0001,
+      "alpha": 0.005,
+      "batch_size": 64,
+      "epochs": 50
+    },
+    {
+      "run_id": "mlp_alpha005_e60",
+      "model": "MLP",
+      "max_features": 5000,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": false,
+      "seed": 42,
+      "weight_class": null,
+      "relative_weight": 1.0,
+      "hidden_units": 50,
+      "learning_rate_init": 0.0001,
+      "alpha": 0.005,
+      "batch_size": 64,
+      "epochs": 60
+    },
+    {
+      "run_id": "mlp_width50_s42",
+      "model": "MLP",
+      "max_features": 5000,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": false,
+      "seed": 42,
+      "weight_class": null,
+      "relative_weight": 1.0,
+      "hidden_units": 50,
+      "learning_rate_init": 0.0001,
+      "alpha": 0.005,
+      "batch_size": 64,
+      "epochs": 100
+    },
+    {
+      "run_id": "mlp_alpha05_e100",
+      "model": "MLP",
+      "max_features": 5000,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": false,
+      "seed": 42,
+      "weight_class": null,
+      "relative_weight": 1.0,
+      "hidden_units": 50,
+      "learning_rate_init": 0.0001,
+      "alpha": 0.05,
+      "batch_size": 64,
+      "epochs": 100
+    },
+    {
+      "run_id": "mlp_width25_s42",
+      "model": "MLP",
+      "max_features": 5000,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": false,
+      "seed": 42,
+      "weight_class": null,
+      "relative_weight": 1.0,
+      "hidden_units": 25,
+      "learning_rate_init": 0.0001,
+      "alpha": 0.005,
+      "batch_size": 64,
+      "epochs": 100
+    },
+    {
+      "run_id": "mlp_width100_s42",
+      "model": "MLP",
+      "max_features": 5000,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": false,
+      "seed": 42,
+      "weight_class": null,
+      "relative_weight": 1.0,
+      "hidden_units": 100,
+      "learning_rate_init": 0.0001,
+      "alpha": 0.005,
+      "batch_size": 64,
+      "epochs": 100
+    },
+    {
+      "run_id": "mlp_width50_s43",
+      "model": "MLP",
+      "max_features": 5000,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": false,
+      "seed": 43,
+      "weight_class": null,
+      "relative_weight": 1.0,
+      "hidden_units": 50,
+      "learning_rate_init": 0.0001,
+      "alpha": 0.005,
+      "batch_size": 64,
+      "epochs": 100
+    },
+    {
+      "run_id": "mlp_width100_s43",
+      "model": "MLP",
+      "max_features": 5000,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": false,
+      "seed": 43,
+      "weight_class": null,
+      "relative_weight": 1.0,
+      "hidden_units": 100,
+      "learning_rate_init": 0.0001,
+      "alpha": 0.005,
+      "batch_size": 64,
+      "epochs": 100
+    },
+    {
+      "run_id": "mlp_width50_s44",
+      "model": "MLP",
+      "max_features": 5000,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": false,
+      "seed": 44,
+      "weight_class": null,
+      "relative_weight": 1.0,
+      "hidden_units": 50,
+      "learning_rate_init": 0.0001,
+      "alpha": 0.005,
+      "batch_size": 64,
+      "epochs": 100
+    },
+    {
+      "run_id": "mlp_width100_s44",
+      "model": "MLP",
+      "max_features": 5000,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": false,
+      "seed": 44,
+      "weight_class": null,
+      "relative_weight": 1.0,
+      "hidden_units": 100,
+      "learning_rate_init": 0.0001,
+      "alpha": 0.005,
+      "batch_size": 64,
+      "epochs": 100
+    },
+    {
+      "run_id": "mlp_class2_w1.5",
+      "model": "MLP",
+      "max_features": 5000,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": false,
+      "seed": 42,
+      "weight_class": 2,
+      "relative_weight": 1.5,
+      "hidden_units": 50,
+      "learning_rate_init": 0.0001,
+      "alpha": 0.005,
+      "batch_size": 64,
+      "epochs": 100
+    },
+    {
+      "run_id": "mlp_bigram",
+      "model": "MLP",
+      "max_features": 5000,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "sublinear_tf": false,
+      "seed": 42,
+      "weight_class": null,
+      "relative_weight": 1.0,
+      "hidden_units": 100,
+      "learning_rate_init": 0.0001,
+      "alpha": 0.005,
+      "batch_size": 64,
+      "epochs": 100
+    },
+    {
+      "run_id": "mlp_logtf",
+      "model": "MLP",
+      "max_features": 5000,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": true,
+      "seed": 42,
+      "weight_class": null,
+      "relative_weight": 1.0,
+      "hidden_units": 100,
+      "learning_rate_init": 0.0001,
+      "alpha": 0.005,
+      "batch_size": 64,
+      "epochs": 100
+    },
+    {
+      "run_id": "mlp_vocab10000",
+      "model": "MLP",
+      "max_features": 10000,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": false,
+      "seed": 42,
+      "weight_class": null,
+      "relative_weight": 1.0,
+      "hidden_units": 100,
+      "learning_rate_init": 0.0001,
+      "alpha": 0.005,
+      "batch_size": 64,
+      "epochs": 100
+    },
+    {
+      "run_id": "svm_c0.1",
+      "model": "SVM",
+      "max_features": 5000,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": false,
+      "seed": 42,
+      "weight_class": null,
+      "relative_weight": 1.0,
+      "C": 0.1
+    },
+    {
+      "run_id": "svm_c1",
+      "model": "SVM",
+      "max_features": 5000,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": false,
+      "seed": 42,
+      "weight_class": null,
+      "relative_weight": 1.0,
+      "C": 1
+    },
+    {
+      "run_id": "svm_c10",
+      "model": "SVM",
+      "max_features": 5000,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": false,
+      "seed": 42,
+      "weight_class": null,
+      "relative_weight": 1.0,
+      "C": 10
+    },
+    {
+      "run_id": "svm_c100",
+      "model": "SVM",
+      "max_features": 5000,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": false,
+      "seed": 42,
+      "weight_class": null,
+      "relative_weight": 1.0,
+      "C": 100
+    },
+    {
+      "run_id": "svm_vocab10000",
+      "model": "SVM",
+      "max_features": 10000,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": false,
+      "seed": 42,
+      "weight_class": null,
+      "relative_weight": 1.0,
+      "C": 100
+    }
+  ],
+  "comparison_groups": {
+    "LR_C": [
+      "lr_c0.1",
+      "lr_c1",
+      "lr_c10",
+      "lr_c100"
+    ],
+    "LR_weight": [
+      "lr_c100",
+      "lr_class7_w1.5",
+      "lr_class7_w2"
+    ],
+    "MLP_learning_rate": [
+      "mlp_lr001_e30",
+      "mlp_lr0001_e30"
+    ],
+    "MLP_epochs_alpha001": [
+      "mlp_lr0001_e30",
+      "mlp_alpha001_e60"
+    ],
+    "MLP_epochs_alpha005": [
+      "mlp_alpha005_e50",
+      "mlp_alpha005_e60",
+      "mlp_width50_s42"
+    ],
+    "MLP_regularization": [
+      "mlp_width50_s42",
+      "mlp_alpha05_e100"
+    ],
+    "MLP_width": [
+      "mlp_width25_s42",
+      "mlp_width50_s42",
+      "mlp_width100_s42"
+    ],
+    "MLP_seed42": [
+      "mlp_width50_s42",
+      "mlp_width100_s42"
+    ],
+    "MLP_seed43": [
+      "mlp_width50_s43",
+      "mlp_width100_s43"
+    ],
+    "MLP_seed44": [
+      "mlp_width50_s44",
+      "mlp_width100_s44"
+    ],
+    "MLP_weight": [
+      "mlp_width50_s42",
+      "mlp_class2_w1.5"
+    ],
+    "MLP_ngram": [
+      "mlp_width100_s42",
+      "mlp_bigram"
+    ],
+    "MLP_tf_scaling": [
+      "mlp_width100_s42",
+      "mlp_logtf"
+    ],
+    "SVM_C": [
+      "svm_c0.1",
+      "svm_c1",
+      "svm_c10",
+      "svm_c100"
+    ],
+    "LR_vocabulary": [
+      "lr_c100",
+      "lr_vocab10000"
+    ],
+    "MLP_vocabulary": [
+      "mlp_width100_s42",
+      "mlp_vocab10000"
+    ],
+    "SVM_vocabulary": [
+      "svm_c100",
+      "svm_vocab10000"
+    ]
+  },
+  "python": "3.10.21 | packaged by Anaconda, Inc. | (main, Aug 27 2026, 14:35:39) [MSC v.1942 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "packages": {
+    "numpy": "2.2.5",
+    "pandas": "2.3.3",
+    "scipy": "1.15.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.9",
+    "joblib": "1.5.3",
+    "threadpoolctl": "3.5.0"
+  },
+  "threadpools": [
+    {
+      "user_api": "blas",
+      "internal_api": "mkl",
+      "num_threads": 8,
+      "prefix": "mkl_rt",
+      "filepath": "local-file/mkl_rt.2.dll",
+      "version": "2025.0-Product",
+      "threading_layer": "intel"
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 16,
+      "prefix": "vcomp",
+      "filepath": "local-file/vcomp140.dll",
+      "version": null
+    }
+  ],
+  "training_threads": 2,
+  "train_count": 5894,
+  "validation_count": 1474,
+  "loss_definition": "epoch-end full-data unweighted mean cross-entropy, excludes L2",
+  "optimizer_reported_loss_definition": "sklearn loss_: internal minibatch-averaged objective; may contain weights/L2, not directly comparable to val_loss",
+  "all_configurations_recorded": true,
+  "official_test_used": false,
+  "old_results_overwritten": false,
+  "historical_results_reused": false,
+  "adapter_note": "Known hyperparameters are reproduced. This new adapter is not the exact historical script; early source snapshots are unavailable.",
+  "shared_baseline_note": "One fresh fit for each unique configuration; comparison groups refer to that run, not independent repeated fits.",
+  "private_note": "private contains raw texts and model/vocabulary artifacts. Do not publish private or teacher datasets by default.",
+  "rng_caveat": "Same seed across shapes does not mean identical initialization or batch shuffle stream.",
+  "weight_caveat": "Global mean-one weights do not equalize all minibatch weight sums or MLP L2 scales."
+}

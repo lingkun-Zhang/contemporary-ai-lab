@@ -1,0 +1,35 @@
+{
+  "actual_feature_count": 5000,
+  "word_features": 5000,
+  "bigram_features": 0,
+  "vocabulary_sha256": "dca5f7cce0f86acfbf3cbffe40475b507eac70cb0bba9da91b7eb4ad2c2fbad6",
+  "idf_sha256": "7e5621a23ce7411f8f04b2d070a00e49323831a653d458daa8d9d56dcd7cd816",
+  "fit_nnz": 676418,
+  "val_nnz": 170361,
+  "tfidf_parameters": {
+    "analyzer": "word",
+    "binary": false,
+    "decode_error": "strict",
+    "dtype": "float64",
+    "encoding": "utf-8",
+    "input": "content",
+    "lowercase": true,
+    "max_df": 1.0,
+    "max_features": 5000,
+    "min_df": 1,
+    "ngram_range": [
+      1,
+      1
+    ],
+    "norm": "l2",
+    "preprocessor": null,
+    "smooth_idf": true,
+    "stop_words": null,
+    "strip_accents": null,
+    "sublinear_tf": true,
+    "token_pattern": "(?u)\\b\\w\\w+\\b",
+    "tokenizer": null,
+    "use_idf": true,
+    "vocabulary": null
+  }
+}

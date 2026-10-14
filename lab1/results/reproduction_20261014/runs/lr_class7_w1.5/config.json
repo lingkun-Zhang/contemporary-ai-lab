@@ -1,0 +1,14 @@
+{
+  "run_id": "lr_class7_w1.5",
+  "model": "LR",
+  "max_features": 5000,
+  "ngram_range": [
+    1,
+    1
+  ],
+  "sublinear_tf": false,
+  "seed": 42,
+  "weight_class": 7,
+  "relative_weight": 1.5,
+  "C": 100
+}

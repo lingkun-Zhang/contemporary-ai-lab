@@ -1,0 +1,142 @@
+{
+  "changes": [
+    {
+      "source": "README.md",
+      "destination": "README.md",
+      "before_sha256": "3acf09a5cc5cb93714f13270dcacc0c93533c242f05cb0bf154e57895e052dc4",
+      "after_sha256": "844180b9a76ef1679dec38e5fa4daa872e3fef5c45a92b48b4748591e34f28de",
+      "action": "text or input-check edit"
+    },
+    {
+      "source": "report/实验报告_待补仓库链接.md",
+      "destination": "report/report.md",
+      "sha256": "58542a381f254217d9c10b69cbfc5f816af989db0e79abc99c46210db9abf517",
+      "action": "rename"
+    },
+    {
+      "source": "report/实验报告_待补仓库链接.pdf",
+      "destination": "report/report.pdf",
+      "sha256": "cef68522bd0672381e711d7c90540608bbad54f7f958fc2c690914f990854894",
+      "action": "rename"
+    },
+    {
+      "source": "report/排版核验.json",
+      "destination": "local-notes/layout_check.json",
+      "action": "local archive"
+    },
+    {
+      "source": "results/MLP每20轮摘要.csv",
+      "destination": "results/MLP每20轮摘要.csv",
+      "before_sha256": "82a322ee0e6d2f147bd49bed249a7f3d0be0a911ad60adc6d3692fa6e5054847",
+      "after_sha256": "5c826e0f72de87ae1a8ee22eeba782b242b0ac85c274b1ad2750ef1dc0cc0fb7",
+      "action": "text or input-check edit"
+    },
+    {
+      "source": "results/MLP每20轮摘要.md",
+      "destination": "results/MLP每20轮摘要.md",
+      "before_sha256": "a75c7dfa9b8b03cb3361060e87226d495a14f122b3b508e8bc464509d9f36a81",
+      "after_sha256": "6501e0db9d86ec38ebe38a42001fee74fb6891694050942d760ded091fc8af55",
+      "action": "text or input-check edit"
+    },
+    {
+      "source": "results/实验结果分析与图像索引.md",
+      "destination": "results/实验结果分析与图像索引.md",
+      "before_sha256": "a71391cfffb41f16680c12b17b880658fc493b275ee36d4cf9498d96618abdfe",
+      "after_sha256": "038ffd14992a60c6f8fcd0688794223497a960f7f16a329bbf14d75e33236051",
+      "action": "text or input-check edit"
+    },
+    {
+      "source": "scripts/plot_saved_curves.py",
+      "destination": "scripts/plot_saved_curves.py",
+      "before_sha256": "7ab6f8894074a859a1b0987ec16719fe1d60d7b6d99e9b63638b304e7e5a8b03",
+      "after_sha256": "c069fc01ca5ed239c162ca90fc8028bcf68c69fd9bded0dc9e74dbb6ec544bb3",
+      "action": "text or input-check edit"
+    },
+    {
+      "source": "scripts/record_all_experiments.py",
+      "destination": "scripts/record_all_experiments.py",
+      "before_sha256": "3ffd2dd11791921e0d477ba5f885c4b4d39ef75f6e52120c4efd0c0de1145906",
+      "after_sha256": "54cc347318e92d0a9f98ad9f14d7467ac57b10cf0655b11eecd0e5f7f4315a46",
+      "action": "text or input-check edit"
+    },
+    {
+      "source": "scripts/train_final.py",
+      "destination": "scripts/train_final.py",
+      "before_sha256": "8b8b7b4ee2106faf4a3fab5201269ae467d20ff793ec4c5add41d2fd1d81b7dc",
+      "after_sha256": "ec31622edbf27ffc2b4d0e04f0f0f830f84df8dbeab47e5c846321fba26f45ea",
+      "action": "text or input-check edit"
+    },
+    {
+      "source": "scripts/verify_results.py",
+      "destination": "scripts/verify_results.py",
+      "before_sha256": "2fd003119f2446c4e79331404dde72b2aaac1fffbb3625d04638bf6f87054ad7",
+      "after_sha256": "b83d4668035d388af6ed2d248a2ac6d64ce606a4b682d419a3a3c59fded1223b",
+      "action": "text or input-check edit"
+    },
+    {
+      "source": "stages/LR_vocabulary_experiment.py",
+      "destination": "stages/LR_vocabulary_experiment.py",
+      "before_sha256": "9a01398b55259d74daf94721c38cc695e15b2713c6f55291511cdc5934dd5ac8",
+      "after_sha256": "41d8f18b0db3db4c0c7eff1f92b70a2858313fe1ed05e9608ea0a529f183d9a9",
+      "action": "text or input-check edit"
+    },
+    {
+      "source": "stages/MLP_experiment.py",
+      "destination": "stages/MLP_experiment.py",
+      "before_sha256": "3ff66302b95be0b1c1adf9a4e40bdaf0d685b40dcc5329f3fe23a4b4d58613af",
+      "after_sha256": "ca4d01ba50cce935aa6c51d9c603e26a6de62f81b9132f7f515c0036dab02e78",
+      "action": "text or input-check edit"
+    },
+    {
+      "source": "stages/MLP_stability_experiment.py",
+      "destination": "stages/MLP_stability_experiment.py",
+      "before_sha256": "6beef78ab1d70fc1b6d03b68a2c9ac21c7ea2a07692875f053073a1ebaedead1",
+      "after_sha256": "10a7e9c15046c5174818af803859c0f142e61a263dc8dd25b79425d6ba191fb6",
+      "action": "text or input-check edit"
+    },
+    {
+      "source": "stages/MLP_structure_experiment.py",
+      "destination": "stages/MLP_structure_experiment.py",
+      "before_sha256": "532039c3a2a3ef99ba4d2b42d554eed440229d95f187dde0b0489f0dc984d04a",
+      "after_sha256": "1cae4559f7468da7c3a4245a79937a8e7c3056f2cb7099a1cbfd6c78c1731550",
+      "action": "text or input-check edit"
+    },
+    {
+      "source": "stages/MLP_weighting_experiment.py",
+      "destination": "stages/MLP_weighting_experiment.py",
+      "before_sha256": "d029e9ae5954a6bb1950467a14dba865abdf295f9bff7c27b65ab6415e336d25",
+      "after_sha256": "b83c500b86cc44157e42a717cffe610306e8d2d15b97ff29e09e8a2116393c09",
+      "action": "text or input-check edit"
+    },
+    {
+      "source": "stages/SVM_experiment.py",
+      "destination": "stages/SVM_experiment.py",
+      "before_sha256": "f432c0f17b0336e906c34162c7da80ec8a9bc8a149791168d45931566fbf2843",
+      "after_sha256": "f513e9b87b644ae3c89399bd104c5791c82d1f13a394e4319fb8200cd6bd36d6",
+      "action": "text or input-check edit"
+    },
+    {
+      "source": "公开副本处理记录.json",
+      "destination": "notes/data_export.json",
+      "sha256": "c07f3e14eadf9d354ba4296e60014501432fc260c2d9482999d937078c89b41c",
+      "action": "rename"
+    },
+    {
+      "source": "报告修订记录.json",
+      "destination": "local-notes/report_versions.json",
+      "action": "local archive"
+    }
+  ],
+  "unchanged_source_files": 802,
+  "model_parameters_changed": false,
+  "experiment_values_changed": false,
+  "existing_plots_changed": false,
+  "training_performed": false,
+  "input_fixes": [
+    "default data directory at lab root",
+    "reject missing text"
+  ],
+  "entry_points_checked": true,
+  "saved_records_checked": true,
+  "relative_links_checked": true
+}

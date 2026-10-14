@@ -1,0 +1,167 @@
+{
+  "figures": [
+    {
+      "file": "assets/learning_rate.png",
+      "sha256": "87362f4e8700e3d219837ceda0bf03582fcdde390e24cf82e4192125489f01e8",
+      "sources": [
+        {
+          "run_id": "mlp_lr001_e30",
+          "source": "../results/reproduction_20261014/runs/mlp_lr001_e30/history.csv",
+          "csv_sha256": "64fc80f4f8e710e299e8d88a9bd0c2588bc85f70cb73c13820737281d9273895",
+          "points": 30,
+          "epochs": [
+            1,
+            30
+          ],
+          "config": {
+            "run_id": "mlp_lr001_e30",
+            "model": "MLP",
+            "max_features": 5000,
+            "ngram_range": [
+              1,
+              1
+            ],
+            "sublinear_tf": false,
+            "seed": 42,
+            "weight_class": null,
+            "relative_weight": 1.0,
+            "hidden_units": 50,
+            "learning_rate_init": 0.001,
+            "alpha": 0.001,
+            "batch_size": 64,
+            "epochs": 30
+          }
+        },
+        {
+          "run_id": "mlp_lr0001_e30",
+          "source": "../results/reproduction_20261014/runs/mlp_lr0001_e30/history.csv",
+          "csv_sha256": "6ec058af19f9200a82465c7a2f76261ab4e296f0214c309eb673a8492ceb0098",
+          "points": 30,
+          "epochs": [
+            1,
+            30
+          ],
+          "config": {
+            "run_id": "mlp_lr0001_e30",
+            "model": "MLP",
+            "max_features": 5000,
+            "ngram_range": [
+              1,
+              1
+            ],
+            "sublinear_tf": false,
+            "seed": 42,
+            "weight_class": null,
+            "relative_weight": 1.0,
+            "hidden_units": 50,
+            "learning_rate_init": 0.0001,
+            "alpha": 0.001,
+            "batch_size": 64,
+            "epochs": 30
+          }
+        }
+      ],
+      "inset": {
+        "epochs": [
+          20,
+          30
+        ],
+        "metric": "val_loss",
+        "run_count": 1,
+        "y_range": [
+          0.2624199265907809,
+          0.2670020732740923
+        ],
+        "data_changed": false
+      },
+      "full_curve_points_removed": 0,
+      "smoothed": false
+    },
+    {
+      "file": "assets/vocabulary.png",
+      "sha256": "2f1f45ba1ba8b2315c39cdd711b92455bb9d4027fcd26e695fb6884cc6f9967b",
+      "sources": [
+        {
+          "run_id": "mlp_width100_s42",
+          "source": "../results/reproduction_20261014/runs/mlp_width100_s42/history.csv",
+          "csv_sha256": "662419234f994fa85cdb1de6b3f8d1f97e096261fc73f4e6c75b359021d4827d",
+          "points": 100,
+          "epochs": [
+            1,
+            100
+          ],
+          "config": {
+            "run_id": "mlp_width100_s42",
+            "model": "MLP",
+            "max_features": 5000,
+            "ngram_range": [
+              1,
+              1
+            ],
+            "sublinear_tf": false,
+            "seed": 42,
+            "weight_class": null,
+            "relative_weight": 1.0,
+            "hidden_units": 100,
+            "learning_rate_init": 0.0001,
+            "alpha": 0.005,
+            "batch_size": 64,
+            "epochs": 100
+          }
+        },
+        {
+          "run_id": "mlp_vocab10000",
+          "source": "../results/reproduction_20261014/runs/mlp_vocab10000/history.csv",
+          "csv_sha256": "6471f0886536ad2dff8bf97a5efe8bc7b7590a85e63dae4eb41067e263809988",
+          "points": 100,
+          "epochs": [
+            1,
+            100
+          ],
+          "config": {
+            "run_id": "mlp_vocab10000",
+            "model": "MLP",
+            "max_features": 10000,
+            "ngram_range": [
+              1,
+              1
+            ],
+            "sublinear_tf": false,
+            "seed": 42,
+            "weight_class": null,
+            "relative_weight": 1.0,
+            "hidden_units": 100,
+            "learning_rate_init": 0.0001,
+            "alpha": 0.005,
+            "batch_size": 64,
+            "epochs": 100
+          }
+        }
+      ],
+      "inset": {
+        "epochs": [
+          80,
+          100
+        ],
+        "metric": "val_loss",
+        "run_count": 2,
+        "y_range": [
+          0.2597554862364661,
+          0.2902277628356198
+        ],
+        "data_changed": false
+      },
+      "full_curve_points_removed": 0,
+      "smoothed": false
+    }
+  ],
+  "source_train_data_sha256": "484667d165458da7f73ba36d172d67e14864e1aa5ab1ee6262e2966dd295c863",
+  "training_runner_sha256": "3ffd2dd11791921e0d477ba5f885c4b4d39ef75f6e52120c4efd0c0de1145906",
+  "all_results_sha256": "dfcaf776f38a0f842ac324c577409c52aa64f8997147716ccb36cfb20da078ab",
+  "new_training": false,
+  "case_count": 2,
+  "official_prediction_generated": true,
+  "final_training_record": "../final_outputs/final_training.json",
+  "prediction_generation_note": "曲线原始数据不变；在报告修订之后完成最终全量重训与预测。",
+  "reference_base": "this JSON file's directory"
+}

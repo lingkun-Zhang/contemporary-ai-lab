@@ -1,0 +1,33 @@
+{
+  "run_id": "lr_class7_w2",
+  "model": "LR",
+  "max_features": 5000,
+  "ngram_range": [
+    1,
+    1
+  ],
+  "sublinear_tf": false,
+  "seed": 42,
+  "weight_class": 7,
+  "relative_weight": 2.0,
+  "C": 100,
+  "train_accuracy": 0.999830335934849,
+  "val_accuracy": 0.9090909090909091,
+  "wrong_count": 134,
+  "train_loss": 0.021385987365694695,
+  "val_loss": 0.30274259521355745,
+  "actual_feature_count": 5000,
+  "word_features": 5000,
+  "bigram_features": 0,
+  "vocabulary_sha256": "dca5f7cce0f86acfbf3cbffe40475b507eac70cb0bba9da91b7eb4ad2c2fbad6",
+  "idf_sha256": "7e5621a23ce7411f8f04b2d070a00e49323831a653d458daa8d9d56dcd7cd816",
+  "fit_nnz": 676418,
+  "val_nnz": 170361,
+  "training_seconds": 1.1441333000038867,
+  "accuracy_gap": 0.09073942684393999,
+  "result_origin": "fresh_reproduction",
+  "evaluation": "final configured epoch or completed fit",
+  "parameter_count": 50010,
+  "optimizer_iterations": 60,
+  "converged": true
+}

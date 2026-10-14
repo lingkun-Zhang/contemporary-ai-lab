@@ -1,0 +1,416 @@
+{
+  "raw_data_included": false,
+  "private_models_included": false,
+  "numerical_rows_or_values_changed": false,
+  "changes": [
+    {
+      "file": "results/MLP每20轮摘要.md",
+      "source_sha256": "f0929deaf71ba270e7b7004fe5362d719839f3b83d9b86edb0859fcb8d132db4",
+      "public_sha256": "a75c7dfa9b8b03cb3361060e87226d495a14f122b3b508e8bc464509d9f36a81",
+      "actions": [
+        "修正相对路径以适配仓库目录，内容和数值不改"
+      ]
+    },
+    {
+      "file": "results/实验结果分析与图像索引.md",
+      "source_sha256": "c4029b357ed7949a5c0e85d5c78286581c7b2c25be10d963589812ee8be31950",
+      "public_sha256": "a71391cfffb41f16680c12b17b880658fc493b275ee36d4cf9498d96618abdfe",
+      "actions": [
+        "修正相对路径以适配仓库目录，内容和数值不改"
+      ]
+    },
+    {
+      "file": "results/reproduction_20261014/session.json",
+      "source_sha256": "58dadc99191d61ae4a522e9cdd181840728db4f5b75e61ad09c9d95f321ee6a6",
+      "public_sha256": "a370557db1d7022260317edbc199089b51a2190db82931e8ead8cd2af3aa9924",
+      "actions": [
+        "本地绝对路径归一为相对来源或文件名，数值记录不改"
+      ]
+    },
+    {
+      "file": "results/reproduction_20261014/runs/lr_c0.1/file_checksums.json",
+      "source_sha256": "2dc5de7a8c251795806aca9535bef86b3a68d58941c075701eb8b2cff36e3780",
+      "public_sha256": "12ea4115ea3a870cede0849d2fbf3a92dc2ae3ec2f7e17ad463ccd2327321a88",
+      "actions": [
+        "移除不公开的private文件哈希索引，public哈希保留"
+      ]
+    },
+    {
+      "file": "results/reproduction_20261014/runs/lr_c1/file_checksums.json",
+      "source_sha256": "93f63c0c21152d77a722c75c1163382042d44955fafdd09c7ddd9e5fc237a36a",
+      "public_sha256": "9e5c033bab59601cfcea4ea6e511557afdbd3350aeb4be858559345b98c8a17f",
+      "actions": [
+        "移除不公开的private文件哈希索引，public哈希保留"
+      ]
+    },
+    {
+      "file": "results/reproduction_20261014/runs/lr_c10/file_checksums.json",
+      "source_sha256": "1cbc831232f99ee9abcb7ca815abf9a6b141627cb354e5a19cc7911099621c2b",
+      "public_sha256": "6c170e52a5f81a7772040e6475d1335030942a1f356c740be2b08c98240d0b00",
+      "actions": [
+        "移除不公开的private文件哈希索引，public哈希保留"
+      ]
+    },
+    {
+      "file": "results/reproduction_20261014/runs/lr_c100/file_checksums.json",
+      "source_sha256": "fe06c70c0a447639727cbd01a5673a9b703bc5e9b486ea4f73a61274485ad4f3",
+      "public_sha256": "0138d094dedabaa774deac08b47f74414e953a494710e78cf9cce327850dc5ee",
+      "actions": [
+        "移除不公开的private文件哈希索引，public哈希保留"
+      ]
+    },
+    {
+      "file": "results/reproduction_20261014/runs/lr_class7_w1.5/file_checksums.json",
+      "source_sha256": "aaf13990c797b79401b09fe753e40ab9679e3294b04336f7b7c348bf631af374",
+      "public_sha256": "8887e8076e6672cde5fad173bf72678f8964175fd8562a7bf8fdbb9e2a0c99a4",
+      "actions": [
+        "移除不公开的private文件哈希索引，public哈希保留"
+      ]
+    },
+    {
+      "file": "results/reproduction_20261014/runs/lr_class7_w2/file_checksums.json",
+      "source_sha256": "59b80012141fd941e4c1086373645c2b1c979d7a92ff37bd8d253228efcb2664",
+      "public_sha256": "d8529bfbbbda1a7e9ff0cd2ebeca02fe31b716271fe57f75df0b215acdf9682b",
+      "actions": [
+        "移除不公开的private文件哈希索引，public哈希保留"
+      ]
+    },
+    {
+      "file": "results/reproduction_20261014/runs/lr_vocab10000/file_checksums.json",
+      "source_sha256": "8f6071ee9e98608d4f37d19afd5a1091312cb3e4e20dcf5d7cab339767c74393",
+      "public_sha256": "d3e53fc244f7e7e5ed01848137631ad357e8ca5d4418e84365007a47d118e21d",
+      "actions": [
+        "移除不公开的private文件哈希索引，public哈希保留"
+      ]
+    },
+    {
+      "file": "results/reproduction_20261014/runs/mlp_alpha001_e60/file_checksums.json",
+      "source_sha256": "df1f40136eaaea0793463116f3460f6d94547241381dbe3c4e882ca4a78a0d16",
+      "public_sha256": "789f4ebbf2cb6ca1895abb085e1cbd9d7a8c80148098e890b94ebcf34cb00571",
+      "actions": [
+        "移除不公开的private文件哈希索引，public哈希保留"
+      ]
+    },
+    {
+      "file": "results/reproduction_20261014/runs/mlp_alpha005_e50/file_checksums.json",
+      "source_sha256": "3e0d75c663fcec62f21f40610420796c52bbed992aa0a45b0ceb71a78a3d07ab",
+      "public_sha256": "24e9c7d7e4d37f3ee443bfa3cb0fcd88a7ee6b73a9e377ab7d3f98f9b8525d5b",
+      "actions": [
+        "移除不公开的private文件哈希索引，public哈希保留"
+      ]
+    },
+    {
+      "file": "results/reproduction_20261014/runs/mlp_alpha005_e60/file_checksums.json",
+      "source_sha256": "7bb1a0f2b12e9e00852af4eadbb58b6121dcdd0d9b58f12bd123e82cc969858d",
+      "public_sha256": "56b18613612fe39d0243dfdb0b19d8beec40118ac072f72ec09707e77dce37fb",
+      "actions": [
+        "移除不公开的private文件哈希索引，public哈希保留"
+      ]
+    },
+    {
+      "file": "results/reproduction_20261014/runs/mlp_alpha05_e100/file_checksums.json",
+      "source_sha256": "fedaade8668ba5897e3fc6390be0cbe92567a3415c6ca0e1765b9d1fa86df217",
+      "public_sha256": "5929027b6cd6f3877a33e90f785ed972615b8d788a98fa10c8b6a209f19c06ff",
+      "actions": [
+        "移除不公开的private文件哈希索引，public哈希保留"
+      ]
+    },
+    {
+      "file": "results/reproduction_20261014/runs/mlp_bigram/file_checksums.json",
+      "source_sha256": "f0a6b1f43fd7382e0687c64f2b7f55dc738fd34e84e8b260087be03949e3a650",
+      "public_sha256": "84a92377a80970ffd9538d4276842b46449d9cd9ec887694773e6dcff6be140c",
+      "actions": [
+        "移除不公开的private文件哈希索引，public哈希保留"
+      ]
+    },
+    {
+      "file": "results/reproduction_20261014/runs/mlp_class2_w1.5/file_checksums.json",
+      "source_sha256": "ac244604a0626a8b8a6b5dbf82d4e6c513236b9baa6a181def201879042dd48d",
+      "public_sha256": "8e69d319ac9d26687b414090b0d6376f2fedd35d796b2f8946f03718c4ec653b",
+      "actions": [
+        "移除不公开的private文件哈希索引，public哈希保留"
+      ]
+    },
+    {
+      "file": "results/reproduction_20261014/runs/mlp_logtf/file_checksums.json",
+      "source_sha256": "8bba4f9680dab2c84a7108c78a8767d09f3fea8b8094277d06b4623d881f7d81",
+      "public_sha256": "caf8705cca043503ea8bfc9260701dfffb802b09f41fb9b1dcf706ad3aa16a89",
+      "actions": [
+        "移除不公开的private文件哈希索引，public哈希保留"
+      ]
+    },
+    {
+      "file": "results/reproduction_20261014/runs/mlp_lr0001_e30/file_checksums.json",
+      "source_sha256": "640d9f47de6d6505814b7de90a30a3518b7a994b168dd7fa1ed5df3e8b527fe7",
+      "public_sha256": "e94f3518a977207c7e21033f8d4fbab59585329112a7d96d267a4a7f687ba24e",
+      "actions": [
+        "移除不公开的private文件哈希索引，public哈希保留"
+      ]
+    },
+    {
+      "file": "results/reproduction_20261014/runs/mlp_lr001_e30/file_checksums.json",
+      "source_sha256": "a54b6eb678785dfd9540f292b67e7ac5c231c0d2d27341f1709de9b40064045b",
+      "public_sha256": "ad959cdd8f24ca489bc1ccda26d4bb90d04246f78ce9a12f36ae1b6dd392f855",
+      "actions": [
+        "移除不公开的private文件哈希索引，public哈希保留"
+      ]
+    },
+    {
+      "file": "results/reproduction_20261014/runs/mlp_vocab10000/file_checksums.json",
+      "source_sha256": "c3b30c955062edaea6084eccff9e69309e80b146c7afd429df9dc5809e18c262",
+      "public_sha256": "6c9676b4e6d688824b233f8ec384f6879faad314af17f4c725b3a36718e1b5fc",
+      "actions": [
+        "移除不公开的private文件哈希索引，public哈希保留"
+      ]
+    },
+    {
+      "file": "results/reproduction_20261014/runs/mlp_width100_s42/file_checksums.json",
+      "source_sha256": "908f4cbcc48584e96a0271d9c8963abde00e2bfdab39b7e3c29838845b40e9f8",
+      "public_sha256": "f3732f4c128c567b8450601791d62c9e87fc61deb8be888a3b1493e5edbe13bc",
+      "actions": [
+        "移除不公开的private文件哈希索引，public哈希保留"
+      ]
+    },
+    {
+      "file": "results/reproduction_20261014/runs/mlp_width100_s43/file_checksums.json",
+      "source_sha256": "bbf977e042f296854cdc6ea86ee929257a31b5b9c82c88534f97af4c9efb9f8d",
+      "public_sha256": "2f007f4c067d147c6166bb57be802d44f9c375ca3fa3cbc3389475552f9c7747",
+      "actions": [
+        "移除不公开的private文件哈希索引，public哈希保留"
+      ]
+    },
+    {
+      "file": "results/reproduction_20261014/runs/mlp_width100_s44/file_checksums.json",
+      "source_sha256": "bf1f1296a8fae1c5a46268e7072068f9b702c527a55847f1493e8c206c2f2055",
+      "public_sha256": "b998ebe0122898af1cedca25653675ec408990b344eb06f0b9da50f947ba5599",
+      "actions": [
+        "移除不公开的private文件哈希索引，public哈希保留"
+      ]
+    },
+    {
+      "file": "results/reproduction_20261014/runs/mlp_width25_s42/file_checksums.json",
+      "source_sha256": "d9844a8f659a4e7bf03374cce5178a86a66062392fbfc2c1bd3802fa4c3b592f",
+      "public_sha256": "adab9aee2b493cdbfcfc796aabef2d92d4d8714b97b4d649304f59e2cb7cf3b2",
+      "actions": [
+        "移除不公开的private文件哈希索引，public哈希保留"
+      ]
+    },
+    {
+      "file": "results/reproduction_20261014/runs/mlp_width50_s42/file_checksums.json",
+      "source_sha256": "3769dce9e9327dab377b475eb0e57ae9d67f3145a21d11ecd66607deb869bfd0",
+      "public_sha256": "17e2d4d8fa27de02d08262a698835102edcb0e89525c52852cc10184e9796b20",
+      "actions": [
+        "移除不公开的private文件哈希索引，public哈希保留"
+      ]
+    },
+    {
+      "file": "results/reproduction_20261014/runs/mlp_width50_s43/file_checksums.json",
+      "source_sha256": "b20c27a88d840c67ada01c049b036b1db7ce4b61c90788f67f3f2430dc3090f2",
+      "public_sha256": "1cc71088a8f2c650baf25051d7eab6644c8a784f04688b6dc817679772f4d67a",
+      "actions": [
+        "移除不公开的private文件哈希索引，public哈希保留"
+      ]
+    },
+    {
+      "file": "results/reproduction_20261014/runs/mlp_width50_s44/file_checksums.json",
+      "source_sha256": "4a5866accad56fb3106b4a42763d0eb21848ed5d0ab5ac4eadeb41ea0461faaa",
+      "public_sha256": "c90be45e634c102ec0d86dd1a0d35de20f6539d3c87cd06c9de2fcff59d2a02c",
+      "actions": [
+        "移除不公开的private文件哈希索引，public哈希保留"
+      ]
+    },
+    {
+      "file": "results/reproduction_20261014/runs/svm_c0.1/file_checksums.json",
+      "source_sha256": "7275177cdcefe80f3b9d3acf376cf99331f67504e3fd84bb78d1210b85bcdd84",
+      "public_sha256": "22e6cea0346e61937b113c74584a06e72813e282d99c924243dd4996b6b8ffe9",
+      "actions": [
+        "移除不公开的private文件哈希索引，public哈希保留"
+      ]
+    },
+    {
+      "file": "results/reproduction_20261014/runs/svm_c1/file_checksums.json",
+      "source_sha256": "b87f2862ba564156d2f9f913696208ac57ee78b3159e8fd9e7ed0e6c3aa4f4cd",
+      "public_sha256": "88d398e2ae4b24457098b6528568656c51c73b5b43dc8e50b9b9ef7e9e727da3",
+      "actions": [
+        "移除不公开的private文件哈希索引，public哈希保留"
+      ]
+    },
+    {
+      "file": "results/reproduction_20261014/runs/svm_c10/file_checksums.json",
+      "source_sha256": "ac3406f08c2ddc6655c562812805216e9711fb171de37e31cf6d5f338250af3c",
+      "public_sha256": "ee9bc694c2ebc006459388065b6055074dc33556143d296028fa5473bbbd125b",
+      "actions": [
+        "移除不公开的private文件哈希索引，public哈希保留"
+      ]
+    },
+    {
+      "file": "results/reproduction_20261014/runs/svm_c100/file_checksums.json",
+      "source_sha256": "656dc624315402ff5a680c6f46094cec21232b4bff898453b2a2634a0074f4d2",
+      "public_sha256": "5c9160eb12c57f7dab53cdfeccc290aff5cae924aafe004d6bfc7847edd4d67a",
+      "actions": [
+        "移除不公开的private文件哈希索引，public哈希保留"
+      ]
+    },
+    {
+      "file": "results/reproduction_20261014/runs/svm_vocab10000/file_checksums.json",
+      "source_sha256": "70cbfa0436875b1480f2c80fbf55032da6aae9a804b64209665ef1f839a63bb2",
+      "public_sha256": "b78f26d667f1e50acaf670a7c672e0dbcf218bc2de8df43de9c4e5215719749d",
+      "actions": [
+        "移除不公开的private文件哈希索引，public哈希保留"
+      ]
+    },
+    {
+      "file": "figures/LR_C_图源.json",
+      "source_sha256": "c54953de3abb5523e5df1d4871049ef391d3784532751fcd1ea70803307d1bc3",
+      "public_sha256": "36a2563646070cabcb6cbe2ad17feaaee90479334f845a2dff75801b4c8130f2",
+      "actions": [
+        "迁移图源相对路径并验证文件和哈希，图像及数值不改"
+      ]
+    },
+    {
+      "file": "figures/LR_vocabulary_图源.json",
+      "source_sha256": "b06b61f15d1bdbc5b09cc7d9916c806f2a7408cae5fdbeb8a9fb12c08095c5f2",
+      "public_sha256": "454cbe81a65128ba9bb0cc59bd3f65fc80e56e574e98a341633a60a92d642418",
+      "actions": [
+        "迁移图源相对路径并验证文件和哈希，图像及数值不改"
+      ]
+    },
+    {
+      "file": "figures/LR_weight_图源.json",
+      "source_sha256": "1e62afcb5125f84d5c1714050c6ecb0d08e88f47da3a8c2f13a5befb218eb473",
+      "public_sha256": "d949b87ca5c25358c28691ac1c8f235ab78055ccfea58dc274dde384a418dfe2",
+      "actions": [
+        "迁移图源相对路径并验证文件和哈希，图像及数值不改"
+      ]
+    },
+    {
+      "file": "figures/MLP_epochs_alpha001_图源.json",
+      "source_sha256": "355c9fd453be9fd6ec3ed931f38d2fbc45e68dbe65396e28995d6f40b5447eed",
+      "public_sha256": "ec42a5b4fdc0e1b28d0c2f12d86a076d66df8c6c379a4b5d34bd3b9154ef57aa",
+      "actions": [
+        "迁移图源相对路径并验证文件和哈希，图像及数值不改"
+      ]
+    },
+    {
+      "file": "figures/MLP_epochs_alpha005_图源.json",
+      "source_sha256": "efe3438d7a8eb5ec476678fb8bef67154cdb97ff7a9039e9b182793dfb30a6c7",
+      "public_sha256": "36001dfb75d521a3c82cff614aaefcb332347a012280b75857ad8a098329a94e",
+      "actions": [
+        "迁移图源相对路径并验证文件和哈希，图像及数值不改"
+      ]
+    },
+    {
+      "file": "figures/MLP_learning_rate_图源.json",
+      "source_sha256": "fe680473105d5d681f5211ca9eafd13b0e99a2ec70e59dd4e219168129520896",
+      "public_sha256": "12033d89285b25f19852a48713a5662aa9c0794a23a183b5b5d70af77da57263",
+      "actions": [
+        "迁移图源相对路径并验证文件和哈希，图像及数值不改"
+      ]
+    },
+    {
+      "file": "figures/MLP_ngram_图源.json",
+      "source_sha256": "b5bfbc20e15d52c9d981d1991c6aaac50a222b05d60914a2abae539c63ed89b8",
+      "public_sha256": "2805c48cc10a3723bf96d752c9b6c4f7d4a6d7e4c04192d3f956f73cb2e9fd48",
+      "actions": [
+        "迁移图源相对路径并验证文件和哈希，图像及数值不改"
+      ]
+    },
+    {
+      "file": "figures/MLP_regularization_图源.json",
+      "source_sha256": "daa6eda3e37bada8f10d4b27e96988ac9b817913d912fa49dd124b66ecabe4ba",
+      "public_sha256": "25752ef602c918aace9dbc4d4d888fdb809eb5722d45c53bd7670ad89494f8c2",
+      "actions": [
+        "迁移图源相对路径并验证文件和哈希，图像及数值不改"
+      ]
+    },
+    {
+      "file": "figures/MLP_seed42_图源.json",
+      "source_sha256": "bb94d73c968a8d4d1f9e1b5cb4810eb8360f501adb72954fe544f6ba457416aa",
+      "public_sha256": "dcb8014c21e6388b5fba1dd878910488984f9afe5cd62a9594867da8d2f8dc18",
+      "actions": [
+        "迁移图源相对路径并验证文件和哈希，图像及数值不改"
+      ]
+    },
+    {
+      "file": "figures/MLP_seed43_图源.json",
+      "source_sha256": "c61012f44952cb90f972980242fea0e67445d513b6b628061f0fd2625461dc27",
+      "public_sha256": "584ee042f8cc2009c11ea4385da1328718461b9932037e6b2d42d124895e3798",
+      "actions": [
+        "迁移图源相对路径并验证文件和哈希，图像及数值不改"
+      ]
+    },
+    {
+      "file": "figures/MLP_seed44_图源.json",
+      "source_sha256": "4fcb9146418e7b125173827004733668c170caad8d1ed51c7978a382b20cc918",
+      "public_sha256": "545c500d6b20ec51ee1123554863e9df9fd7098a09866b10be621193d0f8f1d6",
+      "actions": [
+        "迁移图源相对路径并验证文件和哈希，图像及数值不改"
+      ]
+    },
+    {
+      "file": "figures/MLP_tf_scaling_图源.json",
+      "source_sha256": "a8958ddca567f57b20fc60a898414eb787d6b92b36098feaf2722dd358a89f13",
+      "public_sha256": "f4f8be5e732f8870b643502b5e2f3e3d94ea146cb719a05a3dd22ec678384e9b",
+      "actions": [
+        "迁移图源相对路径并验证文件和哈希，图像及数值不改"
+      ]
+    },
+    {
+      "file": "figures/MLP_vocabulary_图源.json",
+      "source_sha256": "518e66414f5ee8938ae2c46b84179ba6b6926d535d9af36f090bd30d8b06cad3",
+      "public_sha256": "4084c9a9dc63ec4b72dd7d33b393a10aebf7aac29c0352f4edc4ee00b57ee630",
+      "actions": [
+        "迁移图源相对路径并验证文件和哈希，图像及数值不改"
+      ]
+    },
+    {
+      "file": "figures/MLP_weight_图源.json",
+      "source_sha256": "a57d85b1a0c65f350e5f28160cb3e32331bc9eda92ad090f6ab3fd3e72318a81",
+      "public_sha256": "05e8e2f8f56c915a97bb28095a5b61db23dd56588694896077f1cd17f93f9792",
+      "actions": [
+        "迁移图源相对路径并验证文件和哈希，图像及数值不改"
+      ]
+    },
+    {
+      "file": "figures/MLP_width_图源.json",
+      "source_sha256": "1d12ca33c822841471b37d022fc964f350b81b0646e3beba406ebd7af7d29bb8",
+      "public_sha256": "4fea91cb214091cdb9d820050a5a7836c2f206621a0cfd39623ff9b76fae4bb6",
+      "actions": [
+        "迁移图源相对路径并验证文件和哈希，图像及数值不改"
+      ]
+    },
+    {
+      "file": "figures/SVM_C_图源.json",
+      "source_sha256": "50de28a2550791adf6256ace7b9e381192f379e1443b8f8347039615c95b97b7",
+      "public_sha256": "836d5cd83f16a34c2aebcffe3560a3e533416de8f7152ccd37604ec3078e1a77",
+      "actions": [
+        "迁移图源相对路径并验证文件和哈希，图像及数值不改"
+      ]
+    },
+    {
+      "file": "figures/SVM_vocabulary_图源.json",
+      "source_sha256": "012066f0587f0953c7fc40456a96dbd7c6a4f079798f41585a5d389835f49b49",
+      "public_sha256": "a5f5e303f466687a938023f512d699029d6dec100da7d0066771caca44995d37",
+      "actions": [
+        "迁移图源相对路径并验证文件和哈希，图像及数值不改"
+      ]
+    },
+    {
+      "file": "report/图像与数据来源.json",
+      "source_sha256": "2488762e02f1290af86d935da81f21cbff10809a6000b4c3d32afec1396f52ee",
+      "public_sha256": "119be6f57cecba845edebf4b8c60e09c0ef4c53354f595743ad9b26360344d88",
+      "actions": [
+        "图像数据不改，修正图源路径并同步已完成最终预测的状态"
+      ]
+    },
+    {
+      "file": "results/每20轮摘要核验.json",
+      "source_sha256": "376339cda01132ea02d270fe2bba613ee827ab0be3653ce58fe51c94f24a0509",
+      "public_sha256": "ebf40c2aa969c6b393bd2345a3972ee8f2a729599710dcd496b8c98b7ac666d8",
+      "actions": [
+        "摘要核验路径迁移到同目录文件名，摘要数值不改"
+      ]
+    }
+  ],
+  "scope_note": "数字记录和图像未删实验、样本或曲线点；公开副本处理私有索引、本地路径、目录相对链接和最终预测状态。原件仍在本地。"
+}

@@ -1,0 +1,46 @@
+{
+  "created_utc": "2026-10-13T17:48:36.035086+00:00",
+  "source_lab_directory": "<LAB_DIR>",
+  "historical_result_directory_count": 22,
+  "historical_file_count": 275,
+  "config_count": 41,
+  "history_count": 30,
+  "csv_file_count": 150,
+  "json_file_count": 58,
+  "all_source_files_archived": true,
+  "public_exported_file_count": 258,
+  "public_excluded_file_count": 17,
+  "datasets": [
+    {
+      "filename": "train_data.csv",
+      "status": "hash_only_not_copied",
+      "sha256": "484667d165458da7f73ba36d172d67e14864e1aa5ab1ee6262e2966dd295c863",
+      "size_bytes": 13748838
+    },
+    {
+      "filename": "test_data_unlabeled.csv",
+      "status": "hash_only_not_copied",
+      "sha256": "4882c04b008c055f351f1c9b25c45d601a454077af37e79375601f2465b41615",
+      "size_bytes": 4499622
+    }
+  ],
+  "known_history_gaps": [
+    {
+      "experiment": "LR C=0.1/1/10, 5000 features",
+      "status": "historical_file_log_not_found",
+      "note": "Earlier conversation/screenshots contain final metrics only. Do not invent historical probabilities or optimizer trajectories."
+    },
+    {
+      "experiment": "LR C=100, class7 relative weights 1/1.5/2",
+      "status": "historical_file_log_not_found",
+      "note": "Current Logistic_experiment.py prints these groups but does not persist their original outputs."
+    },
+    {
+      "experiment": "all earlier unrecorded or unsaved attempts",
+      "status": "not_recoverable_from_current_result_directories",
+      "note": "A fresh rerun is a new reproduction, not a reconstruction of missing original measurements."
+    }
+  ],
+  "provenance_limit": "Recorded metrics and duplicated/reused runs are all retained. Some historical configs lack the original training-source hash; current source cannot establish exact historical byte-for-byte reproduction.",
+  "public_limit": "No upload occurred. Public export removes raw text and complete feature dictionaries, never metric/prediction rows. PNGs are complete byte copies; JSON/CSV transformations have their own hashes and manifest."
+}

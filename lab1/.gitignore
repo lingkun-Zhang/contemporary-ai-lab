@@ -1,0 +1,26 @@
+# Teacher datasets: permission to redistribute has not been confirmed.
+**/train_data.csv
+**/test_data_unlabeled.csv
+
+# New local runs can contain full texts, vocabularies and fitted models.
+local_runs/
+local_final/
+local_plots/
+stages/mlp_results/
+stages/lr_results/
+stages/svm_results/
+stages/predictions.csv
+**/private/
+**/*_with_text.csv
+**/*.joblib
+**/*.pkl
+**/*.pickle
+**/__pycache__/
+**/.pytest_cache/
+**/mplconfig/
+.vscode/
+.venv/
+venv/
+.env
+
+# Do not ignore public experiment-result CSVs, plots or prediction.csv.

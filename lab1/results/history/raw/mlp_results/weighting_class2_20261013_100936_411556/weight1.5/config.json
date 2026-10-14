@@ -1,0 +1,23 @@
+{
+  "seed": 42,
+  "validation_fraction": 0.2,
+  "max_features": 5000,
+  "hidden_units": 50,
+  "solver": "adam",
+  "learning_rate_init": 0.0001,
+  "alpha": 0.005,
+  "batch_size": 64,
+  "epochs": 100,
+  "training_threads": 2,
+  "weight_class": 2,
+  "relative_weight": 1.5,
+  "weight_normalization": "training weights have global mean 1; baseline uses no weights",
+  "weight_caveat": "MLP normalizes by each batch weight sum; global normalization does not fix every batch regularization scale",
+  "validation_weighted": false,
+  "loss_definition": "epoch-end unweighted mean cross-entropy without regularization",
+  "numpy_version": "2.2.5",
+  "pandas_version": "2.3.3",
+  "sklearn_version": "1.7.2",
+  "matplotlib_version": "3.10.9",
+  "train_data_sha256": "484667d165458da7f73ba36d172d67e14864e1aa5ab1ee6262e2966dd295c863"
+}

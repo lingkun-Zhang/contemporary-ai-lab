@@ -1,0 +1,33 @@
+{
+  "comparison": "SVM_C",
+  "runs": [
+    "svm_c0.1",
+    "svm_c1",
+    "svm_c10",
+    "svm_c100"
+  ],
+  "input_files": [
+    {
+      "file": "../results/reproduction_20261014/runs/svm_c0.1/summary.json",
+      "sha256": "2dcd4b6a30812ba3cc9120f66213af9336672ae81618681157fcf498f8bb16da"
+    },
+    {
+      "file": "../results/reproduction_20261014/runs/svm_c1/summary.json",
+      "sha256": "c4324f82e1b869af598d41c2a361dd7dbe5da930d89cef6695ca6141afa741f2"
+    },
+    {
+      "file": "../results/reproduction_20261014/runs/svm_c10/summary.json",
+      "sha256": "6cbb93f743bfccdfe2d02930339d7814544ea654a29234a945e1bfd6d07a531e"
+    },
+    {
+      "file": "../results/reproduction_20261014/runs/svm_c100/summary.json",
+      "sha256": "9892b77618267779ce2912726a2f6feea109a925167b67f2b14216661bf83f0f"
+    }
+  ],
+  "smooth": false,
+  "interpolation": false,
+  "points_removed": false,
+  "y_axis_note": "cross-entropy excludes L2; accuracy is fraction",
+  "plot_sha256": "3dff5acc148f8e10dcfcf5909837f23c5d21d358ab83a943df4948534412fd66",
+  "reference_base": "this JSON file's directory"
+}

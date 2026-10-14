@@ -1,0 +1,55 @@
+{
+  "comparison": "MLP_epochs_alpha005",
+  "runs": [
+    "mlp_alpha005_e50",
+    "mlp_alpha005_e60",
+    "mlp_width50_s42"
+  ],
+  "input_files": [
+    {
+      "file": "../results/reproduction_20261014/runs/mlp_alpha005_e50/summary.json",
+      "sha256": "465b72c6256a1150bf7c74049cf2553bc237b633b4defd83471464d7b48799ce"
+    },
+    {
+      "file": "../results/reproduction_20261014/runs/mlp_alpha005_e60/summary.json",
+      "sha256": "4708c10519352221d11648acc6d442c093d905e493d4a8e79eeb03c7c4fbddba"
+    },
+    {
+      "file": "../results/reproduction_20261014/runs/mlp_width50_s42/summary.json",
+      "sha256": "11c8224089c93a4ba6ce3062dd7c5871dea754c5cd20091d4254e24a1918a114"
+    },
+    {
+      "file": "../results/reproduction_20261014/runs/mlp_alpha005_e50/history.csv",
+      "sha256": "8a03b1def3d81d367e557fb9d33b32f841fa6ce246ffe21ddb4683ea3175e837",
+      "points": 50,
+      "epochs": [
+        1,
+        50
+      ]
+    },
+    {
+      "file": "../results/reproduction_20261014/runs/mlp_alpha005_e60/history.csv",
+      "sha256": "928b0603dcb62433b3e8f142ab57cab6d764878b5eaa4b072dc8ded02ea1a96b",
+      "points": 60,
+      "epochs": [
+        1,
+        60
+      ]
+    },
+    {
+      "file": "../results/reproduction_20261014/runs/mlp_width50_s42/history.csv",
+      "sha256": "42a7e4e16279a24a28f3ba8c3482252a2718b6c81964f47bee51c1e0276f6659",
+      "points": 100,
+      "epochs": [
+        1,
+        100
+      ]
+    }
+  ],
+  "smooth": false,
+  "interpolation": false,
+  "points_removed": false,
+  "y_axis_note": "cross-entropy excludes L2; accuracy is fraction",
+  "plot_sha256": "870973d9fdc95e6350a836dbbccee257f0c45ca93a7552a271af1f52f39f58a4",
+  "reference_base": "this JSON file's directory"
+}

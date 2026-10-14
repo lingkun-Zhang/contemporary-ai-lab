@@ -1,0 +1,22 @@
+# AI Course Lab 1: verified with Python 3.10.21 in the project1 environment.
+# The numerical/training library versions preserve the existing experiment setup.
+numpy==2.2.5
+pandas==2.3.3
+scipy==1.15.3
+scikit-learn==1.7.2
+joblib==1.5.3
+threadpoolctl==3.5.0
+
+# Plotting library and its dependencies, pinned for reproducibility.
+matplotlib==3.10.9
+contourpy==1.3.2
+cycler==0.12.1
+fonttools==4.65.0
+kiwisolver==1.5.1
+pillow==12.3.0
+pyparsing==3.3.3
+packaging==26.3
+python-dateutil==2.9.0.post0
+pytz==2026.3.post1
+tzdata==2026.3
+six==1.17.0

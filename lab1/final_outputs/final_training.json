@@ -1,0 +1,65 @@
+{
+  "started_at": "2026-10-14T08:31:54.642483+00:00",
+  "finished_at": "2026-10-14T08:32:03.486170+00:00",
+  "configuration": {
+    "model": "LogisticRegression",
+    "selection_run_id": "lr_vocab10000",
+    "max_features": 10000,
+    "ngram_range": [
+      1,
+      1
+    ],
+    "sublinear_tf": false,
+    "C": 100.0,
+    "penalty": "l2",
+    "solver": "lbfgs",
+    "max_iter": 1000,
+    "tol": 0.0001,
+    "random_state": 42,
+    "class_weight": null,
+    "training_threads": 2
+  },
+  "input_sha256": {
+    "train_data.csv": "484667d165458da7f73ba36d172d67e14864e1aa5ab1ee6262e2966dd295c863",
+    "test_data_unlabeled.csv": "4882c04b008c055f351f1c9b25c45d601a454077af37e79375601f2465b41615"
+  },
+  "script_sha256": "8b8b7b4ee2106faf4a3fab5201269ae467d20ff793ec4c5add41d2fd1d81b7dc",
+  "training_rows": 7368,
+  "test_rows": 2457,
+  "all_labeled_rows_used": true,
+  "test_used_for_fit": false,
+  "actual_vocabulary_size": 10000,
+  "optimizer_iterations": [
+    71
+  ],
+  "training_seconds": 3.7014251000000513,
+  "full_fit_training_accuracy": 0.9998642779587406,
+  "full_fit_training_cross_entropy": 0.015159576362999382,
+  "prediction_label_counts": {
+    "0": 264,
+    "1": 246,
+    "2": 232,
+    "3": 241,
+    "4": 245,
+    "5": 252,
+    "6": 244,
+    "7": 260,
+    "8": 241,
+    "9": 232
+  },
+  "prediction_order_sha256": "ea5267eb70d580e6ac40256400ee3da2ec35b8b61c02bb2435b1df2086270511",
+  "test_text_order_sha256": "b9710e0f735def2d75089c92458bf13b8e2d36ba6b7e1fd994c7ff807f456e72",
+  "warnings": [],
+  "python": "3.10.21",
+  "packages": {
+    "numpy": "2.2.5",
+    "pandas": "2.3.3",
+    "scipy": "1.15.3",
+    "scikit-learn": "1.7.2",
+    "joblib": "1.5.3",
+    "threadpoolctl": "3.5.0"
+  },
+  "test_accuracy": null,
+  "test_accuracy_note": "The official test set has no labels; no test accuracy is claimed.",
+  "model_saved_locally": true
+}

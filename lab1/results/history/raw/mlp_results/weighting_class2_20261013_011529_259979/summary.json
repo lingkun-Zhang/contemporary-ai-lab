@@ -1,0 +1,37 @@
+{
+  "model": "final epoch only",
+  "weight_class": 2,
+  "epochs": 100,
+  "summaries": [
+    {
+      "relative_weight": 1.0,
+      "train_accuracy": 0.9977943671530369,
+      "val_accuracy": 0.9158751696065129,
+      "train_loss": 0.06350198055818047,
+      "val_loss": 0.2939817545521942,
+      "macro_f1": 0.9162332616790081,
+      "class2_precision": 0.8053691275167785,
+      "class2_recall": 0.8163265306122449,
+      "class7_recall": 0.8243243243243243,
+      "wrong_count": 124,
+      "training_seconds": 113.60956020000594
+    },
+    {
+      "relative_weight": 1.5,
+      "train_accuracy": 0.997964031218188,
+      "val_accuracy": 0.9192672998643148,
+      "train_loss": 0.06322253675036311,
+      "val_loss": 0.2959806005514077,
+      "macro_f1": 0.9197193124002773,
+      "class2_precision": 0.8064516129032258,
+      "class2_recall": 0.8503401360544217,
+      "class7_recall": 0.8243243243243243,
+      "wrong_count": 119,
+      "training_seconds": 101.78105279999909
+    }
+  ],
+  "corrected_count": 6,
+  "introduced_count": 1,
+  "baseline_matches_saved_predictions": true,
+  "caveat": "One validation split and fixed training budget; not proof of stable improvement or fully converged optima."
+}

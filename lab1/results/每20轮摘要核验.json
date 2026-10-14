@@ -1,0 +1,136 @@
+{
+  "mlp_config_count": 17,
+  "raw_epoch_rows": 1430,
+  "summary_rows": 90,
+  "selection_rule": "epoch 1, every multiple of 20, final epoch; deduplicated",
+  "raw_records_modified": false,
+  "training_performed": false,
+  "csv": "MLP每20轮摘要.csv",
+  "markdown": "MLP每20轮摘要.md",
+  "per_run_epochs": {
+    "mlp_lr001_e30": [
+      1,
+      20,
+      30
+    ],
+    "mlp_lr0001_e30": [
+      1,
+      20,
+      30
+    ],
+    "mlp_alpha001_e60": [
+      1,
+      20,
+      40,
+      60
+    ],
+    "mlp_alpha005_e50": [
+      1,
+      20,
+      40,
+      50
+    ],
+    "mlp_alpha005_e60": [
+      1,
+      20,
+      40,
+      60
+    ],
+    "mlp_alpha05_e100": [
+      1,
+      20,
+      40,
+      60,
+      80,
+      100
+    ],
+    "mlp_class2_w1.5": [
+      1,
+      20,
+      40,
+      60,
+      80,
+      100
+    ],
+    "mlp_width25_s42": [
+      1,
+      20,
+      40,
+      60,
+      80,
+      100
+    ],
+    "mlp_width50_s42": [
+      1,
+      20,
+      40,
+      60,
+      80,
+      100
+    ],
+    "mlp_width100_s42": [
+      1,
+      20,
+      40,
+      60,
+      80,
+      100
+    ],
+    "mlp_width50_s43": [
+      1,
+      20,
+      40,
+      60,
+      80,
+      100
+    ],
+    "mlp_width100_s43": [
+      1,
+      20,
+      40,
+      60,
+      80,
+      100
+    ],
+    "mlp_width50_s44": [
+      1,
+      20,
+      40,
+      60,
+      80,
+      100
+    ],
+    "mlp_width100_s44": [
+      1,
+      20,
+      40,
+      60,
+      80,
+      100
+    ],
+    "mlp_bigram": [
+      1,
+      20,
+      40,
+      60,
+      80,
+      100
+    ],
+    "mlp_logtf": [
+      1,
+      20,
+      40,
+      60,
+      80,
+      100
+    ],
+    "mlp_vocab10000": [
+      1,
+      20,
+      40,
+      60,
+      80,
+      100
+    ]
+  }
+}
