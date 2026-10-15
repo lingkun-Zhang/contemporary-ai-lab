@@ -8,6 +8,7 @@
 - [结果汇总](results/全部实验结果.csv)：29 组配置的末轮结果。
 - [实验分析](results/实验结果分析与图像索引.md)：各组对照的结果与解释。
 - [每 20 轮摘要](results/MLP每20轮摘要.md)：便于查看；每一轮的数据在各组 `history.csv` 中。
+- [邮件头与签名清洗](results/header_cleaning_20261015/README.md)：补充三组对照，含固定规则、逐样本预测、成对错分和图像。
 - `results/reproduction_20261014/runs/`：配置、逐轮指标、预测、错例、混淆矩阵和运行日志。
 - `figures/`：对照图及图源记录。
 - `stages/`：阶段实验脚本，保留实验结束时的参数；统一重跑使用 `scripts/record_all_experiments.py`。
@@ -30,6 +31,8 @@ data/test_data_unlabeled.csv # 2457 行，text 列
 
 ## 运行
 
+以下命令均在`lab1`目录执行；从仓库根目录进入时先运行`cd lab1`。
+
 检查数据和配置，不训练：
 
 ```powershell
@@ -51,11 +54,26 @@ python scripts/verify_results.py --results results/reproduction_20261014
 python scripts/plot_saved_curves.py --results results/reproduction_20261014 --output local_plots
 ```
 
+重画17组参数对照图、报告中的两张损失图，或重新抽取每20轮摘要：
+
+```powershell
+python scripts/plot_comparisons.py --results results/reproduction_20261014 --output local_plots/comparisons
+python scripts/plot_report_figures.py --results results/reproduction_20261014 --output local_plots/report
+python scripts/build_epoch_summary.py --records-dir results/reproduction_20261014 --output local_summaries
+```
+
+这些命令只读已有记录，不训练，也不覆盖归档图像或摘要。输出目录需为新目录。后处理脚本的来源和适配范围见[图表与摘要生成说明](notes/postprocessing.md)。
+
 新运行保存在 `local_runs/<会话>/`。其中 `private/` 含原文、词表和模型，仅供本地使用。`--resume` 需要本地完整会话，不能从去除私有文件的归档恢复。单独运行 `stages/` 脚本时，课程数据须放在该脚本目录；这些脚本的输出也可能包含原文，已列入 `.gitignore`。
 
 ## 重训与预测
 
-原29组对照后，结合验证准确率、参数量和训练成本，选择10000词、C=100的原文逻辑回归，其他参数见 `scripts/train_final.py`。其留出验证准确率为93.01%，不是测试集成绩。后来补做的去来源头组为93.15%，但修正26篇又新增24篇错误，单次划分净收益只有2篇，尚无稳定优势的证据，因此本次未替换已选模型，也不认定原文模型优于清洗模型。
+本次选型分为两个阶段，不能把它们写成对所有配置一次性取最高分：
+
+1. 原29组对照中，10000词、C=100的原文LR验证准确率为93.01%，高于所比较的MLP与SVM；与MLP只差2篇，因此同时比较参数量和训练成本，选定较简单的LR。其余参数见 `scripts/train_final.py`，全量重训记录见 `final_outputs/final_training.json`。
+2. 后来补做的去来源头组为93.15%、交叉熵0.2569，两项都优于原文组；不能再称原文LR是全部已试配置中验证指标最好的。清洗修正26篇又新增24篇错误，单次划分净收益只有2篇，未做显著性检验或多划分复验。本次暂不因此替换前阶段已经选定并全量重训的模型，也不认定原文模型优于清洗模型。
+
+第二点是补充实验后的保守取舍，不是事先规定的显著性阈值。当前`prediction.csv`始终对应原文LR；不能用清洗组的验证成绩来描述这份预测。所有验证成绩均不是测试集成绩。
 
 ```powershell
 python scripts/train_final.py --data-dir data --output local_final
@@ -65,11 +83,19 @@ python scripts/train_final.py --data-dir data --output local_final
 
 ## 邮件头与签名对照
 
-补充实验单独保存在 [清洗对照记录](results/header_cleaning_20261015/README.md)，不混入原来的29组汇总。固定原划分、10000词和LR C=100，比较原文、去指定来源字段、再去明确标记的签名；保留Subject、Keywords、Summary和未知字段，不按固定行数截尾。
+入口为 [scripts/header_cleaning_experiment.py](scripts/header_cleaning_experiment.py)，已跑记录在 [results/header_cleaning_20261015](results/header_cleaning_20261015/README.md)，不混入原来的29组汇总。固定原划分、10000词和LR C=100，比较原文、去指定来源字段、再去明确标记的签名；保留Subject、Keywords、Summary和未知字段，不按固定行数截尾。
 
 ```powershell
 python scripts/header_cleaning_experiment.py --data-dir data --output local_cleaning
 ```
+
+| 处理 | 验证准确率 / 交叉熵 | 已保存指标 |
+|---|---|---|
+| 原文复训 | 93.01% / 0.2709 | [original/metrics.json](results/header_cleaning_20261015/original/metrics.json) |
+| 去指定来源头 | 93.15% / 0.2569 | [no_source_headers/metrics.json](results/header_cleaning_20261015/no_source_headers/metrics.json) |
+| 再去标记签名 | 92.94% / 0.2623 | [no_source_headers_signature/metrics.json](results/header_cleaning_20261015/no_source_headers_signature/metrics.json) |
+
+每组同目录内有`validation_predictions.json`、`classification_report.json`、`confusion_matrix.json`和`cleaning_audit.json`。共同文件包括[固定规则](results/header_cleaning_20261015/protocol.json)、[成对错分与基线复现检查](results/header_cleaning_20261015/summary.json)、[比较图](results/header_cleaning_20261015/comparison.png)及`split.json`、`session.json`、`source_snapshot.py`。
 
 输出包括规则、清洗覆盖率、逐样本验证预测、分类指标、成对错分变化和比较图；不读取测试集、不生成或替换提交用预测。`source_snapshot.py`是该次训练的源码，`figure_source.json`记录后续只调整图例位置的重绘。可用`--redraw --output results/header_cleaning_20261015`从已存指标重画，不会训练。
 

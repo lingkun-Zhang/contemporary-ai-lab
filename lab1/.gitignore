@@ -7,6 +7,9 @@ local_runs/
 local_final/
 local_plots/
 local_cleaning/
+local_summaries/
+local_history/
+**/history_private/
 stages/mlp_results/
 stages/lr_results/
 stages/svm_results/
