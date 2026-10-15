@@ -8,20 +8,17 @@ DATA_DIR = Path(__file__).resolve().parent
 
 def load_data():
     train_df = pd.read_csv(DATA_DIR / 'train_data.csv')
-    test_df = pd.read_csv(DATA_DIR / 'test_data_unlabeled.csv')
     X_train = train_df['text'].astype(str).tolist()
     y_train = train_df['target'].values
-    X_test_unlabeled = test_df['text'].astype(str).tolist()
-    return X_train, y_train, X_test_unlabeled
+    return X_train, y_train
 
-# 读取老师给的训练数据和无标签测试数据。
-X_train, y_train, X_test_unlabeled = load_data()
+# 此入口只做训练/验证；测试预测使用 scripts/train_final.py。
+X_train, y_train = load_data()
 
 # 先检查数量和文本格式。
 print("--- 数据加载成功 ---")
 print(f"训练集样本数量: {len(X_train)}")
 print(f"训练集标签数量: {len(y_train)}")
-print(f"无标签测试集样本数量: {len(X_test_unlabeled)}")
 print("-" * 20)
 
 # 查看一条文本及其标签。
@@ -30,9 +27,6 @@ print(X_train[0])
 print(f"\n第一个训练样本的标签: {y_train[0]}")
 print("-" * 20)
 
-# 无标签测试集用于最后预测，不参与调参。
-print("第一个无标签测试样本内容:")
-print(X_test_unlabeled[0])
 print("\n" + "="*50)
 
 # 留出 20% 做验证；分层划分让两部分的类别比例接近。
@@ -47,7 +41,6 @@ X_fit, X_val, y_fit, y_val = train_test_split(
 
 print("实际训练集：", len(X_fit))
 print("验证集：", len(X_val))
-print("老师提供的无标签测试集：", len(X_test_unlabeled))
 
 # 检查分层划分后的类别分布。
 from collections import Counter

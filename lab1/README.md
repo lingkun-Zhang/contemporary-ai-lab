@@ -29,6 +29,12 @@ data/train_data.csv          # 7368 行，text、target 列，标签 0—9
 data/test_data_unlabeled.csv # 2457 行，text 列
 ```
 
+TF-IDF默认使用单词分析器，正则为`(?u)\b\w\w+\b`（长度至少2的词元），转小写、不去停用词，`use_idf=True`、`smooth_idf=True`、`norm="l2"`、`min_df=1`、`max_df=1.0`、`binary=False`。普通词频对应`sublinear_tf=False`；短语和对数词频组只按各自配置改变相应设置。选型LR实际参数见[feature_metadata.json](results/reproduction_20261014/runs/lr_vocab10000/feature_metadata.json)。
+
+早期逻辑回归阶段曾读取并打印无标签测试文本作格式检查，因此不能称测试集从未被查看；未将其用于模型拟合、验证评价或调参。现已从`stages/Logistic_experiment.py`移除测试集读取和打印，当前训练/验证入口只加载训练文件；统一重跑和清洗入口原本就只读训练文件。测试文件由最终重训与预测入口加载。历史源码快照和结果不作追溯改写。
+
+记录保留了软件版本与线程设置，但没有当时的完整硬件快照。耗时仅用于本次实现和预算下的参考比较，不作为跨硬件性能基准。
+
 ## 运行
 
 以下命令均在`lab1`目录执行；从仓库根目录进入时先运行`cd lab1`。
@@ -68,6 +74,8 @@ python scripts/build_epoch_summary.py --records-dir results/reproduction_2026101
 
 ## 重训与预测
 
+当前提交配置是：**原文单词TF-IDF（上限10000词）+ L2逻辑回归，C=100、solver="lbfgs"、max_iter=1000、tol=1e-4，不加权。** `final_outputs/prediction.csv`由这个配置在全部有标签数据上重训后生成，不是MLP、SVM或去来源头版本的预测。
+
 本次选型分为两个阶段，不能把它们写成对所有配置一次性取最高分：
 
 1. 原29组对照中，10000词、C=100的原文LR验证准确率为93.01%，高于所比较的MLP与SVM；与MLP只差2篇，因此同时比较参数量和训练成本，选定较简单的LR。其余参数见 `scripts/train_final.py`，全量重训记录见 `final_outputs/final_training.json`。
@@ -80,6 +88,26 @@ python scripts/train_final.py --data-dir data --output local_final
 ```
 
 重训使用全部 7368 篇有标签文本；2457 篇测试文本只做变换和预测。输出按测试原行序排列，每行一个整数类别，无表头和索引。脚本不覆盖已有结果。`--model-output` 可在本地保存模型；测试集无标签，不计算测试准确率。
+
+### 选型配置的留出分类表现
+
+以下是`lr_vocab10000`在5894篇训练、1474篇验证划分中的表现，不是全量重训后的重新评估，也不是测试集成绩。由[逐样本预测](results/reproduction_20261014/runs/lr_vocab10000/validation_predictions.csv)核算，并与[分类报告](results/reproduction_20261014/runs/lr_vocab10000/classification_report.json)、[混淆矩阵](results/reproduction_20261014/runs/lr_vocab10000/confusion_matrix.csv)对应。
+
+| 类别 | 精确率 | 召回率 | F1 | 验证样本数 |
+|---|---:|---:|---:|---:|
+| 0 | 88.16% | 91.78% | 89.93% | 146 |
+| 1 | 91.22% | 91.22% | 91.22% | 148 |
+| 2 | 81.17% | 85.03% | 83.06% | 147 |
+| 3 | 96.60% | 95.95% | 96.27% | 148 |
+| 4 | 96.62% | 95.33% | 95.97% | 150 |
+| 5 | 97.39% | 100.00% | 98.68% | 149 |
+| 6 | 95.80% | 91.95% | 93.84% | 149 |
+| 7 | 87.41% | 84.46% | 85.91% | 148 |
+| 8 | 96.60% | 95.95% | 96.27% | 148 |
+| 9 | 100.00% | 98.58% | 99.29% | 141 |
+| 宏平均 | 93.10% | 93.02% | 93.04% | 1474 |
+
+类别2和7是主要薄弱类：2→7有9篇，7→2有10篇，合计19篇，占103个错误的18.45%。类别5在这次验证中召回率为100%，但精确率不是100%，也不能据此保证未来文本都分对。总体准确率不足以代表每个类别都同样可靠。
 
 ## 邮件头与签名对照
 
@@ -101,6 +129,6 @@ python scripts/header_cleaning_experiment.py --data-dir data --output local_clea
 
 ## 记录来源
 
-早期运行漏记了部分数据，随后按阶段参数统一重跑 29 组配置，报告采用这次记录。`results/history/` 保留旧记录，与重跑分开，不混用耗时。重跑时的源码保存在 `results/reproduction_20261014/record_all_experiments.py`；最终重训源码保存在 `results/final_training_source.py`。当前入口整理过注释和读取检查，旧源码未改。
+早期运行漏记了部分数据，随后按阶段参数统一重跑 29 组配置，报告采用这次记录。`results/history/` 保留旧记录，与重跑分开，不混用耗时。重跑时的源码保存在 `results/reproduction_20261014/record_all_experiments.py`；最终重训源码保存在 `results/final_training_source.py`。当前入口整理过注释和读取检查，并去掉阶段LR的测试读取；历史快照未改，模型配置和已保存训练结果也未改。
 
 公开记录去除了原文列、完整词表和本地路径，处理记录见 `notes/data_export.json`，文件哈希见 `checksums.json`。三次训练种子对照使用同一验证划分，不是三折交叉验证；多次调参后的验证结果也不能替代独立测试。
