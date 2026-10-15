@@ -55,13 +55,23 @@ python scripts/plot_saved_curves.py --results results/reproduction_20261014 --ou
 
 ## 重训与预测
 
-按验证准确率选择 10000 词、C=100 的逻辑回归，其他参数见 `scripts/train_final.py`。其留出验证准确率为 93.01%，不是测试集成绩。
+原29组对照后，结合验证准确率、参数量和训练成本，选择10000词、C=100的原文逻辑回归，其他参数见 `scripts/train_final.py`。其留出验证准确率为93.01%，不是测试集成绩。后来补做的去来源头组为93.15%，但修正26篇又新增24篇错误，单次划分净收益只有2篇，尚无稳定优势的证据，因此本次未替换已选模型，也不认定原文模型优于清洗模型。
 
 ```powershell
 python scripts/train_final.py --data-dir data --output local_final
 ```
 
 重训使用全部 7368 篇有标签文本；2457 篇测试文本只做变换和预测。输出按测试原行序排列，每行一个整数类别，无表头和索引。脚本不覆盖已有结果。`--model-output` 可在本地保存模型；测试集无标签，不计算测试准确率。
+
+## 邮件头与签名对照
+
+补充实验单独保存在 [清洗对照记录](results/header_cleaning_20261015/README.md)，不混入原来的29组汇总。固定原划分、10000词和LR C=100，比较原文、去指定来源字段、再去明确标记的签名；保留Subject、Keywords、Summary和未知字段，不按固定行数截尾。
+
+```powershell
+python scripts/header_cleaning_experiment.py --data-dir data --output local_cleaning
+```
+
+输出包括规则、清洗覆盖率、逐样本验证预测、分类指标、成对错分变化和比较图；不读取测试集、不生成或替换提交用预测。`source_snapshot.py`是该次训练的源码，`figure_source.json`记录后续只调整图例位置的重绘。可用`--redraw --output results/header_cleaning_20261015`从已存指标重画，不会训练。
 
 ## 记录来源
 

@@ -1,0 +1,12 @@
+{
+  "groups": 3,
+  "validation_predictions_checked": 4422,
+  "paired_comparisons_checked": 3,
+  "maximum_independent_cross_entropy_difference": 0.0,
+  "baseline_reproduced": true,
+  "original_29_runs_preserved": true,
+  "report_prediction_and_submission_archive_unchanged": true,
+  "raw_texts_or_models_exported": false,
+  "official_test_used": false,
+  "new_figure_visually_checked": true
+}

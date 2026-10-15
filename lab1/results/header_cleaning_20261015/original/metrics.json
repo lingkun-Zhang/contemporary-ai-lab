@@ -1,0 +1,21 @@
+{
+  "group": "original",
+  "display_name": "原文",
+  "train_accuracy": 0.999830335934849,
+  "val_accuracy": 0.9301221166892809,
+  "train_loss": 0.017063601703272667,
+  "val_loss": 0.27087955189826496,
+  "wrong_count": 103,
+  "actual_features": 10000,
+  "parameter_count": 100010,
+  "zero_feature_rows_train": 0,
+  "zero_feature_rows_validation": 0,
+  "vocabulary_sha256": "154e4ae57fba7a07489a05b09b251debf1a8ba6c2c795ead01a86aa7b71264f2",
+  "idf_sha256": "5bf47b643d0992853198864f7353fe2bed0713f5cd3385ff53f12fe2c8fed8ab",
+  "optimizer_iterations": [
+    61
+  ],
+  "fit_seconds": 1.220123799999783,
+  "vectorization_seconds": 1.6662876999998844,
+  "warnings": []
+}

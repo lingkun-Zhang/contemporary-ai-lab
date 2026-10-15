@@ -1,0 +1,21 @@
+{
+  "group": "no_source_headers_signature",
+  "display_name": "再去标记签名",
+  "train_accuracy": 0.999830335934849,
+  "val_accuracy": 0.9294436906377205,
+  "train_loss": 0.017405447251745358,
+  "val_loss": 0.2623257681662196,
+  "wrong_count": 104,
+  "actual_features": 10000,
+  "parameter_count": 100010,
+  "zero_feature_rows_train": 0,
+  "zero_feature_rows_validation": 0,
+  "vocabulary_sha256": "fb023a081804aed618924cfd9a4763049b60d606562be1677f57b54527dd2d1a",
+  "idf_sha256": "1cf88b37669c7d6cde28325f09b985ded4297fdb1f885b46bb02baec5613a93d",
+  "optimizer_iterations": [
+    59
+  ],
+  "fit_seconds": 1.0815044999999373,
+  "vectorization_seconds": 1.4799581000002036,
+  "warnings": []
+}

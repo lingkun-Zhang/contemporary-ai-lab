@@ -1,0 +1,21 @@
+{
+  "group": "no_source_headers",
+  "display_name": "去指定来源头",
+  "train_accuracy": 0.999830335934849,
+  "val_accuracy": 0.9314789687924017,
+  "train_loss": 0.01575748405893048,
+  "val_loss": 0.2569244941105407,
+  "wrong_count": 101,
+  "actual_features": 10000,
+  "parameter_count": 100010,
+  "zero_feature_rows_train": 0,
+  "zero_feature_rows_validation": 0,
+  "vocabulary_sha256": "73d9a4ff7895fad42717ba5d901566005bbb00c3ad9fbea27abc04313adaa007",
+  "idf_sha256": "6e0984b082f070b6b621466c409c9726274ce9add7d0e46a5f1f7aeb3c87ebdc",
+  "optimizer_iterations": [
+    81
+  ],
+  "fit_seconds": 1.5578333999997085,
+  "vectorization_seconds": 1.5594281999997293,
+  "warnings": []
+}

@@ -1,0 +1,4 @@
+Fixed LR C=100, vocabulary cap=10000; fit=5894, validation=1474; original split, seed=42.
+原文 | train=99.98% | val=93.01% | trainCE=0.0171 | valCE=0.2709 | wrong=103 | changed train/val=0/0 | signatures train/val=0/0
+去指定来源头 | train=99.98% | val=93.15% | trainCE=0.0158 | valCE=0.2569 | wrong=101 | changed train/val=5889/1474 | signatures train/val=0/0
+再去标记签名 | train=99.98% | val=92.94% | trainCE=0.0174 | valCE=0.2623 | wrong=104 | changed train/val=5889/1474 | signatures train/val=1560/369

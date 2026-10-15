@@ -1,0 +1,30 @@
+{
+  "train": {
+    "rows": 5894,
+    "recognized_headers": 5889,
+    "changed_rows": 0,
+    "signature_removed_rows": 0,
+    "empty_after": 0,
+    "removed_characters": 0,
+    "removed_fields": {},
+    "text_hash_definition": "UTF-8 bytes, each preceded by its 8-byte little-endian byte length, in split row order",
+    "original_text_sha256": "c59cca3797f65ad599b29a91d853bc999d7bdc75b72891514c7f365272249dd1",
+    "transformed_text_sha256": "c59cca3797f65ad599b29a91d853bc999d7bdc75b72891514c7f365272249dd1",
+    "changed_source_indices": [],
+    "signature_source_indices": []
+  },
+  "validation": {
+    "rows": 1474,
+    "recognized_headers": 1474,
+    "changed_rows": 0,
+    "signature_removed_rows": 0,
+    "empty_after": 0,
+    "removed_characters": 0,
+    "removed_fields": {},
+    "text_hash_definition": "UTF-8 bytes, each preceded by its 8-byte little-endian byte length, in split row order",
+    "original_text_sha256": "2cd17c60324b88e682f879e6e119ff40af5eca3724834edef33f1bea399459d8",
+    "transformed_text_sha256": "2cd17c60324b88e682f879e6e119ff40af5eca3724834edef33f1bea399459d8",
+    "changed_source_indices": [],
+    "signature_source_indices": []
+  }
+}

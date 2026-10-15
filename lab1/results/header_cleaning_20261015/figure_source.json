@@ -1,0 +1,12 @@
+{
+  "metrics_file": "summary.json",
+  "metrics_sha256": "292b2a2e663b4a103fbce3ee90dcc987ba13c78c7cf2b20d93f224d14e9a109f",
+  "figure_file": "comparison.png",
+  "figure_sha256": "b0abbe6766ba50d6526830470ef6b5bbc7487a1b15c57be13276cd76e6452dc1",
+  "previous_figure_sha256": "2581871f41a96082545b6e3522d9a2728fddc190321e4300069d5284142c5d52",
+  "rendering_script_sha256": "9e9258d84e9e46053596aa6ba58a67ffff35f93818e4cb7cae9cc238a770632f",
+  "change": "move legends outside axes so no value labels are covered",
+  "training_source": "source_snapshot.py",
+  "new_training": false,
+  "numeric_data_changed": false
+}

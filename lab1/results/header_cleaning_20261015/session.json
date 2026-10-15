@@ -1,0 +1,20 @@
+{
+  "started_at": "2026-10-15T03:00:19.041780+00:00",
+  "finished_at": "2026-10-15T03:00:29.824704+00:00",
+  "python": "3.10.21",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "packages": {
+    "numpy": "2.2.5",
+    "pandas": "2.3.3",
+    "scipy": "1.15.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.9",
+    "threadpoolctl": "3.5.0"
+  },
+  "input_sha256": "484667d165458da7f73ba36d172d67e14864e1aa5ab1ee6262e2966dd295c863",
+  "script_sha256": "0132b6befa2584df44f08a818b949f62ba205ff2a4e79291c3ed141639c18adf",
+  "test_used": false,
+  "fresh_baseline_matches_recorded_run": true,
+  "all_three_groups_completed": true,
+  "raw_texts_and_models_exported": false
+}
