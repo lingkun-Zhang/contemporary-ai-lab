@@ -1,0 +1,30 @@
+{
+  "completed_at_utc": "2026-11-10T11:21:20.626314+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "source_sha256": {
+    "alphabeta_tree.py": "555b1043143f3137716c73557244e6250df7dbe775c34558e9e6f74c2d4799fb",
+    "scout_search.py": "7bd965cf24801d936f34485bef4758e8df05c7c0f45c2ae5723e34d5c72c89c7",
+    "test_scout_search.py": "7f5ef6953e9a8a9fc8091a1102e151b6d6ffbadde6413524fd2b0ffe81fb848d",
+    "run_scout_study.py": "12c161f9ce83ca7b63724f62446055c99b151e6fc9d0e9a94995623d28f83bf5"
+  },
+  "protocol_sha256": "bba6e0819fb9b9368f317acd1a550861312a67a73071446ffe99d6e04acf68df",
+  "ordered_input_records": 30,
+  "independent_random_trees": 18,
+  "structured_underlying_semantics": 4,
+  "configurations": 270,
+  "timing_batches": 1890,
+  "timed_calls": 5670,
+  "all_values_and_count_identities_validated": true,
+  "files_sha256": {
+    "aggregate_summary.csv": "be76d5fb0afe518c9a3425c04efa83f76526e445c8671516174ef0b5deba0442",
+    "analysis.json": "9da414b00866dba9d88a8b97e980b04269922854a1773d9677ce57bef341f7cb",
+    "comparison.csv": "b705c4036ee2d0ab4f9d13fbe69a027176896a78ef0f4dc4640b7863afdb58dc",
+    "paired_deltas.csv": "d897cd83c453aa1512bd82d557ac9b2c920a63eb511d534994014e53f0b53128",
+    "protocol.json": "bba6e0819fb9b9368f317acd1a550861312a67a73071446ffe99d6e04acf68df",
+    "scout_leaf_work.svg": "3f27d950d49fe40bab0ed10871e271a8e88584e984cfd27bf62d82d35173e70a",
+    "summary.csv": "abe7440ce52c28cddd8b9966b429fd088ab82f25df928f3260955b7f3d7e22ac",
+    "timing_batches.csv": "e2c3ee60b3e47297cd8ed8c079c7b19c0066a251e80aa3c33b43acd9098ad78c",
+    "timing_calls.csv": "ea905f24c5a89ccc8fd82a25144d6977afe3f89180c8b1ae76f36156199138cd"
+  }
+}

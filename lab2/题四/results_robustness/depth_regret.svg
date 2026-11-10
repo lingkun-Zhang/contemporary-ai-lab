@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820">
+<rect width="100%" height="100%" fill="white"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#293e4d">
+<text x="28" y="38" font-size="25" font-weight="bold">浅层首步的完整博弈后悔值</text>
+<text x="28" y="69" font-size="14" fill="#566d82">对真实返回首步统一用同图H4精确值再评价；浅层并列首步可以有不同后悔值。</text>
+<text x="28" y="115" font-size="17">后悔值中位数（完整最优值 − 所选首步的完整后续值）</text>
+<line x1="105" y1="328.0" x2="1145" y2="328.0" stroke="#dce5ed"/>
+<text x="90" y="333.0" text-anchor="end" font-size="13">0.00</text>
+<line x1="105" y1="281.75" x2="1145" y2="281.75" stroke="#dce5ed"/>
+<text x="90" y="286.75" text-anchor="end" font-size="13">0.28</text>
+<line x1="105" y1="235.5" x2="1145" y2="235.5" stroke="#dce5ed"/>
+<text x="90" y="240.5" text-anchor="end" font-size="13">0.56</text>
+<line x1="105" y1="189.25" x2="1145" y2="189.25" stroke="#dce5ed"/>
+<text x="90" y="194.25" text-anchor="end" font-size="13">0.84</text>
+<line x1="105" y1="143.0" x2="1145" y2="143.0" stroke="#dce5ed"/>
+<text x="90" y="148.0" text-anchor="end" font-size="13">1.12</text>
+<text x="233.75" y="354" text-anchor="middle" font-size="14">H=1</text>
+<text x="491.25" y="354" text-anchor="middle" font-size="14">H=2</text>
+<text x="748.75" y="354" text-anchor="middle" font-size="14">H=3</text>
+<text x="1006.25" y="354" text-anchor="middle" font-size="14">H=4</text>
+<circle cx="233.75" cy="328.0" r="3.7" fill="#347f9b"/>
+<circle cx="491.25" cy="328.0" r="3.7" fill="#347f9b"/>
+<circle cx="748.75" cy="328.0" r="3.7" fill="#347f9b"/>
+<circle cx="1006.25" cy="328.0" r="3.7" fill="#347f9b"/>
+<polyline points="233.75,328.0 491.25,328.0 748.75,328.0 1006.25,328.0" fill="none" stroke="#347f9b" stroke-width="2"/>
+<path d="M105,381h22" stroke="#347f9b" stroke-width="3"/>
+<text x="135" y="386" font-size="13">label</text>
+<circle cx="233.75" cy="328.0" r="3.7" fill="#c68435"/>
+<circle cx="491.25" cy="328.0" r="3.7" fill="#c68435"/>
+<circle cx="748.75" cy="328.0" r="3.7" fill="#c68435"/>
+<circle cx="1006.25" cy="328.0" r="3.7" fill="#c68435"/>
+<polyline points="233.75,328.0 491.25,328.0 748.75,328.0 1006.25,328.0" fill="none" stroke="#c68435" stroke-width="2"/>
+<path d="M385,381h22" stroke="#c68435" stroke-width="3"/>
+<text x="415" y="386" font-size="13">reverse</text>
+<circle cx="233.75" cy="328.0" r="3.7" fill="#64945e"/>
+<circle cx="491.25" cy="328.0" r="3.7" fill="#64945e"/>
+<circle cx="748.75" cy="328.0" r="3.7" fill="#64945e"/>
+<circle cx="1006.25" cy="328.0" r="3.7" fill="#64945e"/>
+<polyline points="233.75,328.0 491.25,328.0 748.75,328.0 1006.25,328.0" fill="none" stroke="#64945e" stroke-width="2"/>
+<path d="M665,381h22" stroke="#64945e" stroke-width="3"/>
+<text x="695" y="386" font-size="13">gain</text>
+<text x="28" y="455" font-size="17">完整最优首步命中地图数 / 30</text>
+<line x1="105" y1="668.0" x2="1145" y2="668.0" stroke="#dce5ed"/>
+<text x="90" y="673.0" text-anchor="end" font-size="13">0.00</text>
+<line x1="105" y1="621.75" x2="1145" y2="621.75" stroke="#dce5ed"/>
+<text x="90" y="626.75" text-anchor="end" font-size="13">7.50</text>
+<line x1="105" y1="575.5" x2="1145" y2="575.5" stroke="#dce5ed"/>
+<text x="90" y="580.5" text-anchor="end" font-size="13">15.00</text>
+<line x1="105" y1="529.25" x2="1145" y2="529.25" stroke="#dce5ed"/>
+<text x="90" y="534.25" text-anchor="end" font-size="13">22.50</text>
+<line x1="105" y1="483.0" x2="1145" y2="483.0" stroke="#dce5ed"/>
+<text x="90" y="488.0" text-anchor="end" font-size="13">30.00</text>
+<text x="233.75" y="694" text-anchor="middle" font-size="14">H=1</text>
+<text x="491.25" y="694" text-anchor="middle" font-size="14">H=2</text>
+<text x="748.75" y="694" text-anchor="middle" font-size="14">H=3</text>
+<text x="1006.25" y="694" text-anchor="middle" font-size="14">H=4</text>
+<circle cx="233.75" cy="550.8333333333334" r="3.7" fill="#347f9b"/>
+<circle cx="491.25" cy="550.8333333333334" r="3.7" fill="#347f9b"/>
+<circle cx="748.75" cy="526.1666666666666" r="3.7" fill="#347f9b"/>
+<circle cx="1006.25" cy="483.0" r="3.7" fill="#347f9b"/>
+<polyline points="233.75,550.8333333333334 491.25,550.8333333333334 748.75,526.1666666666666 1006.25,483.0" fill="none" stroke="#347f9b" stroke-width="2"/>
+<path d="M105,721h22" stroke="#347f9b" stroke-width="3"/>
+<text x="135" y="726" font-size="13">label</text>
+<circle cx="233.75" cy="538.5" r="3.7" fill="#c68435"/>
+<circle cx="491.25" cy="544.6666666666666" r="3.7" fill="#c68435"/>
+<circle cx="748.75" cy="526.1666666666666" r="3.7" fill="#c68435"/>
+<circle cx="1006.25" cy="483.0" r="3.7" fill="#c68435"/>
+<polyline points="233.75,538.5 491.25,544.6666666666666 748.75,526.1666666666666 1006.25,483.0" fill="none" stroke="#c68435" stroke-width="2"/>
+<path d="M385,721h22" stroke="#c68435" stroke-width="3"/>
+<text x="415" y="726" font-size="13">reverse</text>
+<circle cx="233.75" cy="550.8333333333334" r="3.7" fill="#64945e"/>
+<circle cx="491.25" cy="550.8333333333334" r="3.7" fill="#64945e"/>
+<circle cx="748.75" cy="526.1666666666666" r="3.7" fill="#64945e"/>
+<circle cx="1006.25" cy="483.0" r="3.7" fill="#64945e"/>
+<polyline points="233.75,550.8333333333334 491.25,550.8333333333334 748.75,526.1666666666666 1006.25,483.0" fill="none" stroke="#64945e" stroke-width="2"/>
+<path d="M665,721h22" stroke="#64945e" stroke-width="3"/>
+<text x="695" y="726" font-size="13">gain</text>
+</g></svg>

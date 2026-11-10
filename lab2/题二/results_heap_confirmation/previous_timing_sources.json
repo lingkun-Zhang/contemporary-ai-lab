@@ -1,0 +1,25 @@
+{
+  "method": "descriptive summaries of existing batch averages; no new experiments",
+  "unit": "milliseconds per complete query, per source timing protocol",
+  "limitations": "IQR and min/max describe recorded timing batches, not confidence intervals or independent maps",
+  "configurations": 1844,
+  "source_files": [
+    {
+      "path": "results/comparison.csv",
+      "sha256": "7aedf524d325101cbd831f30b35ca1211130b44cc1bcf7e42bfea4a1dc07a227"
+    },
+    {
+      "path": "results_supplementary/tie_break_comparison.csv",
+      "sha256": "c783399aa2a458f27ed4c398e67da3b43cdd49cef6e1e1da6fc621890c36299d"
+    },
+    {
+      "path": "results_supplementary/cost_ratio.csv",
+      "sha256": "a62e6b149f360a2e4b151e060d04f7efdade82c7a33dca49ee7b5fa9ca333fb1"
+    },
+    {
+      "path": "results_supplementary/component_minimum.csv",
+      "sha256": "f10181bb9a69c1dd4254e0fa980d1af9b2151d3a94bc0f22a9a1e0cdfc464293"
+    }
+  ],
+  "summarizer_sha256": "cf26fa431d37e230d18a806a442c53d9de5d578b3b5f5bb314f4f8669cb9344a"
+}

@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="850" viewBox="0 0 1200 850">
+<rect width="100%" height="100%" fill="white"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#293e4d">
+<text x="28" y="38" font-size="25" font-weight="bold">缓存容量：淘汰与重复搜索的代价</text>
+<text x="28" y="69" font-size="14" fill="#566c80">固定LRU；三个新种子，所有查询完整搜索终局，容量只约束表项数。</text>
+<text x="28" y="115" font-size="17">三个种子节点访问中位数；横轴为最大条目数</text>
+<line x1="100" y1="315.0" x2="1150" y2="315.0" stroke="#dce5ed"/>
+<text x="88" y="320.0" text-anchor="end" font-size="13">0.00</text>
+<line x1="100" y1="271.25" x2="1150" y2="271.25" stroke="#dce5ed"/>
+<text x="88" y="276.25" text-anchor="end" font-size="13">375.76</text>
+<line x1="100" y1="227.5" x2="1150" y2="227.5" stroke="#dce5ed"/>
+<text x="88" y="232.5" text-anchor="end" font-size="13">751.52</text>
+<line x1="100" y1="183.75" x2="1150" y2="183.75" stroke="#dce5ed"/>
+<text x="88" y="188.75" text-anchor="end" font-size="13">1127.28</text>
+<line x1="100" y1="140.0" x2="1150" y2="140.0" stroke="#dce5ed"/>
+<text x="88" y="145.0" text-anchor="end" font-size="13">1503.04</text>
+<text x="165.625" y="340" text-anchor="middle" font-size="14">0</text>
+<text x="296.875" y="340" text-anchor="middle" font-size="14">4</text>
+<text x="428.125" y="340" text-anchor="middle" font-size="14">8</text>
+<text x="559.375" y="340" text-anchor="middle" font-size="14">16</text>
+<text x="690.625" y="340" text-anchor="middle" font-size="14">32</text>
+<text x="821.875" y="340" text-anchor="middle" font-size="14">64</text>
+<text x="953.125" y="340" text-anchor="middle" font-size="14">128</text>
+<text x="1084.375" y="340" text-anchor="middle" font-size="14">all</text>
+<circle cx="165.625" cy="158.75" r="3.4" fill="#64748b"/>
+<circle cx="296.875" cy="158.75" r="3.4" fill="#64748b"/>
+<circle cx="428.125" cy="158.75" r="3.4" fill="#64748b"/>
+<circle cx="559.375" cy="158.75" r="3.4" fill="#64748b"/>
+<circle cx="690.625" cy="158.75" r="3.4" fill="#64748b"/>
+<circle cx="821.875" cy="158.75" r="3.4" fill="#64748b"/>
+<circle cx="953.125" cy="158.75" r="3.4" fill="#64748b"/>
+<circle cx="1084.375" cy="158.75" r="3.4" fill="#64748b"/>
+<polyline points="165.625,158.75 296.875,158.75 428.125,158.75 559.375,158.75 690.625,158.75 821.875,158.75 953.125,158.75 1084.375,158.75" fill="none" stroke="#64748b" stroke-width="2"/>
+<path d="M105,368h22" stroke="#64748b" stroke-width="3"/>
+<text x="135" y="373" font-size="13">无复用纯树</text>
+<circle cx="165.625" cy="158.75" r="3.4" fill="#bb7d34"/>
+<circle cx="296.875" cy="166.7837183308495" r="3.4" fill="#bb7d34"/>
+<circle cx="428.125" cy="167.0165797317437" r="3.4" fill="#bb7d34"/>
+<circle cx="559.375" cy="170.2766393442623" r="3.4" fill="#bb7d34"/>
+<circle cx="690.625" cy="186.69336810730255" r="3.4" fill="#bb7d34"/>
+<circle cx="821.875" cy="222.78688524590166" r="3.4" fill="#bb7d34"/>
+<circle cx="953.125" cy="257.3668032786885" r="3.4" fill="#bb7d34"/>
+<circle cx="1084.375" cy="265.05122950819674" r="3.4" fill="#bb7d34"/>
+<polyline points="165.625,158.75 296.875,166.7837183308495 428.125,167.0165797317437 559.375,170.2766393442623 690.625,186.69336810730255 821.875,222.78688524590166 953.125,257.3668032786885 1084.375,265.05122950819674" fill="none" stroke="#bb7d34" stroke-width="2"/>
+<path d="M370,368h22" stroke="#bb7d34" stroke-width="3"/>
+<text x="400" y="373" font-size="13">部分共享</text>
+<circle cx="165.625" cy="158.75" r="3.4" fill="#3586a0"/>
+<circle cx="296.875" cy="174.93386736214606" r="3.4" fill="#3586a0"/>
+<circle cx="428.125" cy="183.8990312965723" r="3.4" fill="#3586a0"/>
+<circle cx="559.375" cy="207.65089418777944" r="3.4" fill="#3586a0"/>
+<circle cx="690.625" cy="265.40052160953803" r="3.4" fill="#3586a0"/>
+<circle cx="821.875" cy="290.7824143070045" r="3.4" fill="#3586a0"/>
+<circle cx="953.125" cy="290.7824143070045" r="3.4" fill="#3586a0"/>
+<circle cx="1084.375" cy="290.7824143070045" r="3.4" fill="#3586a0"/>
+<polyline points="165.625,158.75 296.875,174.93386736214606 428.125,183.8990312965723 559.375,207.65089418777944 690.625,265.40052160953803 821.875,290.7824143070045 953.125,290.7824143070045 1084.375,290.7824143070045" fill="none" stroke="#3586a0" stroke-width="2"/>
+<path d="M635,368h22" stroke="#3586a0" stroke-width="3"/>
+<text x="665" y="373" font-size="13">完整共享</text>
+<text x="28" y="455" font-size="17">逐图计时中位数的中位数（ms，含全部LRU维护）</text>
+<line x1="100" y1="655.0" x2="1150" y2="655.0" stroke="#dce5ed"/>
+<text x="88" y="660.0" text-anchor="end" font-size="13">0.00</text>
+<line x1="100" y1="611.25" x2="1150" y2="611.25" stroke="#dce5ed"/>
+<text x="88" y="616.25" text-anchor="end" font-size="13">2.20</text>
+<line x1="100" y1="567.5" x2="1150" y2="567.5" stroke="#dce5ed"/>
+<text x="88" y="572.5" text-anchor="end" font-size="13">4.40</text>
+<line x1="100" y1="523.75" x2="1150" y2="523.75" stroke="#dce5ed"/>
+<text x="88" y="528.75" text-anchor="end" font-size="13">6.60</text>
+<line x1="100" y1="480.0" x2="1150" y2="480.0" stroke="#dce5ed"/>
+<text x="88" y="485.0" text-anchor="end" font-size="13">8.80</text>
+<text x="165.625" y="680" text-anchor="middle" font-size="14">0</text>
+<text x="296.875" y="680" text-anchor="middle" font-size="14">4</text>
+<text x="428.125" y="680" text-anchor="middle" font-size="14">8</text>
+<text x="559.375" y="680" text-anchor="middle" font-size="14">16</text>
+<text x="690.625" y="680" text-anchor="middle" font-size="14">32</text>
+<text x="821.875" y="680" text-anchor="middle" font-size="14">64</text>
+<text x="953.125" y="680" text-anchor="middle" font-size="14">128</text>
+<text x="1084.375" y="680" text-anchor="middle" font-size="14">all</text>
+<circle cx="165.625" cy="589.949282491434" r="3.4" fill="#64748b"/>
+<circle cx="296.875" cy="498.75" r="3.4" fill="#64748b"/>
+<circle cx="428.125" cy="503.52066865691893" r="3.4" fill="#64748b"/>
+<circle cx="559.375" cy="515.1968801947281" r="3.4" fill="#64748b"/>
+<circle cx="690.625" cy="520.2186715490043" r="3.4" fill="#64748b"/>
+<circle cx="821.875" cy="506.72364258574487" r="3.4" fill="#64748b"/>
+<circle cx="953.125" cy="512.5127164823422" r="3.4" fill="#64748b"/>
+<circle cx="1084.375" cy="508.52987074668386" r="3.4" fill="#64748b"/>
+<polyline points="165.625,589.949282491434 296.875,498.75 428.125,503.52066865691893 559.375,515.1968801947281 690.625,520.2186715490043 821.875,506.72364258574487 953.125,512.5127164823422 1084.375,508.52987074668386" fill="none" stroke="#64748b" stroke-width="2"/>
+<path d="M105,708h22" stroke="#64748b" stroke-width="3"/>
+<text x="135" y="713" font-size="13">无复用纯树</text>
+<circle cx="165.625" cy="597.5591615920888" r="3.4" fill="#bb7d34"/>
+<circle cx="296.875" cy="524.0511087033958" r="3.4" fill="#bb7d34"/>
+<circle cx="428.125" cy="513.6775547460732" r="3.4" fill="#bb7d34"/>
+<circle cx="559.375" cy="526.9393510194388" r="3.4" fill="#bb7d34"/>
+<circle cx="690.625" cy="541.7873946212301" r="3.4" fill="#bb7d34"/>
+<circle cx="821.875" cy="572.7351197543848" r="3.4" fill="#bb7d34"/>
+<circle cx="953.125" cy="599.7251776809037" r="3.4" fill="#bb7d34"/>
+<circle cx="1084.375" cy="609.3725298537843" r="3.4" fill="#bb7d34"/>
+<polyline points="165.625,597.5591615920888 296.875,524.0511087033958 428.125,513.6775547460732 559.375,526.9393510194388 690.625,541.7873946212301 821.875,572.7351197543848 953.125,599.7251776809037 1084.375,609.3725298537843" fill="none" stroke="#bb7d34" stroke-width="2"/>
+<path d="M370,708h22" stroke="#bb7d34" stroke-width="3"/>
+<text x="400" y="713" font-size="13">部分共享</text>
+<circle cx="165.625" cy="594.1090405231197" r="3.4" fill="#3586a0"/>
+<circle cx="296.875" cy="541.8351013077993" r="3.4" fill="#3586a0"/>
+<circle cx="428.125" cy="544.7962288394341" r="3.4" fill="#3586a0"/>
+<circle cx="559.375" cy="567.3886578942904" r="3.4" fill="#3586a0"/>
+<circle cx="690.625" cy="613.130094013977" r="3.4" fill="#3586a0"/>
+<circle cx="821.875" cy="638.3377771228415" r="3.4" fill="#3586a0"/>
+<circle cx="953.125" cy="638.4749338467279" r="3.4" fill="#3586a0"/>
+<circle cx="1084.375" cy="638.1370114835295" r="3.4" fill="#3586a0"/>
+<polyline points="165.625,594.1090405231197 296.875,541.8351013077993 428.125,544.7962288394341 559.375,567.3886578942904 690.625,613.130094013977 821.875,638.3377771228415 953.125,638.4749338467279 1084.375,638.1370114835295" fill="none" stroke="#3586a0" stroke-width="2"/>
+<path d="M635,708h22" stroke="#3586a0" stroke-width="3"/>
+<text x="665" y="713" font-size="13">完整共享</text>
+</g></svg>

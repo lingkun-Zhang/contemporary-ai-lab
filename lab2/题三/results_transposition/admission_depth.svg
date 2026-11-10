@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="850" viewBox="0 0 1200 850">
+<rect width="100%" height="100%" fill="white"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#293e4d">
+<text x="28" y="38" font-size="25" font-weight="bold">缓存准入深度：只调哪些层查表，不截短搜索</text>
+<text x="28" y="69" font-size="14" fill="#566c80">选定展示 seed=20261030、完整共享；点为9批中位数，竖线IQR，非置信区间。</text>
+<text x="28" y="115" font-size="17">包含缓存全部工作的新查询时间（ms）</text>
+<line x1="100" y1="315.0" x2="1150" y2="315.0" stroke="#dce5ed"/>
+<text x="88" y="320.0" text-anchor="end" font-size="13">0.00</text>
+<line x1="100" y1="271.25" x2="1150" y2="271.25" stroke="#dce5ed"/>
+<text x="88" y="276.25" text-anchor="end" font-size="13">1.30</text>
+<line x1="100" y1="227.5" x2="1150" y2="227.5" stroke="#dce5ed"/>
+<text x="88" y="232.5" text-anchor="end" font-size="13">2.60</text>
+<line x1="100" y1="183.75" x2="1150" y2="183.75" stroke="#dce5ed"/>
+<text x="88" y="188.75" text-anchor="end" font-size="13">3.90</text>
+<line x1="100" y1="140.0" x2="1150" y2="140.0" stroke="#dce5ed"/>
+<text x="88" y="145.0" text-anchor="end" font-size="13">5.20</text>
+<text x="152.5" y="340" text-anchor="middle" font-size="14">0</text>
+<text x="257.5" y="340" text-anchor="middle" font-size="14">1</text>
+<text x="362.5" y="340" text-anchor="middle" font-size="14">2</text>
+<text x="467.5" y="340" text-anchor="middle" font-size="14">3</text>
+<text x="572.5" y="340" text-anchor="middle" font-size="14">4</text>
+<text x="677.5" y="340" text-anchor="middle" font-size="14">5</text>
+<text x="782.5" y="340" text-anchor="middle" font-size="14">6</text>
+<text x="887.5" y="340" text-anchor="middle" font-size="14">7</text>
+<text x="992.5" y="340" text-anchor="middle" font-size="14">8</text>
+<text x="1097.5" y="340" text-anchor="middle" font-size="14">all</text>
+<path d="M152.5,189.9877393388836V160.52308022298777 M148.5,189.9877393388836h8 M148.5,160.52308022298777h8" stroke="#64748b"/>
+<circle cx="152.5" cy="172.32699802967136" r="3.4" fill="#64748b"/>
+<path d="M257.5,170.33093545341274V137.14024795098757 M253.5,170.33093545341274h8 M253.5,137.14024795098757h8" stroke="#64748b"/>
+<circle cx="257.5" cy="158.75000000000003" r="3.4" fill="#64748b"/>
+<path d="M362.5,214.24229114300618V189.23997374332265 M358.5,214.24229114300618h8 M358.5,189.23997374332265h8" stroke="#64748b"/>
+<circle cx="362.5" cy="205.9218831513187" r="3.4" fill="#64748b"/>
+<path d="M467.5,206.19808485778714V187.4042428893555 M463.5,206.19808485778714h8 M463.5,187.4042428893555h8" stroke="#64748b"/>
+<circle cx="467.5" cy="203.20028584855632" r="3.4" fill="#64748b"/>
+<path d="M572.5,233.73539499269214V210.3094483079749 M568.5,233.73539499269214h8 M568.5,210.3094483079749h8" stroke="#64748b"/>
+<circle cx="572.5" cy="227.24600221608083" r="3.4" fill="#64748b"/>
+<path d="M677.5,254.52327854928626V239.74311893973038 M673.5,254.52327854928626h8 M673.5,239.74311893973038h8" stroke="#64748b"/>
+<circle cx="677.5" cy="244.17986147339195" r="3.4" fill="#64748b"/>
+<path d="M782.5,270.62583803639717V263.4957920333188 M778.5,270.62583803639717h8 M778.5,263.4957920333188h8" stroke="#64748b"/>
+<circle cx="782.5" cy="265.5760624469154" r="3.4" fill="#64748b"/>
+<path d="M887.5,272.6508681087001V260.90623261950236 M883.5,272.6508681087001h8 M883.5,260.90623261950236h8" stroke="#64748b"/>
+<circle cx="887.5" cy="267.79645470184226" r="3.4" fill="#64748b"/>
+<path d="M992.5,271.0293619929206V254.29490689442574 M988.5,271.0293619929206h8 M988.5,254.29490689442574h8" stroke="#64748b"/>
+<circle cx="992.5" cy="259.06107048775334" r="3.4" fill="#64748b"/>
+<path d="M1097.5,278.6808229247955V264.3062082598592 M1093.5,278.6808229247955h8 M1093.5,264.3062082598592h8" stroke="#64748b"/>
+<circle cx="1097.5" cy="268.05581484084314" r="3.4" fill="#64748b"/>
+<polyline points="152.5,172.32699802967136 257.5,158.75000000000003 362.5,205.9218831513187 467.5,203.20028584855632 572.5,227.24600221608083 677.5,244.17986147339195 782.5,265.5760624469154 887.5,267.79645470184226 992.5,259.06107048775334 1097.5,268.05581484084314" fill="none" stroke="#64748b" stroke-width="2"/>
+<path d="M105,368h22" stroke="#64748b" stroke-width="3"/>
+<text x="135" y="373" font-size="13">界感知缓存</text>
+<text x="28" y="455" font-size="17">搜索访问与表峰值条目（条目不是总字节内存）</text>
+<line x1="100" y1="655.0" x2="1150" y2="655.0" stroke="#dce5ed"/>
+<text x="88" y="660.0" text-anchor="end" font-size="13">0.00</text>
+<line x1="100" y1="611.25" x2="1150" y2="611.25" stroke="#dce5ed"/>
+<text x="88" y="616.25" text-anchor="end" font-size="13">268.24</text>
+<line x1="100" y1="567.5" x2="1150" y2="567.5" stroke="#dce5ed"/>
+<text x="88" y="572.5" text-anchor="end" font-size="13">536.48</text>
+<line x1="100" y1="523.75" x2="1150" y2="523.75" stroke="#dce5ed"/>
+<text x="88" y="528.75" text-anchor="end" font-size="13">804.72</text>
+<line x1="100" y1="480.0" x2="1150" y2="480.0" stroke="#dce5ed"/>
+<text x="88" y="485.0" text-anchor="end" font-size="13">1072.96</text>
+<text x="152.5" y="680" text-anchor="middle" font-size="14">0</text>
+<text x="257.5" y="680" text-anchor="middle" font-size="14">1</text>
+<text x="362.5" y="680" text-anchor="middle" font-size="14">2</text>
+<text x="467.5" y="680" text-anchor="middle" font-size="14">3</text>
+<text x="572.5" y="680" text-anchor="middle" font-size="14">4</text>
+<text x="677.5" y="680" text-anchor="middle" font-size="14">5</text>
+<text x="782.5" y="680" text-anchor="middle" font-size="14">6</text>
+<text x="887.5" y="680" text-anchor="middle" font-size="14">7</text>
+<text x="992.5" y="680" text-anchor="middle" font-size="14">8</text>
+<text x="1097.5" y="680" text-anchor="middle" font-size="14">all</text>
+<circle cx="152.5" cy="498.75" r="3.4" fill="#64748b"/>
+<circle cx="257.5" cy="498.75" r="3.4" fill="#64748b"/>
+<circle cx="362.5" cy="527.9449373695198" r="3.4" fill="#64748b"/>
+<circle cx="467.5" cy="548.8217640918581" r="3.4" fill="#64748b"/>
+<circle cx="572.5" cy="553.2254697286013" r="3.4" fill="#64748b"/>
+<circle cx="677.5" cy="593.348121085595" r="3.4" fill="#64748b"/>
+<circle cx="782.5" cy="617.9762526096033" r="3.4" fill="#64748b"/>
+<circle cx="887.5" cy="627.7622651356994" r="3.4" fill="#64748b"/>
+<circle cx="992.5" cy="627.7622651356994" r="3.4" fill="#64748b"/>
+<circle cx="1097.5" cy="627.7622651356994" r="3.4" fill="#64748b"/>
+<polyline points="152.5,498.75 257.5,498.75 362.5,527.9449373695198 467.5,548.8217640918581 572.5,553.2254697286013 677.5,593.348121085595 782.5,617.9762526096033 887.5,627.7622651356994 992.5,627.7622651356994 1097.5,627.7622651356994" fill="none" stroke="#64748b" stroke-width="2"/>
+<path d="M105,708h22" stroke="#64748b" stroke-width="3"/>
+<text x="135" y="713" font-size="13">搜索访问</text>
+<circle cx="152.5" cy="654.8368997912318" r="3.4" fill="#bb7d34"/>
+<circle cx="257.5" cy="654.3475991649269" r="3.4" fill="#bb7d34"/>
+<circle cx="362.5" cy="653.6951983298538" r="3.4" fill="#bb7d34"/>
+<circle cx="467.5" cy="652.7165970772443" r="3.4" fill="#bb7d34"/>
+<circle cx="572.5" cy="651.2486951983299" r="3.4" fill="#bb7d34"/>
+<circle cx="677.5" cy="649.4545929018789" r="3.4" fill="#bb7d34"/>
+<circle cx="782.5" cy="647.4973903966597" r="3.4" fill="#bb7d34"/>
+<circle cx="887.5" cy="645.866388308977" r="3.4" fill="#bb7d34"/>
+<circle cx="992.5" cy="644.2353862212943" r="3.4" fill="#bb7d34"/>
+<circle cx="1097.5" cy="644.2353862212943" r="3.4" fill="#bb7d34"/>
+<polyline points="152.5,654.8368997912318 257.5,654.3475991649269 362.5,653.6951983298538 467.5,652.7165970772443 572.5,651.2486951983299 677.5,649.4545929018789 782.5,647.4973903966597 887.5,645.866388308977 992.5,644.2353862212943 1097.5,644.2353862212943" fill="none" stroke="#bb7d34" stroke-width="2"/>
+<path d="M370,708h22" stroke="#bb7d34" stroke-width="3"/>
+<text x="400" y="713" font-size="13">表峰值条目</text>
+</g></svg>

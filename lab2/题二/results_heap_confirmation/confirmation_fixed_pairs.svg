@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="1095" viewBox="0 0 1180 1095">
+<style>text{font-family:'Microsoft YaHei','Noto Sans CJK SC',Arial,sans-serif;fill:#273b49}.title{font-size:22px;font-weight:700}.label{font-size:14px}.note{font-size:12px;fill:#526777}</style>
+<rect width="1180" height="1095" fill="white"/>
+<text class="title" x="24" y="34">预定ρ=1.5：新计时块的固定配对确认</text>
+<text class="note" x="24" y="60">负值表示预定参数更快；竖线为配对差IQR，非置信区间；参数不根据本轮结果重选。</text>
+<text class="label" x="24" y="92">固定ρ=1.5 − original：批平均单次毫秒差（越低越好）</text>
+<line x1="95" x2="1140" y1="260.0" y2="260.0" stroke="#e0e7ec"/>
+<text class="note" x="85" y="264.0" text-anchor="end">-0.401</text>
+<line x1="95" x2="1140" y1="222.5" y2="222.5" stroke="#e0e7ec"/>
+<text class="note" x="85" y="226.5" text-anchor="end">1.114</text>
+<line x1="95" x2="1140" y1="185.0" y2="185.0" stroke="#e0e7ec"/>
+<text class="note" x="85" y="189.0" text-anchor="end">2.630</text>
+<line x1="95" x2="1140" y1="147.5" y2="147.5" stroke="#e0e7ec"/>
+<text class="note" x="85" y="151.5" text-anchor="end">4.146</text>
+<line x1="95" x2="1140" y1="110.0" y2="110.0" stroke="#e0e7ec"/>
+<text class="note" x="85" y="114.0" text-anchor="end">5.662</text>
+<line x1="95" x2="1140" y1="250.06900410294668" y2="250.06900410294668" stroke="#718da6" stroke-dasharray="5 4"/>
+<line x1="225.625" x2="225.625" y1="244.4365574279222" y2="230.66940810314784" stroke="#337c98" stroke-width="2"/>
+<line x1="220.625" x2="230.625" y1="244.4365574279222" y2="244.4365574279222" stroke="#337c98"/>
+<line x1="220.625" x2="230.625" y1="230.66940810314784" y2="230.66940810314784" stroke="#337c98"/>
+<circle cx="225.625" cy="240.39889178935147" r="4" fill="#337c98"/>
+<text class="note" x="225.625" y="282" text-anchor="middle">31阶带状</text>
+<line x1="486.875" x2="486.875" y1="193.9680046023808" y2="128.26987010038437" stroke="#337c98" stroke-width="2"/>
+<line x1="481.875" x2="491.875" y1="193.9680046023808" y2="193.9680046023808" stroke="#337c98"/>
+<line x1="481.875" x2="491.875" y1="128.26987010038437" y2="128.26987010038437" stroke="#337c98"/>
+<circle cx="486.875" cy="156.82049120465325" r="4" fill="#337c98"/>
+<text class="note" x="486.875" y="282" text-anchor="middle">101阶带状</text>
+<line x1="748.125" x2="748.125" y1="253.91000206975198" y2="241.00250074420367" stroke="#ad7842" stroke-width="2"/>
+<line x1="743.125" x2="753.125" y1="253.91000206975198" y2="253.91000206975198" stroke="#ad7842"/>
+<line x1="743.125" x2="753.125" y1="241.00250074420367" y2="241.00250074420367" stroke="#ad7842"/>
+<circle cx="748.125" cy="247.84587603972057" r="4" fill="#ad7842"/>
+<text class="note" x="748.125" y="282" text-anchor="middle">均匀101</text>
+<line x1="1009.375" x2="1009.375" y1="258.70465270908" y2="239.6542758245543" stroke="#ad7842" stroke-width="2"/>
+<line x1="1004.375" x2="1014.375" y1="258.70465270908" y2="258.70465270908" stroke="#ad7842"/>
+<line x1="1004.375" x2="1014.375" y1="239.6542758245543" y2="239.6542758245543" stroke="#ad7842"/>
+<circle cx="1009.375" cy="249.3367571741096" r="4" fill="#ad7842"/>
+<text class="note" x="1009.375" y="282" text-anchor="middle">tight101</text>
+<text class="note" x="95" y="309">蓝色有清理动作，棕色无清理动作；后一类的时间差不能解释成清理收益。</text>
+<text class="label" x="24" y="337">固定ρ=1.5 − inf：批平均单次毫秒差（越低越好）</text>
+<line x1="95" x2="1140" y1="505.0" y2="505.0" stroke="#e0e7ec"/>
+<text class="note" x="85" y="509.0" text-anchor="end">-7.090</text>
+<line x1="95" x2="1140" y1="467.5" y2="467.5" stroke="#e0e7ec"/>
+<text class="note" x="85" y="471.5" text-anchor="end">-5.115</text>
+<line x1="95" x2="1140" y1="430.0" y2="430.0" stroke="#e0e7ec"/>
+<text class="note" x="85" y="434.0" text-anchor="end">-3.141</text>
+<line x1="95" x2="1140" y1="392.5" y2="392.5" stroke="#e0e7ec"/>
+<text class="note" x="85" y="396.5" text-anchor="end">-1.166</text>
+<line x1="95" x2="1140" y1="355.0" y2="355.0" stroke="#e0e7ec"/>
+<text class="note" x="85" y="359.0" text-anchor="end">0.809</text>
+<line x1="95" x2="1140" y1="370.3572685246976" y2="370.3572685246976" stroke="#718da6" stroke-dasharray="5 4"/>
+<line x1="225.625" x2="225.625" y1="372.23932008539816" y2="361.6082293068494" stroke="#337c98" stroke-width="2"/>
+<line x1="220.625" x2="230.625" y1="372.23932008539816" y2="372.23932008539816" stroke="#337c98"/>
+<line x1="220.625" x2="230.625" y1="361.6082293068494" y2="361.6082293068494" stroke="#337c98"/>
+<circle cx="225.625" cy="369.07408032639955" r="4" fill="#337c98"/>
+<text class="note" x="225.625" y="527" text-anchor="middle">31阶带状</text>
+<line x1="486.875" x2="486.875" y1="487.43790459017794" y2="389.9260468107308" stroke="#337c98" stroke-width="2"/>
+<line x1="481.875" x2="491.875" y1="487.43790459017794" y2="487.43790459017794" stroke="#337c98"/>
+<line x1="481.875" x2="491.875" y1="389.9260468107308" y2="389.9260468107308" stroke="#337c98"/>
+<circle cx="486.875" cy="417.54276370799397" r="4" fill="#337c98"/>
+<text class="note" x="486.875" y="527" text-anchor="middle">101阶带状</text>
+<line x1="748.125" x2="748.125" y1="369.76030430615043" y2="357.0031219814823" stroke="#ad7842" stroke-width="2"/>
+<line x1="743.125" x2="753.125" y1="369.76030430615043" y2="369.76030430615043" stroke="#ad7842"/>
+<line x1="743.125" x2="753.125" y1="357.0031219814823" y2="357.0031219814823" stroke="#ad7842"/>
+<circle cx="748.125" cy="364.28443952308277" r="4" fill="#ad7842"/>
+<text class="note" x="748.125" y="527" text-anchor="middle">均匀101</text>
+<line x1="1009.375" x2="1009.375" y1="377.376504214253" y2="366.3231704518538" stroke="#ad7842" stroke-width="2"/>
+<line x1="1004.375" x2="1014.375" y1="377.376504214253" y2="377.376504214253" stroke="#ad7842"/>
+<line x1="1004.375" x2="1014.375" y1="366.3231704518538" y2="366.3231704518538" stroke="#ad7842"/>
+<circle cx="1009.375" cy="371.32203360324036" r="4" fill="#ad7842"/>
+<text class="note" x="1009.375" y="527" text-anchor="middle">tight101</text>
+<text class="note" x="95" y="554">蓝色有清理动作，棕色无清理动作；后一类的时间差不能解释成清理收益。</text>
+<text class="label" x="24" y="582">固定ρ=1.5 − 1.2：批平均单次毫秒差（越低越好）</text>
+<line x1="95" x2="1140" y1="750.0" y2="750.0" stroke="#e0e7ec"/>
+<text class="note" x="85" y="754.0" text-anchor="end">-8.436</text>
+<line x1="95" x2="1140" y1="712.5" y2="712.5" stroke="#e0e7ec"/>
+<text class="note" x="85" y="716.5" text-anchor="end">-6.133</text>
+<line x1="95" x2="1140" y1="675.0" y2="675.0" stroke="#e0e7ec"/>
+<text class="note" x="85" y="679.0" text-anchor="end">-3.830</text>
+<line x1="95" x2="1140" y1="637.5" y2="637.5" stroke="#e0e7ec"/>
+<text class="note" x="85" y="641.5" text-anchor="end">-1.528</text>
+<line x1="95" x2="1140" y1="600.0" y2="600.0" stroke="#e0e7ec"/>
+<text class="note" x="85" y="604.0" text-anchor="end">0.775</text>
+<line x1="95" x2="1140" y1="612.6203258630376" y2="612.6203258630376" stroke="#718da6" stroke-dasharray="5 4"/>
+<line x1="225.625" x2="225.625" y1="619.6589783327951" y2="612.6678238070552" stroke="#337c98" stroke-width="2"/>
+<line x1="220.625" x2="230.625" y1="619.6589783327951" y2="619.6589783327951" stroke="#337c98"/>
+<line x1="220.625" x2="230.625" y1="612.6678238070552" y2="612.6678238070552" stroke="#337c98"/>
+<circle cx="225.625" cy="615.5597700556675" r="4" fill="#337c98"/>
+<text class="note" x="225.625" y="772" text-anchor="middle">31阶带状</text>
+<line x1="486.875" x2="486.875" y1="732.0809120690918" y2="673.9580851000306" stroke="#337c98" stroke-width="2"/>
+<line x1="481.875" x2="491.875" y1="732.0809120690918" y2="732.0809120690918" stroke="#337c98"/>
+<line x1="481.875" x2="491.875" y1="673.9580851000306" y2="673.9580851000306" stroke="#337c98"/>
+<circle cx="486.875" cy="714.4982588610808" r="4" fill="#337c98"/>
+<text class="note" x="486.875" y="772" text-anchor="middle">101阶带状</text>
+<line x1="748.125" x2="748.125" y1="613.5339148891127" y2="601.6461294603962" stroke="#ad7842" stroke-width="2"/>
+<line x1="743.125" x2="753.125" y1="613.5339148891127" y2="613.5339148891127" stroke="#ad7842"/>
+<line x1="743.125" x2="753.125" y1="601.6461294603962" y2="601.6461294603962" stroke="#ad7842"/>
+<circle cx="748.125" cy="609.0387094672902" r="4" fill="#ad7842"/>
+<text class="note" x="748.125" y="772" text-anchor="middle">均匀101</text>
+<line x1="1009.375" x2="1009.375" y1="617.8087298506936" y2="610.4701617915682" stroke="#ad7842" stroke-width="2"/>
+<line x1="1004.375" x2="1014.375" y1="617.8087298506936" y2="617.8087298506936" stroke="#ad7842"/>
+<line x1="1004.375" x2="1014.375" y1="610.4701617915682" y2="610.4701617915682" stroke="#ad7842"/>
+<circle cx="1009.375" cy="613.3482657822096" r="4" fill="#ad7842"/>
+<text class="note" x="1009.375" y="772" text-anchor="middle">tight101</text>
+<text class="note" x="95" y="799">蓝色有清理动作，棕色无清理动作；后一类的时间差不能解释成清理收益。</text>
+<text class="label" x="24" y="827">固定ρ=1.5 − 2：批平均单次毫秒差（越低越好）</text>
+<line x1="95" x2="1140" y1="995.0" y2="995.0" stroke="#e0e7ec"/>
+<text class="note" x="85" y="999.0" text-anchor="end">-3.373</text>
+<line x1="95" x2="1140" y1="957.5" y2="957.5" stroke="#e0e7ec"/>
+<text class="note" x="85" y="961.5" text-anchor="end">-2.119</text>
+<line x1="95" x2="1140" y1="920.0" y2="920.0" stroke="#e0e7ec"/>
+<text class="note" x="85" y="924.0" text-anchor="end">-0.865</text>
+<line x1="95" x2="1140" y1="882.5" y2="882.5" stroke="#e0e7ec"/>
+<text class="note" x="85" y="886.5" text-anchor="end">0.388</text>
+<line x1="95" x2="1140" y1="845.0" y2="845.0" stroke="#e0e7ec"/>
+<text class="note" x="85" y="849.0" text-anchor="end">1.642</text>
+<line x1="95" x2="1140" y1="894.1143745007129" y2="894.1143745007129" stroke="#718da6" stroke-dasharray="5 4"/>
+<line x1="225.625" x2="225.625" y1="899.7112099072529" y2="885.3172819701232" stroke="#337c98" stroke-width="2"/>
+<line x1="220.625" x2="230.625" y1="899.7112099072529" y2="899.7112099072529" stroke="#337c98"/>
+<line x1="220.625" x2="230.625" y1="885.3172819701232" y2="885.3172819701232" stroke="#337c98"/>
+<circle cx="225.625" cy="891.066178199663" r="4" fill="#337c98"/>
+<text class="note" x="225.625" y="1017" text-anchor="middle">31阶带状</text>
+<line x1="486.875" x2="486.875" y1="981.8410053696582" y2="851.4062227609626" stroke="#337c98" stroke-width="2"/>
+<line x1="481.875" x2="491.875" y1="981.8410053696582" y2="981.8410053696582" stroke="#337c98"/>
+<line x1="481.875" x2="491.875" y1="851.4062227609626" y2="851.4062227609626" stroke="#337c98"/>
+<circle cx="486.875" cy="905.6111698396414" r="4" fill="#337c98"/>
+<text class="note" x="486.875" y="1017" text-anchor="middle">101阶带状</text>
+<line x1="748.125" x2="748.125" y1="896.9591582909959" y2="871.7125746323659" stroke="#ad7842" stroke-width="2"/>
+<line x1="743.125" x2="753.125" y1="896.9591582909959" y2="896.9591582909959" stroke="#ad7842"/>
+<line x1="743.125" x2="753.125" y1="871.7125746323659" y2="871.7125746323659" stroke="#ad7842"/>
+<circle cx="748.125" cy="884.5878885798" r="4" fill="#ad7842"/>
+<text class="note" x="748.125" y="1017" text-anchor="middle">均匀101</text>
+<line x1="1009.375" x2="1009.375" y1="908.3657142562755" y2="884.8745606231602" stroke="#ad7842" stroke-width="2"/>
+<line x1="1004.375" x2="1014.375" y1="908.3657142562755" y2="908.3657142562755" stroke="#ad7842"/>
+<line x1="1004.375" x2="1014.375" y1="884.8745606231602" y2="884.8745606231602" stroke="#ad7842"/>
+<circle cx="1009.375" cy="903.3616667793966" r="4" fill="#ad7842"/>
+<text class="note" x="1009.375" y="1017" text-anchor="middle">tight101</text>
+<text class="note" x="95" y="1044">蓝色有清理动作，棕色无清理动作；后一类的时间差不能解释成清理收益。</text>
+</svg>

@@ -1,0 +1,63 @@
+{
+  "generated_at_utc": "2026-11-02T05:10:19.125183+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "protocol": {
+    "relative_path": "protocol.json",
+    "sha256": "880814dd2452a0ae0cd2ab7747fe0f64070be418d6cb8b2e36f79bf606d65fba"
+  },
+  "source_sha256": {
+    "run_robustness_study.py": "bf508ea8e45e248fbed5dec3fe11f160b67f90c68e3bcffb3a750dd8a524092d",
+    "treasure_game.py": "56c812ddab8a1ae8d7229cb064dca4ba832878c4d824553822edad26ed76b68b",
+    "reference_tools.py": "99a1b7fdf45095a2c8dadb1e2688e902592a46069d6c8da6044c5175985d41e0"
+  },
+  "input_sha256": "43733fd5e2ee3289122af494669111b2a7867a510903c1a685ad422a4f3c9675",
+  "counts": {
+    "map_inputs": 30,
+    "game_configurations": 720,
+    "matrix_configurations": 60,
+    "total_configurations": 780,
+    "timing_batches": 3900,
+    "timed_top_level_calls": 11700
+  },
+  "design": {
+    "depths": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "algorithms": [
+      "minimax",
+      "alphabeta"
+    ],
+    "orders": [
+      "label",
+      "reverse",
+      "gain"
+    ],
+    "heuristics": [
+      "zero",
+      "manhattan"
+    ],
+    "repeats": 5,
+    "batch": 3,
+    "timing_seed": 202611140
+  },
+  "timing_boundary": "Game phase uses a previously computed verified A* matrix, excludes matrix preparation, includes eager candidates/sort/full recursion. Matrix phase includes fresh complete30 A* queries. Validation/oracle/path checks/trace/output excluded. Matrix and game medians are separate and must not be added as an end-to-end measurement.",
+  "timing_data": "timing_calls.csv retains every timed top-level call. timing_batches.csv is the mean per-call time of each batch; per-configuration medians/IQR and paired differences use those repeat-block batch means, not individual calls as independent maps.",
+  "reuse_boundary": "These same30 maps are deliberately reused by the lazy-successor study. They are not two independent samples.",
+  "interpretation": "Three intentionally different map families, paired methods within every instance; family differences are not a single-factor causal effect. Repeated timing IQR is descriptive, not confidence or independent input count.",
+  "result_files_sha256": {
+    "comparison.csv": "20daa2e0d4705db345e9a46490991bb3d1711d078282c441935889edee2b4436",
+    "timing_batches.csv": "a36da235861ee2bebce3fa31410893a3cc3d4551b541ad53c9a594cdc3f96c8d",
+    "timing_calls.csv": "a2a46450e2d44694373c00feb521cd830cc59f31b19896bebbadd6edaab0ba25",
+    "paired_differences.csv": "93a9b158372c7ddc8da099a034734c2f21d1b0a582467576af7dde1d5ee5a4f9",
+    "depth_regret_summary.csv": "26d2c8c69930087000155dd8e013af475bd0adaabcaa8ed5a94115a429e3e6c3",
+    "order_summary.csv": "d2a8d8d8e603c89d01add367d225b15875c0680f533122c2fa8b7b73c53be94e",
+    "matrix_summary.csv": "c385ad9d90bca13592b216cca0b6a556d011f4749216ff46157657245400a2c6",
+    "outcomes.json": "1610a82bccb0fff253532ef42ba364d6d1474977a00295edd8550de5c801ac84",
+    "robustness_pruning.svg": "a5bbcd4b1835b84844cdd4fb61d697ac8e10c20729dd98c18cd55c26bc67ed74",
+    "depth_regret.svg": "ce15fc58fbc350a3074a8d3b576e5be09750186b9a31f8f2910ccdc6046ba91b"
+  }
+}

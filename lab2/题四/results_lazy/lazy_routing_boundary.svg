@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+<rect width="100%" height="100%" fill="white"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#293e4d">
+<text x="32" y="40" font-size="25" font-weight="bold">总成本边界：查询减少是否变成A*调用减少</text>
+<text x="32" y="75" font-size="14" fill="#566d82">官方样例、H4、AB、label；lazy / matched_eager。完整任务要求所有方法输出完整6×6矩阵。</text>
+<text x="55" y="135" font-size="17" font-weight="bold">策略</text>
+<text x="245" y="135" font-size="17" font-weight="bold">输出合同</text>
+<text x="455" y="135" font-size="17" font-weight="bold">距离请求</text>
+<text x="660" y="135" font-size="17" font-weight="bold">A*调用</text>
+<text x="870" y="135" font-size="17" font-weight="bold">配对耗时差 ms</text>
+<rect x="35" y="163" width="1130" height="58" fill="#f0f5f8"/>
+<text x="55" y="190" font-size="16">precompute</text>
+<text x="245" y="190" font-size="16">decision_only</text>
+<text x="455" y="190" font-size="16">46 / 52</text>
+<text x="660" y="190" font-size="16">30 / 30</text>
+<text x="870" y="190" font-size="16">-0.1059</text>
+<text x="55" y="258" font-size="16">precompute</text>
+<text x="245" y="258" font-size="16">complete_task</text>
+<text x="455" y="258" font-size="16">46 / 52</text>
+<text x="660" y="258" font-size="16">30 / 30</text>
+<text x="870" y="258" font-size="16">-0.1252</text>
+<rect x="35" y="299" width="1130" height="58" fill="#f0f5f8"/>
+<text x="55" y="326" font-size="16">on_demand</text>
+<text x="245" y="326" font-size="16">decision_only</text>
+<text x="455" y="326" font-size="16">46 / 52</text>
+<text x="660" y="326" font-size="16">19 / 19</text>
+<text x="870" y="326" font-size="16">-0.0265</text>
+<text x="55" y="394" font-size="16">on_demand</text>
+<text x="245" y="394" font-size="16">complete_task</text>
+<text x="455" y="394" font-size="16">46 / 52</text>
+<text x="660" y="394" font-size="16">30 / 30</text>
+<text x="870" y="394" font-size="16">-0.5991</text>
+<rect x="35" y="435" width="1130" height="58" fill="#f0f5f8"/>
+<text x="55" y="462" font-size="16">repeated</text>
+<text x="245" y="462" font-size="16">decision_only</text>
+<text x="455" y="462" font-size="16">46 / 52</text>
+<text x="660" y="462" font-size="16">46 / 52</text>
+<text x="870" y="462" font-size="16">-0.0537</text>
+<text x="55" y="530" font-size="16">repeated</text>
+<text x="245" y="530" font-size="16">complete_task</text>
+<text x="455" y="530" font-size="16">46 / 52</text>
+<text x="660" y="530" font-size="16">76 / 82</text>
+<text x="870" y="530" font-size="16">-0.3901</text>
+<text x="38" y="645" font-size="14">耗时差 = lazy − matched_eager；负值较快。单图微小差异只作描述，跨图分布见summary.csv。</text>
+<text x="38" y="680" font-size="14">precompute / on_demand在完整任务中始终调用30次A*；不能把决策输出与完整输出混比。</text>
+</g></svg>

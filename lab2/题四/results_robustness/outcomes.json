@@ -1,0 +1,17 @@
+{
+  "all_distances_and1800_paths_valid": true,
+  "all_game_values_and_selected_actions_correct": true,
+  "all_repeat_counters_stable": true,
+  "all_principal_variations_valid": true,
+  "all_repeat_principal_variations_stable": true,
+  "all_h4_selected_actions_have_zero_regret": true,
+  "protocol_unchanged": true,
+  "source_unchanged": true,
+  "map_inputs": 30,
+  "game_configurations": 720,
+  "matrix_configurations": 60,
+  "total_configurations": 780,
+  "timing_batches": 3900,
+  "timed_top_level_calls": 11700,
+  "no_new_champion_selected": true
+}

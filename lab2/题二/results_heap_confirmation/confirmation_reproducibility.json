@@ -1,0 +1,31 @@
+{
+  "protocol_sha256": "f3d38647358e8399bfcdc62fea49497adb2505b6289cc2846af78bb7ad89c90d",
+  "protocol_written_before_warmup": true,
+  "source_sha256": {
+    "weighted_astar.py": "916c28cdb20262ed7f38f76c306319ebe4d8c4cb47961e27f584c4830add61bb",
+    "heap_compaction.py": "a459df6790a6864c2088013298a880249a7b98215a3e7bb4a0cfe86c149231bc",
+    "run_experiments.py": "8325659bfa61c3fd5725746c2fa766c3c7f83a1caab68d373f14c294f5d7b9c1",
+    "run_heap_tuning.py": "524b0cc06e42459a17d76a795b6e030fce765fab8b3b27b14afec1a822247f05",
+    "run_heap_confirmation.py": "ea28030fc0c05e7b74a300841d5c9fd0c6c0545866d3173047f081109e022d20"
+  },
+  "frozen_prior_sources": {
+    "reproducibility.json": "17bf0fab361d3eb5459f2c42e0862ea8737dbbba550873fd87c06dd76428a492",
+    "comparison.csv": "bc3b76938a72ad343c71db428c2d49a83ea5e184330c07f5ea85403314c4b324",
+    "timing_batches.csv": "41653828f6cfdc666bc406dff38bfb26a07cb9d09663d7206fb2e339c19433a8",
+    "selection.csv": "b63a58b71c4b24403cb7a34b5435b018985585f67894e5a2894da9b96f215973"
+  },
+  "result_files_sha256": {
+    "comparison.csv": "4b0d38edde8ce11553a9451f22e03c96501292e4247eabee9d6acef0916ada9c",
+    "timing_batches.csv": "7e3785fc3a1d8937a6e2a5249baa612b03a3e382288d0576515af375145dc83f",
+    "confirmation_pairs.csv": "d64cb244276218c24360fc5649ece09f1275d79e1b3b657a8471ee18f1786f30",
+    "confirmation_outcomes.json": "99d066453e499a8fb2db739a91cd8144e12ccc987e830468e66e14d5d0da09ec"
+  },
+  "selection_policy": "selection.csv is auxiliary; all confirmation decisions evaluate only predeclared rho=1.5",
+  "counts": {
+    "groups": 4,
+    "distinct_grid_endpoint_inputs": 3,
+    "configurations": 24,
+    "timing_batches": 360,
+    "timed_solver_calls": 1080
+  }
+}

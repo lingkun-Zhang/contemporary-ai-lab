@@ -1,0 +1,21 @@
+{
+  "tree_structure": {
+    "is_maximizing_player": true,
+    "children": [
+      {
+        "is_maximizing_player": false,
+        "children": [
+          {"is_maximizing_player": true, "children": [{"value": 3}, {"value": 5}]},
+          {"is_maximizing_player": true, "children": [{"value": 6}, {"value": 9}]}
+        ]
+      },
+      {
+        "is_maximizing_player": false,
+        "children": [
+          {"is_maximizing_player": true, "children": [{"value": 6}, {"value": 9}]},
+          {"is_maximizing_player": true, "children": [{"value": 1}, {"value": 2}]}
+        ]
+      }
+    ]
+  }
+}

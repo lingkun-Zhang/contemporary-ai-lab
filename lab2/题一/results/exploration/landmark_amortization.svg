@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="710" viewBox="0 0 1200 710" role="img" aria-label="地标预处理：多查询累计成本估计">
+<style>text{font-family:'Microsoft YaHei', 'Noto Sans CJK SC', Arial, sans-serif;fill:#263746} .title{font-size:22px;font-weight:700}.label{font-size:14px}.note{font-size:12px;fill:#536575}</style>
+<rect width="1200" height="710" fill="#ffffff"/>
+<text class="title" x="24" y="34">地标预处理：多查询累计成本估计</text>
+<text class="note" x="24" y="60">每条地标曲线从对应预处理成本开始；查询节点均排除地标。计时批次中位数相加，非实时在线负载保证。</text>
+<text class="label" x="24" y="90">长墙绕行：累计总耗时（毫秒），横轴为已完成查询数</text>
+<line x1="90" y1="285.0" x2="1165" y2="285.0" stroke="#e2e8ee"/>
+<text class="note" x="82" y="289.0" text-anchor="end">0.0</text>
+<line x1="90" y1="241.25" x2="1165" y2="241.25" stroke="#e2e8ee"/>
+<text class="note" x="82" y="245.25" text-anchor="end">22.6</text>
+<line x1="90" y1="197.5" x2="1165" y2="197.5" stroke="#e2e8ee"/>
+<text class="note" x="82" y="201.5" text-anchor="end">45.2</text>
+<line x1="90" y1="153.75" x2="1165" y2="153.75" stroke="#e2e8ee"/>
+<text class="note" x="82" y="157.75" text-anchor="end">67.8</text>
+<line x1="90" y1="110.0" x2="1165" y2="110.0" stroke="#e2e8ee"/>
+<text class="note" x="82" y="114.0" text-anchor="end">90.4</text>
+<text class="note" x="90.0" y="304" text-anchor="middle">1</text>
+<text class="note" x="200.25641025641028" y="304" text-anchor="middle">5</text>
+<text class="note" x="338.0769230769231" y="304" text-anchor="middle">10</text>
+<text class="note" x="613.7179487179487" y="304" text-anchor="middle">20</text>
+<text class="note" x="1165.0" y="304" text-anchor="middle">40</text>
+<polyline points="90.00,283.26 200.26,272.69 338.08,264.86 613.72,229.88 1165.00,128.75" fill="none" stroke="#d88c33" stroke-width="2"/>
+<circle cx="90.0" cy="283.2649126534408" r="3" fill="#d88c33"/>
+<circle cx="200.25641025641028" cy="272.6919197206165" r="3" fill="#d88c33"/>
+<circle cx="338.0769230769231" cy="264.8638632311124" r="3" fill="#d88c33"/>
+<circle cx="613.7179487179487" cy="229.8802154179561" r="3" fill="#d88c33"/>
+<circle cx="1165.0" cy="128.75" r="3" fill="#d88c33"/>
+<line x1="100" y1="330" x2="120" y2="330" stroke="#d88c33" stroke-width="3"/>
+<text class="note" x="127" y="334">曼哈顿</text>
+<polyline points="90.00,278.48 200.26,275.24 338.08,272.37 613.72,263.32 1165.00,240.31" fill="none" stroke="#437eb5" stroke-width="2"/>
+<circle cx="90.0" cy="278.48401822665676" r="3" fill="#437eb5"/>
+<circle cx="200.25641025641028" cy="275.23922228856907" r="3" fill="#437eb5"/>
+<circle cx="338.0769230769231" cy="272.3713695760438" r="3" fill="#437eb5"/>
+<circle cx="613.7179487179487" cy="263.3160860837671" r="3" fill="#437eb5"/>
+<circle cx="1165.0" cy="240.30596691963805" r="3" fill="#437eb5"/>
+<line x1="350" y1="330" x2="370" y2="330" stroke="#437eb5" stroke-width="3"/>
+<text class="note" x="377" y="334">曼哈顿+1地标</text>
+<polyline points="90.00,272.40 200.26,268.95 338.08,265.70 613.72,256.53 1165.00,232.13" fill="none" stroke="#5d9b56" stroke-width="2"/>
+<circle cx="90.0" cy="272.39859827189923" r="3" fill="#5d9b56"/>
+<circle cx="200.25641025641028" cy="268.95216803393436" r="3" fill="#5d9b56"/>
+<circle cx="338.0769230769231" cy="265.69595152910165" r="3" fill="#5d9b56"/>
+<circle cx="613.7179487179487" cy="256.5347858332735" r="3" fill="#5d9b56"/>
+<circle cx="1165.0" cy="232.12580855031635" r="3" fill="#5d9b56"/>
+<line x1="600" y1="330" x2="620" y2="330" stroke="#5d9b56" stroke-width="3"/>
+<text class="note" x="627" y="334">曼哈顿+2地标</text>
+<polyline points="90.00,260.65 200.26,256.95 338.08,252.73 613.72,242.38 1165.00,210.21" fill="none" stroke="#b65d72" stroke-width="2"/>
+<circle cx="90.0" cy="260.6478674588643" r="3" fill="#b65d72"/>
+<circle cx="200.25641025641028" cy="256.9487652470373" r="3" fill="#b65d72"/>
+<circle cx="338.0769230769231" cy="252.7332211356209" r="3" fill="#b65d72"/>
+<circle cx="613.7179487179487" cy="242.37857395344767" r="3" fill="#b65d72"/>
+<circle cx="1165.0" cy="210.21128951799994" r="3" fill="#b65d72"/>
+<line x1="850" y1="330" x2="870" y2="330" stroke="#b65d72" stroke-width="3"/>
+<text class="note" x="877" y="334">曼哈顿+4地标</text>
+<text class="label" x="24" y="370">DFS 完美迷宫：累计总耗时（毫秒），横轴为已完成查询数</text>
+<line x1="90" y1="565.0" x2="1165" y2="565.0" stroke="#e2e8ee"/>
+<text class="note" x="82" y="569.0" text-anchor="end">0.0</text>
+<line x1="90" y1="521.25" x2="1165" y2="521.25" stroke="#e2e8ee"/>
+<text class="note" x="82" y="525.25" text-anchor="end">18.9</text>
+<line x1="90" y1="477.5" x2="1165" y2="477.5" stroke="#e2e8ee"/>
+<text class="note" x="82" y="481.5" text-anchor="end">37.9</text>
+<line x1="90" y1="433.75" x2="1165" y2="433.75" stroke="#e2e8ee"/>
+<text class="note" x="82" y="437.75" text-anchor="end">56.8</text>
+<line x1="90" y1="390.0" x2="1165" y2="390.0" stroke="#e2e8ee"/>
+<text class="note" x="82" y="394.0" text-anchor="end">75.8</text>
+<text class="note" x="90.0" y="584" text-anchor="middle">1</text>
+<text class="note" x="200.25641025641028" y="584" text-anchor="middle">5</text>
+<text class="note" x="338.0769230769231" y="584" text-anchor="middle">10</text>
+<text class="note" x="613.7179487179487" y="584" text-anchor="middle">20</text>
+<text class="note" x="1165.0" y="584" text-anchor="middle">40</text>
+<polyline points="90.00,559.27 200.26,538.29 338.08,519.82 613.72,468.07 1165.00,408.75" fill="none" stroke="#d88c33" stroke-width="2"/>
+<circle cx="90.0" cy="559.2740746362513" r="3" fill="#d88c33"/>
+<circle cx="200.25641025641028" cy="538.2944411891099" r="3" fill="#d88c33"/>
+<circle cx="338.0769230769231" cy="519.8230957032213" r="3" fill="#d88c33"/>
+<circle cx="613.7179487179487" cy="468.07100258335026" r="3" fill="#d88c33"/>
+<circle cx="1165.0" cy="408.75000000000006" r="3" fill="#d88c33"/>
+<line x1="100" y1="610" x2="120" y2="610" stroke="#d88c33" stroke-width="3"/>
+<text class="note" x="127" y="614">曼哈顿</text>
+<polyline points="90.00,558.59 200.26,544.90 338.08,532.22 613.72,494.15 1165.00,455.09" fill="none" stroke="#437eb5" stroke-width="2"/>
+<circle cx="90.0" cy="558.5913681505735" r="3" fill="#437eb5"/>
+<circle cx="200.25641025641028" cy="544.9021251776608" r="3" fill="#437eb5"/>
+<circle cx="338.0769230769231" cy="532.2220804002468" r="3" fill="#437eb5"/>
+<circle cx="613.7179487179487" cy="494.1520689964458" r="3" fill="#437eb5"/>
+<circle cx="1165.0" cy="455.09018501853984" r="3" fill="#437eb5"/>
+<line x1="350" y1="610" x2="370" y2="610" stroke="#437eb5" stroke-width="3"/>
+<text class="note" x="377" y="614">曼哈顿+1地标</text>
+<polyline points="90.00,554.79 200.26,540.59 338.08,526.71 613.72,491.94 1165.00,452.55" fill="none" stroke="#5d9b56" stroke-width="2"/>
+<circle cx="90.0" cy="554.7915898692456" r="3" fill="#5d9b56"/>
+<circle cx="200.25641025641028" cy="540.5878914450794" r="3" fill="#5d9b56"/>
+<circle cx="338.0769230769231" cy="526.7056025484587" r="3" fill="#5d9b56"/>
+<circle cx="613.7179487179487" cy="491.9393176347906" r="3" fill="#5d9b56"/>
+<circle cx="1165.0" cy="452.54978690563723" r="3" fill="#5d9b56"/>
+<line x1="600" y1="610" x2="620" y2="610" stroke="#5d9b56" stroke-width="3"/>
+<text class="note" x="627" y="614">曼哈顿+2地标</text>
+<polyline points="90.00,547.46 200.26,533.38 338.08,520.05 613.72,483.13 1165.00,437.19" fill="none" stroke="#b65d72" stroke-width="2"/>
+<circle cx="90.0" cy="547.4621589948097" r="3" fill="#b65d72"/>
+<circle cx="200.25641025641028" cy="533.3750427519333" r="3" fill="#b65d72"/>
+<circle cx="338.0769230769231" cy="520.051639900096" r="3" fill="#b65d72"/>
+<circle cx="613.7179487179487" cy="483.1326657789378" r="3" fill="#b65d72"/>
+<circle cx="1165.0" cy="437.19274111597576" r="3" fill="#b65d72"/>
+<line x1="850" y1="610" x2="870" y2="610" stroke="#b65d72" stroke-width="3"/>
+<text class="note" x="877" y="614">曼哈顿+4地标</text>
+</svg>

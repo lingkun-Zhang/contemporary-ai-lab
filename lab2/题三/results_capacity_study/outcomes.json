@@ -1,0 +1,16 @@
+{
+  "all_safe_values_correct": true,
+  "all_counters_stable": true,
+  "capacity_never_exceeded": true,
+  "store_conservation": true,
+  "all_sharing_preserves_expansion": true,
+  "unlimited_lru_matches_old_search_counts": true,
+  "zero_capacity_matches_original_search_counts": true,
+  "pure_tree_has_no_hits": true,
+  "object_graphs": 9,
+  "distinct_ordered_expanded_inputs": 3,
+  "configurations": 90,
+  "timing_batches": 810,
+  "timed_solver_calls": 2430,
+  "interior_optimum_presupposed": false
+}

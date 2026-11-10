@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="895" viewBox="0 0 1200 895" role="img" aria-label="地标数量：真正整批端到端成本">
+<style>text{font-family:'Microsoft YaHei', 'Noto Sans CJK SC', Arial, sans-serif;fill:#263746} .title{font-size:22px;font-weight:700}.label{font-size:14px}.note{font-size:12px;fill:#536575}</style>
+<rect width="1200" height="895" fill="#ffffff"/>
+<text class="title" x="24" y="34">地标数量：真正整批端到端成本</text>
+<text class="note" x="24" y="60">每批独立建表后执行同一组查询；点为中位数，竖线为IQR；重复批次不是独立地图。</text>
+<text class="label" x="24" y="92">长墙绕行：整批总耗时 ms（越低越好）；横轴地标数 k</text>
+<line x1="95" y1="265.0" x2="1155" y2="265.0" stroke="#e0e7ec"/>
+<text class="note" x="85" y="269.0" text-anchor="end">0.00</text>
+<line x1="95" y1="226.25" x2="1155" y2="226.25" stroke="#e0e7ec"/>
+<text class="note" x="85" y="230.25" text-anchor="end">23.06</text>
+<line x1="95" y1="187.5" x2="1155" y2="187.5" stroke="#e0e7ec"/>
+<text class="note" x="85" y="191.5" text-anchor="end">46.11</text>
+<line x1="95" y1="148.75" x2="1155" y2="148.75" stroke="#e0e7ec"/>
+<text class="note" x="85" y="152.75" text-anchor="end">69.17</text>
+<line x1="95" y1="110.0" x2="1155" y2="110.0" stroke="#e0e7ec"/>
+<text class="note" x="85" y="114.0" text-anchor="end">92.23</text>
+<line x1="95.0" y1="146.71282403335346" x2="95.0" y2="133.64406779661016" stroke="#327c99" stroke-width="2"/>
+<line x1="90.0" y1="146.71282403335346" x2="100.0" y2="146.71282403335346" stroke="#327c99"/>
+<line x1="90.0" y1="133.64406779661016" x2="100.0" y2="133.64406779661016" stroke="#327c99"/>
+<circle cx="95.0" cy="138.04283875118392" r="4" fill="#327c99"/>
+<text class="note" x="95.0" y="287" text-anchor="middle">0</text>
+<line x1="227.5" y1="229.88529076329553" x2="227.5" y2="225.2369524950692" stroke="#327c99" stroke-width="2"/>
+<line x1="222.5" y1="229.88529076329553" x2="232.5" y2="229.88529076329553" stroke="#327c99"/>
+<line x1="222.5" y1="225.2369524950692" x2="232.5" y2="225.2369524950692" stroke="#327c99"/>
+<circle cx="227.5" cy="228.5645166771033" r="4" fill="#327c99"/>
+<text class="note" x="227.5" y="287" text-anchor="middle">1</text>
+<line x1="360.0" y1="217.65934939387046" x2="360.0" y2="212.60313242514934" stroke="#327c99" stroke-width="2"/>
+<line x1="355.0" y1="217.65934939387046" x2="365.0" y2="217.65934939387046" stroke="#327c99"/>
+<line x1="355.0" y1="212.60313242514934" x2="365.0" y2="212.60313242514934" stroke="#327c99"/>
+<circle cx="360.0" cy="215.4033281019702" r="4" fill="#327c99"/>
+<text class="note" x="360.0" y="287" text-anchor="middle">2</text>
+<line x1="492.5" y1="208.90751947752668" x2="492.5" y2="205.61339899611" stroke="#327c99" stroke-width="2"/>
+<line x1="487.5" y1="208.90751947752668" x2="497.5" y2="208.90751947752668" stroke="#327c99"/>
+<line x1="487.5" y1="205.61339899611" x2="497.5" y2="205.61339899611" stroke="#327c99"/>
+<circle cx="492.5" cy="207.5627129833531" r="4" fill="#327c99"/>
+<text class="note" x="492.5" y="287" text-anchor="middle">3</text>
+<line x1="625.0" y1="202.7498451527929" x2="625.0" y2="195.90968405314794" stroke="#327c99" stroke-width="2"/>
+<line x1="620.0" y1="202.7498451527929" x2="630.0" y2="202.7498451527929" stroke="#327c99"/>
+<line x1="620.0" y1="195.90968405314794" x2="630.0" y2="195.90968405314794" stroke="#327c99"/>
+<circle cx="625.0" cy="200.06124051722816" r="4" fill="#327c99"/>
+<text class="note" x="625.0" y="287" text-anchor="middle">4</text>
+<line x1="1155.0" y1="175.03140357524597" x2="1155.0" y2="152.7219343814752" stroke="#327c99" stroke-width="2"/>
+<line x1="1150.0" y1="175.03140357524597" x2="1160.0" y2="175.03140357524597" stroke="#327c99"/>
+<line x1="1150.0" y1="152.7219343814752" x2="1160.0" y2="152.7219343814752" stroke="#327c99"/>
+<circle cx="1155.0" cy="167.01836013083258" r="4" fill="#327c99"/>
+<text class="note" x="1155.0" y="287" text-anchor="middle">8</text>
+<polyline fill="none" stroke="#327c99" stroke-width="2" points="95.00,138.04 227.50,228.56 360.00,215.40 492.50,207.56 625.00,200.06 1155.00,167.02"/>
+<text class="note" x="95" y="313">本批已测集合中最低总耗时 k=1；须结合波动与其他输入，不能解释为通用最优。</text>
+<text class="label" x="24" y="342">DFS 完美迷宫：整批总耗时 ms（越低越好）；横轴地标数 k</text>
+<line x1="95" y1="515.0" x2="1155" y2="515.0" stroke="#e0e7ec"/>
+<text class="note" x="85" y="519.0" text-anchor="end">0.00</text>
+<line x1="95" y1="476.25" x2="1155" y2="476.25" stroke="#e0e7ec"/>
+<text class="note" x="85" y="480.25" text-anchor="end">24.00</text>
+<line x1="95" y1="437.5" x2="1155" y2="437.5" stroke="#e0e7ec"/>
+<text class="note" x="85" y="441.5" text-anchor="end">47.99</text>
+<line x1="95" y1="398.75" x2="1155" y2="398.75" stroke="#e0e7ec"/>
+<text class="note" x="85" y="402.75" text-anchor="end">71.99</text>
+<line x1="95" y1="360.0" x2="1155" y2="360.0" stroke="#e0e7ec"/>
+<text class="note" x="85" y="364.0" text-anchor="end">95.98</text>
+<line x1="95.0" y1="421.4072490868565" x2="95.0" y2="413.522007701476" stroke="#c48136" stroke-width="2"/>
+<line x1="90.0" y1="421.4072490868565" x2="100.0" y2="421.4072490868565" stroke="#c48136"/>
+<line x1="90.0" y1="413.522007701476" x2="100.0" y2="413.522007701476" stroke="#c48136"/>
+<circle cx="95.0" cy="419.5220129941857" r="4" fill="#c48136"/>
+<text class="note" x="95.0" y="537" text-anchor="middle">0</text>
+<line x1="227.5" y1="449.40479760376115" x2="227.5" y2="437.86325757402903" stroke="#c48136" stroke-width="2"/>
+<line x1="222.5" y1="449.40479760376115" x2="232.5" y2="449.40479760376115" stroke="#c48136"/>
+<line x1="222.5" y1="437.86325757402903" x2="232.5" y2="437.86325757402903" stroke="#c48136"/>
+<circle cx="227.5" cy="445.28292283681486" r="4" fill="#c48136"/>
+<text class="note" x="227.5" y="537" text-anchor="middle">1</text>
+<line x1="360.0" y1="446.8094892908167" x2="360.0" y2="435.570420325122" stroke="#c48136" stroke-width="2"/>
+<line x1="355.0" y1="446.8094892908167" x2="365.0" y2="446.8094892908167" stroke="#c48136"/>
+<line x1="355.0" y1="435.570420325122" x2="365.0" y2="435.570420325122" stroke="#c48136"/>
+<circle cx="360.0" cy="440.62506223882747" r="4" fill="#c48136"/>
+<text class="note" x="360.0" y="537" text-anchor="middle">2</text>
+<line x1="492.5" y1="439.87413300883605" x2="492.5" y2="435.339327910473" stroke="#c48136" stroke-width="2"/>
+<line x1="487.5" y1="439.87413300883605" x2="497.5" y2="439.87413300883605" stroke="#c48136"/>
+<line x1="487.5" y1="435.339327910473" x2="497.5" y2="435.339327910473" stroke="#c48136"/>
+<circle cx="492.5" cy="436.1753624531968" r="4" fill="#c48136"/>
+<text class="note" x="492.5" y="537" text-anchor="middle">3</text>
+<line x1="625.0" y1="435.71979872033535" x2="625.0" y2="428.19920210943235" stroke="#c48136" stroke-width="2"/>
+<line x1="620.0" y1="435.71979872033535" x2="630.0" y2="435.71979872033535" stroke="#c48136"/>
+<line x1="620.0" y1="428.19920210943235" x2="630.0" y2="428.19920210943235" stroke="#c48136"/>
+<circle cx="625.0" cy="432.6627900485639" r="4" fill="#c48136"/>
+<text class="note" x="625.0" y="537" text-anchor="middle">4</text>
+<line x1="1155.0" y1="410.1588136920565" x2="1155.0" y2="383.64406779661016" stroke="#c48136" stroke-width="2"/>
+<line x1="1150.0" y1="410.1588136920565" x2="1160.0" y2="410.1588136920565" stroke="#c48136"/>
+<line x1="1150.0" y1="383.64406779661016" x2="1160.0" y2="383.64406779661016" stroke="#c48136"/>
+<circle cx="1155.0" cy="403.7019527452295" r="4" fill="#c48136"/>
+<text class="note" x="1155.0" y="537" text-anchor="middle">8</text>
+<polyline fill="none" stroke="#c48136" stroke-width="2" points="95.00,419.52 227.50,445.28 360.00,440.63 492.50,436.18 625.00,432.66 1155.00,403.70"/>
+<text class="note" x="95" y="563">本批已测集合中最低总耗时 k=1；须结合波动与其他输入，不能解释为通用最优。</text>
+<text class="label" x="24" y="592">开阔地图：整批总耗时 ms（越低越好）；横轴地标数 k</text>
+<line x1="95" y1="765.0" x2="1155" y2="765.0" stroke="#e0e7ec"/>
+<text class="note" x="85" y="769.0" text-anchor="end">0.00</text>
+<line x1="95" y1="726.25" x2="1155" y2="726.25" stroke="#e0e7ec"/>
+<text class="note" x="85" y="730.25" text-anchor="end">15.52</text>
+<line x1="95" y1="687.5" x2="1155" y2="687.5" stroke="#e0e7ec"/>
+<text class="note" x="85" y="691.5" text-anchor="end">31.04</text>
+<line x1="95" y1="648.75" x2="1155" y2="648.75" stroke="#e0e7ec"/>
+<text class="note" x="85" y="652.75" text-anchor="end">46.56</text>
+<line x1="95" y1="610.0" x2="1155" y2="610.0" stroke="#e0e7ec"/>
+<text class="note" x="85" y="614.0" text-anchor="end">62.08</text>
+<line x1="95.0" y1="731.8203343310271" x2="95.0" y2="730.3267737435397" stroke="#69915c" stroke-width="2"/>
+<line x1="90.0" y1="731.8203343310271" x2="100.0" y2="731.8203343310271" stroke="#69915c"/>
+<line x1="90.0" y1="730.3267737435397" x2="100.0" y2="730.3267737435397" stroke="#69915c"/>
+<circle cx="95.0" cy="731.7139724436533" r="4" fill="#69915c"/>
+<text class="note" x="95.0" y="787" text-anchor="middle">0</text>
+<line x1="227.5" y1="721.6283188275456" x2="227.5" y2="716.4954838964914" stroke="#69915c" stroke-width="2"/>
+<line x1="222.5" y1="721.6283188275456" x2="232.5" y2="721.6283188275456" stroke="#69915c"/>
+<line x1="222.5" y1="716.4954838964914" x2="232.5" y2="716.4954838964914" stroke="#69915c"/>
+<circle cx="227.5" cy="720.1090416334866" r="4" fill="#69915c"/>
+<text class="note" x="227.5" y="787" text-anchor="middle">1</text>
+<line x1="360.0" y1="712.4931809514187" x2="360.0" y2="699.1787199937216" stroke="#69915c" stroke-width="2"/>
+<line x1="355.0" y1="712.4931809514187" x2="365.0" y2="712.4931809514187" stroke="#69915c"/>
+<line x1="355.0" y1="699.1787199937216" x2="365.0" y2="699.1787199937216" stroke="#69915c"/>
+<circle cx="360.0" cy="707.124152721173" r="4" fill="#69915c"/>
+<text class="note" x="360.0" y="787" text-anchor="middle">2</text>
+<line x1="492.5" y1="698.4077211481581" x2="492.5" y2="692.7383329401879" stroke="#69915c" stroke-width="2"/>
+<line x1="487.5" y1="698.4077211481581" x2="497.5" y2="698.4077211481581" stroke="#69915c"/>
+<line x1="487.5" y1="692.7383329401879" x2="497.5" y2="692.7383329401879" stroke="#69915c"/>
+<circle cx="492.5" cy="696.3945852376079" r="4" fill="#69915c"/>
+<text class="note" x="492.5" y="787" text-anchor="middle">3</text>
+<line x1="625.0" y1="688.5265520056633" x2="625.0" y2="681.1616154945124" stroke="#69915c" stroke-width="2"/>
+<line x1="620.0" y1="688.5265520056633" x2="630.0" y2="688.5265520056633" stroke="#69915c"/>
+<line x1="620.0" y1="681.1616154945124" x2="630.0" y2="681.1616154945124" stroke="#69915c"/>
+<circle cx="625.0" cy="686.1491391146477" r="4" fill="#69915c"/>
+<text class="note" x="625.0" y="787" text-anchor="middle">4</text>
+<line x1="1155.0" y1="641.394503730543" x2="1155.0" y2="633.6440677966102" stroke="#69915c" stroke-width="2"/>
+<line x1="1150.0" y1="641.394503730543" x2="1160.0" y2="641.394503730543" stroke="#69915c"/>
+<line x1="1150.0" y1="633.6440677966102" x2="1160.0" y2="633.6440677966102" stroke="#69915c"/>
+<circle cx="1155.0" cy="639.2345584543219" r="4" fill="#69915c"/>
+<text class="note" x="1155.0" y="787" text-anchor="middle">8</text>
+<polyline fill="none" stroke="#69915c" stroke-width="2" points="95.00,731.71 227.50,720.11 360.00,707.12 492.50,696.39 625.00,686.15 1155.00,639.23"/>
+<text class="note" x="95" y="813">本批已测集合中最低总耗时 k=0；须结合波动与其他输入，不能解释为通用最优。</text>
+</svg>

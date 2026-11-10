@@ -1,0 +1,8 @@
+{
+  "all_root_values_correct": true,
+  "all_timing_counters_stable": true,
+  "node_conservation": true,
+  "configuration_count": 318,
+  "input_count": 35,
+  "distinct_tree_inputs": 32
+}

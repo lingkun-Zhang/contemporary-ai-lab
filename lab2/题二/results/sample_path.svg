@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="445" viewBox="0 0 390 445">
+<style>text{font-family:'Microsoft YaHei','Noto Sans CJK SC',Arial,sans-serif;fill:#273b49}.title{font-size:22px;font-weight:700}.label{font-size:14px}.note{font-size:12px;fill:#526777}</style>
+<rect width="390" height="445" fill="white"/>
+<text class="title" x="24" y="34">题二 PDF 样例：进入费用累计</text>
+<text class="note" x="24" y="60">返回最小费用 7；完整逐步账本见 sample_path_ledger.csv。</text>
+<text class="label" x="24" y="86">修正曼哈顿：费用 7，步数 8</text>
+<rect x="24" y="124" width="48" height="48" fill="#f8dba9" stroke="#d3dde4"/>
+<text x="48.0" y="155.2" text-anchor="middle" style="font-size:14px">S</text>
+<rect x="72" y="124" width="48" height="48" fill="#f2f6f8" stroke="#d3dde4"/>
+<text x="96.0" y="155.2" text-anchor="middle" style="font-size:14px">1</text>
+<rect x="120" y="124" width="48" height="48" fill="#f2f6f8" stroke="#d3dde4"/>
+<text x="144.0" y="155.2" text-anchor="middle" style="font-size:14px">1</text>
+<rect x="168" y="124" width="48" height="48" fill="#f2f6f8" stroke="#d3dde4"/>
+<text x="192.0" y="155.2" text-anchor="middle" style="font-size:14px">8</text>
+<rect x="216" y="124" width="48" height="48" fill="#f2f6f8" stroke="#d3dde4"/>
+<text x="240.0" y="155.2" text-anchor="middle" style="font-size:14px">1</text>
+<rect x="24" y="172" width="48" height="48" fill="#f8dba9" stroke="#d3dde4"/>
+<text x="48.0" y="203.2" text-anchor="middle" style="font-size:14px">1</text>
+<rect x="72" y="172" width="48" height="48" fill="#f2f6f8" stroke="#d3dde4"/>
+<text x="96.0" y="203.2" text-anchor="middle" style="font-size:14px">8</text>
+<rect x="120" y="172" width="48" height="48" fill="#f2f6f8" stroke="#d3dde4"/>
+<text x="144.0" y="203.2" text-anchor="middle" style="font-size:14px">3</text>
+<rect x="168" y="172" width="48" height="48" fill="#f2f6f8" stroke="#d3dde4"/>
+<text x="192.0" y="203.2" text-anchor="middle" style="font-size:14px">1</text>
+<rect x="216" y="172" width="48" height="48" fill="#f2f6f8" stroke="#d3dde4"/>
+<text x="240.0" y="203.2" text-anchor="middle" style="font-size:14px">1</text>
+<rect x="24" y="220" width="48" height="48" fill="#f8dba9" stroke="#d3dde4"/>
+<text x="48.0" y="251.2" text-anchor="middle" style="font-size:14px">1</text>
+<rect x="72" y="220" width="48" height="48" fill="#f2f6f8" stroke="#d3dde4"/>
+<text x="96.0" y="251.2" text-anchor="middle" style="font-size:14px">8</text>
+<rect x="120" y="220" width="48" height="48" fill="#f2f6f8" stroke="#d3dde4"/>
+<text x="144.0" y="251.2" text-anchor="middle" style="font-size:14px">1</text>
+<rect x="168" y="220" width="48" height="48" fill="#f2f6f8" stroke="#d3dde4"/>
+<text x="192.0" y="251.2" text-anchor="middle" style="font-size:14px">8</text>
+<rect x="216" y="220" width="48" height="48" fill="#f2f6f8" stroke="#d3dde4"/>
+<text x="240.0" y="251.2" text-anchor="middle" style="font-size:14px">1</text>
+<rect x="24" y="268" width="48" height="48" fill="#f8dba9" stroke="#d3dde4"/>
+<text x="48.0" y="299.2" text-anchor="middle" style="font-size:14px">1</text>
+<rect x="72" y="268" width="48" height="48" fill="#f8dba9" stroke="#d3dde4"/>
+<text x="96.0" y="299.2" text-anchor="middle" style="font-size:14px">1</text>
+<rect x="120" y="268" width="48" height="48" fill="#f8dba9" stroke="#d3dde4"/>
+<text x="144.0" y="299.2" text-anchor="middle" style="font-size:14px">1</text>
+<rect x="168" y="268" width="48" height="48" fill="#f2f6f8" stroke="#d3dde4"/>
+<text x="192.0" y="299.2" text-anchor="middle" style="font-size:14px">8</text>
+<rect x="216" y="268" width="48" height="48" fill="#f2f6f8" stroke="#d3dde4"/>
+<text x="240.0" y="299.2" text-anchor="middle" style="font-size:14px">1</text>
+<rect x="24" y="316" width="48" height="48" fill="#f2f6f8" stroke="#d3dde4"/>
+<text x="48.0" y="347.2" text-anchor="middle" style="font-size:14px">8</text>
+<rect x="72" y="316" width="48" height="48" fill="#f2f6f8" stroke="#d3dde4"/>
+<text x="96.0" y="347.2" text-anchor="middle" style="font-size:14px">8</text>
+<rect x="120" y="316" width="48" height="48" fill="#f8dba9" stroke="#d3dde4"/>
+<text x="144.0" y="347.2" text-anchor="middle" style="font-size:14px">1</text>
+<rect x="168" y="316" width="48" height="48" fill="#f8dba9" stroke="#d3dde4"/>
+<text x="192.0" y="347.2" text-anchor="middle" style="font-size:14px">1</text>
+<rect x="216" y="316" width="48" height="48" fill="#f8dba9" stroke="#d3dde4"/>
+<text x="240.0" y="347.2" text-anchor="middle" style="font-size:14px">E=0</text>
+<polyline points="48.0,148.0 48.0,196.0 48.0,244.0 48.0,292.0 96.0,292.0 144.0,292.0 144.0,340.0 192.0,340.0 240.0,340.0" fill="none" stroke="#be6f1e" stroke-width="2.5" opacity=".65"/>
+<text class="note" x="24" y="425">S 首次费用为 0；只按进入下一格收费；E 为 0；橙线为返回路径。</text>
+</svg>

@@ -1,0 +1,9 @@
+﻿variant,reachable_group,n_maps_total,n_maps,reachable_fraction,expanded_nodes_mean,expanded_nodes_median,expanded_nodes_q1,expanded_nodes_q3,expanded_nodes_iqr,max_frontier_mean,max_frontier_median,max_frontier_q1,max_frontier_q3,max_frontier_iqr,time_median_ms_mean,time_median_ms_median,time_median_ms_q1,time_median_ms_q3,time_median_ms_iqr,optimal_steps_mean,optimal_steps_median,optimal_steps_q1,optimal_steps_q3,optimal_steps_iqr
+zero,True,20,20,1.0,712.5,798.0,558.25,940.25,382.0,40.15,39.5,36.0,43.0,7.0,2.4056733333333336,2.45405,1.5915,3.2143333333333333,1.6228333333333333,32.1,30.5,25.0,39.75,14.75
+zero,False,20,0,1.0,,,,,,,,,,,,,,,,,,,,
+chebyshev,True,20,20,1.0,241.9,200.0,142.75,376.25,233.5,41.7,40.5,30.0,46.25,16.25,1.080545,0.8967666666666666,0.5684416666666667,1.4099249999999999,0.8414833333333331,32.1,30.5,25.0,39.75,14.75
+chebyshev,False,20,0,1.0,,,,,,,,,,,,,,,,,,,,
+euclidean,True,20,20,1.0,211.7,168.5,128.75,325.25,196.5,39.8,38.0,31.75,49.75,18.0,0.943955,0.8768333333333334,0.474225,1.1747833333333333,0.7005583333333333,32.1,30.5,25.0,39.75,14.75
+euclidean,False,20,0,1.0,,,,,,,,,,,,,,,,,,,,
+manhattan,True,20,20,1.0,71.35,57.0,34.25,102.5,68.25,42.7,41.5,27.0,57.5,30.5,0.39213166666666666,0.31581666666666663,0.21105,0.5890416666666667,0.3779916666666667,32.1,30.5,25.0,39.75,14.75
+manhattan,False,20,0,1.0,,,,,,,,,,,,,,,,,,,,

@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="700" viewBox="0 0 1180 700">
+<style>text{font-family:'Microsoft YaHei','Noto Sans CJK SC',Arial,sans-serif;fill:#273b49}.title{font-size:22px;font-weight:700}.label{font-size:14px}.note{font-size:12px;fill:#526777}</style>
+<rect width="1180" height="700" fill="white"/>
+<text class="title" x="24" y="34">101 阶高代价带：记录数量与清理工作</text>
+<text class="note" x="24" y="60">阈值小可能重复扫描；阈值大可能保留旧项；扩展顺序和费用均保持，峰值包含清理前瞬间。</text>
+<text class="label" x="24" y="90">同一有效搜索顺序：物理堆峰值与实际过期弹出次数</text>
+<line x1="100" y1="280.0" x2="1140" y2="280.0" stroke="#e0e7ec"/>
+<text class="note" x="90" y="284.0" text-anchor="end">0.00</text>
+<line x1="100" y1="237.5" x2="1140" y2="237.5" stroke="#e0e7ec"/>
+<text class="note" x="90" y="241.5" text-anchor="end">2321.48</text>
+<line x1="100" y1="195.0" x2="1140" y2="195.0" stroke="#e0e7ec"/>
+<text class="note" x="90" y="199.0" text-anchor="end">4642.96</text>
+<line x1="100" y1="152.5" x2="1140" y2="152.5" stroke="#e0e7ec"/>
+<text class="note" x="90" y="156.5" text-anchor="end">6964.44</text>
+<line x1="100" y1="110.0" x2="1140" y2="110.0" stroke="#e0e7ec"/>
+<text class="note" x="90" y="114.0" text-anchor="end">9285.92</text>
+<text class="note" x="157.77777777777777" y="302" text-anchor="middle">1.05</text>
+<text class="note" x="273.33333333333337" y="302" text-anchor="middle">1.2</text>
+<text class="note" x="388.8888888888889" y="302" text-anchor="middle">1.5</text>
+<text class="note" x="504.44444444444446" y="302" text-anchor="middle">2</text>
+<text class="note" x="620.0" y="302" text-anchor="middle">4</text>
+<text class="note" x="735.5555555555555" y="302" text-anchor="middle">8</text>
+<text class="note" x="851.1111111111111" y="302" text-anchor="middle">16</text>
+<text class="note" x="966.6666666666666" y="302" text-anchor="middle">32</text>
+<text class="note" x="1082.2222222222222" y="302" text-anchor="middle">inf</text>
+<polyline fill="none" stroke="#397f9b" stroke-width="2" points="157.78,274.97 273.33,274.25 388.89,272.93 504.44,271.01 620.00,264.38 735.56,258.18 851.11,258.18 966.67,258.18 1082.22,258.18"/>
+<circle cx="157.77777777777777" cy="274.9654961490084" r="3" fill="#397f9b"/>
+<circle cx="273.33333333333337" cy="274.25151196650415" r="3" fill="#397f9b"/>
+<circle cx="388.8888888888889" cy="272.9333873218809" r="3" fill="#397f9b"/>
+<circle cx="504.44444444444446" cy="271.0111222151386" r="3" fill="#397f9b"/>
+<circle cx="620.0" cy="264.38388441856057" r="3" fill="#397f9b"/>
+<circle cx="735.5555555555555" cy="258.17771421679277" r="3" fill="#397f9b"/>
+<circle cx="851.1111111111111" cy="258.17771421679277" r="3" fill="#397f9b"/>
+<circle cx="966.6666666666666" cy="258.17771421679277" r="3" fill="#397f9b"/>
+<circle cx="1082.2222222222222" cy="258.17771421679277" r="3" fill="#397f9b"/>
+<line x1="100" y1="327" x2="118" y2="327" stroke="#397f9b" stroke-width="3"/>
+<text class="note" x="125" y="331">物理堆峰值</text>
+<polyline fill="none" stroke="#ce8434" stroke-width="2" points="157.78,279.80 273.33,279.65 388.89,276.92 504.44,277.38 620.00,264.80 735.56,266.95 851.11,165.14 966.67,128.21 1082.22,128.21"/>
+<circle cx="157.77777777777777" cy="279.79861984596033" r="3" fill="#ce8434"/>
+<circle cx="273.33333333333337" cy="279.6521615521133" r="3" fill="#ce8434"/>
+<circle cx="388.8888888888889" cy="276.9243758292124" r="3" fill="#ce8434"/>
+<circle cx="504.44444444444446" cy="277.38205799748437" r="3" fill="#ce8434"/>
+<circle cx="620.0" cy="264.8049520133708" r="3" fill="#ce8434"/>
+<circle cx="735.5555555555555" cy="266.9469045608836" r="3" fill="#ce8434"/>
+<circle cx="851.1111111111111" cy="165.1400830504678" r="3" fill="#ce8434"/>
+<circle cx="966.6666666666666" cy="128.2142857142857" r="3" fill="#ce8434"/>
+<circle cx="1082.2222222222222" cy="128.2142857142857" r="3" fill="#ce8434"/>
+<line x1="365" y1="327" x2="383" y2="327" stroke="#ce8434" stroke-width="3"/>
+<text class="note" x="390" y="331">过期弹出</text>
+<text class="label" x="24" y="370">清理扫描的堆记录数与实际删除的旧项数（两者不是字节内存）</text>
+<line x1="100" y1="560.0" x2="1140" y2="560.0" stroke="#e0e7ec"/>
+<text class="note" x="90" y="564.0" text-anchor="end">0.00</text>
+<line x1="100" y1="517.5" x2="1140" y2="517.5" stroke="#e0e7ec"/>
+<text class="note" x="90" y="521.5" text-anchor="end">46065.88</text>
+<line x1="100" y1="475.0" x2="1140" y2="475.0" stroke="#e0e7ec"/>
+<text class="note" x="90" y="479.0" text-anchor="end">92131.76</text>
+<line x1="100" y1="432.5" x2="1140" y2="432.5" stroke="#e0e7ec"/>
+<text class="note" x="90" y="436.5" text-anchor="end">138197.64</text>
+<line x1="100" y1="390.0" x2="1140" y2="390.0" stroke="#e0e7ec"/>
+<text class="note" x="90" y="394.0" text-anchor="end">184263.52</text>
+<text class="note" x="157.77777777777777" y="582" text-anchor="middle">1.05</text>
+<text class="note" x="273.33333333333337" y="582" text-anchor="middle">1.2</text>
+<text class="note" x="388.8888888888889" y="582" text-anchor="middle">1.5</text>
+<text class="note" x="504.44444444444446" y="582" text-anchor="middle">2</text>
+<text class="note" x="620.0" y="582" text-anchor="middle">4</text>
+<text class="note" x="735.5555555555555" y="582" text-anchor="middle">8</text>
+<text class="note" x="851.1111111111111" y="582" text-anchor="middle">16</text>
+<text class="note" x="966.6666666666666" y="582" text-anchor="middle">32</text>
+<text class="note" x="1082.2222222222222" y="582" text-anchor="middle">inf</text>
+<polyline fill="none" stroke="#87649c" stroke-width="2" points="157.78,408.21 273.33,515.04 388.89,537.68 504.44,545.02 620.00,550.83 735.56,552.01 851.11,558.02 966.67,560.00 1082.22,560.00"/>
+<circle cx="157.77777777777777" cy="408.2142857142857" r="3" fill="#87649c"/>
+<circle cx="273.33333333333337" cy="515.0448726910242" r="3" fill="#87649c"/>
+<circle cx="388.8888888888889" cy="537.6806608274932" r="3" fill="#87649c"/>
+<circle cx="504.44444444444446" cy="545.0171102777153" r="3" fill="#87649c"/>
+<circle cx="620.0" cy="550.8294381872223" r="3" fill="#87649c"/>
+<circle cx="735.5555555555555" cy="552.0131233789521" r="3" fill="#87649c"/>
+<circle cx="851.1111111111111" cy="558.0155051851826" r="3" fill="#87649c"/>
+<circle cx="966.6666666666666" cy="560.0" r="3" fill="#87649c"/>
+<circle cx="1082.2222222222222" cy="560.0" r="3" fill="#87649c"/>
+<line x1="100" y1="607" x2="118" y2="607" stroke="#87649c" stroke-width="3"/>
+<text class="note" x="125" y="611">扫描记录</text>
+<polyline fill="none" stroke="#4b9a75" stroke-width="2" points="157.78,552.36 273.33,552.37 388.89,552.51 504.44,552.48 620.00,553.12 735.56,553.01 851.11,558.14 966.67,560.00 1082.22,560.00"/>
+<circle cx="157.77777777777777" cy="552.3609404617907" r="3" fill="#4b9a75"/>
+<circle cx="273.33333333333337" cy="552.3683211956442" r="3" fill="#4b9a75"/>
+<circle cx="388.8888888888889" cy="552.5057873636626" r="3" fill="#4b9a75"/>
+<circle cx="504.44444444444446" cy="552.4827225703709" r="3" fill="#4b9a75"/>
+<circle cx="620.0" cy="553.1165430900267" r="3" fill="#4b9a75"/>
+<circle cx="735.5555555555555" cy="553.0085998574216" r="3" fill="#4b9a75"/>
+<circle cx="851.1111111111111" cy="558.1391324772261" r="3" fill="#4b9a75"/>
+<circle cx="966.6666666666666" cy="560.0" r="3" fill="#4b9a75"/>
+<circle cx="1082.2222222222222" cy="560.0" r="3" fill="#4b9a75"/>
+<line x1="365" y1="607" x2="383" y2="607" stroke="#4b9a75" stroke-width="3"/>
+<text class="note" x="390" y="611">删除记录</text>
+</svg>

@@ -1,0 +1,16 @@
+﻿target_budget,reference_budget,metric,independent_tree_count,median_delta,q1_delta,q3_delta,trees_target_lower,trees_equal,trees_target_higher
+8,0,visit_delta,30,-139.0,-193.75,-73.25,25,0,5
+8,0,search_leaf_delta,30,-102.0,-140.0,-69.75,28,0,2
+8,0,probe_leaf_delta,30,1294.5,1207.5,1399.5,0,0,30
+8,0,all_leaf_reads_delta,30,1197.5,1103.5,1329.5,0,0,30
+8,0,median_paired_total_delta_ms,30,0.5743333333333334,0.3478,0.7023666666666666,1,0,29
+8,4,visit_delta,30,-26.5,-57.25,12.5,21,0,9
+8,4,search_leaf_delta,30,-13.5,-30.75,8.75,21,0,9
+8,4,probe_leaf_delta,30,285.0,229.5,400.5,2,0,28
+8,4,all_leaf_reads_delta,30,279.0,201.75,401.75,2,0,28
+8,4,median_paired_total_delta_ms,30,0.1069,-0.09588333333333332,0.1879166666666668,13,0,17
+8,16,visit_delta,30,25.5,-15.25,76.25,11,1,18
+8,16,search_leaf_delta,30,11.5,-10.25,40.5,10,2,18
+8,16,probe_leaf_delta,30,-199.5,-442.5,-50.25,25,0,5
+8,16,all_leaf_reads_delta,30,-189.0,-454.0,0.5,22,0,8
+8,16,median_paired_total_delta_ms,30,0.017100000000000004,-0.23095000000000004,0.24362500000000004,14,0,16

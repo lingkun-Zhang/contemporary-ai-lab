@@ -1,0 +1,22 @@
+{
+  "all_distances_match_independent_dijkstra": true,
+  "all_paths_and_enter_ledgers_valid": true,
+  "all_game_values_and_first_actions_correct": true,
+  "all_counters_stable": true,
+  "both_output_contracts_preserved": true,
+  "protocol_unchanged": true,
+  "source_unchanged": true,
+  "configurations": 308,
+  "timing_batches": 2156,
+  "timed_top_level_calls": 6468,
+  "official_results": {
+    "H2": {
+      "best_target": "T2",
+      "best_value": -1
+    },
+    "H4": {
+      "best_target": "T3",
+      "best_value": 3
+    }
+  }
+}

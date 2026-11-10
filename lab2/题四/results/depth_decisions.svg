@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820">
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#2c4050">
+<text x="28" y="39" font-size="25" font-weight="bold">搜索深度改变首步：每个根动作的精确回传值</text>
+<text x="28" y="70" font-size="14" fill="#536b80">每个根动作均独立核验；H按单次行动计，截断时评价当前Score_A−Score_B。</text>
+<text x="28" y="130" font-size="17" fill="#2c4050" text-anchor="start">纵轴：强制该首步后的最优收益差；横轴：H</text>
+<line x1="100" y1="551.0" x2="1150" y2="551.0" stroke="#dce5ed"/>
+<text x="88" y="556.0" font-size="13" fill="#536b80" text-anchor="end">-8.20</text>
+<line x1="100" y1="452.25" x2="1150" y2="452.25" stroke="#dce5ed"/>
+<text x="88" y="457.25" font-size="13" fill="#536b80" text-anchor="end">-5.10</text>
+<line x1="100" y1="353.5" x2="1150" y2="353.5" stroke="#dce5ed"/>
+<text x="88" y="358.5" font-size="13" fill="#536b80" text-anchor="end">-2</text>
+<line x1="100" y1="254.75" x2="1150" y2="254.75" stroke="#dce5ed"/>
+<text x="88" y="259.75" font-size="13" fill="#536b80" text-anchor="end">1.10</text>
+<line x1="100" y1="156.0" x2="1150" y2="156.0" stroke="#dce5ed"/>
+<text x="88" y="161.0" font-size="13" fill="#536b80" text-anchor="end">4.20</text>
+<line x1="100" y1="289.7903225806452" x2="1150" y2="289.7903225806452" stroke="#748ca0" stroke-dasharray="5 5"/>
+<text x="231.25" y="577" font-size="14" fill="#2c4050" text-anchor="middle">1</text>
+<text x="493.75" y="577" font-size="14" fill="#2c4050" text-anchor="middle">2</text>
+<text x="756.25" y="577" font-size="14" fill="#2c4050" text-anchor="middle">3</text>
+<text x="1018.75" y="577" font-size="14" fill="#2c4050" text-anchor="middle">4</text>
+<circle cx="231.25" cy="321.64516129032256" r="3.6" fill="#2f809e"/>
+<circle cx="493.75" cy="417.2096774193549" r="3.6" fill="#2f809e"/>
+<circle cx="756.25" cy="417.2096774193549" r="3.6" fill="#2f809e"/>
+<circle cx="1018.75" cy="449.06451612903226" r="3.6" fill="#2f809e"/>
+<polyline points="231.25,321.64516129032256 493.75,417.2096774193549 756.25,417.2096774193549 1018.75,449.06451612903226" fill="none" stroke="#2f809e" stroke-width="2"/>
+<path d="M105,603h22" stroke="#2f809e" stroke-width="3"/>
+<text x="135" y="608" font-size="14" fill="#2c4050" text-anchor="start">T1</text>
+<circle cx="231.25" cy="226.0806451612903" r="3.6" fill="#ca8432"/>
+<circle cx="493.75" cy="321.64516129032256" r="3.6" fill="#ca8432"/>
+<circle cx="756.25" cy="226.0806451612903" r="3.6" fill="#ca8432"/>
+<circle cx="1018.75" cy="257.93548387096774" r="3.6" fill="#ca8432"/>
+<polyline points="231.25,226.0806451612903 493.75,321.64516129032256 756.25,226.0806451612903 1018.75,257.93548387096774" fill="none" stroke="#ca8432" stroke-width="2"/>
+<path d="M363,603h22" stroke="#ca8432" stroke-width="3"/>
+<text x="393" y="608" font-size="14" fill="#2c4050" text-anchor="start">T2</text>
+<circle cx="231.25" cy="321.64516129032256" r="3.6" fill="#5b9565"/>
+<circle cx="493.75" cy="353.5" r="3.6" fill="#5b9565"/>
+<circle cx="756.25" cy="321.64516129032256" r="3.6" fill="#5b9565"/>
+<circle cx="1018.75" cy="194.22580645161287" r="3.6" fill="#5b9565"/>
+<polyline points="231.25,321.64516129032256 493.75,353.5 756.25,321.64516129032256 1018.75,194.22580645161287" fill="none" stroke="#5b9565" stroke-width="2"/>
+<path d="M621,603h22" stroke="#5b9565" stroke-width="3"/>
+<text x="651" y="608" font-size="14" fill="#2c4050" text-anchor="start">T3</text>
+<circle cx="231.25" cy="321.64516129032256" r="3.6" fill="#9867a7"/>
+<circle cx="493.75" cy="417.2096774193549" r="3.6" fill="#9867a7"/>
+<circle cx="756.25" cy="417.2096774193549" r="3.6" fill="#9867a7"/>
+<circle cx="1018.75" cy="512.7741935483871" r="3.6" fill="#9867a7"/>
+<polyline points="231.25,321.64516129032256 493.75,417.2096774193549 756.25,417.2096774193549 1018.75,512.7741935483871" fill="none" stroke="#9867a7" stroke-width="2"/>
+<path d="M879,603h22" stroke="#9867a7" stroke-width="3"/>
+<text x="909" y="608" font-size="14" fill="#2c4050" text-anchor="start">T4</text>
+<rect x="388.75" y="338.64516129032256" width="225" height="39" rx="6" fill="#fff9e9" stroke="#d2b66b"/>
+<text x="400.75" y="363.64516129032256" font-size="16" fill="#2c4050" text-anchor="start" font-weight="bold">H=2：T2，U=-1</text>
+<rect x="913.75" y="211.22580645161287" width="225" height="39" rx="6" fill="#fff9e9" stroke="#d2b66b"/>
+<text x="925.75" y="236.22580645161287" font-size="16" fill="#2c4050" text-anchor="start" font-weight="bold">H=4：T3，U=3</text>
+<text x="100" y="720" font-size="15" fill="#2c4050" text-anchor="start">H2只评估双方各一次行动；H4将第二次移动及其可能的负收益纳入回传。</text>
+<text x="100" y="752" font-size="14" fill="#536b80" text-anchor="start">不同深度使用不同截断位置，根值无需单调；同一深度的Minimax与Alpha-Beta应一致。</text>
+</g></svg>

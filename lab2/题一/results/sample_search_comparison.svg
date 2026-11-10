@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1104" height="312" viewBox="0 0 1104 312" role="img" aria-label="PDF 样例：路径与搜索范围">
+<style>text{font-family:'Microsoft YaHei', 'Noto Sans CJK SC', Arial, sans-serif;fill:#263746} .title{font-size:22px;font-weight:700}.label{font-size:14px}.note{font-size:12px;fill:#536575}</style>
+<rect width="1104" height="312" fill="#ffffff"/>
+<text class="title" x="24" y="34">PDF 样例：路径与搜索范围</text>
+<text class="note" x="24" y="58">蓝色：实际扩展节点（不含终点）　橙色：返回路径　深色：障碍　S：起点　E：终点</text>
+<text class="label" x="24" y="82">h=0 / FIFO</text>
+<text class="note" x="24" y="102">最短步数 7；扩展 15 个节点</text>
+<rect x="24" y="114" width="28" height="28" fill="#f6c780" stroke="#d6dfe5" stroke-width="0.5"/>
+<rect x="52" y="114" width="28" height="28" fill="#f6c780" stroke="#d6dfe5" stroke-width="0.5"/>
+<rect x="80" y="114" width="28" height="28" fill="#f6c780" stroke="#d6dfe5" stroke-width="0.5"/>
+<rect x="108" y="114" width="28" height="28" fill="#263746" stroke="#d6dfe5" stroke-width="0.5"/>
+<rect x="136" y="114" width="28" height="28" fill="#c9e4f2" stroke="#d6dfe5" stroke-width="0.5"/>
+<rect x="24" y="142" width="28" height="28" fill="#c9e4f2" stroke="#d6dfe5" stroke-width="0.5"/>
+<rect x="52" y="142" width="28" height="28" fill="#263746" stroke="#d6dfe5" stroke-width="0.5"/>
+<rect x="80" y="142" width="28" height="28" fill="#f6c780" stroke="#d6dfe5" stroke-width="0.5"/>
+<rect x="108" y="142" width="28" height="28" fill="#f6c780" stroke="#d6dfe5" stroke-width="0.5"/>
+<rect x="136" y="142" width="28" height="28" fill="#f6c780" stroke="#d6dfe5" stroke-width="0.5"/>
+<rect x="24" y="170" width="28" height="28" fill="#c9e4f2" stroke="#d6dfe5" stroke-width="0.5"/>
+<rect x="52" y="170" width="28" height="28" fill="#263746" stroke="#d6dfe5" stroke-width="0.5"/>
+<rect x="80" y="170" width="28" height="28" fill="#c9e4f2" stroke="#d6dfe5" stroke-width="0.5"/>
+<rect x="108" y="170" width="28" height="28" fill="#263746" stroke="#d6dfe5" stroke-width="0.5"/>
+<rect x="136" y="170" width="28" height="28" fill="#f6c780" stroke="#d6dfe5" stroke-width="0.5"/>
+<rect x="24" y="198" width="28" height="28" fill="#c9e4f2" stroke="#d6dfe5" stroke-width="0.5"/>
+<rect x="52" y="198" width="28" height="28" fill="#c9e4f2" stroke="#d6dfe5" stroke-width="0.5"/>
+<rect x="80" y="198" width="28" height="28" fill="#c9e4f2" stroke="#d6dfe5" stroke-width="0.5"/>
+<rect x="108" y="198" width="28" height="28" fill="#263746" stroke="#d6dfe5" stroke-width="0.5"/>
+<rect x="136" y="198" width="28" height="28" fill="#f6c780" stroke="#d6dfe5" stroke-width="0.5"/>
+<rect x="24" y="226" width="28" height="28" fill="#263746" stroke="#d6dfe5" stroke-width="0.5"/>
+<rect x="52" y="226" width="28" height="28" fill="#263746" stroke="#d6dfe5" stroke-width="0.5"/>
+<rect x="80" y="226" width="28" height="28" fill="#c9e4f2" stroke="#d6dfe5" stroke-width="0.5"/>
+<rect x="108" y="226" width="28" height="28" fill="#f8fafb" stroke="#d6dfe5" stroke-width="0.5"/>
+<rect x="136" y="226" width="28" height="28" fill="#f8fafb" stroke="#d6dfe5" stroke-width="0.5"/>
+<polyline points="38.0,128.0 66.0,128.0 94.0,128.0 94.0,156.0 122.0,156.0 150.0,156.0 150.0,184.0 150.0,212.0" fill="none" stroke="#b96a13" stroke-width="3.50" stroke-linejoin="round"/>
+<circle cx="38.0" cy="128.0" r="12.04" fill="#19765d"/>
+<text x="38.0" y="133.04" text-anchor="middle" style="font-size:18.2px;fill:white;font-weight:700">S</text>
+<circle cx="150.0" cy="212.0" r="12.04" fill="#b3414d"/>
+<text x="150.0" y="217.04" text-anchor="middle" style="font-size:18.2px;fill:white;font-weight:700">E</text>
+<text class="label" x="384" y="82">曼哈顿 / FIFO</text>
+<text class="note" x="384" y="102">最短步数 7；扩展 13 个节点</text>
+<rect x="384" y="114" width="28" height="28" fill="#f6c780" stroke="#d6dfe5" stroke-width="0.5"/>
+<rect x="412" y="114" width="28" height="28" fill="#f6c780" stroke="#d6dfe5" stroke-width="0.5"/>
+<rect x="440" y="114" width="28" height="28" fill="#f6c780" stroke="#d6dfe5" stroke-width="0.5"/>
+<rect x="468" y="114" width="28" height="28" fill="#263746" stroke="#d6dfe5" stroke-width="0.5"/>
+<rect x="496" y="114" width="28" height="28" fill="#f8fafb" stroke="#d6dfe5" stroke-width="0.5"/>
+<rect x="384" y="142" width="28" height="28" fill="#c9e4f2" stroke="#d6dfe5" stroke-width="0.5"/>
+<rect x="412" y="142" width="28" height="28" fill="#263746" stroke="#d6dfe5" stroke-width="0.5"/>
+<rect x="440" y="142" width="28" height="28" fill="#f6c780" stroke="#d6dfe5" stroke-width="0.5"/>
+<rect x="468" y="142" width="28" height="28" fill="#f6c780" stroke="#d6dfe5" stroke-width="0.5"/>
+<rect x="496" y="142" width="28" height="28" fill="#f6c780" stroke="#d6dfe5" stroke-width="0.5"/>
+<rect x="384" y="170" width="28" height="28" fill="#c9e4f2" stroke="#d6dfe5" stroke-width="0.5"/>
+<rect x="412" y="170" width="28" height="28" fill="#263746" stroke="#d6dfe5" stroke-width="0.5"/>
+<rect x="440" y="170" width="28" height="28" fill="#c9e4f2" stroke="#d6dfe5" stroke-width="0.5"/>
+<rect x="468" y="170" width="28" height="28" fill="#263746" stroke="#d6dfe5" stroke-width="0.5"/>
+<rect x="496" y="170" width="28" height="28" fill="#f6c780" stroke="#d6dfe5" stroke-width="0.5"/>
+<rect x="384" y="198" width="28" height="28" fill="#c9e4f2" stroke="#d6dfe5" stroke-width="0.5"/>
+<rect x="412" y="198" width="28" height="28" fill="#c9e4f2" stroke="#d6dfe5" stroke-width="0.5"/>
+<rect x="440" y="198" width="28" height="28" fill="#c9e4f2" stroke="#d6dfe5" stroke-width="0.5"/>
+<rect x="468" y="198" width="28" height="28" fill="#263746" stroke="#d6dfe5" stroke-width="0.5"/>
+<rect x="496" y="198" width="28" height="28" fill="#f6c780" stroke="#d6dfe5" stroke-width="0.5"/>
+<rect x="384" y="226" width="28" height="28" fill="#263746" stroke="#d6dfe5" stroke-width="0.5"/>
+<rect x="412" y="226" width="28" height="28" fill="#263746" stroke="#d6dfe5" stroke-width="0.5"/>
+<rect x="440" y="226" width="28" height="28" fill="#f8fafb" stroke="#d6dfe5" stroke-width="0.5"/>
+<rect x="468" y="226" width="28" height="28" fill="#f8fafb" stroke="#d6dfe5" stroke-width="0.5"/>
+<rect x="496" y="226" width="28" height="28" fill="#f8fafb" stroke="#d6dfe5" stroke-width="0.5"/>
+<polyline points="398.0,128.0 426.0,128.0 454.0,128.0 454.0,156.0 482.0,156.0 510.0,156.0 510.0,184.0 510.0,212.0" fill="none" stroke="#b96a13" stroke-width="3.50" stroke-linejoin="round"/>
+<circle cx="398.0" cy="128.0" r="12.04" fill="#19765d"/>
+<text x="398.0" y="133.04" text-anchor="middle" style="font-size:18.2px;fill:white;font-weight:700">S</text>
+<circle cx="510.0" cy="212.0" r="12.04" fill="#b3414d"/>
+<text x="510.0" y="217.04" text-anchor="middle" style="font-size:18.2px;fill:white;font-weight:700">E</text>
+<text class="label" x="744" y="82">曼哈顿 / 较小 h 优先</text>
+<text class="note" x="744" y="102">最短步数 7；扩展 7 个节点</text>
+<rect x="744" y="114" width="28" height="28" fill="#f6c780" stroke="#d6dfe5" stroke-width="0.5"/>
+<rect x="772" y="114" width="28" height="28" fill="#f6c780" stroke="#d6dfe5" stroke-width="0.5"/>
+<rect x="800" y="114" width="28" height="28" fill="#f6c780" stroke="#d6dfe5" stroke-width="0.5"/>
+<rect x="828" y="114" width="28" height="28" fill="#263746" stroke="#d6dfe5" stroke-width="0.5"/>
+<rect x="856" y="114" width="28" height="28" fill="#f8fafb" stroke="#d6dfe5" stroke-width="0.5"/>
+<rect x="744" y="142" width="28" height="28" fill="#f8fafb" stroke="#d6dfe5" stroke-width="0.5"/>
+<rect x="772" y="142" width="28" height="28" fill="#263746" stroke="#d6dfe5" stroke-width="0.5"/>
+<rect x="800" y="142" width="28" height="28" fill="#f6c780" stroke="#d6dfe5" stroke-width="0.5"/>
+<rect x="828" y="142" width="28" height="28" fill="#f6c780" stroke="#d6dfe5" stroke-width="0.5"/>
+<rect x="856" y="142" width="28" height="28" fill="#f6c780" stroke="#d6dfe5" stroke-width="0.5"/>
+<rect x="744" y="170" width="28" height="28" fill="#f8fafb" stroke="#d6dfe5" stroke-width="0.5"/>
+<rect x="772" y="170" width="28" height="28" fill="#263746" stroke="#d6dfe5" stroke-width="0.5"/>
+<rect x="800" y="170" width="28" height="28" fill="#f8fafb" stroke="#d6dfe5" stroke-width="0.5"/>
+<rect x="828" y="170" width="28" height="28" fill="#263746" stroke="#d6dfe5" stroke-width="0.5"/>
+<rect x="856" y="170" width="28" height="28" fill="#f6c780" stroke="#d6dfe5" stroke-width="0.5"/>
+<rect x="744" y="198" width="28" height="28" fill="#f8fafb" stroke="#d6dfe5" stroke-width="0.5"/>
+<rect x="772" y="198" width="28" height="28" fill="#f8fafb" stroke="#d6dfe5" stroke-width="0.5"/>
+<rect x="800" y="198" width="28" height="28" fill="#f8fafb" stroke="#d6dfe5" stroke-width="0.5"/>
+<rect x="828" y="198" width="28" height="28" fill="#263746" stroke="#d6dfe5" stroke-width="0.5"/>
+<rect x="856" y="198" width="28" height="28" fill="#f6c780" stroke="#d6dfe5" stroke-width="0.5"/>
+<rect x="744" y="226" width="28" height="28" fill="#263746" stroke="#d6dfe5" stroke-width="0.5"/>
+<rect x="772" y="226" width="28" height="28" fill="#263746" stroke="#d6dfe5" stroke-width="0.5"/>
+<rect x="800" y="226" width="28" height="28" fill="#f8fafb" stroke="#d6dfe5" stroke-width="0.5"/>
+<rect x="828" y="226" width="28" height="28" fill="#f8fafb" stroke="#d6dfe5" stroke-width="0.5"/>
+<rect x="856" y="226" width="28" height="28" fill="#f8fafb" stroke="#d6dfe5" stroke-width="0.5"/>
+<polyline points="758.0,128.0 786.0,128.0 814.0,128.0 814.0,156.0 842.0,156.0 870.0,156.0 870.0,184.0 870.0,212.0" fill="none" stroke="#b96a13" stroke-width="3.50" stroke-linejoin="round"/>
+<circle cx="758.0" cy="128.0" r="12.04" fill="#19765d"/>
+<text x="758.0" y="133.04" text-anchor="middle" style="font-size:18.2px;fill:white;font-weight:700">S</text>
+<circle cx="870.0" cy="212.0" r="12.04" fill="#b3414d"/>
+<text x="870.0" y="217.04" text-anchor="middle" style="font-size:18.2px;fill:white;font-weight:700">E</text>
+<text class="note" x="24" y="294">各策略都返回最短路径；并列时的路径或扩展范围可以不同。</text>
+</svg>

@@ -1,0 +1,29 @@
+{
+  "completed_at_utc": "2026-11-10T08:05:55.674914+00:00",
+  "protocol_sha256": "068b409839b0ff79729e3f91535a0e8294ab6f7fadbc7c97c40440005d944061",
+  "source_sha256": {
+    "maze_astar.py": "5efdb4c38b00ce1475c549cd314bc9094def2a3ef516ba01aaa09e6850a051bb",
+    "bfs_baseline.py": "eecbe4ae8ca3c2e5fcf940f704efcd3150b2c9d3d7522f32b3f27c6442790187",
+    "landmark_heuristic.py": "8f3602abc6bf2ff8a9e2c8aed9a2afa26fed884ee732cd8867bb0af040f6ae31",
+    "corridor_astar.py": "13100b3a0380d9eaefb00325ae9818cddaf8722edbe80887eaca66d08c80c082",
+    "run_corridor_study.py": "8597199e67f121f629c78854f98e6bc50cabf14f4149e93dacfba101877f2019"
+  },
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "distinct_maps": 18,
+  "distinct_queries": 1152,
+  "checked_untimed_results": 11520,
+  "timed_batches": 5040,
+  "checked_timed_results": 107100,
+  "all_paths_and_costs_validated": true,
+  "sha256": {
+    "oracle.csv": "8938597aea41659b4314433e182a174b9fbdf7b2061fe7b4a2b890f4b9e62e4c",
+    "paired_deltas.csv": "6a43981f1961f0d2afcdfdadc2622d217f1be9fa1d59f152215a3523e2be98eb",
+    "protocol.json": "068b409839b0ff79729e3f91535a0e8294ab6f7fadbc7c97c40440005d944061",
+    "query_stats.csv": "6b5724320eda67d21033dd332aabfaffb8123cc0c665dba37cd3da7ae27a7487",
+    "sample.json": "87e50844beb02a56aa3fd49208616f121fe178b1823f8756d5f3a858ba08a781",
+    "structures.csv": "09e4ff73c2ba578236f28d70a70a7e878bc02fc2cc30faf84089271a54942748",
+    "timings_raw.csv": "e60bdf956a1e331f3b0cbc3b26979c468ea4f389b0e2a49b03891f8a4cc2949a",
+    "timing_summary.csv": "a3718b7c76795500e735ecddea5dd78e6d35613f0b1f5088619f1e88b2c2cd6c"
+  }
+}

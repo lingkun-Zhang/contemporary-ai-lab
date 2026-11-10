@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "contract": true,
+    "walkable_cells": 18,
+    "grid_edges": 19,
+    "retained_nodes": 4,
+    "corridor_edges": 5,
+    "degree_two_cells": 14,
+    "pure_cycle_anchors": 0,
+    "stored_path_coordinates": 24,
+    "max_corridor_length": 8,
+    "removed_nodes": 14
+  },
+  "path": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      3,
+      4
+    ]
+  ],
+  "cost": 7,
+  "stats": {
+    "expanded_nodes": 4,
+    "generated_nodes": 7,
+    "popped_nodes": 5,
+    "max_frontier": 3,
+    "stale_pops": 0,
+    "reopened_nodes": 0,
+    "unique_reached": 6,
+    "relaxed_arcs": 11,
+    "inserted_terminals": 2,
+    "split_corridors": 2,
+    "output_steps": 7
+  }
+}

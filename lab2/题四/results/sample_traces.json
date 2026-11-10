@@ -1,0 +1,3074 @@
+[
+  {
+    "depth": 2,
+    "best_target": "T2",
+    "best_value": -1,
+    "stats": {
+      "visited_nodes": 13,
+      "internal_nodes": 5,
+      "leaf_evaluations": 8,
+      "cutoff_events": 2,
+      "skipped_child_roots": 4,
+      "bound_crossings": 2,
+      "generated_actions": 16,
+      "distance_lookups": 16,
+      "sorting_calls": 0,
+      "sorted_actions": 0
+    },
+    "principal_variation": [
+      "T2",
+      "T3"
+    ],
+    "trace": [
+      {
+        "event": "enter",
+        "path": "root",
+        "state": {
+          "pos_a": 0,
+          "pos_b": 1,
+          "remaining": 15,
+          "score_a": 0,
+          "score_b": 0,
+          "turn": "A"
+        },
+        "depth_left": 2,
+        "alpha": "-inf",
+        "beta": "inf"
+      },
+      {
+        "event": "enter",
+        "path": "root/T1",
+        "state": {
+          "pos_a": 2,
+          "pos_b": 1,
+          "remaining": 14,
+          "score_a": -1,
+          "score_b": 0,
+          "turn": "B"
+        },
+        "depth_left": 1,
+        "alpha": "-inf",
+        "beta": "inf"
+      },
+      {
+        "event": "enter",
+        "path": "root/T1/T2",
+        "state": {
+          "pos_a": 2,
+          "pos_b": 3,
+          "remaining": 12,
+          "score_a": -1,
+          "score_b": -2,
+          "turn": "A"
+        },
+        "depth_left": 0,
+        "alpha": "-inf",
+        "beta": "inf"
+      },
+      {
+        "event": "return",
+        "path": "root/T1/T2",
+        "state": {
+          "pos_a": 2,
+          "pos_b": 3,
+          "remaining": 12,
+          "score_a": -1,
+          "score_b": -2,
+          "turn": "A"
+        },
+        "value": 1,
+        "returned_bound": "exact",
+        "terminal": true
+      },
+      {
+        "event": "update",
+        "path": "root/T1",
+        "state": {
+          "pos_a": 2,
+          "pos_b": 1,
+          "remaining": 14,
+          "score_a": -1,
+          "score_b": 0,
+          "turn": "B"
+        },
+        "target": "T2",
+        "travel_cost": 8,
+        "gain": -2,
+        "child_value": 1,
+        "value": 1,
+        "alpha": "-inf",
+        "beta": 1
+      },
+      {
+        "event": "enter",
+        "path": "root/T1/T3",
+        "state": {
+          "pos_a": 2,
+          "pos_b": 4,
+          "remaining": 10,
+          "score_a": -1,
+          "score_b": 3,
+          "turn": "A"
+        },
+        "depth_left": 0,
+        "alpha": "-inf",
+        "beta": 1
+      },
+      {
+        "event": "return",
+        "path": "root/T1/T3",
+        "state": {
+          "pos_a": 2,
+          "pos_b": 4,
+          "remaining": 10,
+          "score_a": -1,
+          "score_b": 3,
+          "turn": "A"
+        },
+        "value": -4,
+        "returned_bound": "exact",
+        "terminal": true
+      },
+      {
+        "event": "update",
+        "path": "root/T1",
+        "state": {
+          "pos_a": 2,
+          "pos_b": 1,
+          "remaining": 14,
+          "score_a": -1,
+          "score_b": 0,
+          "turn": "B"
+        },
+        "target": "T3",
+        "travel_cost": 4,
+        "gain": 3,
+        "child_value": -4,
+        "value": -4,
+        "alpha": "-inf",
+        "beta": -4
+      },
+      {
+        "event": "enter",
+        "path": "root/T1/T4",
+        "state": {
+          "pos_a": 2,
+          "pos_b": 5,
+          "remaining": 6,
+          "score_a": -1,
+          "score_b": -3,
+          "turn": "A"
+        },
+        "depth_left": 0,
+        "alpha": "-inf",
+        "beta": -4
+      },
+      {
+        "event": "return",
+        "path": "root/T1/T4",
+        "state": {
+          "pos_a": 2,
+          "pos_b": 5,
+          "remaining": 6,
+          "score_a": -1,
+          "score_b": -3,
+          "turn": "A"
+        },
+        "value": 2,
+        "returned_bound": "exact",
+        "terminal": true
+      },
+      {
+        "event": "update",
+        "path": "root/T1",
+        "state": {
+          "pos_a": 2,
+          "pos_b": 1,
+          "remaining": 14,
+          "score_a": -1,
+          "score_b": 0,
+          "turn": "B"
+        },
+        "target": "T4",
+        "travel_cost": 10,
+        "gain": -3,
+        "child_value": 2,
+        "value": -4,
+        "alpha": "-inf",
+        "beta": -4
+      },
+      {
+        "event": "return",
+        "path": "root/T1",
+        "state": {
+          "pos_a": 2,
+          "pos_b": 1,
+          "remaining": 14,
+          "score_a": -1,
+          "score_b": 0,
+          "turn": "B"
+        },
+        "value": -4,
+        "returned_bound": "exact",
+        "terminal": false
+      },
+      {
+        "event": "update",
+        "path": "root",
+        "state": {
+          "pos_a": 0,
+          "pos_b": 1,
+          "remaining": 15,
+          "score_a": 0,
+          "score_b": 0,
+          "turn": "A"
+        },
+        "target": "T1",
+        "travel_cost": 10,
+        "gain": -1,
+        "child_value": -4,
+        "value": -4,
+        "alpha": -4,
+        "beta": "inf"
+      },
+      {
+        "event": "enter",
+        "path": "root/T2",
+        "state": {
+          "pos_a": 3,
+          "pos_b": 1,
+          "remaining": 13,
+          "score_a": 2,
+          "score_b": 0,
+          "turn": "B"
+        },
+        "depth_left": 1,
+        "alpha": -4,
+        "beta": "inf"
+      },
+      {
+        "event": "enter",
+        "path": "root/T2/T1",
+        "state": {
+          "pos_a": 3,
+          "pos_b": 2,
+          "remaining": 12,
+          "score_a": 2,
+          "score_b": 1,
+          "turn": "A"
+        },
+        "depth_left": 0,
+        "alpha": -4,
+        "beta": "inf"
+      },
+      {
+        "event": "return",
+        "path": "root/T2/T1",
+        "state": {
+          "pos_a": 3,
+          "pos_b": 2,
+          "remaining": 12,
+          "score_a": 2,
+          "score_b": 1,
+          "turn": "A"
+        },
+        "value": 1,
+        "returned_bound": "exact",
+        "terminal": true
+      },
+      {
+        "event": "update",
+        "path": "root/T2",
+        "state": {
+          "pos_a": 3,
+          "pos_b": 1,
+          "remaining": 13,
+          "score_a": 2,
+          "score_b": 0,
+          "turn": "B"
+        },
+        "target": "T1",
+        "travel_cost": 8,
+        "gain": 1,
+        "child_value": 1,
+        "value": 1,
+        "alpha": -4,
+        "beta": 1
+      },
+      {
+        "event": "enter",
+        "path": "root/T2/T3",
+        "state": {
+          "pos_a": 3,
+          "pos_b": 4,
+          "remaining": 9,
+          "score_a": 2,
+          "score_b": 3,
+          "turn": "A"
+        },
+        "depth_left": 0,
+        "alpha": -4,
+        "beta": 1
+      },
+      {
+        "event": "return",
+        "path": "root/T2/T3",
+        "state": {
+          "pos_a": 3,
+          "pos_b": 4,
+          "remaining": 9,
+          "score_a": 2,
+          "score_b": 3,
+          "turn": "A"
+        },
+        "value": -1,
+        "returned_bound": "exact",
+        "terminal": true
+      },
+      {
+        "event": "update",
+        "path": "root/T2",
+        "state": {
+          "pos_a": 3,
+          "pos_b": 1,
+          "remaining": 13,
+          "score_a": 2,
+          "score_b": 0,
+          "turn": "B"
+        },
+        "target": "T3",
+        "travel_cost": 4,
+        "gain": 3,
+        "child_value": -1,
+        "value": -1,
+        "alpha": -4,
+        "beta": -1
+      },
+      {
+        "event": "enter",
+        "path": "root/T2/T4",
+        "state": {
+          "pos_a": 3,
+          "pos_b": 5,
+          "remaining": 5,
+          "score_a": 2,
+          "score_b": -3,
+          "turn": "A"
+        },
+        "depth_left": 0,
+        "alpha": -4,
+        "beta": -1
+      },
+      {
+        "event": "return",
+        "path": "root/T2/T4",
+        "state": {
+          "pos_a": 3,
+          "pos_b": 5,
+          "remaining": 5,
+          "score_a": 2,
+          "score_b": -3,
+          "turn": "A"
+        },
+        "value": 5,
+        "returned_bound": "exact",
+        "terminal": true
+      },
+      {
+        "event": "update",
+        "path": "root/T2",
+        "state": {
+          "pos_a": 3,
+          "pos_b": 1,
+          "remaining": 13,
+          "score_a": 2,
+          "score_b": 0,
+          "turn": "B"
+        },
+        "target": "T4",
+        "travel_cost": 10,
+        "gain": -3,
+        "child_value": 5,
+        "value": -1,
+        "alpha": -4,
+        "beta": -1
+      },
+      {
+        "event": "return",
+        "path": "root/T2",
+        "state": {
+          "pos_a": 3,
+          "pos_b": 1,
+          "remaining": 13,
+          "score_a": 2,
+          "score_b": 0,
+          "turn": "B"
+        },
+        "value": -1,
+        "returned_bound": "exact",
+        "terminal": false
+      },
+      {
+        "event": "update",
+        "path": "root",
+        "state": {
+          "pos_a": 0,
+          "pos_b": 1,
+          "remaining": 15,
+          "score_a": 0,
+          "score_b": 0,
+          "turn": "A"
+        },
+        "target": "T2",
+        "travel_cost": 4,
+        "gain": 2,
+        "child_value": -1,
+        "value": -1,
+        "alpha": -1,
+        "beta": "inf"
+      },
+      {
+        "event": "enter",
+        "path": "root/T3",
+        "state": {
+          "pos_a": 4,
+          "pos_b": 1,
+          "remaining": 11,
+          "score_a": -1,
+          "score_b": 0,
+          "turn": "B"
+        },
+        "depth_left": 1,
+        "alpha": -1,
+        "beta": "inf"
+      },
+      {
+        "event": "enter",
+        "path": "root/T3/T1",
+        "state": {
+          "pos_a": 4,
+          "pos_b": 2,
+          "remaining": 10,
+          "score_a": -1,
+          "score_b": 1,
+          "turn": "A"
+        },
+        "depth_left": 0,
+        "alpha": -1,
+        "beta": "inf"
+      },
+      {
+        "event": "return",
+        "path": "root/T3/T1",
+        "state": {
+          "pos_a": 4,
+          "pos_b": 2,
+          "remaining": 10,
+          "score_a": -1,
+          "score_b": 1,
+          "turn": "A"
+        },
+        "value": -2,
+        "returned_bound": "exact",
+        "terminal": true
+      },
+      {
+        "event": "update",
+        "path": "root/T3",
+        "state": {
+          "pos_a": 4,
+          "pos_b": 1,
+          "remaining": 11,
+          "score_a": -1,
+          "score_b": 0,
+          "turn": "B"
+        },
+        "target": "T1",
+        "travel_cost": 8,
+        "gain": 1,
+        "child_value": -2,
+        "value": -2,
+        "alpha": -1,
+        "beta": -2
+      },
+      {
+        "event": "cutoff",
+        "path": "root/T3",
+        "state": {
+          "pos_a": 4,
+          "pos_b": 1,
+          "remaining": 11,
+          "score_a": -1,
+          "score_b": 0,
+          "turn": "B"
+        },
+        "alpha": -1,
+        "beta": -2,
+        "skipped_targets": [
+          "T2",
+          "T4"
+        ]
+      },
+      {
+        "event": "return",
+        "path": "root/T3",
+        "state": {
+          "pos_a": 4,
+          "pos_b": 1,
+          "remaining": 11,
+          "score_a": -1,
+          "score_b": 0,
+          "turn": "B"
+        },
+        "value": -2,
+        "returned_bound": "upper",
+        "terminal": false
+      },
+      {
+        "event": "update",
+        "path": "root",
+        "state": {
+          "pos_a": 0,
+          "pos_b": 1,
+          "remaining": 15,
+          "score_a": 0,
+          "score_b": 0,
+          "turn": "A"
+        },
+        "target": "T3",
+        "travel_cost": 8,
+        "gain": -1,
+        "child_value": -2,
+        "value": -1,
+        "alpha": -1,
+        "beta": "inf"
+      },
+      {
+        "event": "enter",
+        "path": "root/T4",
+        "state": {
+          "pos_a": 5,
+          "pos_b": 1,
+          "remaining": 7,
+          "score_a": -1,
+          "score_b": 0,
+          "turn": "B"
+        },
+        "depth_left": 1,
+        "alpha": -1,
+        "beta": "inf"
+      },
+      {
+        "event": "enter",
+        "path": "root/T4/T1",
+        "state": {
+          "pos_a": 5,
+          "pos_b": 2,
+          "remaining": 6,
+          "score_a": -1,
+          "score_b": 1,
+          "turn": "A"
+        },
+        "depth_left": 0,
+        "alpha": -1,
+        "beta": "inf"
+      },
+      {
+        "event": "return",
+        "path": "root/T4/T1",
+        "state": {
+          "pos_a": 5,
+          "pos_b": 2,
+          "remaining": 6,
+          "score_a": -1,
+          "score_b": 1,
+          "turn": "A"
+        },
+        "value": -2,
+        "returned_bound": "exact",
+        "terminal": true
+      },
+      {
+        "event": "update",
+        "path": "root/T4",
+        "state": {
+          "pos_a": 5,
+          "pos_b": 1,
+          "remaining": 7,
+          "score_a": -1,
+          "score_b": 0,
+          "turn": "B"
+        },
+        "target": "T1",
+        "travel_cost": 8,
+        "gain": 1,
+        "child_value": -2,
+        "value": -2,
+        "alpha": -1,
+        "beta": -2
+      },
+      {
+        "event": "cutoff",
+        "path": "root/T4",
+        "state": {
+          "pos_a": 5,
+          "pos_b": 1,
+          "remaining": 7,
+          "score_a": -1,
+          "score_b": 0,
+          "turn": "B"
+        },
+        "alpha": -1,
+        "beta": -2,
+        "skipped_targets": [
+          "T2",
+          "T3"
+        ]
+      },
+      {
+        "event": "return",
+        "path": "root/T4",
+        "state": {
+          "pos_a": 5,
+          "pos_b": 1,
+          "remaining": 7,
+          "score_a": -1,
+          "score_b": 0,
+          "turn": "B"
+        },
+        "value": -2,
+        "returned_bound": "upper",
+        "terminal": false
+      },
+      {
+        "event": "update",
+        "path": "root",
+        "state": {
+          "pos_a": 0,
+          "pos_b": 1,
+          "remaining": 15,
+          "score_a": 0,
+          "score_b": 0,
+          "turn": "A"
+        },
+        "target": "T4",
+        "travel_cost": 8,
+        "gain": -1,
+        "child_value": -2,
+        "value": -1,
+        "alpha": -1,
+        "beta": "inf"
+      },
+      {
+        "event": "return",
+        "path": "root",
+        "state": {
+          "pos_a": 0,
+          "pos_b": 1,
+          "remaining": 15,
+          "score_a": 0,
+          "score_b": 0,
+          "turn": "A"
+        },
+        "value": -1,
+        "returned_bound": "exact",
+        "terminal": false
+      }
+    ]
+  },
+  {
+    "depth": 4,
+    "best_target": "T3",
+    "best_value": 3,
+    "stats": {
+      "visited_nodes": 47,
+      "internal_nodes": 31,
+      "leaf_evaluations": 16,
+      "cutoff_events": 5,
+      "skipped_child_roots": 6,
+      "bound_crossings": 12,
+      "generated_actions": 52,
+      "distance_lookups": 52,
+      "sorting_calls": 0,
+      "sorted_actions": 0
+    },
+    "principal_variation": [
+      "T3",
+      "T1",
+      "T2",
+      "T4"
+    ],
+    "trace": [
+      {
+        "event": "enter",
+        "path": "root",
+        "state": {
+          "pos_a": 0,
+          "pos_b": 1,
+          "remaining": 15,
+          "score_a": 0,
+          "score_b": 0,
+          "turn": "A"
+        },
+        "depth_left": 4,
+        "alpha": "-inf",
+        "beta": "inf"
+      },
+      {
+        "event": "enter",
+        "path": "root/T1",
+        "state": {
+          "pos_a": 2,
+          "pos_b": 1,
+          "remaining": 14,
+          "score_a": -1,
+          "score_b": 0,
+          "turn": "B"
+        },
+        "depth_left": 3,
+        "alpha": "-inf",
+        "beta": "inf"
+      },
+      {
+        "event": "enter",
+        "path": "root/T1/T2",
+        "state": {
+          "pos_a": 2,
+          "pos_b": 3,
+          "remaining": 12,
+          "score_a": -1,
+          "score_b": -2,
+          "turn": "A"
+        },
+        "depth_left": 2,
+        "alpha": "-inf",
+        "beta": "inf"
+      },
+      {
+        "event": "enter",
+        "path": "root/T1/T2/T3",
+        "state": {
+          "pos_a": 4,
+          "pos_b": 3,
+          "remaining": 8,
+          "score_a": 0,
+          "score_b": -2,
+          "turn": "B"
+        },
+        "depth_left": 1,
+        "alpha": "-inf",
+        "beta": "inf"
+      },
+      {
+        "event": "enter",
+        "path": "root/T1/T2/T3/T4",
+        "state": {
+          "pos_a": 4,
+          "pos_b": 5,
+          "remaining": 0,
+          "score_a": 0,
+          "score_b": -1,
+          "turn": "A"
+        },
+        "depth_left": 0,
+        "alpha": "-inf",
+        "beta": "inf"
+      },
+      {
+        "event": "return",
+        "path": "root/T1/T2/T3/T4",
+        "state": {
+          "pos_a": 4,
+          "pos_b": 5,
+          "remaining": 0,
+          "score_a": 0,
+          "score_b": -1,
+          "turn": "A"
+        },
+        "value": 1,
+        "returned_bound": "exact",
+        "terminal": true
+      },
+      {
+        "event": "update",
+        "path": "root/T1/T2/T3",
+        "state": {
+          "pos_a": 4,
+          "pos_b": 3,
+          "remaining": 8,
+          "score_a": 0,
+          "score_b": -2,
+          "turn": "B"
+        },
+        "target": "T4",
+        "travel_cost": 6,
+        "gain": 1,
+        "child_value": 1,
+        "value": 1,
+        "alpha": "-inf",
+        "beta": 1
+      },
+      {
+        "event": "return",
+        "path": "root/T1/T2/T3",
+        "state": {
+          "pos_a": 4,
+          "pos_b": 3,
+          "remaining": 8,
+          "score_a": 0,
+          "score_b": -2,
+          "turn": "B"
+        },
+        "value": 1,
+        "returned_bound": "exact",
+        "terminal": false
+      },
+      {
+        "event": "update",
+        "path": "root/T1/T2",
+        "state": {
+          "pos_a": 2,
+          "pos_b": 3,
+          "remaining": 12,
+          "score_a": -1,
+          "score_b": -2,
+          "turn": "A"
+        },
+        "target": "T3",
+        "travel_cost": 6,
+        "gain": 1,
+        "child_value": 1,
+        "value": 1,
+        "alpha": 1,
+        "beta": "inf"
+      },
+      {
+        "event": "enter",
+        "path": "root/T1/T2/T4",
+        "state": {
+          "pos_a": 5,
+          "pos_b": 3,
+          "remaining": 4,
+          "score_a": -6,
+          "score_b": -2,
+          "turn": "B"
+        },
+        "depth_left": 1,
+        "alpha": 1,
+        "beta": "inf"
+      },
+      {
+        "event": "enter",
+        "path": "root/T1/T2/T4/T3",
+        "state": {
+          "pos_a": 5,
+          "pos_b": 4,
+          "remaining": 0,
+          "score_a": -6,
+          "score_b": -1,
+          "turn": "A"
+        },
+        "depth_left": 0,
+        "alpha": 1,
+        "beta": "inf"
+      },
+      {
+        "event": "return",
+        "path": "root/T1/T2/T4/T3",
+        "state": {
+          "pos_a": 5,
+          "pos_b": 4,
+          "remaining": 0,
+          "score_a": -6,
+          "score_b": -1,
+          "turn": "A"
+        },
+        "value": -5,
+        "returned_bound": "exact",
+        "terminal": true
+      },
+      {
+        "event": "update",
+        "path": "root/T1/T2/T4",
+        "state": {
+          "pos_a": 5,
+          "pos_b": 3,
+          "remaining": 4,
+          "score_a": -6,
+          "score_b": -2,
+          "turn": "B"
+        },
+        "target": "T3",
+        "travel_cost": 6,
+        "gain": 1,
+        "child_value": -5,
+        "value": -5,
+        "alpha": 1,
+        "beta": -5
+      },
+      {
+        "event": "return",
+        "path": "root/T1/T2/T4",
+        "state": {
+          "pos_a": 5,
+          "pos_b": 3,
+          "remaining": 4,
+          "score_a": -6,
+          "score_b": -2,
+          "turn": "B"
+        },
+        "value": -5,
+        "returned_bound": "upper",
+        "terminal": false
+      },
+      {
+        "event": "update",
+        "path": "root/T1/T2",
+        "state": {
+          "pos_a": 2,
+          "pos_b": 3,
+          "remaining": 12,
+          "score_a": -1,
+          "score_b": -2,
+          "turn": "A"
+        },
+        "target": "T4",
+        "travel_cost": 12,
+        "gain": -5,
+        "child_value": -5,
+        "value": 1,
+        "alpha": 1,
+        "beta": "inf"
+      },
+      {
+        "event": "return",
+        "path": "root/T1/T2",
+        "state": {
+          "pos_a": 2,
+          "pos_b": 3,
+          "remaining": 12,
+          "score_a": -1,
+          "score_b": -2,
+          "turn": "A"
+        },
+        "value": 1,
+        "returned_bound": "exact",
+        "terminal": false
+      },
+      {
+        "event": "update",
+        "path": "root/T1",
+        "state": {
+          "pos_a": 2,
+          "pos_b": 1,
+          "remaining": 14,
+          "score_a": -1,
+          "score_b": 0,
+          "turn": "B"
+        },
+        "target": "T2",
+        "travel_cost": 8,
+        "gain": -2,
+        "child_value": 1,
+        "value": 1,
+        "alpha": "-inf",
+        "beta": 1
+      },
+      {
+        "event": "enter",
+        "path": "root/T1/T3",
+        "state": {
+          "pos_a": 2,
+          "pos_b": 4,
+          "remaining": 10,
+          "score_a": -1,
+          "score_b": 3,
+          "turn": "A"
+        },
+        "depth_left": 2,
+        "alpha": "-inf",
+        "beta": 1
+      },
+      {
+        "event": "enter",
+        "path": "root/T1/T3/T2",
+        "state": {
+          "pos_a": 3,
+          "pos_b": 4,
+          "remaining": 8,
+          "score_a": -1,
+          "score_b": 3,
+          "turn": "B"
+        },
+        "depth_left": 1,
+        "alpha": "-inf",
+        "beta": 1
+      },
+      {
+        "event": "enter",
+        "path": "root/T1/T3/T2/T4",
+        "state": {
+          "pos_a": 3,
+          "pos_b": 5,
+          "remaining": 0,
+          "score_a": -1,
+          "score_b": 4,
+          "turn": "A"
+        },
+        "depth_left": 0,
+        "alpha": "-inf",
+        "beta": 1
+      },
+      {
+        "event": "return",
+        "path": "root/T1/T3/T2/T4",
+        "state": {
+          "pos_a": 3,
+          "pos_b": 5,
+          "remaining": 0,
+          "score_a": -1,
+          "score_b": 4,
+          "turn": "A"
+        },
+        "value": -5,
+        "returned_bound": "exact",
+        "terminal": true
+      },
+      {
+        "event": "update",
+        "path": "root/T1/T3/T2",
+        "state": {
+          "pos_a": 3,
+          "pos_b": 4,
+          "remaining": 8,
+          "score_a": -1,
+          "score_b": 3,
+          "turn": "B"
+        },
+        "target": "T4",
+        "travel_cost": 6,
+        "gain": 1,
+        "child_value": -5,
+        "value": -5,
+        "alpha": "-inf",
+        "beta": -5
+      },
+      {
+        "event": "return",
+        "path": "root/T1/T3/T2",
+        "state": {
+          "pos_a": 3,
+          "pos_b": 4,
+          "remaining": 8,
+          "score_a": -1,
+          "score_b": 3,
+          "turn": "B"
+        },
+        "value": -5,
+        "returned_bound": "exact",
+        "terminal": false
+      },
+      {
+        "event": "update",
+        "path": "root/T1/T3",
+        "state": {
+          "pos_a": 2,
+          "pos_b": 4,
+          "remaining": 10,
+          "score_a": -1,
+          "score_b": 3,
+          "turn": "A"
+        },
+        "target": "T2",
+        "travel_cost": 6,
+        "gain": 0,
+        "child_value": -5,
+        "value": -5,
+        "alpha": -5,
+        "beta": 1
+      },
+      {
+        "event": "enter",
+        "path": "root/T1/T3/T4",
+        "state": {
+          "pos_a": 5,
+          "pos_b": 4,
+          "remaining": 2,
+          "score_a": -6,
+          "score_b": 3,
+          "turn": "B"
+        },
+        "depth_left": 1,
+        "alpha": -5,
+        "beta": 1
+      },
+      {
+        "event": "enter",
+        "path": "root/T1/T3/T4/T2",
+        "state": {
+          "pos_a": 5,
+          "pos_b": 3,
+          "remaining": 0,
+          "score_a": -6,
+          "score_b": 3,
+          "turn": "A"
+        },
+        "depth_left": 0,
+        "alpha": -5,
+        "beta": 1
+      },
+      {
+        "event": "return",
+        "path": "root/T1/T3/T4/T2",
+        "state": {
+          "pos_a": 5,
+          "pos_b": 3,
+          "remaining": 0,
+          "score_a": -6,
+          "score_b": 3,
+          "turn": "A"
+        },
+        "value": -9,
+        "returned_bound": "exact",
+        "terminal": true
+      },
+      {
+        "event": "update",
+        "path": "root/T1/T3/T4",
+        "state": {
+          "pos_a": 5,
+          "pos_b": 4,
+          "remaining": 2,
+          "score_a": -6,
+          "score_b": 3,
+          "turn": "B"
+        },
+        "target": "T2",
+        "travel_cost": 6,
+        "gain": 0,
+        "child_value": -9,
+        "value": -9,
+        "alpha": -5,
+        "beta": -9
+      },
+      {
+        "event": "return",
+        "path": "root/T1/T3/T4",
+        "state": {
+          "pos_a": 5,
+          "pos_b": 4,
+          "remaining": 2,
+          "score_a": -6,
+          "score_b": 3,
+          "turn": "B"
+        },
+        "value": -9,
+        "returned_bound": "upper",
+        "terminal": false
+      },
+      {
+        "event": "update",
+        "path": "root/T1/T3",
+        "state": {
+          "pos_a": 2,
+          "pos_b": 4,
+          "remaining": 10,
+          "score_a": -1,
+          "score_b": 3,
+          "turn": "A"
+        },
+        "target": "T4",
+        "travel_cost": 12,
+        "gain": -5,
+        "child_value": -9,
+        "value": -5,
+        "alpha": -5,
+        "beta": 1
+      },
+      {
+        "event": "return",
+        "path": "root/T1/T3",
+        "state": {
+          "pos_a": 2,
+          "pos_b": 4,
+          "remaining": 10,
+          "score_a": -1,
+          "score_b": 3,
+          "turn": "A"
+        },
+        "value": -5,
+        "returned_bound": "exact",
+        "terminal": false
+      },
+      {
+        "event": "update",
+        "path": "root/T1",
+        "state": {
+          "pos_a": 2,
+          "pos_b": 1,
+          "remaining": 14,
+          "score_a": -1,
+          "score_b": 0,
+          "turn": "B"
+        },
+        "target": "T3",
+        "travel_cost": 4,
+        "gain": 3,
+        "child_value": -5,
+        "value": -5,
+        "alpha": "-inf",
+        "beta": -5
+      },
+      {
+        "event": "enter",
+        "path": "root/T1/T4",
+        "state": {
+          "pos_a": 2,
+          "pos_b": 5,
+          "remaining": 6,
+          "score_a": -1,
+          "score_b": -3,
+          "turn": "A"
+        },
+        "depth_left": 2,
+        "alpha": "-inf",
+        "beta": -5
+      },
+      {
+        "event": "enter",
+        "path": "root/T1/T4/T2",
+        "state": {
+          "pos_a": 3,
+          "pos_b": 5,
+          "remaining": 4,
+          "score_a": -1,
+          "score_b": -3,
+          "turn": "B"
+        },
+        "depth_left": 1,
+        "alpha": "-inf",
+        "beta": -5
+      },
+      {
+        "event": "enter",
+        "path": "root/T1/T4/T2/T3",
+        "state": {
+          "pos_a": 3,
+          "pos_b": 4,
+          "remaining": 0,
+          "score_a": -1,
+          "score_b": -2,
+          "turn": "A"
+        },
+        "depth_left": 0,
+        "alpha": "-inf",
+        "beta": -5
+      },
+      {
+        "event": "return",
+        "path": "root/T1/T4/T2/T3",
+        "state": {
+          "pos_a": 3,
+          "pos_b": 4,
+          "remaining": 0,
+          "score_a": -1,
+          "score_b": -2,
+          "turn": "A"
+        },
+        "value": 1,
+        "returned_bound": "exact",
+        "terminal": true
+      },
+      {
+        "event": "update",
+        "path": "root/T1/T4/T2",
+        "state": {
+          "pos_a": 3,
+          "pos_b": 5,
+          "remaining": 4,
+          "score_a": -1,
+          "score_b": -3,
+          "turn": "B"
+        },
+        "target": "T3",
+        "travel_cost": 6,
+        "gain": 1,
+        "child_value": 1,
+        "value": 1,
+        "alpha": "-inf",
+        "beta": -5
+      },
+      {
+        "event": "return",
+        "path": "root/T1/T4/T2",
+        "state": {
+          "pos_a": 3,
+          "pos_b": 5,
+          "remaining": 4,
+          "score_a": -1,
+          "score_b": -3,
+          "turn": "B"
+        },
+        "value": 1,
+        "returned_bound": "lower",
+        "terminal": false
+      },
+      {
+        "event": "update",
+        "path": "root/T1/T4",
+        "state": {
+          "pos_a": 2,
+          "pos_b": 5,
+          "remaining": 6,
+          "score_a": -1,
+          "score_b": -3,
+          "turn": "A"
+        },
+        "target": "T2",
+        "travel_cost": 6,
+        "gain": 0,
+        "child_value": 1,
+        "value": 1,
+        "alpha": 1,
+        "beta": -5
+      },
+      {
+        "event": "cutoff",
+        "path": "root/T1/T4",
+        "state": {
+          "pos_a": 2,
+          "pos_b": 5,
+          "remaining": 6,
+          "score_a": -1,
+          "score_b": -3,
+          "turn": "A"
+        },
+        "alpha": 1,
+        "beta": -5,
+        "skipped_targets": [
+          "T3"
+        ]
+      },
+      {
+        "event": "return",
+        "path": "root/T1/T4",
+        "state": {
+          "pos_a": 2,
+          "pos_b": 5,
+          "remaining": 6,
+          "score_a": -1,
+          "score_b": -3,
+          "turn": "A"
+        },
+        "value": 1,
+        "returned_bound": "lower",
+        "terminal": false
+      },
+      {
+        "event": "update",
+        "path": "root/T1",
+        "state": {
+          "pos_a": 2,
+          "pos_b": 1,
+          "remaining": 14,
+          "score_a": -1,
+          "score_b": 0,
+          "turn": "B"
+        },
+        "target": "T4",
+        "travel_cost": 10,
+        "gain": -3,
+        "child_value": 1,
+        "value": -5,
+        "alpha": "-inf",
+        "beta": -5
+      },
+      {
+        "event": "return",
+        "path": "root/T1",
+        "state": {
+          "pos_a": 2,
+          "pos_b": 1,
+          "remaining": 14,
+          "score_a": -1,
+          "score_b": 0,
+          "turn": "B"
+        },
+        "value": -5,
+        "returned_bound": "exact",
+        "terminal": false
+      },
+      {
+        "event": "update",
+        "path": "root",
+        "state": {
+          "pos_a": 0,
+          "pos_b": 1,
+          "remaining": 15,
+          "score_a": 0,
+          "score_b": 0,
+          "turn": "A"
+        },
+        "target": "T1",
+        "travel_cost": 10,
+        "gain": -1,
+        "child_value": -5,
+        "value": -5,
+        "alpha": -5,
+        "beta": "inf"
+      },
+      {
+        "event": "enter",
+        "path": "root/T2",
+        "state": {
+          "pos_a": 3,
+          "pos_b": 1,
+          "remaining": 13,
+          "score_a": 2,
+          "score_b": 0,
+          "turn": "B"
+        },
+        "depth_left": 3,
+        "alpha": -5,
+        "beta": "inf"
+      },
+      {
+        "event": "enter",
+        "path": "root/T2/T1",
+        "state": {
+          "pos_a": 3,
+          "pos_b": 2,
+          "remaining": 12,
+          "score_a": 2,
+          "score_b": 1,
+          "turn": "A"
+        },
+        "depth_left": 2,
+        "alpha": -5,
+        "beta": "inf"
+      },
+      {
+        "event": "enter",
+        "path": "root/T2/T1/T3",
+        "state": {
+          "pos_a": 4,
+          "pos_b": 2,
+          "remaining": 8,
+          "score_a": 3,
+          "score_b": 1,
+          "turn": "B"
+        },
+        "depth_left": 1,
+        "alpha": -5,
+        "beta": "inf"
+      },
+      {
+        "event": "enter",
+        "path": "root/T2/T1/T3/T4",
+        "state": {
+          "pos_a": 4,
+          "pos_b": 5,
+          "remaining": 0,
+          "score_a": 3,
+          "score_b": -4,
+          "turn": "A"
+        },
+        "depth_left": 0,
+        "alpha": -5,
+        "beta": "inf"
+      },
+      {
+        "event": "return",
+        "path": "root/T2/T1/T3/T4",
+        "state": {
+          "pos_a": 4,
+          "pos_b": 5,
+          "remaining": 0,
+          "score_a": 3,
+          "score_b": -4,
+          "turn": "A"
+        },
+        "value": 7,
+        "returned_bound": "exact",
+        "terminal": true
+      },
+      {
+        "event": "update",
+        "path": "root/T2/T1/T3",
+        "state": {
+          "pos_a": 4,
+          "pos_b": 2,
+          "remaining": 8,
+          "score_a": 3,
+          "score_b": 1,
+          "turn": "B"
+        },
+        "target": "T4",
+        "travel_cost": 12,
+        "gain": -5,
+        "child_value": 7,
+        "value": 7,
+        "alpha": -5,
+        "beta": 7
+      },
+      {
+        "event": "return",
+        "path": "root/T2/T1/T3",
+        "state": {
+          "pos_a": 4,
+          "pos_b": 2,
+          "remaining": 8,
+          "score_a": 3,
+          "score_b": 1,
+          "turn": "B"
+        },
+        "value": 7,
+        "returned_bound": "exact",
+        "terminal": false
+      },
+      {
+        "event": "update",
+        "path": "root/T2/T1",
+        "state": {
+          "pos_a": 3,
+          "pos_b": 2,
+          "remaining": 12,
+          "score_a": 2,
+          "score_b": 1,
+          "turn": "A"
+        },
+        "target": "T3",
+        "travel_cost": 6,
+        "gain": 1,
+        "child_value": 7,
+        "value": 7,
+        "alpha": 7,
+        "beta": "inf"
+      },
+      {
+        "event": "enter",
+        "path": "root/T2/T1/T4",
+        "state": {
+          "pos_a": 5,
+          "pos_b": 2,
+          "remaining": 4,
+          "score_a": 3,
+          "score_b": 1,
+          "turn": "B"
+        },
+        "depth_left": 1,
+        "alpha": 7,
+        "beta": "inf"
+      },
+      {
+        "event": "enter",
+        "path": "root/T2/T1/T4/T3",
+        "state": {
+          "pos_a": 5,
+          "pos_b": 4,
+          "remaining": 0,
+          "score_a": 3,
+          "score_b": 2,
+          "turn": "A"
+        },
+        "depth_left": 0,
+        "alpha": 7,
+        "beta": "inf"
+      },
+      {
+        "event": "return",
+        "path": "root/T2/T1/T4/T3",
+        "state": {
+          "pos_a": 5,
+          "pos_b": 4,
+          "remaining": 0,
+          "score_a": 3,
+          "score_b": 2,
+          "turn": "A"
+        },
+        "value": 1,
+        "returned_bound": "exact",
+        "terminal": true
+      },
+      {
+        "event": "update",
+        "path": "root/T2/T1/T4",
+        "state": {
+          "pos_a": 5,
+          "pos_b": 2,
+          "remaining": 4,
+          "score_a": 3,
+          "score_b": 1,
+          "turn": "B"
+        },
+        "target": "T3",
+        "travel_cost": 6,
+        "gain": 1,
+        "child_value": 1,
+        "value": 1,
+        "alpha": 7,
+        "beta": 1
+      },
+      {
+        "event": "return",
+        "path": "root/T2/T1/T4",
+        "state": {
+          "pos_a": 5,
+          "pos_b": 2,
+          "remaining": 4,
+          "score_a": 3,
+          "score_b": 1,
+          "turn": "B"
+        },
+        "value": 1,
+        "returned_bound": "upper",
+        "terminal": false
+      },
+      {
+        "event": "update",
+        "path": "root/T2/T1",
+        "state": {
+          "pos_a": 3,
+          "pos_b": 2,
+          "remaining": 12,
+          "score_a": 2,
+          "score_b": 1,
+          "turn": "A"
+        },
+        "target": "T4",
+        "travel_cost": 6,
+        "gain": 1,
+        "child_value": 1,
+        "value": 7,
+        "alpha": 7,
+        "beta": "inf"
+      },
+      {
+        "event": "return",
+        "path": "root/T2/T1",
+        "state": {
+          "pos_a": 3,
+          "pos_b": 2,
+          "remaining": 12,
+          "score_a": 2,
+          "score_b": 1,
+          "turn": "A"
+        },
+        "value": 7,
+        "returned_bound": "exact",
+        "terminal": false
+      },
+      {
+        "event": "update",
+        "path": "root/T2",
+        "state": {
+          "pos_a": 3,
+          "pos_b": 1,
+          "remaining": 13,
+          "score_a": 2,
+          "score_b": 0,
+          "turn": "B"
+        },
+        "target": "T1",
+        "travel_cost": 8,
+        "gain": 1,
+        "child_value": 7,
+        "value": 7,
+        "alpha": -5,
+        "beta": 7
+      },
+      {
+        "event": "enter",
+        "path": "root/T2/T3",
+        "state": {
+          "pos_a": 3,
+          "pos_b": 4,
+          "remaining": 9,
+          "score_a": 2,
+          "score_b": 3,
+          "turn": "A"
+        },
+        "depth_left": 2,
+        "alpha": -5,
+        "beta": 7
+      },
+      {
+        "event": "enter",
+        "path": "root/T2/T3/T1",
+        "state": {
+          "pos_a": 2,
+          "pos_b": 4,
+          "remaining": 8,
+          "score_a": 5,
+          "score_b": 3,
+          "turn": "B"
+        },
+        "depth_left": 1,
+        "alpha": -5,
+        "beta": 7
+      },
+      {
+        "event": "enter",
+        "path": "root/T2/T3/T1/T4",
+        "state": {
+          "pos_a": 2,
+          "pos_b": 5,
+          "remaining": 0,
+          "score_a": 5,
+          "score_b": 4,
+          "turn": "A"
+        },
+        "depth_left": 0,
+        "alpha": -5,
+        "beta": 7
+      },
+      {
+        "event": "return",
+        "path": "root/T2/T3/T1/T4",
+        "state": {
+          "pos_a": 2,
+          "pos_b": 5,
+          "remaining": 0,
+          "score_a": 5,
+          "score_b": 4,
+          "turn": "A"
+        },
+        "value": 1,
+        "returned_bound": "exact",
+        "terminal": true
+      },
+      {
+        "event": "update",
+        "path": "root/T2/T3/T1",
+        "state": {
+          "pos_a": 2,
+          "pos_b": 4,
+          "remaining": 8,
+          "score_a": 5,
+          "score_b": 3,
+          "turn": "B"
+        },
+        "target": "T4",
+        "travel_cost": 6,
+        "gain": 1,
+        "child_value": 1,
+        "value": 1,
+        "alpha": -5,
+        "beta": 1
+      },
+      {
+        "event": "return",
+        "path": "root/T2/T3/T1",
+        "state": {
+          "pos_a": 2,
+          "pos_b": 4,
+          "remaining": 8,
+          "score_a": 5,
+          "score_b": 3,
+          "turn": "B"
+        },
+        "value": 1,
+        "returned_bound": "exact",
+        "terminal": false
+      },
+      {
+        "event": "update",
+        "path": "root/T2/T3",
+        "state": {
+          "pos_a": 3,
+          "pos_b": 4,
+          "remaining": 9,
+          "score_a": 2,
+          "score_b": 3,
+          "turn": "A"
+        },
+        "target": "T1",
+        "travel_cost": 6,
+        "gain": 3,
+        "child_value": 1,
+        "value": 1,
+        "alpha": 1,
+        "beta": 7
+      },
+      {
+        "event": "enter",
+        "path": "root/T2/T3/T4",
+        "state": {
+          "pos_a": 5,
+          "pos_b": 4,
+          "remaining": 1,
+          "score_a": 3,
+          "score_b": 3,
+          "turn": "B"
+        },
+        "depth_left": 1,
+        "alpha": 1,
+        "beta": 7
+      },
+      {
+        "event": "enter",
+        "path": "root/T2/T3/T4/T1",
+        "state": {
+          "pos_a": 5,
+          "pos_b": 2,
+          "remaining": 0,
+          "score_a": 3,
+          "score_b": 6,
+          "turn": "A"
+        },
+        "depth_left": 0,
+        "alpha": 1,
+        "beta": 7
+      },
+      {
+        "event": "return",
+        "path": "root/T2/T3/T4/T1",
+        "state": {
+          "pos_a": 5,
+          "pos_b": 2,
+          "remaining": 0,
+          "score_a": 3,
+          "score_b": 6,
+          "turn": "A"
+        },
+        "value": -3,
+        "returned_bound": "exact",
+        "terminal": true
+      },
+      {
+        "event": "update",
+        "path": "root/T2/T3/T4",
+        "state": {
+          "pos_a": 5,
+          "pos_b": 4,
+          "remaining": 1,
+          "score_a": 3,
+          "score_b": 3,
+          "turn": "B"
+        },
+        "target": "T1",
+        "travel_cost": 6,
+        "gain": 3,
+        "child_value": -3,
+        "value": -3,
+        "alpha": 1,
+        "beta": -3
+      },
+      {
+        "event": "return",
+        "path": "root/T2/T3/T4",
+        "state": {
+          "pos_a": 5,
+          "pos_b": 4,
+          "remaining": 1,
+          "score_a": 3,
+          "score_b": 3,
+          "turn": "B"
+        },
+        "value": -3,
+        "returned_bound": "upper",
+        "terminal": false
+      },
+      {
+        "event": "update",
+        "path": "root/T2/T3",
+        "state": {
+          "pos_a": 3,
+          "pos_b": 4,
+          "remaining": 9,
+          "score_a": 2,
+          "score_b": 3,
+          "turn": "A"
+        },
+        "target": "T4",
+        "travel_cost": 6,
+        "gain": 1,
+        "child_value": -3,
+        "value": 1,
+        "alpha": 1,
+        "beta": 7
+      },
+      {
+        "event": "return",
+        "path": "root/T2/T3",
+        "state": {
+          "pos_a": 3,
+          "pos_b": 4,
+          "remaining": 9,
+          "score_a": 2,
+          "score_b": 3,
+          "turn": "A"
+        },
+        "value": 1,
+        "returned_bound": "exact",
+        "terminal": false
+      },
+      {
+        "event": "update",
+        "path": "root/T2",
+        "state": {
+          "pos_a": 3,
+          "pos_b": 1,
+          "remaining": 13,
+          "score_a": 2,
+          "score_b": 0,
+          "turn": "B"
+        },
+        "target": "T3",
+        "travel_cost": 4,
+        "gain": 3,
+        "child_value": 1,
+        "value": 1,
+        "alpha": -5,
+        "beta": 1
+      },
+      {
+        "event": "enter",
+        "path": "root/T2/T4",
+        "state": {
+          "pos_a": 3,
+          "pos_b": 5,
+          "remaining": 5,
+          "score_a": 2,
+          "score_b": -3,
+          "turn": "A"
+        },
+        "depth_left": 2,
+        "alpha": -5,
+        "beta": 1
+      },
+      {
+        "event": "enter",
+        "path": "root/T2/T4/T1",
+        "state": {
+          "pos_a": 2,
+          "pos_b": 5,
+          "remaining": 4,
+          "score_a": 5,
+          "score_b": -3,
+          "turn": "B"
+        },
+        "depth_left": 1,
+        "alpha": -5,
+        "beta": 1
+      },
+      {
+        "event": "enter",
+        "path": "root/T2/T4/T1/T3",
+        "state": {
+          "pos_a": 2,
+          "pos_b": 4,
+          "remaining": 0,
+          "score_a": 5,
+          "score_b": -2,
+          "turn": "A"
+        },
+        "depth_left": 0,
+        "alpha": -5,
+        "beta": 1
+      },
+      {
+        "event": "return",
+        "path": "root/T2/T4/T1/T3",
+        "state": {
+          "pos_a": 2,
+          "pos_b": 4,
+          "remaining": 0,
+          "score_a": 5,
+          "score_b": -2,
+          "turn": "A"
+        },
+        "value": 7,
+        "returned_bound": "exact",
+        "terminal": true
+      },
+      {
+        "event": "update",
+        "path": "root/T2/T4/T1",
+        "state": {
+          "pos_a": 2,
+          "pos_b": 5,
+          "remaining": 4,
+          "score_a": 5,
+          "score_b": -3,
+          "turn": "B"
+        },
+        "target": "T3",
+        "travel_cost": 6,
+        "gain": 1,
+        "child_value": 7,
+        "value": 7,
+        "alpha": -5,
+        "beta": 1
+      },
+      {
+        "event": "return",
+        "path": "root/T2/T4/T1",
+        "state": {
+          "pos_a": 2,
+          "pos_b": 5,
+          "remaining": 4,
+          "score_a": 5,
+          "score_b": -3,
+          "turn": "B"
+        },
+        "value": 7,
+        "returned_bound": "lower",
+        "terminal": false
+      },
+      {
+        "event": "update",
+        "path": "root/T2/T4",
+        "state": {
+          "pos_a": 3,
+          "pos_b": 5,
+          "remaining": 5,
+          "score_a": 2,
+          "score_b": -3,
+          "turn": "A"
+        },
+        "target": "T1",
+        "travel_cost": 6,
+        "gain": 3,
+        "child_value": 7,
+        "value": 7,
+        "alpha": 7,
+        "beta": 1
+      },
+      {
+        "event": "cutoff",
+        "path": "root/T2/T4",
+        "state": {
+          "pos_a": 3,
+          "pos_b": 5,
+          "remaining": 5,
+          "score_a": 2,
+          "score_b": -3,
+          "turn": "A"
+        },
+        "alpha": 7,
+        "beta": 1,
+        "skipped_targets": [
+          "T3"
+        ]
+      },
+      {
+        "event": "return",
+        "path": "root/T2/T4",
+        "state": {
+          "pos_a": 3,
+          "pos_b": 5,
+          "remaining": 5,
+          "score_a": 2,
+          "score_b": -3,
+          "turn": "A"
+        },
+        "value": 7,
+        "returned_bound": "lower",
+        "terminal": false
+      },
+      {
+        "event": "update",
+        "path": "root/T2",
+        "state": {
+          "pos_a": 3,
+          "pos_b": 1,
+          "remaining": 13,
+          "score_a": 2,
+          "score_b": 0,
+          "turn": "B"
+        },
+        "target": "T4",
+        "travel_cost": 10,
+        "gain": -3,
+        "child_value": 7,
+        "value": 1,
+        "alpha": -5,
+        "beta": 1
+      },
+      {
+        "event": "return",
+        "path": "root/T2",
+        "state": {
+          "pos_a": 3,
+          "pos_b": 1,
+          "remaining": 13,
+          "score_a": 2,
+          "score_b": 0,
+          "turn": "B"
+        },
+        "value": 1,
+        "returned_bound": "exact",
+        "terminal": false
+      },
+      {
+        "event": "update",
+        "path": "root",
+        "state": {
+          "pos_a": 0,
+          "pos_b": 1,
+          "remaining": 15,
+          "score_a": 0,
+          "score_b": 0,
+          "turn": "A"
+        },
+        "target": "T2",
+        "travel_cost": 4,
+        "gain": 2,
+        "child_value": 1,
+        "value": 1,
+        "alpha": 1,
+        "beta": "inf"
+      },
+      {
+        "event": "enter",
+        "path": "root/T3",
+        "state": {
+          "pos_a": 4,
+          "pos_b": 1,
+          "remaining": 11,
+          "score_a": -1,
+          "score_b": 0,
+          "turn": "B"
+        },
+        "depth_left": 3,
+        "alpha": 1,
+        "beta": "inf"
+      },
+      {
+        "event": "enter",
+        "path": "root/T3/T1",
+        "state": {
+          "pos_a": 4,
+          "pos_b": 2,
+          "remaining": 10,
+          "score_a": -1,
+          "score_b": 1,
+          "turn": "A"
+        },
+        "depth_left": 2,
+        "alpha": 1,
+        "beta": "inf"
+      },
+      {
+        "event": "enter",
+        "path": "root/T3/T1/T2",
+        "state": {
+          "pos_a": 3,
+          "pos_b": 2,
+          "remaining": 8,
+          "score_a": -1,
+          "score_b": 1,
+          "turn": "B"
+        },
+        "depth_left": 1,
+        "alpha": 1,
+        "beta": "inf"
+      },
+      {
+        "event": "enter",
+        "path": "root/T3/T1/T2/T4",
+        "state": {
+          "pos_a": 3,
+          "pos_b": 5,
+          "remaining": 0,
+          "score_a": -1,
+          "score_b": -4,
+          "turn": "A"
+        },
+        "depth_left": 0,
+        "alpha": 1,
+        "beta": "inf"
+      },
+      {
+        "event": "return",
+        "path": "root/T3/T1/T2/T4",
+        "state": {
+          "pos_a": 3,
+          "pos_b": 5,
+          "remaining": 0,
+          "score_a": -1,
+          "score_b": -4,
+          "turn": "A"
+        },
+        "value": 3,
+        "returned_bound": "exact",
+        "terminal": true
+      },
+      {
+        "event": "update",
+        "path": "root/T3/T1/T2",
+        "state": {
+          "pos_a": 3,
+          "pos_b": 2,
+          "remaining": 8,
+          "score_a": -1,
+          "score_b": 1,
+          "turn": "B"
+        },
+        "target": "T4",
+        "travel_cost": 12,
+        "gain": -5,
+        "child_value": 3,
+        "value": 3,
+        "alpha": 1,
+        "beta": 3
+      },
+      {
+        "event": "return",
+        "path": "root/T3/T1/T2",
+        "state": {
+          "pos_a": 3,
+          "pos_b": 2,
+          "remaining": 8,
+          "score_a": -1,
+          "score_b": 1,
+          "turn": "B"
+        },
+        "value": 3,
+        "returned_bound": "exact",
+        "terminal": false
+      },
+      {
+        "event": "update",
+        "path": "root/T3/T1",
+        "state": {
+          "pos_a": 4,
+          "pos_b": 2,
+          "remaining": 10,
+          "score_a": -1,
+          "score_b": 1,
+          "turn": "A"
+        },
+        "target": "T2",
+        "travel_cost": 6,
+        "gain": 0,
+        "child_value": 3,
+        "value": 3,
+        "alpha": 3,
+        "beta": "inf"
+      },
+      {
+        "event": "enter",
+        "path": "root/T3/T1/T4",
+        "state": {
+          "pos_a": 5,
+          "pos_b": 2,
+          "remaining": 2,
+          "score_a": 0,
+          "score_b": 1,
+          "turn": "B"
+        },
+        "depth_left": 1,
+        "alpha": 3,
+        "beta": "inf"
+      },
+      {
+        "event": "enter",
+        "path": "root/T3/T1/T4/T2",
+        "state": {
+          "pos_a": 5,
+          "pos_b": 3,
+          "remaining": 0,
+          "score_a": 0,
+          "score_b": 1,
+          "turn": "A"
+        },
+        "depth_left": 0,
+        "alpha": 3,
+        "beta": "inf"
+      },
+      {
+        "event": "return",
+        "path": "root/T3/T1/T4/T2",
+        "state": {
+          "pos_a": 5,
+          "pos_b": 3,
+          "remaining": 0,
+          "score_a": 0,
+          "score_b": 1,
+          "turn": "A"
+        },
+        "value": -1,
+        "returned_bound": "exact",
+        "terminal": true
+      },
+      {
+        "event": "update",
+        "path": "root/T3/T1/T4",
+        "state": {
+          "pos_a": 5,
+          "pos_b": 2,
+          "remaining": 2,
+          "score_a": 0,
+          "score_b": 1,
+          "turn": "B"
+        },
+        "target": "T2",
+        "travel_cost": 6,
+        "gain": 0,
+        "child_value": -1,
+        "value": -1,
+        "alpha": 3,
+        "beta": -1
+      },
+      {
+        "event": "return",
+        "path": "root/T3/T1/T4",
+        "state": {
+          "pos_a": 5,
+          "pos_b": 2,
+          "remaining": 2,
+          "score_a": 0,
+          "score_b": 1,
+          "turn": "B"
+        },
+        "value": -1,
+        "returned_bound": "upper",
+        "terminal": false
+      },
+      {
+        "event": "update",
+        "path": "root/T3/T1",
+        "state": {
+          "pos_a": 4,
+          "pos_b": 2,
+          "remaining": 10,
+          "score_a": -1,
+          "score_b": 1,
+          "turn": "A"
+        },
+        "target": "T4",
+        "travel_cost": 6,
+        "gain": 1,
+        "child_value": -1,
+        "value": 3,
+        "alpha": 3,
+        "beta": "inf"
+      },
+      {
+        "event": "return",
+        "path": "root/T3/T1",
+        "state": {
+          "pos_a": 4,
+          "pos_b": 2,
+          "remaining": 10,
+          "score_a": -1,
+          "score_b": 1,
+          "turn": "A"
+        },
+        "value": 3,
+        "returned_bound": "exact",
+        "terminal": false
+      },
+      {
+        "event": "update",
+        "path": "root/T3",
+        "state": {
+          "pos_a": 4,
+          "pos_b": 1,
+          "remaining": 11,
+          "score_a": -1,
+          "score_b": 0,
+          "turn": "B"
+        },
+        "target": "T1",
+        "travel_cost": 8,
+        "gain": 1,
+        "child_value": 3,
+        "value": 3,
+        "alpha": 1,
+        "beta": 3
+      },
+      {
+        "event": "enter",
+        "path": "root/T3/T2",
+        "state": {
+          "pos_a": 4,
+          "pos_b": 3,
+          "remaining": 9,
+          "score_a": -1,
+          "score_b": -2,
+          "turn": "A"
+        },
+        "depth_left": 2,
+        "alpha": 1,
+        "beta": 3
+      },
+      {
+        "event": "enter",
+        "path": "root/T3/T2/T1",
+        "state": {
+          "pos_a": 2,
+          "pos_b": 3,
+          "remaining": 8,
+          "score_a": 2,
+          "score_b": -2,
+          "turn": "B"
+        },
+        "depth_left": 1,
+        "alpha": 1,
+        "beta": 3
+      },
+      {
+        "event": "enter",
+        "path": "root/T3/T2/T1/T4",
+        "state": {
+          "pos_a": 2,
+          "pos_b": 5,
+          "remaining": 0,
+          "score_a": 2,
+          "score_b": -1,
+          "turn": "A"
+        },
+        "depth_left": 0,
+        "alpha": 1,
+        "beta": 3
+      },
+      {
+        "event": "return",
+        "path": "root/T3/T2/T1/T4",
+        "state": {
+          "pos_a": 2,
+          "pos_b": 5,
+          "remaining": 0,
+          "score_a": 2,
+          "score_b": -1,
+          "turn": "A"
+        },
+        "value": 3,
+        "returned_bound": "exact",
+        "terminal": true
+      },
+      {
+        "event": "update",
+        "path": "root/T3/T2/T1",
+        "state": {
+          "pos_a": 2,
+          "pos_b": 3,
+          "remaining": 8,
+          "score_a": 2,
+          "score_b": -2,
+          "turn": "B"
+        },
+        "target": "T4",
+        "travel_cost": 6,
+        "gain": 1,
+        "child_value": 3,
+        "value": 3,
+        "alpha": 1,
+        "beta": 3
+      },
+      {
+        "event": "return",
+        "path": "root/T3/T2/T1",
+        "state": {
+          "pos_a": 2,
+          "pos_b": 3,
+          "remaining": 8,
+          "score_a": 2,
+          "score_b": -2,
+          "turn": "B"
+        },
+        "value": 3,
+        "returned_bound": "lower",
+        "terminal": false
+      },
+      {
+        "event": "update",
+        "path": "root/T3/T2",
+        "state": {
+          "pos_a": 4,
+          "pos_b": 3,
+          "remaining": 9,
+          "score_a": -1,
+          "score_b": -2,
+          "turn": "A"
+        },
+        "target": "T1",
+        "travel_cost": 6,
+        "gain": 3,
+        "child_value": 3,
+        "value": 3,
+        "alpha": 3,
+        "beta": 3
+      },
+      {
+        "event": "cutoff",
+        "path": "root/T3/T2",
+        "state": {
+          "pos_a": 4,
+          "pos_b": 3,
+          "remaining": 9,
+          "score_a": -1,
+          "score_b": -2,
+          "turn": "A"
+        },
+        "alpha": 3,
+        "beta": 3,
+        "skipped_targets": [
+          "T4"
+        ]
+      },
+      {
+        "event": "return",
+        "path": "root/T3/T2",
+        "state": {
+          "pos_a": 4,
+          "pos_b": 3,
+          "remaining": 9,
+          "score_a": -1,
+          "score_b": -2,
+          "turn": "A"
+        },
+        "value": 3,
+        "returned_bound": "lower",
+        "terminal": false
+      },
+      {
+        "event": "update",
+        "path": "root/T3",
+        "state": {
+          "pos_a": 4,
+          "pos_b": 1,
+          "remaining": 11,
+          "score_a": -1,
+          "score_b": 0,
+          "turn": "B"
+        },
+        "target": "T2",
+        "travel_cost": 8,
+        "gain": -2,
+        "child_value": 3,
+        "value": 3,
+        "alpha": 1,
+        "beta": 3
+      },
+      {
+        "event": "enter",
+        "path": "root/T3/T4",
+        "state": {
+          "pos_a": 4,
+          "pos_b": 5,
+          "remaining": 3,
+          "score_a": -1,
+          "score_b": -3,
+          "turn": "A"
+        },
+        "depth_left": 2,
+        "alpha": 1,
+        "beta": 3
+      },
+      {
+        "event": "enter",
+        "path": "root/T3/T4/T1",
+        "state": {
+          "pos_a": 2,
+          "pos_b": 5,
+          "remaining": 2,
+          "score_a": 2,
+          "score_b": -3,
+          "turn": "B"
+        },
+        "depth_left": 1,
+        "alpha": 1,
+        "beta": 3
+      },
+      {
+        "event": "enter",
+        "path": "root/T3/T4/T1/T2",
+        "state": {
+          "pos_a": 2,
+          "pos_b": 3,
+          "remaining": 0,
+          "score_a": 2,
+          "score_b": -3,
+          "turn": "A"
+        },
+        "depth_left": 0,
+        "alpha": 1,
+        "beta": 3
+      },
+      {
+        "event": "return",
+        "path": "root/T3/T4/T1/T2",
+        "state": {
+          "pos_a": 2,
+          "pos_b": 3,
+          "remaining": 0,
+          "score_a": 2,
+          "score_b": -3,
+          "turn": "A"
+        },
+        "value": 5,
+        "returned_bound": "exact",
+        "terminal": true
+      },
+      {
+        "event": "update",
+        "path": "root/T3/T4/T1",
+        "state": {
+          "pos_a": 2,
+          "pos_b": 5,
+          "remaining": 2,
+          "score_a": 2,
+          "score_b": -3,
+          "turn": "B"
+        },
+        "target": "T2",
+        "travel_cost": 6,
+        "gain": 0,
+        "child_value": 5,
+        "value": 5,
+        "alpha": 1,
+        "beta": 3
+      },
+      {
+        "event": "return",
+        "path": "root/T3/T4/T1",
+        "state": {
+          "pos_a": 2,
+          "pos_b": 5,
+          "remaining": 2,
+          "score_a": 2,
+          "score_b": -3,
+          "turn": "B"
+        },
+        "value": 5,
+        "returned_bound": "lower",
+        "terminal": false
+      },
+      {
+        "event": "update",
+        "path": "root/T3/T4",
+        "state": {
+          "pos_a": 4,
+          "pos_b": 5,
+          "remaining": 3,
+          "score_a": -1,
+          "score_b": -3,
+          "turn": "A"
+        },
+        "target": "T1",
+        "travel_cost": 6,
+        "gain": 3,
+        "child_value": 5,
+        "value": 5,
+        "alpha": 5,
+        "beta": 3
+      },
+      {
+        "event": "cutoff",
+        "path": "root/T3/T4",
+        "state": {
+          "pos_a": 4,
+          "pos_b": 5,
+          "remaining": 3,
+          "score_a": -1,
+          "score_b": -3,
+          "turn": "A"
+        },
+        "alpha": 5,
+        "beta": 3,
+        "skipped_targets": [
+          "T2"
+        ]
+      },
+      {
+        "event": "return",
+        "path": "root/T3/T4",
+        "state": {
+          "pos_a": 4,
+          "pos_b": 5,
+          "remaining": 3,
+          "score_a": -1,
+          "score_b": -3,
+          "turn": "A"
+        },
+        "value": 5,
+        "returned_bound": "lower",
+        "terminal": false
+      },
+      {
+        "event": "update",
+        "path": "root/T3",
+        "state": {
+          "pos_a": 4,
+          "pos_b": 1,
+          "remaining": 11,
+          "score_a": -1,
+          "score_b": 0,
+          "turn": "B"
+        },
+        "target": "T4",
+        "travel_cost": 10,
+        "gain": -3,
+        "child_value": 5,
+        "value": 3,
+        "alpha": 1,
+        "beta": 3
+      },
+      {
+        "event": "return",
+        "path": "root/T3",
+        "state": {
+          "pos_a": 4,
+          "pos_b": 1,
+          "remaining": 11,
+          "score_a": -1,
+          "score_b": 0,
+          "turn": "B"
+        },
+        "value": 3,
+        "returned_bound": "exact",
+        "terminal": false
+      },
+      {
+        "event": "update",
+        "path": "root",
+        "state": {
+          "pos_a": 0,
+          "pos_b": 1,
+          "remaining": 15,
+          "score_a": 0,
+          "score_b": 0,
+          "turn": "A"
+        },
+        "target": "T3",
+        "travel_cost": 8,
+        "gain": -1,
+        "child_value": 3,
+        "value": 3,
+        "alpha": 3,
+        "beta": "inf"
+      },
+      {
+        "event": "enter",
+        "path": "root/T4",
+        "state": {
+          "pos_a": 5,
+          "pos_b": 1,
+          "remaining": 7,
+          "score_a": -1,
+          "score_b": 0,
+          "turn": "B"
+        },
+        "depth_left": 3,
+        "alpha": 3,
+        "beta": "inf"
+      },
+      {
+        "event": "enter",
+        "path": "root/T4/T1",
+        "state": {
+          "pos_a": 5,
+          "pos_b": 2,
+          "remaining": 6,
+          "score_a": -1,
+          "score_b": 1,
+          "turn": "A"
+        },
+        "depth_left": 2,
+        "alpha": 3,
+        "beta": "inf"
+      },
+      {
+        "event": "enter",
+        "path": "root/T4/T1/T2",
+        "state": {
+          "pos_a": 3,
+          "pos_b": 2,
+          "remaining": 4,
+          "score_a": -1,
+          "score_b": 1,
+          "turn": "B"
+        },
+        "depth_left": 1,
+        "alpha": 3,
+        "beta": "inf"
+      },
+      {
+        "event": "enter",
+        "path": "root/T4/T1/T2/T3",
+        "state": {
+          "pos_a": 3,
+          "pos_b": 4,
+          "remaining": 0,
+          "score_a": -1,
+          "score_b": 2,
+          "turn": "A"
+        },
+        "depth_left": 0,
+        "alpha": 3,
+        "beta": "inf"
+      },
+      {
+        "event": "return",
+        "path": "root/T4/T1/T2/T3",
+        "state": {
+          "pos_a": 3,
+          "pos_b": 4,
+          "remaining": 0,
+          "score_a": -1,
+          "score_b": 2,
+          "turn": "A"
+        },
+        "value": -3,
+        "returned_bound": "exact",
+        "terminal": true
+      },
+      {
+        "event": "update",
+        "path": "root/T4/T1/T2",
+        "state": {
+          "pos_a": 3,
+          "pos_b": 2,
+          "remaining": 4,
+          "score_a": -1,
+          "score_b": 1,
+          "turn": "B"
+        },
+        "target": "T3",
+        "travel_cost": 6,
+        "gain": 1,
+        "child_value": -3,
+        "value": -3,
+        "alpha": 3,
+        "beta": -3
+      },
+      {
+        "event": "return",
+        "path": "root/T4/T1/T2",
+        "state": {
+          "pos_a": 3,
+          "pos_b": 2,
+          "remaining": 4,
+          "score_a": -1,
+          "score_b": 1,
+          "turn": "B"
+        },
+        "value": -3,
+        "returned_bound": "upper",
+        "terminal": false
+      },
+      {
+        "event": "update",
+        "path": "root/T4/T1",
+        "state": {
+          "pos_a": 5,
+          "pos_b": 2,
+          "remaining": 6,
+          "score_a": -1,
+          "score_b": 1,
+          "turn": "A"
+        },
+        "target": "T2",
+        "travel_cost": 6,
+        "gain": 0,
+        "child_value": -3,
+        "value": -3,
+        "alpha": 3,
+        "beta": "inf"
+      },
+      {
+        "event": "enter",
+        "path": "root/T4/T1/T3",
+        "state": {
+          "pos_a": 4,
+          "pos_b": 2,
+          "remaining": 2,
+          "score_a": 0,
+          "score_b": 1,
+          "turn": "B"
+        },
+        "depth_left": 1,
+        "alpha": 3,
+        "beta": "inf"
+      },
+      {
+        "event": "enter",
+        "path": "root/T4/T1/T3/T2",
+        "state": {
+          "pos_a": 4,
+          "pos_b": 3,
+          "remaining": 0,
+          "score_a": 0,
+          "score_b": 1,
+          "turn": "A"
+        },
+        "depth_left": 0,
+        "alpha": 3,
+        "beta": "inf"
+      },
+      {
+        "event": "return",
+        "path": "root/T4/T1/T3/T2",
+        "state": {
+          "pos_a": 4,
+          "pos_b": 3,
+          "remaining": 0,
+          "score_a": 0,
+          "score_b": 1,
+          "turn": "A"
+        },
+        "value": -1,
+        "returned_bound": "exact",
+        "terminal": true
+      },
+      {
+        "event": "update",
+        "path": "root/T4/T1/T3",
+        "state": {
+          "pos_a": 4,
+          "pos_b": 2,
+          "remaining": 2,
+          "score_a": 0,
+          "score_b": 1,
+          "turn": "B"
+        },
+        "target": "T2",
+        "travel_cost": 6,
+        "gain": 0,
+        "child_value": -1,
+        "value": -1,
+        "alpha": 3,
+        "beta": -1
+      },
+      {
+        "event": "return",
+        "path": "root/T4/T1/T3",
+        "state": {
+          "pos_a": 4,
+          "pos_b": 2,
+          "remaining": 2,
+          "score_a": 0,
+          "score_b": 1,
+          "turn": "B"
+        },
+        "value": -1,
+        "returned_bound": "upper",
+        "terminal": false
+      },
+      {
+        "event": "update",
+        "path": "root/T4/T1",
+        "state": {
+          "pos_a": 5,
+          "pos_b": 2,
+          "remaining": 6,
+          "score_a": -1,
+          "score_b": 1,
+          "turn": "A"
+        },
+        "target": "T3",
+        "travel_cost": 6,
+        "gain": 1,
+        "child_value": -1,
+        "value": -1,
+        "alpha": 3,
+        "beta": "inf"
+      },
+      {
+        "event": "return",
+        "path": "root/T4/T1",
+        "state": {
+          "pos_a": 5,
+          "pos_b": 2,
+          "remaining": 6,
+          "score_a": -1,
+          "score_b": 1,
+          "turn": "A"
+        },
+        "value": -1,
+        "returned_bound": "upper",
+        "terminal": false
+      },
+      {
+        "event": "update",
+        "path": "root/T4",
+        "state": {
+          "pos_a": 5,
+          "pos_b": 1,
+          "remaining": 7,
+          "score_a": -1,
+          "score_b": 0,
+          "turn": "B"
+        },
+        "target": "T1",
+        "travel_cost": 8,
+        "gain": 1,
+        "child_value": -1,
+        "value": -1,
+        "alpha": 3,
+        "beta": -1
+      },
+      {
+        "event": "cutoff",
+        "path": "root/T4",
+        "state": {
+          "pos_a": 5,
+          "pos_b": 1,
+          "remaining": 7,
+          "score_a": -1,
+          "score_b": 0,
+          "turn": "B"
+        },
+        "alpha": 3,
+        "beta": -1,
+        "skipped_targets": [
+          "T2",
+          "T3"
+        ]
+      },
+      {
+        "event": "return",
+        "path": "root/T4",
+        "state": {
+          "pos_a": 5,
+          "pos_b": 1,
+          "remaining": 7,
+          "score_a": -1,
+          "score_b": 0,
+          "turn": "B"
+        },
+        "value": -1,
+        "returned_bound": "upper",
+        "terminal": false
+      },
+      {
+        "event": "update",
+        "path": "root",
+        "state": {
+          "pos_a": 0,
+          "pos_b": 1,
+          "remaining": 15,
+          "score_a": 0,
+          "score_b": 0,
+          "turn": "A"
+        },
+        "target": "T4",
+        "travel_cost": 8,
+        "gain": -1,
+        "child_value": -1,
+        "value": 3,
+        "alpha": 3,
+        "beta": "inf"
+      },
+      {
+        "event": "return",
+        "path": "root",
+        "state": {
+          "pos_a": 0,
+          "pos_b": 1,
+          "remaining": 15,
+          "score_a": 0,
+          "score_b": 0,
+          "turn": "A"
+        },
+        "value": 3,
+        "returned_bound": "exact",
+        "terminal": false
+      }
+    ]
+  }
+]

@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="700" viewBox="0 0 1180 700">
+<style>text{font-family:'Microsoft YaHei','Noto Sans CJK SC',Arial,sans-serif;fill:#273b49}.title{font-size:22px;font-weight:700}.label{font-size:14px}.note{font-size:12px;fill:#526777}</style>
+<rect width="1180" height="700" fill="white"/>
+<text class="title" x="24" y="34">启发函数与同分排序的交互</text>
+<text class="note" x="24" y="60">费用全部与独立最优值一致；不同场景的尺寸和结构不同，不把跨场景连线解释为单变量因果。</text>
+<text class="label" x="24" y="90">排序 fifo：实际扩展数（不含终点），各场景同图配对</text>
+<line x1="100" y1="280.0" x2="1140" y2="280.0" stroke="#e0e7ec"/>
+<text class="note" x="90" y="284.0" text-anchor="end">0.00</text>
+<line x1="100" y1="237.5" x2="1140" y2="237.5" stroke="#e0e7ec"/>
+<text class="note" x="90" y="241.5" text-anchor="end">268.80</text>
+<line x1="100" y1="195.0" x2="1140" y2="195.0" stroke="#e0e7ec"/>
+<text class="note" x="90" y="199.0" text-anchor="end">537.60</text>
+<line x1="100" y1="152.5" x2="1140" y2="152.5" stroke="#e0e7ec"/>
+<text class="note" x="90" y="156.5" text-anchor="end">806.40</text>
+<line x1="100" y1="110.0" x2="1140" y2="110.0" stroke="#e0e7ec"/>
+<text class="note" x="90" y="114.0" text-anchor="end">1075.20</text>
+<text class="note" x="230.0" y="302" text-anchor="middle">均匀正权开阔图</text>
+<text class="note" x="490.0" y="302" text-anchor="middle">整行整列高代价带</text>
+<text class="note" x="750.0" y="302" text-anchor="middle">三条高权整行</text>
+<text class="note" x="1010.0" y="302" text-anchor="middle">相同权重随机分散</text>
+<polyline fill="none" stroke="#718da6" stroke-width="2" points="230.00,128.21 490.00,128.21 750.00,210.43 1010.00,211.38"/>
+<circle cx="230.0" cy="128.21428571428572" r="3" fill="#718da6"/>
+<circle cx="490.0" cy="128.21428571428572" r="3" fill="#718da6"/>
+<circle cx="750.0" cy="210.43154761904762" r="3" fill="#718da6"/>
+<circle cx="1010.0" cy="211.38020833333334" r="3" fill="#718da6"/>
+<line x1="100" y1="327" x2="118" y2="327" stroke="#718da6" stroke-width="3"/>
+<text class="note" x="125" y="331">h=0</text>
+<polyline fill="none" stroke="#419f96" stroke-width="2" points="230.00,128.21 490.00,128.21 750.00,210.43 1010.00,229.25"/>
+<circle cx="230.0" cy="128.21428571428572" r="3" fill="#419f96"/>
+<circle cx="490.0" cy="128.21428571428572" r="3" fill="#419f96"/>
+<circle cx="750.0" cy="210.43154761904762" r="3" fill="#419f96"/>
+<circle cx="1010.0" cy="229.24665178571428" r="3" fill="#419f96"/>
+<line x1="365" y1="327" x2="383" y2="327" stroke="#419f96" stroke-width="3"/>
+<text class="note" x="390" y="331">修正曼哈顿</text>
+<polyline fill="none" stroke="#da9239" stroke-width="2" points="230.00,128.21 490.00,128.21 750.00,210.43 1010.00,229.25"/>
+<circle cx="230.0" cy="128.21428571428572" r="3" fill="#da9239"/>
+<circle cx="490.0" cy="128.21428571428572" r="3" fill="#da9239"/>
+<circle cx="750.0" cy="210.43154761904762" r="3" fill="#da9239"/>
+<circle cx="1010.0" cy="229.24665178571428" r="3" fill="#da9239"/>
+<line x1="630" y1="327" x2="648" y2="327" stroke="#da9239" stroke-width="3"/>
+<text class="note" x="655" y="331">行列组合</text>
+<polyline fill="none" stroke="#477fbd" stroke-width="2" points="230.00,128.21 490.00,128.21 750.00,210.43 1010.00,229.25"/>
+<circle cx="230.0" cy="128.21428571428572" r="3" fill="#477fbd"/>
+<circle cx="490.0" cy="128.21428571428572" r="3" fill="#477fbd"/>
+<circle cx="750.0" cy="210.43154761904762" r="3" fill="#477fbd"/>
+<circle cx="1010.0" cy="229.24665178571428" r="3" fill="#477fbd"/>
+<line x1="895" y1="327" x2="913" y2="327" stroke="#477fbd" stroke-width="3"/>
+<text class="note" x="920" y="331">行列组合+免费次数收紧</text>
+<text class="label" x="24" y="370">排序 low_h：实际扩展数（不含终点），各场景同图配对</text>
+<line x1="100" y1="560.0" x2="1140" y2="560.0" stroke="#e0e7ec"/>
+<text class="note" x="90" y="564.0" text-anchor="end">0.00</text>
+<line x1="100" y1="517.5" x2="1140" y2="517.5" stroke="#e0e7ec"/>
+<text class="note" x="90" y="521.5" text-anchor="end">268.80</text>
+<line x1="100" y1="475.0" x2="1140" y2="475.0" stroke="#e0e7ec"/>
+<text class="note" x="90" y="479.0" text-anchor="end">537.60</text>
+<line x1="100" y1="432.5" x2="1140" y2="432.5" stroke="#e0e7ec"/>
+<text class="note" x="90" y="436.5" text-anchor="end">806.40</text>
+<line x1="100" y1="390.0" x2="1140" y2="390.0" stroke="#e0e7ec"/>
+<text class="note" x="90" y="394.0" text-anchor="end">1075.20</text>
+<text class="note" x="230.0" y="582" text-anchor="middle">均匀正权开阔图</text>
+<text class="note" x="490.0" y="582" text-anchor="middle">整行整列高代价带</text>
+<text class="note" x="750.0" y="582" text-anchor="middle">三条高权整行</text>
+<text class="note" x="1010.0" y="582" text-anchor="middle">相同权重随机分散</text>
+<polyline fill="none" stroke="#718da6" stroke-width="2" points="230.00,408.21 490.00,408.21 750.00,490.43 1010.00,491.38"/>
+<circle cx="230.0" cy="408.2142857142857" r="3" fill="#718da6"/>
+<circle cx="490.0" cy="408.2142857142857" r="3" fill="#718da6"/>
+<circle cx="750.0" cy="490.4315476190476" r="3" fill="#718da6"/>
+<circle cx="1010.0" cy="491.38020833333337" r="3" fill="#718da6"/>
+<line x1="100" y1="607" x2="118" y2="607" stroke="#718da6" stroke-width="3"/>
+<text class="note" x="125" y="611">h=0</text>
+<polyline fill="none" stroke="#419f96" stroke-width="2" points="230.00,550.51 490.00,425.61 750.00,509.40 1010.00,553.68"/>
+<circle cx="230.0" cy="550.5133928571429" r="3" fill="#419f96"/>
+<circle cx="490.0" cy="425.6063988095238" r="3" fill="#419f96"/>
+<circle cx="750.0" cy="509.4047619047619" r="3" fill="#419f96"/>
+<circle cx="1010.0" cy="553.6755952380952" r="3" fill="#419f96"/>
+<line x1="365" y1="607" x2="383" y2="607" stroke="#419f96" stroke-width="3"/>
+<text class="note" x="390" y="611">修正曼哈顿</text>
+<polyline fill="none" stroke="#da9239" stroke-width="2" points="230.00,550.51 490.00,431.77 750.00,511.62 1010.00,553.68"/>
+<circle cx="230.0" cy="550.5133928571429" r="3" fill="#da9239"/>
+<circle cx="490.0" cy="431.77269345238096" r="3" fill="#da9239"/>
+<circle cx="750.0" cy="511.61830357142856" r="3" fill="#da9239"/>
+<circle cx="1010.0" cy="553.6755952380952" r="3" fill="#da9239"/>
+<line x1="630" y1="607" x2="648" y2="607" stroke="#da9239" stroke-width="3"/>
+<text class="note" x="655" y="611">行列组合</text>
+<polyline fill="none" stroke="#477fbd" stroke-width="2" points="230.00,550.51 490.00,550.51 750.00,553.68 1010.00,553.68"/>
+<circle cx="230.0" cy="550.5133928571429" r="3" fill="#477fbd"/>
+<circle cx="490.0" cy="550.5133928571429" r="3" fill="#477fbd"/>
+<circle cx="750.0" cy="553.6755952380952" r="3" fill="#477fbd"/>
+<circle cx="1010.0" cy="553.6755952380952" r="3" fill="#477fbd"/>
+<line x1="895" y1="607" x2="913" y2="607" stroke="#477fbd" stroke-width="3"/>
+<text class="note" x="920" y="611">行列组合+免费次数收紧</text>
+</svg>

@@ -1,0 +1,459 @@
+{
+  "grid": [
+    [
+      1,
+      1,
+      1,
+      null,
+      2,
+      1,
+      1
+    ],
+    [
+      1,
+      null,
+      6,
+      null,
+      1,
+      null,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      null,
+      1,
+      null,
+      8,
+      null,
+      1,
+      null
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      null,
+      9,
+      null,
+      1,
+      null,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      null,
+      1,
+      1,
+      1
+    ]
+  ],
+  "labels": [
+    "A",
+    "B",
+    "T1",
+    "T2",
+    "T3",
+    "T4"
+  ],
+  "points": [
+    [
+      0,
+      0
+    ],
+    [
+      6,
+      6
+    ],
+    [
+      0,
+      6
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      4,
+      4
+    ],
+    [
+      6,
+      0
+    ]
+  ],
+  "values": [
+    9,
+    6,
+    7,
+    7
+  ],
+  "matrix": [
+    [
+      0,
+      12,
+      10,
+      4,
+      8,
+      8
+    ],
+    [
+      12,
+      0,
+      8,
+      8,
+      4,
+      10
+    ],
+    [
+      10,
+      8,
+      0,
+      6,
+      6,
+      12
+    ],
+    [
+      4,
+      8,
+      6,
+      0,
+      6,
+      6
+    ],
+    [
+      8,
+      4,
+      6,
+      6,
+      0,
+      6
+    ],
+    [
+      8,
+      10,
+      12,
+      6,
+      6,
+      0
+    ]
+  ],
+  "depths": [
+    {
+      "depth": 1,
+      "root_action_values": {
+        "T1": -1,
+        "T2": 2,
+        "T3": -1,
+        "T4": -1
+      },
+      "best_value": 2,
+      "best_targets": [
+        "T2"
+      ],
+      "canonical_line": [
+        "T2"
+      ],
+      "full_horizon_value_of_selected_first": 1,
+      "full_horizon_first_action_regret": 2
+    },
+    {
+      "depth": 2,
+      "root_action_values": {
+        "T1": -4,
+        "T2": -1,
+        "T3": -2,
+        "T4": -4
+      },
+      "best_value": -1,
+      "best_targets": [
+        "T2"
+      ],
+      "canonical_line": [
+        "T2",
+        "T3"
+      ],
+      "full_horizon_value_of_selected_first": 1,
+      "full_horizon_first_action_regret": 2
+    },
+    {
+      "depth": 3,
+      "root_action_values": {
+        "T1": -4,
+        "T2": 2,
+        "T3": -1,
+        "T4": -4
+      },
+      "best_value": 2,
+      "best_targets": [
+        "T2"
+      ],
+      "canonical_line": [
+        "T2",
+        "T1",
+        "T3"
+      ],
+      "full_horizon_value_of_selected_first": 1,
+      "full_horizon_first_action_regret": 2
+    },
+    {
+      "depth": 4,
+      "root_action_values": {
+        "T1": -5,
+        "T2": 1,
+        "T3": 3,
+        "T4": -7
+      },
+      "best_value": 3,
+      "best_targets": [
+        "T3"
+      ],
+      "canonical_line": [
+        "T3",
+        "T1",
+        "T2",
+        "T4"
+      ],
+      "full_horizon_value_of_selected_first": 3,
+      "full_horizon_first_action_regret": 0
+    }
+  ],
+  "ledgers": {
+    "H2": [
+      {
+        "step": 1,
+        "player": "A",
+        "source": "A",
+        "target": "T2",
+        "value": 6,
+        "travel_cost": 4,
+        "gain": 2,
+        "score_a": 2,
+        "score_b": 0,
+        "utility": 2,
+        "remaining": "T1,T3,T4"
+      },
+      {
+        "step": 2,
+        "player": "B",
+        "source": "B",
+        "target": "T3",
+        "value": 7,
+        "travel_cost": 4,
+        "gain": 3,
+        "score_a": 2,
+        "score_b": 3,
+        "utility": -1,
+        "remaining": "T1,T4"
+      }
+    ],
+    "H4": [
+      {
+        "step": 1,
+        "player": "A",
+        "source": "A",
+        "target": "T3",
+        "value": 7,
+        "travel_cost": 8,
+        "gain": -1,
+        "score_a": -1,
+        "score_b": 0,
+        "utility": -1,
+        "remaining": "T1,T2,T4"
+      },
+      {
+        "step": 2,
+        "player": "B",
+        "source": "B",
+        "target": "T1",
+        "value": 9,
+        "travel_cost": 8,
+        "gain": 1,
+        "score_a": -1,
+        "score_b": 1,
+        "utility": -2,
+        "remaining": "T2,T4"
+      },
+      {
+        "step": 3,
+        "player": "A",
+        "source": "T3",
+        "target": "T2",
+        "value": 6,
+        "travel_cost": 6,
+        "gain": 0,
+        "score_a": -1,
+        "score_b": 1,
+        "utility": -2,
+        "remaining": "T4"
+      },
+      {
+        "step": 4,
+        "player": "B",
+        "source": "T1",
+        "target": "T4",
+        "value": 7,
+        "travel_cost": 12,
+        "gain": -5,
+        "score_a": -1,
+        "score_b": -4,
+        "utility": 3,
+        "remaining": ""
+      }
+    ]
+  },
+  "state_alias_counterexample": [
+    {
+      "history": [
+        "T1",
+        "T2",
+        "T3",
+        "T4"
+      ],
+      "ledger": [
+        {
+          "step": 1,
+          "player": "A",
+          "source": "A",
+          "target": "T1",
+          "value": 9,
+          "travel_cost": 10,
+          "gain": -1,
+          "score_a": -1,
+          "score_b": 0,
+          "utility": -1,
+          "remaining": "T2,T3,T4"
+        },
+        {
+          "step": 2,
+          "player": "B",
+          "source": "B",
+          "target": "T2",
+          "value": 6,
+          "travel_cost": 8,
+          "gain": -2,
+          "score_a": -1,
+          "score_b": -2,
+          "utility": 1,
+          "remaining": "T3,T4"
+        },
+        {
+          "step": 3,
+          "player": "A",
+          "source": "T1",
+          "target": "T3",
+          "value": 7,
+          "travel_cost": 6,
+          "gain": 1,
+          "score_a": 0,
+          "score_b": -2,
+          "utility": 2,
+          "remaining": "T4"
+        },
+        {
+          "step": 4,
+          "player": "B",
+          "source": "T2",
+          "target": "T4",
+          "value": 7,
+          "travel_cost": 6,
+          "gain": 1,
+          "score_a": 0,
+          "score_b": -1,
+          "utility": 1,
+          "remaining": ""
+        }
+      ],
+      "final_positions": [
+        "T3",
+        "T4"
+      ],
+      "remaining": [],
+      "turn": "A"
+    },
+    {
+      "history": [
+        "T2",
+        "T1",
+        "T3",
+        "T4"
+      ],
+      "ledger": [
+        {
+          "step": 1,
+          "player": "A",
+          "source": "A",
+          "target": "T2",
+          "value": 6,
+          "travel_cost": 4,
+          "gain": 2,
+          "score_a": 2,
+          "score_b": 0,
+          "utility": 2,
+          "remaining": "T1,T3,T4"
+        },
+        {
+          "step": 2,
+          "player": "B",
+          "source": "B",
+          "target": "T1",
+          "value": 9,
+          "travel_cost": 8,
+          "gain": 1,
+          "score_a": 2,
+          "score_b": 1,
+          "utility": 1,
+          "remaining": "T3,T4"
+        },
+        {
+          "step": 3,
+          "player": "A",
+          "source": "T2",
+          "target": "T3",
+          "value": 7,
+          "travel_cost": 6,
+          "gain": 1,
+          "score_a": 3,
+          "score_b": 1,
+          "utility": 2,
+          "remaining": "T4"
+        },
+        {
+          "step": 4,
+          "player": "B",
+          "source": "T1",
+          "target": "T4",
+          "value": 7,
+          "travel_cost": 12,
+          "gain": -5,
+          "score_a": 3,
+          "score_b": -4,
+          "utility": 7,
+          "remaining": ""
+        }
+      ],
+      "final_positions": [
+        "T3",
+        "T4"
+      ],
+      "remaining": [],
+      "turn": "A"
+    }
+  ]
+}

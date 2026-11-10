@@ -1,0 +1,4 @@
+﻿case,fixed_target_k,target_total_median_below_both_refs,target_paired_median_below_both_refs,both_paired_iqr_below_zero,any_paired_iqr_crosses_zero,interpretation
+long_wall,1,True,True,True,False,fixed candidate confirmation on unchanged workloads; no winner reselection
+perfect_maze,1,True,False,False,True,fixed candidate confirmation on unchanged workloads; no winner reselection
+open,1,False,False,False,False,fixed candidate confirmation on unchanged workloads; no winner reselection

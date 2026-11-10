@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="710" viewBox="0 0 1200 710" role="img" aria-label="规模增长实验">
+<style>text{font-family:'Microsoft YaHei', 'Noto Sans CJK SC', Arial, sans-serif;fill:#263746} .title{font-size:22px;font-weight:700}.label{font-size:14px}.note{font-size:12px;fill:#536575}</style>
+<rect width="1200" height="710" fill="#ffffff"/>
+<text class="title" x="24" y="34">规模增长实验</text>
+<text class="note" x="24" y="60">所有随机图原样保留；此图仅绘有解组，原始数据与无解组见 CSV。时间重复批次不是独立样本。</text>
+<text class="label" x="24" y="90">障碍概率 0.1：有解组扩展节点均值，横轴为边长；每组合生成 20 图，有解数见 CSV</text>
+<line x1="90" y1="285.0" x2="1165" y2="285.0" stroke="#e2e8ee"/>
+<text class="note" x="82" y="289.0" text-anchor="end">0.0</text>
+<line x1="90" y1="241.25" x2="1165" y2="241.25" stroke="#e2e8ee"/>
+<text class="note" x="82" y="245.25" text-anchor="end">906.9</text>
+<line x1="90" y1="197.5" x2="1165" y2="197.5" stroke="#e2e8ee"/>
+<text class="note" x="82" y="201.5" text-anchor="end">1813.8</text>
+<line x1="90" y1="153.75" x2="1165" y2="153.75" stroke="#e2e8ee"/>
+<text class="note" x="82" y="157.75" text-anchor="end">2720.8</text>
+<line x1="90" y1="110.0" x2="1165" y2="110.0" stroke="#e2e8ee"/>
+<text class="note" x="82" y="114.0" text-anchor="end">3627.7</text>
+<text class="note" x="269.16666666666663" y="304" text-anchor="middle">20</text>
+<text class="note" x="627.5" y="304" text-anchor="middle">40</text>
+<text class="note" x="985.8333333333334" y="304" text-anchor="middle">60</text>
+<polyline points="269.17,267.70 627.50,215.63 985.83,128.75" fill="none" stroke="#708ba3" stroke-width="2"/>
+<circle cx="269.16666666666663" cy="267.7005291413674" r="3" fill="#708ba3"/>
+<circle cx="627.5" cy="215.63300787280025" r="3" fill="#708ba3"/>
+<circle cx="985.8333333333334" cy="128.75" r="3" fill="#708ba3"/>
+<line x1="100" y1="330" x2="120" y2="330" stroke="#708ba3" stroke-width="3"/>
+<text class="note" x="127" y="334">h=0</text>
+<polyline points="269.17,269.68 627.50,220.28 985.83,136.11" fill="none" stroke="#a48ab3" stroke-width="2"/>
+<circle cx="269.16666666666663" cy="269.6756972316559" r="3" fill="#a48ab3"/>
+<circle cx="627.5" cy="220.28095091077495" r="3" fill="#a48ab3"/>
+<circle cx="985.8333333333334" cy="136.10904214263664" r="3" fill="#a48ab3"/>
+<line x1="350" y1="330" x2="370" y2="330" stroke="#a48ab3" stroke-width="3"/>
+<text class="note" x="377" y="334">切比雪夫</text>
+<polyline points="269.17,269.68 627.50,220.31 985.83,136.13" fill="none" stroke="#45a6a1" stroke-width="2"/>
+<circle cx="269.16666666666663" cy="269.6837372645878" r="3" fill="#45a6a1"/>
+<circle cx="627.5" cy="220.30507100957084" r="3" fill="#45a6a1"/>
+<circle cx="985.8333333333334" cy="136.12833822167335" r="3" fill="#45a6a1"/>
+<line x1="600" y1="330" x2="620" y2="330" stroke="#45a6a1" stroke-width="3"/>
+<text class="note" x="627" y="334">欧氏距离</text>
+<polyline points="269.17,282.44 627.50,277.67 985.83,271.91" fill="none" stroke="#d88c33" stroke-width="2"/>
+<circle cx="269.16666666666663" cy="282.44058951665465" r="3" fill="#d88c33"/>
+<circle cx="627.5" cy="277.6650779561593" r="3" fill="#d88c33"/>
+<circle cx="985.8333333333334" cy="271.90519836369253" r="3" fill="#d88c33"/>
+<line x1="850" y1="330" x2="870" y2="330" stroke="#d88c33" stroke-width="3"/>
+<text class="note" x="877" y="334">曼哈顿</text>
+<text class="label" x="24" y="370">障碍概率 0.3：有解组扩展节点均值，横轴为边长；每组合生成 20 图，有解数见 CSV</text>
+<line x1="90" y1="565.0" x2="1165" y2="565.0" stroke="#e2e8ee"/>
+<text class="note" x="82" y="569.0" text-anchor="end">0.0</text>
+<line x1="90" y1="521.25" x2="1165" y2="521.25" stroke="#e2e8ee"/>
+<text class="note" x="82" y="525.25" text-anchor="end">679.3</text>
+<line x1="90" y1="477.5" x2="1165" y2="477.5" stroke="#e2e8ee"/>
+<text class="note" x="82" y="481.5" text-anchor="end">1358.6</text>
+<line x1="90" y1="433.75" x2="1165" y2="433.75" stroke="#e2e8ee"/>
+<text class="note" x="82" y="437.75" text-anchor="end">2037.8</text>
+<line x1="90" y1="390.0" x2="1165" y2="390.0" stroke="#e2e8ee"/>
+<text class="note" x="82" y="394.0" text-anchor="end">2717.1</text>
+<text class="note" x="269.16666666666663" y="584" text-anchor="middle">20</text>
+<text class="note" x="627.5" y="584" text-anchor="middle">40</text>
+<text class="note" x="985.8333333333334" y="584" text-anchor="middle">60</text>
+<polyline points="269.17,549.00 627.50,496.50 985.83,408.75" fill="none" stroke="#708ba3" stroke-width="2"/>
+<circle cx="269.16666666666663" cy="548.9950020610058" r="3" fill="#708ba3"/>
+<circle cx="627.5" cy="496.500183200513" r="3" fill="#708ba3"/>
+<circle cx="985.8333333333334" cy="408.75" r="3" fill="#708ba3"/>
+<line x1="100" y1="610" x2="120" y2="610" stroke="#708ba3" stroke-width="3"/>
+<text class="note" x="127" y="614">h=0</text>
+<polyline points="269.17,553.32 627.50,512.09 985.83,440.99" fill="none" stroke="#a48ab3" stroke-width="2"/>
+<circle cx="269.16666666666663" cy="553.3182836974444" r="3" fill="#a48ab3"/>
+<circle cx="627.5" cy="512.0865393423102" r="3" fill="#a48ab3"/>
+<circle cx="985.8333333333334" cy="440.99078558669964" r="3" fill="#a48ab3"/>
+<line x1="350" y1="610" x2="370" y2="610" stroke="#a48ab3" stroke-width="3"/>
+<text class="note" x="377" y="614">切比雪夫</text>
+<polyline points="269.17,553.57 627.50,514.02 985.83,445.05" fill="none" stroke="#45a6a1" stroke-width="2"/>
+<circle cx="269.16666666666663" cy="553.5678586150041" r="3" fill="#45a6a1"/>
+<circle cx="627.5" cy="514.0187322524503" r="3" fill="#45a6a1"/>
+<circle cx="985.8333333333334" cy="445.04839069799397" r="3" fill="#45a6a1"/>
+<line x1="600" y1="610" x2="620" y2="610" stroke="#45a6a1" stroke-width="3"/>
+<text class="note" x="627" y="614">欧氏距离</text>
+<polyline points="269.17,559.71 627.50,541.93 985.83,531.72" fill="none" stroke="#d88c33" stroke-width="2"/>
+<circle cx="269.16666666666663" cy="559.7106219084914" r="3" fill="#d88c33"/>
+<circle cx="627.5" cy="541.9281853989191" r="3" fill="#d88c33"/>
+<circle cx="985.8333333333334" cy="531.7233443253641" r="3" fill="#d88c33"/>
+<line x1="850" y1="610" x2="870" y2="610" stroke="#d88c33" stroke-width="3"/>
+<text class="note" x="877" y="614">曼哈顿</text>
+</svg>

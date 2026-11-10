@@ -1,0 +1,9 @@
+{
+  "all_safe_values_correct": true,
+  "all_counters_stable": true,
+  "sharing_preserves_ordered_expansion": true,
+  "sharing_preserves_original_ab_counts": true,
+  "incorrect_cache_expected_failure": true,
+  "safe_counterexample_value": 8,
+  "incorrect_counterexample_value": 6
+}

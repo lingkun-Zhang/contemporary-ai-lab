@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="420" viewBox="0 0 1180 420">
+<style>text{font-family:'Microsoft YaHei','Noto Sans CJK SC',Arial,sans-serif;fill:#273b49}.title{font-size:22px;font-weight:700}.label{font-size:14px}.note{font-size:12px;fill:#526777}</style>
+<rect width="1180" height="420" fill="white"/>
+<text class="title" x="24" y="34">同一高代价带的最优 f 平台</text>
+<text class="note" x="24" y="60">更强下界减少低于最优费用的状态；同分排序决定最优 f 平台上还要搜索多少状态。</text>
+<text class="label" x="24" y="90">31×31 高代价带，C*=83；终点和过期堆项不计入扩展</text>
+<line x1="100" y1="280.0" x2="1140" y2="280.0" stroke="#e0e7ec"/>
+<text class="note" x="90" y="284.0" text-anchor="end">0.00</text>
+<line x1="100" y1="237.5" x2="1140" y2="237.5" stroke="#e0e7ec"/>
+<text class="note" x="90" y="241.5" text-anchor="end">268.80</text>
+<line x1="100" y1="195.0" x2="1140" y2="195.0" stroke="#e0e7ec"/>
+<text class="note" x="90" y="199.0" text-anchor="end">537.60</text>
+<line x1="100" y1="152.5" x2="1140" y2="152.5" stroke="#e0e7ec"/>
+<text class="note" x="90" y="156.5" text-anchor="end">806.40</text>
+<line x1="100" y1="110.0" x2="1140" y2="110.0" stroke="#e0e7ec"/>
+<text class="note" x="90" y="114.0" text-anchor="end">1075.20</text>
+<text class="note" x="230.0" y="302" text-anchor="middle">FIFO：f&lt;C*</text>
+<text class="note" x="490.0" y="302" text-anchor="middle">FIFO：f=C*</text>
+<text class="note" x="750.0" y="302" text-anchor="middle">low_h：f&lt;C*</text>
+<text class="note" x="1010.0" y="302" text-anchor="middle">low_h：f=C*</text>
+<polyline fill="none" stroke="#419f96" stroke-width="2" points="230.00,147.19 490.00,261.03 750.00,147.19 1010.00,278.42"/>
+<circle cx="230.0" cy="147.1875" r="3" fill="#419f96"/>
+<circle cx="490.0" cy="261.0267857142857" r="3" fill="#419f96"/>
+<circle cx="750.0" cy="147.1875" r="3" fill="#419f96"/>
+<circle cx="1010.0" cy="278.41889880952385" r="3" fill="#419f96"/>
+<line x1="100" y1="327" x2="118" y2="327" stroke="#419f96" stroke-width="3"/>
+<text class="note" x="125" y="331">修正曼哈顿</text>
+<polyline fill="none" stroke="#da9239" stroke-width="2" points="230.00,153.51 490.00,254.70 750.00,153.51 1010.00,278.26"/>
+<circle cx="230.0" cy="153.51190476190476" r="3" fill="#da9239"/>
+<circle cx="490.0" cy="254.70238095238093" r="3" fill="#da9239"/>
+<circle cx="750.0" cy="153.51190476190476" r="3" fill="#da9239"/>
+<circle cx="1010.0" cy="278.26078869047615" r="3" fill="#da9239"/>
+<line x1="365" y1="327" x2="383" y2="327" stroke="#da9239" stroke-width="3"/>
+<text class="note" x="390" y="331">行列组合</text>
+<polyline fill="none" stroke="#477fbd" stroke-width="2" points="230.00,280.00 490.00,128.21 750.00,280.00 1010.00,270.51"/>
+<circle cx="230.0" cy="280.0" r="3" fill="#477fbd"/>
+<circle cx="490.0" cy="128.21428571428572" r="3" fill="#477fbd"/>
+<circle cx="750.0" cy="280.0" r="3" fill="#477fbd"/>
+<circle cx="1010.0" cy="270.5133928571429" r="3" fill="#477fbd"/>
+<line x1="630" y1="327" x2="648" y2="327" stroke="#477fbd" stroke-width="3"/>
+<text class="note" x="655" y="331">行列组合+免费次数收紧</text>
+</svg>

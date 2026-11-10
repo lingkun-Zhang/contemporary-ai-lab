@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="660" viewBox="0 0 1200 660">
+<rect width="1200" height="660" fill="white"/><g font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif">
+<text x="65" y="48" font-size="29" fill="#203947">Scout省下的求值是否抵消阈值探测与重搜</text>
+<text x="65" y="84" font-size="18" fill="#52616a">左序；代表输入固定为b4d6编号0及全同分树；所有重复叶读取均计入</text>
+<line x1="100" y1="510.0" x2="1140" y2="510.0" stroke="#e3e8eb"/>
+<text x="86" y="516.0" text-anchor="end" font-size="16">0</text>
+<line x1="100" y1="432.0" x2="1140" y2="432.0" stroke="#e3e8eb"/>
+<text x="86" y="438.0" text-anchor="end" font-size="16">2432</text>
+<line x1="100" y1="354.0" x2="1140" y2="354.0" stroke="#e3e8eb"/>
+<text x="86" y="360.0" text-anchor="end" font-size="16">4864</text>
+<line x1="100" y1="276.0" x2="1140" y2="276.0" stroke="#e3e8eb"/>
+<text x="86" y="282.0" text-anchor="end" font-size="16">7296</text>
+<line x1="100" y1="198.0" x2="1140" y2="198.0" stroke="#e3e8eb"/>
+<text x="86" y="204.0" text-anchor="end" font-size="16">9728</text>
+<line x1="100" y1="120.0" x2="1140" y2="120.0" stroke="#e3e8eb"/>
+<text x="86" y="126.0" text-anchor="end" font-size="16">12160</text>
+<rect x="150" y="505.9268092105263" width="62" height="4.073190789473684" fill="#438795"/>
+<rect x="150" y="505.9268092105263" width="62" height="0.0" fill="#d19048"/>
+<text x="181" y="497.9268092105263" font-size="16" text-anchor="middle">127</text>
+<text x="181" y="537" font-size="16" text-anchor="middle">AB</text>
+<rect x="240" y="509.96792763157896" width="62" height="0.032072368421052634" fill="#438795"/>
+<rect x="240" y="505.9268092105263" width="62" height="4.041118421052631" fill="#d19048"/>
+<text x="271" y="497.9268092105263" font-size="16" text-anchor="middle">127</text>
+<text x="271" y="537" font-size="16" text-anchor="middle">Scout</text>
+<text x="226" y="572" font-size="18" text-anchor="middle">首孩子最佳</text>
+<rect x="410" y="378.63157894736844" width="62" height="131.3684210526316" fill="#438795"/>
+<rect x="410" y="378.63157894736844" width="62" height="0.0" fill="#d19048"/>
+<text x="441" y="370.63157894736844" font-size="16" text-anchor="middle">4096</text>
+<text x="441" y="537" font-size="16" text-anchor="middle">AB</text>
+<rect x="500" y="378.63157894736844" width="62" height="131.3684210526316" fill="#438795"/>
+<rect x="500" y="120.00000000000006" width="62" height="258.6315789473684" fill="#d19048"/>
+<text x="531" y="112.00000000000006" font-size="16" text-anchor="middle">12160</text>
+<text x="531" y="537" font-size="16" text-anchor="middle">Scout</text>
+<text x="486" y="572" font-size="18" text-anchor="middle">后置孩子逐次改善</text>
+<rect x="670" y="486.07401315789474" width="62" height="23.925986842105264" fill="#438795"/>
+<rect x="670" y="486.07401315789474" width="62" height="0.0" fill="#d19048"/>
+<text x="701" y="478.07401315789474" font-size="16" text-anchor="middle">746</text>
+<text x="701" y="537" font-size="16" text-anchor="middle">AB</text>
+<rect x="760" y="508.3001644736842" width="62" height="1.6998355263157894" fill="#438795"/>
+<rect x="760" y="481.359375" width="62" height="26.940789473684212" fill="#d19048"/>
+<text x="791" y="473.359375" font-size="16" text-anchor="middle">893</text>
+<text x="791" y="537" font-size="16" text-anchor="middle">Scout</text>
+<text x="746" y="572" font-size="18" text-anchor="middle">独立随机树</text>
+<rect x="930" y="508.3001644736842" width="62" height="1.6998355263157894" fill="#438795"/>
+<rect x="930" y="508.3001644736842" width="62" height="0.0" fill="#d19048"/>
+<text x="961" y="500.3001644736842" font-size="16" text-anchor="middle">53</text>
+<text x="961" y="537" font-size="16" text-anchor="middle">AB</text>
+<rect x="1020" y="509.96792763157896" width="62" height="0.032072368421052634" fill="#438795"/>
+<rect x="1020" y="508.3001644736842" width="62" height="1.667763157894737" fill="#d19048"/>
+<text x="1051" y="500.3001644736842" font-size="16" text-anchor="middle">53</text>
+<text x="1051" y="537" font-size="16" text-anchor="middle">Scout</text>
+<text x="1006" y="572" font-size="18" text-anchor="middle">全同分树</text>
+<rect x="320" y="615" width="20" height="16" fill="#438795"/><text x="352" y="630" font-size="17">EVAL/AB阶段读叶</text>
+<rect x="660" y="615" width="20" height="16" fill="#d19048"/><text x="692" y="630" font-size="17">TEST阶段读叶</text></g></svg>

@@ -1,0 +1,56 @@
+{
+  "generated_at_utc": "2026-10-30T05:40:43.366231+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "protocol": {
+    "relative_path": "protocol.json",
+    "sha256": "257bc2e85906a6d61159a12f53549a03e329d0b43ab7936f616fd35fcf5c75d5",
+    "declared_at_utc": "2026-10-30T05:40:31.443542+00:00"
+  },
+  "source_sha256": {
+    "run_capacity_study.py": "6599f98073e14705cf391194d9947577f7114c897fc8882d4ee2c9f6f725e51d",
+    "bounded_transposition.py": "459adb6452561a670d8d771efd68a41683676c135ea433db4334456e29c7488d",
+    "transposition_search.py": "bff70135979f39d877f3f6ba34318aa8e719652971c74134c8b84edd214c18d1",
+    "alphabeta_tree.py": "555b1043143f3137716c73557244e6250df7dbe775c34558e9e6f74c2d4799fb",
+    "run_transposition_study.py": "9d0ccd3206e713ddca09f17260f7538aee44829b50e91930abfed91499088bc7"
+  },
+  "counts": {
+    "object_graphs": 9,
+    "distinct_ordered_expanded_inputs": 3,
+    "configurations": 90,
+    "timing_batches": 810,
+    "timed_solver_calls": 2430
+  },
+  "parameters": {
+    "capacities": [
+      0,
+      4,
+      8,
+      16,
+      32,
+      64,
+      128,
+      "all"
+    ],
+    "seeds": [
+      20261301,
+      20261302,
+      20261303
+    ],
+    "sharing_probabilities": [
+      0,
+      0.5,
+      1
+    ],
+    "repeats": 9,
+    "batch": 3
+  },
+  "result_files_sha256": {
+    "comparison.csv": "681c99ee8ec7f7b5885d6457767bd923739bdda52133195a1612f204d885e556",
+    "timing_batches.csv": "d7df61e7e92522afa60d838d872c4db9e327bd1693254d9dc6adca4d216b51fa",
+    "paired_differences.csv": "9010ecaec3589505581bceb63f9799cf5f73774888a51f2991bc9df29ed8d368",
+    "outcomes.json": "be0cdf0542a20b7f47a479e9a458ba5580d5f41af381f98ff2ab6d9b3806edbd"
+  },
+  "timing_boundary": "Preconstructed and validated inputs; includes fresh OrderedDict, probes, LRU refreshes, stores, eviction and full search. Excludes generation, independent oracle, validation, trace and output.",
+  "interpretation": "Exploratory capacity sweep; no prespecified interior optimum. Per-block IQR is descriptive, not confidence or independent inputs. Table entries are not total bytes of memory."
+}

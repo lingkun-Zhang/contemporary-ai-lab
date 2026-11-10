@@ -1,0 +1,84 @@
+{
+  "declared_at_utc": "2026-11-02T05:11:33.392120+00:00",
+  "registration_phase": "Before first formal A*/game solver warmup.",
+  "inputs": {
+    "relative_path": "inputs.json",
+    "sha256": "452c4bbb802de9a97244a5268197c54acf9f29c6d69eb6525fb7a91193bd1cfe",
+    "official_map": 1,
+    "new_generated_maps": 30,
+    "generated_maps_reused_from_robustness": true
+  },
+  "route_selection": "Official sample plus first two fixed seeds of each family, chosen before solving any instance.",
+  "route_cases": [
+    "detour_s202611201",
+    "detour_s202611202",
+    "open_weighted_s202611101",
+    "open_weighted_s202611102",
+    "pdf_sample",
+    "random_obstacles_s202611301",
+    "random_obstacles_s202611302"
+  ],
+  "source_sha256": {
+    "run_lazy_study.py": "4fb31ee9d833a031554836f19e629ab6411390842e70c8b60111d4f5efd17d87",
+    "treasure_game.py": "56c812ddab8a1ae8d7229cb064dca4ba832878c4d824553822edad26ed76b68b",
+    "lazy_game_search.py": "a3358eef54e1d3eaf476de4f73c51a9fb545e60de370a1100b80440af52de83a",
+    "reference_tools.py": "99a1b7fdf45095a2c8dadb1e2688e902592a46069d6c8da6044c5175985d41e0",
+    "run_robustness_study.py": "bf508ea8e45e248fbed5dec3fe11f160b67f90c68e3bcffb3a750dd8a524092d",
+    "run_experiments.py": "cb443ca95219857bd5e9de499ce7cab15379deee54ca9a525c82ce6c78ac3d3e",
+    "samples\\pdf_sample.json": "3ca804d0d0dcd8aa82fe44bc68da01eafad5508ba4fad903953f14dc91f95003"
+  },
+  "design": {
+    "depths": [
+      2,
+      4
+    ],
+    "search_algorithms": [
+      "minimax",
+      "alphabeta"
+    ],
+    "search_orders": [
+      "label",
+      "reverse",
+      "gain"
+    ],
+    "route_algorithms": [
+      "alphabeta"
+    ],
+    "route_orders": [
+      "label",
+      "gain"
+    ],
+    "engines": [
+      "original",
+      "matched_eager",
+      "lazy"
+    ],
+    "strategies": [
+      "precompute",
+      "on_demand",
+      "repeated"
+    ],
+    "output_modes": [
+      "decision_only",
+      "complete_task"
+    ],
+    "repeats": 5,
+    "batch": 3,
+    "timing_seed": 202611150
+  },
+  "counts": {
+    "map_inputs": 31,
+    "route_map_inputs": 7,
+    "search_configurations": 1116,
+    "route_configurations": 504,
+    "total_configurations": 1620,
+    "timing_batches": 8100,
+    "timed_top_level_calls": 24300
+  },
+  "primary_comparison": "lazy minus matched_eager: same instrumented kernel, only generation timing differs. Original baseline is secondary and has different instrumentation overhead.",
+  "counters": "All formal endpoints connected. Old-engine generation diagnostics are derived after the clock stops. generated_actions means prepared legal actions, so eager prepares skipped candidates but lazy label/reverse prepares visited candidates only. materialized_actions=visited-1 in every engine.",
+  "timing_boundary": "Search-only excludes prepared matrix. Routing includes fresh RoutingProvider, preparation A*, game search, and if complete_task all30 ordered matrix output requests. Validation, oracle, trace, stats conversion and file output excluded. Each batch value is mean of separately timed calls.",
+  "contracts": "decision_only emits selected first target and value; it is not a replacement for the PDF full matrix requirement. complete_task emits the same full6x6 matrix for all methods. Never pool contracts or add independently measured component medians.",
+  "controls": "Minimax (no pruning) and gain order (requires all distances before sorting) must show unchanged lookup counts; no speed benefit is presumed.",
+  "interpretation": "Paired block deltas use the same randomized repetition. Maps, not repetitions, are cross-input units. Descriptive IQR, no confidence/significance claims. The same30 maps appear in robustness study and are not another30 independent inputs."
+}

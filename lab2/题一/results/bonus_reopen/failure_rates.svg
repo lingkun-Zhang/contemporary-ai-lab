@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1140" height="500" viewBox="0 0 1140 500" role="img" aria-label="重开消融：不一致并不意味着每个实例都会失去最优性">
+<style>text{font-family:'Microsoft YaHei', 'Noto Sans CJK SC', Arial, sans-serif;fill:#263746} .title{font-size:22px;font-weight:700}.label{font-size:14px}.note{font-size:12px;fill:#536575}</style>
+<rect width="1140" height="500" fill="#ffffff"/>
+<text class="title" x="24" y="34">重开消融：不一致并不意味着每个实例都会失去最优性</text>
+<text class="note" x="24" y="60">只统计有解输入；每个数值旁列出失败数/地图数。故意错误的冻结闭集版本不能替代正式求解器。</text>
+<text class="label" x="24" y="105">固定参数走廊族：最短性失败比例</text>
+<text class="label" x="100" y="255">h=0</text>
+<rect x="100" y="140" width="0.00" height="24" fill="#338f91"/>
+<text class="note" x="107.0" y="157">0/36 (0.0%)</text>
+<rect x="100" y="183" width="0.00" height="24" fill="#d68d36"/>
+<text class="note" x="107.0" y="200">0/36 (0.0%)</text>
+<text class="label" x="430" y="255">曼哈顿</text>
+<rect x="430" y="140" width="0.00" height="24" fill="#338f91"/>
+<text class="note" x="437.0" y="157">0/36 (0.0%)</text>
+<rect x="430" y="183" width="0.00" height="24" fill="#d68d36"/>
+<text class="note" x="437.0" y="200">0/36 (0.0%)</text>
+<text class="label" x="760" y="255">降低部分曼哈顿值</text>
+<rect x="760" y="140" width="0.00" height="24" fill="#338f91"/>
+<text class="note" x="767.0" y="157">0/36 (0.0%)</text>
+<rect x="760" y="183" width="150.00" height="24" fill="#d68d36"/>
+<text class="note" x="917.0" y="200">24/36 (66.7%)</text>
+<text class="label" x="24" y="320">随机地图：最短性失败比例</text>
+<text class="label" x="100" y="470">h=0</text>
+<rect x="100" y="355" width="0.00" height="24" fill="#338f91"/>
+<text class="note" x="107.0" y="372">0/81 (0.0%)</text>
+<rect x="100" y="398" width="0.00" height="24" fill="#d68d36"/>
+<text class="note" x="107.0" y="415">0/81 (0.0%)</text>
+<text class="label" x="430" y="470">曼哈顿</text>
+<rect x="430" y="355" width="0.00" height="24" fill="#338f91"/>
+<text class="note" x="437.0" y="372">0/81 (0.0%)</text>
+<rect x="430" y="398" width="0.00" height="24" fill="#d68d36"/>
+<text class="note" x="437.0" y="415">0/81 (0.0%)</text>
+<text class="label" x="760" y="470">降低部分曼哈顿值</text>
+<rect x="760" y="355" width="0.00" height="24" fill="#338f91"/>
+<text class="note" x="767.0" y="372">0/81 (0.0%)</text>
+<rect x="760" y="398" width="19.44" height="24" fill="#d68d36"/>
+<text class="note" x="786.4444444444445" y="415">7/81 (8.6%)</text>
+<text class="note" x="24" y="486">每组第一条：允许重开；第二条：冻结闭集。无解结果和一致/不一致分层均完整保留在 CSV。</text></svg>

@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="700" viewBox="0 0 1180 700">
+<style>text{font-family:'Microsoft YaHei','Noto Sans CJK SC',Arial,sans-serif;fill:#273b49}.title{font-size:22px;font-weight:700}.label{font-size:14px}.note{font-size:12px;fill:#526777}</style>
+<rect width="1180" height="700" fill="white"/>
+<text class="title" x="24" y="34">固定地形位置：只改变高低费用比</text>
+<text class="note" x="24" y="60">横轴为等距离散测试点，不代表连续比例；20 个指定高费格位置固定，K=1 时同价仍按位置统计穿越。</text>
+<text class="label" x="24" y="90">离散 K 测试点等距排列；纵轴费用；固定缺口第 5 行，E 进入免费</text>
+<line x1="100" y1="280.0" x2="1140" y2="280.0" stroke="#e0e7ec"/>
+<text class="note" x="90" y="284.0" text-anchor="end">0.00</text>
+<line x1="100" y1="237.5" x2="1140" y2="237.5" stroke="#e0e7ec"/>
+<text class="note" x="90" y="241.5" text-anchor="end">27.44</text>
+<line x1="100" y1="195.0" x2="1140" y2="195.0" stroke="#e0e7ec"/>
+<text class="note" x="90" y="199.0" text-anchor="end">54.88</text>
+<line x1="100" y1="152.5" x2="1140" y2="152.5" stroke="#e0e7ec"/>
+<text class="note" x="90" y="156.5" text-anchor="end">82.32</text>
+<line x1="100" y1="110.0" x2="1140" y2="110.0" stroke="#e0e7ec"/>
+<text class="note" x="90" y="114.0" text-anchor="end">109.76</text>
+<text class="note" x="157.77777777777777" y="302" text-anchor="middle">1</text>
+<text class="note" x="273.33333333333337" y="302" text-anchor="middle">2</text>
+<text class="note" x="388.8888888888889" y="302" text-anchor="middle">5</text>
+<text class="note" x="504.44444444444446" y="302" text-anchor="middle">10</text>
+<text class="note" x="620.0" y="302" text-anchor="middle">11</text>
+<text class="note" x="735.5555555555555" y="302" text-anchor="middle">12</text>
+<text class="note" x="851.1111111111111" y="302" text-anchor="middle">20</text>
+<text class="note" x="966.6666666666666" y="302" text-anchor="middle">40</text>
+<text class="note" x="1082.2222222222222" y="302" text-anchor="middle">80</text>
+<polyline fill="none" stroke="#da9239" stroke-width="2" points="157.78,250.57 273.33,249.02 388.89,244.38 504.44,236.63 620.00,235.08 735.56,233.53 851.11,221.14 966.67,190.17 1082.22,128.21"/>
+<circle cx="157.77777777777777" cy="250.57215743440233" r="3" fill="#da9239"/>
+<circle cx="273.33333333333337" cy="249.02332361516036" r="3" fill="#da9239"/>
+<circle cx="388.8888888888889" cy="244.37682215743442" r="3" fill="#da9239"/>
+<circle cx="504.44444444444446" cy="236.63265306122452" r="3" fill="#da9239"/>
+<circle cx="620.0" cy="235.0838192419825" r="3" fill="#da9239"/>
+<circle cx="735.5555555555555" cy="233.53498542274053" r="3" fill="#da9239"/>
+<circle cx="851.1111111111111" cy="221.14431486880468" r="3" fill="#da9239"/>
+<circle cx="966.6666666666666" cy="190.16763848396502" r="3" fill="#da9239"/>
+<circle cx="1082.2222222222222" cy="128.21428571428572" r="3" fill="#da9239"/>
+<line x1="100" y1="327" x2="118" y2="327" stroke="#da9239" stroke-width="3"/>
+<text class="note" x="125" y="331">直接穿越：18+K</text>
+<polyline fill="none" stroke="#718da6" stroke-width="2" points="157.78,235.08 273.33,235.08 388.89,235.08 504.44,235.08 620.00,235.08 735.56,235.08 851.11,235.08 966.67,235.08 1082.22,235.08"/>
+<circle cx="157.77777777777777" cy="235.0838192419825" r="3" fill="#718da6"/>
+<circle cx="273.33333333333337" cy="235.0838192419825" r="3" fill="#718da6"/>
+<circle cx="388.8888888888889" cy="235.0838192419825" r="3" fill="#718da6"/>
+<circle cx="504.44444444444446" cy="235.0838192419825" r="3" fill="#718da6"/>
+<circle cx="620.0" cy="235.0838192419825" r="3" fill="#718da6"/>
+<circle cx="735.5555555555555" cy="235.0838192419825" r="3" fill="#718da6"/>
+<circle cx="851.1111111111111" cy="235.0838192419825" r="3" fill="#718da6"/>
+<circle cx="966.6666666666666" cy="235.0838192419825" r="3" fill="#718da6"/>
+<circle cx="1082.2222222222222" cy="235.0838192419825" r="3" fill="#718da6"/>
+<line x1="365" y1="327" x2="383" y2="327" stroke="#718da6" stroke-width="3"/>
+<text class="note" x="390" y="331">绕过缺口：29</text>
+<polyline fill="none" stroke="#419f96" stroke-width="2" points="157.78,250.57 273.33,249.02 388.89,244.38 504.44,236.63 620.00,235.08 735.56,235.08 851.11,235.08 966.67,235.08 1082.22,235.08"/>
+<circle cx="157.77777777777777" cy="250.57215743440233" r="3" fill="#419f96"/>
+<circle cx="273.33333333333337" cy="249.02332361516036" r="3" fill="#419f96"/>
+<circle cx="388.8888888888889" cy="244.37682215743442" r="3" fill="#419f96"/>
+<circle cx="504.44444444444446" cy="236.63265306122452" r="3" fill="#419f96"/>
+<circle cx="620.0" cy="235.0838192419825" r="3" fill="#419f96"/>
+<circle cx="735.5555555555555" cy="235.0838192419825" r="3" fill="#419f96"/>
+<circle cx="851.1111111111111" cy="235.0838192419825" r="3" fill="#419f96"/>
+<circle cx="966.6666666666666" cy="235.0838192419825" r="3" fill="#419f96"/>
+<circle cx="1082.2222222222222" cy="235.0838192419825" r="3" fill="#419f96"/>
+<line x1="630" y1="327" x2="648" y2="327" stroke="#419f96" stroke-width="3"/>
+<text class="note" x="655" y="331">独立验证最小费用</text>
+<text class="label" x="24" y="370">tight + low_h 所选路径步数；离散 K 等距排列；K=11 两类路线费用相同</text>
+<line x1="100" y1="560.0" x2="1140" y2="560.0" stroke="#e0e7ec"/>
+<text class="note" x="90" y="564.0" text-anchor="end">0.00</text>
+<line x1="100" y1="517.5" x2="1140" y2="517.5" stroke="#e0e7ec"/>
+<text class="note" x="90" y="521.5" text-anchor="end">8.40</text>
+<line x1="100" y1="475.0" x2="1140" y2="475.0" stroke="#e0e7ec"/>
+<text class="note" x="90" y="479.0" text-anchor="end">16.80</text>
+<line x1="100" y1="432.5" x2="1140" y2="432.5" stroke="#e0e7ec"/>
+<text class="note" x="90" y="436.5" text-anchor="end">25.20</text>
+<line x1="100" y1="390.0" x2="1140" y2="390.0" stroke="#e0e7ec"/>
+<text class="note" x="90" y="394.0" text-anchor="end">33.60</text>
+<text class="note" x="157.77777777777777" y="582" text-anchor="middle">1</text>
+<text class="note" x="273.33333333333337" y="582" text-anchor="middle">2</text>
+<text class="note" x="388.8888888888889" y="582" text-anchor="middle">5</text>
+<text class="note" x="504.44444444444446" y="582" text-anchor="middle">10</text>
+<text class="note" x="620.0" y="582" text-anchor="middle">11</text>
+<text class="note" x="735.5555555555555" y="582" text-anchor="middle">12</text>
+<text class="note" x="851.1111111111111" y="582" text-anchor="middle">20</text>
+<text class="note" x="966.6666666666666" y="582" text-anchor="middle">40</text>
+<text class="note" x="1082.2222222222222" y="582" text-anchor="middle">80</text>
+<polyline fill="none" stroke="#477fbd" stroke-width="2" points="157.78,458.81 273.33,458.81 388.89,458.81 504.44,458.81 620.00,458.81 735.56,408.21 851.11,408.21 966.67,408.21 1082.22,408.21"/>
+<circle cx="157.77777777777777" cy="458.8095238095238" r="3" fill="#477fbd"/>
+<circle cx="273.33333333333337" cy="458.8095238095238" r="3" fill="#477fbd"/>
+<circle cx="388.8888888888889" cy="458.8095238095238" r="3" fill="#477fbd"/>
+<circle cx="504.44444444444446" cy="458.8095238095238" r="3" fill="#477fbd"/>
+<circle cx="620.0" cy="458.8095238095238" r="3" fill="#477fbd"/>
+<circle cx="735.5555555555555" cy="408.2142857142857" r="3" fill="#477fbd"/>
+<circle cx="851.1111111111111" cy="408.2142857142857" r="3" fill="#477fbd"/>
+<circle cx="966.6666666666666" cy="408.2142857142857" r="3" fill="#477fbd"/>
+<circle cx="1082.2222222222222" cy="408.2142857142857" r="3" fill="#477fbd"/>
+<line x1="100" y1="607" x2="118" y2="607" stroke="#477fbd" stroke-width="3"/>
+<text class="note" x="125" y="611">返回路径步数</text>
+</svg>

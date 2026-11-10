@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="875" viewBox="0 0 1200 875" role="img" aria-label="题一独立计时确认：预先固定 k=1，与两侧候选比较">
+<style>text{font-family:'Microsoft YaHei', 'Noto Sans CJK SC', Arial, sans-serif;fill:#263746} .title{font-size:22px;font-weight:700}.label{font-size:14px}.note{font-size:12px;fill:#536575}</style>
+<rect width="1200" height="875" fill="#ffffff"/>
+<text class="title" x="24" y="34">题一独立计时确认：预先固定 k=1，与两侧候选比较</text>
+<text class="note" x="24" y="60">三组地图与原40查询全部不变；点为15批中位数，竖线为IQR；没有根据确认结果重新选冠军。</text>
+<text class="label" x="24" y="92">长墙绕行：整批总耗时 ms（越低越好）；横轴固定地标数</text>
+<line x1="95" y1="265.0" x2="1155" y2="265.0" stroke="#e0e7ec"/>
+<text class="note" x="85" y="269.0" text-anchor="end">0.00</text>
+<line x1="95" y1="226.25" x2="1155" y2="226.25" stroke="#e0e7ec"/>
+<text class="note" x="85" y="230.25" text-anchor="end">17.62</text>
+<line x1="95" y1="187.5" x2="1155" y2="187.5" stroke="#e0e7ec"/>
+<text class="note" x="85" y="191.5" text-anchor="end">35.23</text>
+<line x1="95" y1="148.75" x2="1155" y2="148.75" stroke="#e0e7ec"/>
+<text class="note" x="85" y="152.75" text-anchor="end">52.85</text>
+<line x1="95" y1="110.0" x2="1155" y2="110.0" stroke="#e0e7ec"/>
+<text class="note" x="85" y="114.0" text-anchor="end">70.47</text>
+<line x1="271.66666666666663" y1="140.98488826383556" x2="271.66666666666663" y2="130.2173913043478" stroke="#327c99" stroke-width="2"/>
+<line x1="266.66666666666663" y1="140.98488826383556" x2="276.66666666666663" y2="140.98488826383556" stroke="#327c99"/>
+<line x1="266.66666666666663" y1="130.2173913043478" x2="276.66666666666663" y2="130.2173913043478" stroke="#327c99"/>
+<circle cx="271.66666666666663" cy="133.67373352198462" r="4" fill="#327c99"/>
+<text class="note" x="271.66666666666663" y="287" text-anchor="middle">0</text>
+<line x1="625.0" y1="225.91592504658337" x2="625.0" y2="221.23436637427605" stroke="#327c99" stroke-width="2"/>
+<line x1="620.0" y1="225.91592504658337" x2="630.0" y2="225.91592504658337" stroke="#327c99"/>
+<line x1="620.0" y1="221.23436637427605" x2="630.0" y2="221.23436637427605" stroke="#327c99"/>
+<circle cx="625.0" cy="222.85079422295576" r="4" fill="#327c99"/>
+<text class="note" x="625.0" y="287" text-anchor="middle">1</text>
+<line x1="978.3333333333334" y1="217.07159998353794" x2="978.3333333333334" y2="211.74795749952813" stroke="#327c99" stroke-width="2"/>
+<line x1="973.3333333333334" y1="217.07159998353794" x2="983.3333333333334" y2="217.07159998353794" stroke="#327c99"/>
+<line x1="973.3333333333334" y1="211.74795749952813" x2="983.3333333333334" y2="211.74795749952813" stroke="#327c99"/>
+<circle cx="978.3333333333334" cy="215.2229969162039" r="4" fill="#327c99"/>
+<text class="note" x="978.3333333333334" y="287" text-anchor="middle">2</text>
+<polyline fill="none" stroke="#327c99" stroke-width="2" points="271.67,133.67 625.00,222.85 978.33,215.22"/>
+<text class="note" x="95" y="312">按预注册比较分析 k=1 相对0和2的逐块差；IQR是计时描述，不是地图置信区间。</text>
+<text class="label" x="24" y="337">DFS 完美迷宫：整批总耗时 ms（越低越好）；横轴固定地标数</text>
+<line x1="95" y1="510.0" x2="1155" y2="510.0" stroke="#e0e7ec"/>
+<text class="note" x="85" y="514.0" text-anchor="end">0.00</text>
+<line x1="95" y1="471.25" x2="1155" y2="471.25" stroke="#e0e7ec"/>
+<text class="note" x="85" y="475.25" text-anchor="end">15.70</text>
+<line x1="95" y1="432.5" x2="1155" y2="432.5" stroke="#e0e7ec"/>
+<text class="note" x="85" y="436.5" text-anchor="end">31.39</text>
+<line x1="95" y1="393.75" x2="1155" y2="393.75" stroke="#e0e7ec"/>
+<text class="note" x="85" y="397.75" text-anchor="end">47.09</text>
+<line x1="95" y1="355.0" x2="1155" y2="355.0" stroke="#e0e7ec"/>
+<text class="note" x="85" y="359.0" text-anchor="end">62.78</text>
+<line x1="271.66666666666663" y1="388.89510207384126" x2="271.66666666666663" y2="375.2173913043478" stroke="#c48136" stroke-width="2"/>
+<line x1="266.66666666666663" y1="388.89510207384126" x2="276.66666666666663" y2="388.89510207384126" stroke="#c48136"/>
+<line x1="266.66666666666663" y1="375.2173913043478" x2="276.66666666666663" y2="375.2173913043478" stroke="#c48136"/>
+<circle cx="271.66666666666663" cy="385.87496300864507" r="4" fill="#c48136"/>
+<text class="note" x="271.66666666666663" y="532" text-anchor="middle">0</text>
+<line x1="625.0" y1="424.16038225090284" x2="625.0" y2="407.4972182819638" stroke="#c48136" stroke-width="2"/>
+<line x1="620.0" y1="424.16038225090284" x2="630.0" y2="424.16038225090284" stroke="#c48136"/>
+<line x1="620.0" y1="407.4972182819638" x2="630.0" y2="407.4972182819638" stroke="#c48136"/>
+<circle cx="625.0" cy="420.80276575879503" r="4" fill="#c48136"/>
+<text class="note" x="625.0" y="532" text-anchor="middle">1</text>
+<line x1="978.3333333333334" y1="424.03237782818616" x2="978.3333333333334" y2="415.9872319699597" stroke="#c48136" stroke-width="2"/>
+<line x1="973.3333333333334" y1="424.03237782818616" x2="983.3333333333334" y2="424.03237782818616" stroke="#c48136"/>
+<line x1="973.3333333333334" y1="415.9872319699597" x2="983.3333333333334" y2="415.9872319699597" stroke="#c48136"/>
+<circle cx="978.3333333333334" cy="419.7634241587234" r="4" fill="#c48136"/>
+<text class="note" x="978.3333333333334" y="532" text-anchor="middle">2</text>
+<polyline fill="none" stroke="#c48136" stroke-width="2" points="271.67,385.87 625.00,420.80 978.33,419.76"/>
+<text class="note" x="95" y="557">按预注册比较分析 k=1 相对0和2的逐块差；IQR是计时描述，不是地图置信区间。</text>
+<text class="label" x="24" y="582">开阔地图：整批总耗时 ms（越低越好）；横轴固定地标数</text>
+<line x1="95" y1="755.0" x2="1155" y2="755.0" stroke="#e0e7ec"/>
+<text class="note" x="85" y="759.0" text-anchor="end">0.00</text>
+<line x1="95" y1="716.25" x2="1155" y2="716.25" stroke="#e0e7ec"/>
+<text class="note" x="85" y="720.25" text-anchor="end">6.10</text>
+<line x1="95" y1="677.5" x2="1155" y2="677.5" stroke="#e0e7ec"/>
+<text class="note" x="85" y="681.5" text-anchor="end">12.20</text>
+<line x1="95" y1="638.75" x2="1155" y2="638.75" stroke="#e0e7ec"/>
+<text class="note" x="85" y="642.75" text-anchor="end">18.30</text>
+<line x1="95" y1="600.0" x2="1155" y2="600.0" stroke="#e0e7ec"/>
+<text class="note" x="85" y="604.0" text-anchor="end">24.40</text>
+<line x1="271.66666666666663" y1="691.3802942586847" x2="271.66666666666663" y2="683.5300086060979" stroke="#69915c" stroke-width="2"/>
+<line x1="266.66666666666663" y1="691.3802942586847" x2="276.66666666666663" y2="691.3802942586847" stroke="#69915c"/>
+<line x1="266.66666666666663" y1="683.5300086060979" x2="276.66666666666663" y2="683.5300086060979" stroke="#69915c"/>
+<circle cx="271.66666666666663" cy="687.7587466218683" r="4" fill="#69915c"/>
+<text class="note" x="271.66666666666663" y="777" text-anchor="middle">0</text>
+<line x1="625.0" y1="660.7124165986542" x2="625.0" y2="654.2638769359751" stroke="#69915c" stroke-width="2"/>
+<line x1="620.0" y1="660.7124165986542" x2="630.0" y2="660.7124165986542" stroke="#69915c"/>
+<line x1="620.0" y1="654.2638769359751" x2="630.0" y2="654.2638769359751" stroke="#69915c"/>
+<circle cx="625.0" cy="657.7199715458902" r="4" fill="#69915c"/>
+<text class="note" x="625.0" y="777" text-anchor="middle">1</text>
+<line x1="978.3333333333334" y1="636.6283626501701" x2="978.3333333333334" y2="620.2173913043478" stroke="#69915c" stroke-width="2"/>
+<line x1="973.3333333333334" y1="636.6283626501701" x2="983.3333333333334" y2="636.6283626501701" stroke="#69915c"/>
+<line x1="973.3333333333334" y1="620.2173913043478" x2="983.3333333333334" y2="620.2173913043478" stroke="#69915c"/>
+<circle cx="978.3333333333334" cy="630.7044456370894" r="4" fill="#69915c"/>
+<text class="note" x="978.3333333333334" y="777" text-anchor="middle">2</text>
+<polyline fill="none" stroke="#69915c" stroke-width="2" points="271.67,687.76 625.00,657.72 978.33,630.70"/>
+<text class="note" x="95" y="802">按预注册比较分析 k=1 相对0和2的逐块差；IQR是计时描述，不是地图置信区间。</text>
+</svg>

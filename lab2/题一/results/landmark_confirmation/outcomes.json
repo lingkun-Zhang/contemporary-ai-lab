@@ -1,0 +1,52 @@
+{
+  "input_maps": 3,
+  "queries_per_map": 40,
+  "candidates": [
+    0,
+    1,
+    2
+  ],
+  "fixed_target_k": 1,
+  "fixed_references": [
+    0,
+    2
+  ],
+  "repeats": 15,
+  "timed_batches": 135,
+  "measured_query_executions": 5400,
+  "unique_map_query_k_configurations": 360,
+  "all_shortest_costs_and_paths_verified": true,
+  "same_inputs_as_prior_tuning": true,
+  "no_post_confirmation_candidate_reselection": true,
+  "protocol_unchanged": true,
+  "path_and_stats_stable_across_repeats": true,
+  "confirmation_by_case": [
+    {
+      "case": "long_wall",
+      "fixed_target_k": 1,
+      "target_total_median_below_both_refs": true,
+      "target_paired_median_below_both_refs": true,
+      "both_paired_iqr_below_zero": true,
+      "any_paired_iqr_crosses_zero": false,
+      "interpretation": "fixed candidate confirmation on unchanged workloads; no winner reselection"
+    },
+    {
+      "case": "perfect_maze",
+      "fixed_target_k": 1,
+      "target_total_median_below_both_refs": true,
+      "target_paired_median_below_both_refs": false,
+      "both_paired_iqr_below_zero": false,
+      "any_paired_iqr_crosses_zero": true,
+      "interpretation": "fixed candidate confirmation on unchanged workloads; no winner reselection"
+    },
+    {
+      "case": "open",
+      "fixed_target_k": 1,
+      "target_total_median_below_both_refs": false,
+      "target_paired_median_below_both_refs": false,
+      "both_paired_iqr_below_zero": false,
+      "any_paired_iqr_crosses_zero": false,
+      "interpretation": "fixed candidate confirmation on unchanged workloads; no winner reselection"
+    }
+  ]
+}

@@ -1,0 +1,386 @@
+[
+  {
+    "depth": 2,
+    "order": "label",
+    "variant": "original_mm",
+    "best_target": "T2",
+    "best_value": -1,
+    "pv": [
+      "T2",
+      "T3"
+    ]
+  },
+  {
+    "depth": 2,
+    "order": "label",
+    "variant": "original_ab",
+    "best_target": "T2",
+    "best_value": -1,
+    "pv": [
+      "T2",
+      "T3"
+    ]
+  },
+  {
+    "depth": 2,
+    "order": "label",
+    "variant": "none_mm",
+    "best_target": "T2",
+    "best_value": -1,
+    "pv": [
+      "T2",
+      "T3"
+    ]
+  },
+  {
+    "depth": 2,
+    "order": "label",
+    "variant": "none_ab",
+    "best_target": "T2",
+    "best_value": -1,
+    "pv": [
+      "T2",
+      "T3"
+    ]
+  },
+  {
+    "depth": 2,
+    "order": "label",
+    "variant": "fullscore_mm",
+    "best_target": "T2",
+    "best_value": -1,
+    "pv": [
+      "T2",
+      "T3"
+    ]
+  },
+  {
+    "depth": 2,
+    "order": "label",
+    "variant": "fullscore_ab",
+    "best_target": "T2",
+    "best_value": -1,
+    "pv": [
+      "T2",
+      "T3"
+    ]
+  },
+  {
+    "depth": 2,
+    "order": "label",
+    "variant": "incremental_mm",
+    "best_target": "T2",
+    "best_value": -1,
+    "pv": [
+      "T2",
+      "T3"
+    ]
+  },
+  {
+    "depth": 2,
+    "order": "label",
+    "variant": "incremental_ab",
+    "best_target": "T2",
+    "best_value": -1,
+    "pv": [
+      "T2",
+      "T3"
+    ]
+  },
+  {
+    "depth": 2,
+    "order": "gain",
+    "variant": "original_mm",
+    "best_target": "T2",
+    "best_value": -1,
+    "pv": [
+      "T2",
+      "T3"
+    ]
+  },
+  {
+    "depth": 2,
+    "order": "gain",
+    "variant": "original_ab",
+    "best_target": "T2",
+    "best_value": -1,
+    "pv": [
+      "T2",
+      "T3"
+    ]
+  },
+  {
+    "depth": 2,
+    "order": "gain",
+    "variant": "none_mm",
+    "best_target": "T2",
+    "best_value": -1,
+    "pv": [
+      "T2",
+      "T3"
+    ]
+  },
+  {
+    "depth": 2,
+    "order": "gain",
+    "variant": "none_ab",
+    "best_target": "T2",
+    "best_value": -1,
+    "pv": [
+      "T2",
+      "T3"
+    ]
+  },
+  {
+    "depth": 2,
+    "order": "gain",
+    "variant": "fullscore_mm",
+    "best_target": "T2",
+    "best_value": -1,
+    "pv": [
+      "T2",
+      "T3"
+    ]
+  },
+  {
+    "depth": 2,
+    "order": "gain",
+    "variant": "fullscore_ab",
+    "best_target": "T2",
+    "best_value": -1,
+    "pv": [
+      "T2",
+      "T3"
+    ]
+  },
+  {
+    "depth": 2,
+    "order": "gain",
+    "variant": "incremental_mm",
+    "best_target": "T2",
+    "best_value": -1,
+    "pv": [
+      "T2",
+      "T3"
+    ]
+  },
+  {
+    "depth": 2,
+    "order": "gain",
+    "variant": "incremental_ab",
+    "best_target": "T2",
+    "best_value": -1,
+    "pv": [
+      "T2",
+      "T3"
+    ]
+  },
+  {
+    "depth": 4,
+    "order": "label",
+    "variant": "original_mm",
+    "best_target": "T3",
+    "best_value": 3,
+    "pv": [
+      "T3",
+      "T1",
+      "T2",
+      "T4"
+    ]
+  },
+  {
+    "depth": 4,
+    "order": "label",
+    "variant": "original_ab",
+    "best_target": "T3",
+    "best_value": 3,
+    "pv": [
+      "T3",
+      "T1",
+      "T2",
+      "T4"
+    ]
+  },
+  {
+    "depth": 4,
+    "order": "label",
+    "variant": "none_mm",
+    "best_target": "T3",
+    "best_value": 3,
+    "pv": [
+      "T3",
+      "T1",
+      "T2",
+      "T4"
+    ]
+  },
+  {
+    "depth": 4,
+    "order": "label",
+    "variant": "none_ab",
+    "best_target": "T3",
+    "best_value": 3,
+    "pv": [
+      "T3",
+      "T1",
+      "T2",
+      "T4"
+    ]
+  },
+  {
+    "depth": 4,
+    "order": "label",
+    "variant": "fullscore_mm",
+    "best_target": "T3",
+    "best_value": 3,
+    "pv": [
+      "T3",
+      "T1",
+      "T2",
+      "T4"
+    ]
+  },
+  {
+    "depth": 4,
+    "order": "label",
+    "variant": "fullscore_ab",
+    "best_target": "T3",
+    "best_value": 3,
+    "pv": [
+      "T3",
+      "T1",
+      "T2",
+      "T4"
+    ]
+  },
+  {
+    "depth": 4,
+    "order": "label",
+    "variant": "incremental_mm",
+    "best_target": "T3",
+    "best_value": 3,
+    "pv": [
+      "T3",
+      "T1",
+      "T2",
+      "T4"
+    ]
+  },
+  {
+    "depth": 4,
+    "order": "label",
+    "variant": "incremental_ab",
+    "best_target": "T3",
+    "best_value": 3,
+    "pv": [
+      "T3",
+      "T1",
+      "T2",
+      "T4"
+    ]
+  },
+  {
+    "depth": 4,
+    "order": "gain",
+    "variant": "original_mm",
+    "best_target": "T3",
+    "best_value": 3,
+    "pv": [
+      "T3",
+      "T1",
+      "T2",
+      "T4"
+    ]
+  },
+  {
+    "depth": 4,
+    "order": "gain",
+    "variant": "original_ab",
+    "best_target": "T3",
+    "best_value": 3,
+    "pv": [
+      "T3",
+      "T1",
+      "T2",
+      "T4"
+    ]
+  },
+  {
+    "depth": 4,
+    "order": "gain",
+    "variant": "none_mm",
+    "best_target": "T3",
+    "best_value": 3,
+    "pv": [
+      "T3",
+      "T1",
+      "T2",
+      "T4"
+    ]
+  },
+  {
+    "depth": 4,
+    "order": "gain",
+    "variant": "none_ab",
+    "best_target": "T3",
+    "best_value": 3,
+    "pv": [
+      "T3",
+      "T1",
+      "T2",
+      "T4"
+    ]
+  },
+  {
+    "depth": 4,
+    "order": "gain",
+    "variant": "fullscore_mm",
+    "best_target": "T3",
+    "best_value": 3,
+    "pv": [
+      "T3",
+      "T1",
+      "T2",
+      "T4"
+    ]
+  },
+  {
+    "depth": 4,
+    "order": "gain",
+    "variant": "fullscore_ab",
+    "best_target": "T3",
+    "best_value": 3,
+    "pv": [
+      "T3",
+      "T1",
+      "T2",
+      "T4"
+    ]
+  },
+  {
+    "depth": 4,
+    "order": "gain",
+    "variant": "incremental_mm",
+    "best_target": "T3",
+    "best_value": 3,
+    "pv": [
+      "T3",
+      "T1",
+      "T2",
+      "T4"
+    ]
+  },
+  {
+    "depth": 4,
+    "order": "gain",
+    "variant": "incremental_ab",
+    "best_target": "T3",
+    "best_value": 3,
+    "pv": [
+      "T3",
+      "T1",
+      "T2",
+      "T4"
+    ]
+  }
+]

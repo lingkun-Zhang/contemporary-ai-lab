@@ -1,0 +1,29 @@
+{
+  "completed_at_utc": "2026-11-10T11:30:46.568267+00:00",
+  "source_sha256": {
+    "treasure_game.py": "56c812ddab8a1ae8d7229cb064dca4ba832878c4d824553822edad26ed76b68b",
+    "reference_tools.py": "99a1b7fdf45095a2c8dadb1e2688e902592a46069d6c8da6044c5175985d41e0",
+    "incremental_cache_search.py": "bad370eede0358776f930e13a28b0d847883117da460d1e2580b40d55080d170",
+    "run_incremental_cache_study.py": "c5d4a6b952f92d8ddbbdcc61abc55fe949fd92c5a600f84b25cdd33b770792fb",
+    "test_incremental_cache.py": "b8ec504f1b599e9848dbadb01e0a201e08bf151b66ec99262794e2faf5e7a166"
+  },
+  "protocol_sha256": "33a2de9c0cdab137bee101499dd5c5afb74c392d518ae0df58f01ec1a1bf73a3",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "independent_inputs": 18,
+  "game_configurations": 288,
+  "timed_top_calls": 4032,
+  "warmup_top_calls": 576,
+  "official_validated_calls": 32,
+  "all_distance_root_value_pv_checks_passed": true,
+  "full_matrix_astar_calls": 118272,
+  "sha256": {
+    "official_validation.json": "e46ae721bc39ee2dbe7a4e600e29bd51e11698d86d33528fe7dd389d7fd23fa5",
+    "oracle.json": "1b8136d3c5e7a9a0ef5bdd9413672c41f723d599d7c24aad4b559232d3d74509",
+    "paired_deltas.csv": "3ca265e73ec200552002ba2545b11f5d81b02a62ec246d8985a7903b76772db8",
+    "protocol.json": "33a2de9c0cdab137bee101499dd5c5afb74c392d518ae0df58f01ec1a1bf73a3",
+    "search_stats.csv": "b0567dec049724b54984d52c8395adef16b60a981570ac5c05e47cf42bcdbd6f",
+    "timings_raw.csv": "41d17b8a30f25ddb01f6d912f74143bebebb54c3dbf5006c080d4159f5acefae",
+    "timing_summary.csv": "d586aa5813a2fe3abd8de6aff40726f43b58ba5792322920b9211f38570835cd"
+  }
+}

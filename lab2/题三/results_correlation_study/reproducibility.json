@@ -1,0 +1,62 @@
+{
+  "generated_at_utc": "2026-10-30T05:43:32.624397+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "protocol": {
+    "relative_path": "protocol.json",
+    "sha256": "9c322e31ab2b638f19dec69425c0f5951ff051a434fcabc4d09d13e61500842b",
+    "declared_at_utc": "2026-10-30T05:43:17.690563+00:00"
+  },
+  "source_sha256": {
+    "run_correlation_study.py": "b7352d8603c8d679944459427e391b3ac3f515f7bbf9eb41b2e30cd1d14e0e04",
+    "run_experiments.py": "fe9d8bac32ca8bc5fd6b00e332f536b18f483117b9865d738e8dc5d6679f60f2",
+    "alphabeta_tree.py": "555b1043143f3137716c73557244e6250df7dbe775c34558e9e6f74c2d4799fb"
+  },
+  "input_sha256": "0f2863cb231075275893766d53cdb4d2d7103a2792eae27d8554694a0613a8b0",
+  "counts": {
+    "configurations": 120,
+    "timing_batches": 600,
+    "timed_solver_calls": 1800
+  },
+  "design": {
+    "seeds": [
+      20261201,
+      20261202,
+      20261203,
+      20261204,
+      20261205,
+      20261206
+    ],
+    "mixing": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "budgets": [
+      0,
+      1,
+      4,
+      8
+    ],
+    "branching": 3,
+    "depth": 8,
+    "decay": 0.65,
+    "repeats": 5,
+    "batch": 3,
+    "timing_seed": 20261210
+  },
+  "result_files_sha256": {
+    "comparison.csv": "21bcdda3aa40d5cf430dd116539acea40942835cb9f7e3ba65948d04059afa59",
+    "timing_batches.csv": "74f96188b43c1836b52722e20f373a521de8b50319b35e30bc3666b9109a8d59",
+    "paired_differences.csv": "18a7d1802d66f1dbe92624ebfd85fcc83bfb831baeaa28f681fec172f78bb1fc",
+    "prediction_quality.csv": "6c7200b07dc66c215dbdf6cb5995b4c68cdcd5a7e273d4e14048e3aad8fe2527",
+    "aggregates.csv": "b7a3cb9214d39a4f8ab825f71fe8a2936a3aba6bd7d81ebab83ae2d624a48172",
+    "outcomes.json": "2c5400263c8d954c10e4c2e9358de728474ad978e62d428c00563becf2c727cf"
+  },
+  "timing_boundary": "Preconstructed validated tree. Includes order preparation, extra sampling, sorting and search; excludes generation, diagnostics, independent oracle, validation, file output and trace.",
+  "model_limits": "Theoretical marginal variance is constant across lambda over the generator distribution. Finite-sample variance and marginal shape can change; lambda is not a pure empirical-correlation intervention. lambda=1 is pure hierarchical signal, not constant leaves.",
+  "diagnostics": "All-parent pairwise agreement excludes true ties and gives predicted ties half-credit. Nonterminal-child stratum excludes trivial direct-leaf predictions. Oracle and diagnostics remain outside solver/timing.",
+  "statistics": "Timing IQR describes repeated batches on fixed inputs. Six paired basis seeds, not thirty independent draws. Cross-lambda dependencies retained; no confidence/significance claim."
+}

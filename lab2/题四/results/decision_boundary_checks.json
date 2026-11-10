@@ -1,0 +1,111 @@
+{
+  "timing_status": "Additional untimed analytical checks, not part of308 timed configurations.",
+  "checks": [
+    {
+      "t3_value": 6,
+      "depth": 4,
+      "root_action_values": {
+        "T1": -4,
+        "T2": 2,
+        "T3": 2,
+        "T4": -6
+      },
+      "best_value": 2,
+      "optimal_targets": [
+        "T2",
+        "T3"
+      ],
+      "methods": [
+        {
+          "algorithm": "minimax",
+          "order": "label",
+          "best_target": "T2",
+          "best_value": 2
+        },
+        {
+          "algorithm": "minimax",
+          "order": "reverse",
+          "best_target": "T3",
+          "best_value": 2
+        },
+        {
+          "algorithm": "minimax",
+          "order": "gain",
+          "best_target": "T2",
+          "best_value": 2
+        },
+        {
+          "algorithm": "alphabeta",
+          "order": "label",
+          "best_target": "T2",
+          "best_value": 2
+        },
+        {
+          "algorithm": "alphabeta",
+          "order": "reverse",
+          "best_target": "T3",
+          "best_value": 2
+        },
+        {
+          "algorithm": "alphabeta",
+          "order": "gain",
+          "best_target": "T2",
+          "best_value": 2
+        }
+      ]
+    },
+    {
+      "t3_value": 7.5,
+      "depth": 2,
+      "root_action_values": {
+        "T1": -4.5,
+        "T2": -1.5,
+        "T3": -1.5,
+        "T4": -4.5
+      },
+      "best_value": -1.5,
+      "optimal_targets": [
+        "T2",
+        "T3"
+      ],
+      "methods": [
+        {
+          "algorithm": "minimax",
+          "order": "label",
+          "best_target": "T2",
+          "best_value": -1.5
+        },
+        {
+          "algorithm": "minimax",
+          "order": "reverse",
+          "best_target": "T3",
+          "best_value": -1.5
+        },
+        {
+          "algorithm": "minimax",
+          "order": "gain",
+          "best_target": "T2",
+          "best_value": -1.5
+        },
+        {
+          "algorithm": "alphabeta",
+          "order": "label",
+          "best_target": "T2",
+          "best_value": -1.5
+        },
+        {
+          "algorithm": "alphabeta",
+          "order": "reverse",
+          "best_target": "T3",
+          "best_value": -1.5
+        },
+        {
+          "algorithm": "alphabeta",
+          "order": "gain",
+          "best_target": "T2",
+          "best_value": -1.5
+        }
+      ]
+    }
+  ]
+}

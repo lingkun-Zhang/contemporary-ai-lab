@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1140" height="430" viewBox="0 0 1140 430" role="img" aria-label="反例族：固定规则枚举，保留消融未失败的参数组合">
+<style>text{font-family:'Microsoft YaHei', 'Noto Sans CJK SC', Arial, sans-serif;fill:#263746} .title{font-size:22px;font-weight:700}.label{font-size:14px}.note{font-size:12px;fill:#536575}</style>
+<rect width="1140" height="430" fill="#ffffff"/>
+<text class="title" x="24" y="34">反例族：固定规则枚举，保留消融未失败的参数组合</text>
+<text class="note" x="24" y="60">颜色表示冻结闭集的最短性；格内数值是返回路径比 BFS 多出的步数。下层终止列 = cutoff + delta。</text>
+<text class="note" x="198" y="98" text-anchor="middle">c=2, Δ=-1</text>
+<text class="note" x="304" y="98" text-anchor="middle">c=2, Δ=0</text>
+<text class="note" x="410" y="98" text-anchor="middle">c=2, Δ=1</text>
+<text class="note" x="516" y="98" text-anchor="middle">c=4, Δ=-1</text>
+<text class="note" x="622" y="98" text-anchor="middle">c=4, Δ=0</text>
+<text class="note" x="728" y="98" text-anchor="middle">c=4, Δ=1</text>
+<text class="note" x="834" y="98" text-anchor="middle">c=6, Δ=-1</text>
+<text class="note" x="940" y="98" text-anchor="middle">c=6, Δ=0</text>
+<text class="note" x="1046" y="98" text-anchor="middle">c=6, Δ=1</text>
+<text class="label" x="24" y="148">宽度 9</text>
+<rect x="150" y="120" width="96" height="43" fill="#c8e3d7"/><text class="label" x="198" y="147" text-anchor="middle">+0</text>
+<rect x="256" y="120" width="96" height="43" fill="#efc4bf"/><text class="label" x="304" y="147" text-anchor="middle">+2</text>
+<rect x="362" y="120" width="96" height="43" fill="#efc4bf"/><text class="label" x="410" y="147" text-anchor="middle">+2</text>
+<rect x="468" y="120" width="96" height="43" fill="#c8e3d7"/><text class="label" x="516" y="147" text-anchor="middle">+0</text>
+<rect x="574" y="120" width="96" height="43" fill="#efc4bf"/><text class="label" x="622" y="147" text-anchor="middle">+2</text>
+<rect x="680" y="120" width="96" height="43" fill="#efc4bf"/><text class="label" x="728" y="147" text-anchor="middle">+2</text>
+<rect x="786" y="120" width="96" height="43" fill="#c8e3d7"/><text class="label" x="834" y="147" text-anchor="middle">+0</text>
+<rect x="892" y="120" width="96" height="43" fill="#efc4bf"/><text class="label" x="940" y="147" text-anchor="middle">+2</text>
+<rect x="998" y="120" width="96" height="43" fill="#efc4bf"/><text class="label" x="1046" y="147" text-anchor="middle">+2</text>
+<text class="label" x="24" y="206">宽度 11</text>
+<rect x="150" y="178" width="96" height="43" fill="#c8e3d7"/><text class="label" x="198" y="205" text-anchor="middle">+0</text>
+<rect x="256" y="178" width="96" height="43" fill="#efc4bf"/><text class="label" x="304" y="205" text-anchor="middle">+2</text>
+<rect x="362" y="178" width="96" height="43" fill="#efc4bf"/><text class="label" x="410" y="205" text-anchor="middle">+2</text>
+<rect x="468" y="178" width="96" height="43" fill="#c8e3d7"/><text class="label" x="516" y="205" text-anchor="middle">+0</text>
+<rect x="574" y="178" width="96" height="43" fill="#efc4bf"/><text class="label" x="622" y="205" text-anchor="middle">+2</text>
+<rect x="680" y="178" width="96" height="43" fill="#efc4bf"/><text class="label" x="728" y="205" text-anchor="middle">+2</text>
+<rect x="786" y="178" width="96" height="43" fill="#c8e3d7"/><text class="label" x="834" y="205" text-anchor="middle">+0</text>
+<rect x="892" y="178" width="96" height="43" fill="#efc4bf"/><text class="label" x="940" y="205" text-anchor="middle">+2</text>
+<rect x="998" y="178" width="96" height="43" fill="#efc4bf"/><text class="label" x="1046" y="205" text-anchor="middle">+2</text>
+<text class="label" x="24" y="264">宽度 13</text>
+<rect x="150" y="236" width="96" height="43" fill="#c8e3d7"/><text class="label" x="198" y="263" text-anchor="middle">+0</text>
+<rect x="256" y="236" width="96" height="43" fill="#efc4bf"/><text class="label" x="304" y="263" text-anchor="middle">+2</text>
+<rect x="362" y="236" width="96" height="43" fill="#efc4bf"/><text class="label" x="410" y="263" text-anchor="middle">+2</text>
+<rect x="468" y="236" width="96" height="43" fill="#c8e3d7"/><text class="label" x="516" y="263" text-anchor="middle">+0</text>
+<rect x="574" y="236" width="96" height="43" fill="#efc4bf"/><text class="label" x="622" y="263" text-anchor="middle">+2</text>
+<rect x="680" y="236" width="96" height="43" fill="#efc4bf"/><text class="label" x="728" y="263" text-anchor="middle">+2</text>
+<rect x="786" y="236" width="96" height="43" fill="#c8e3d7"/><text class="label" x="834" y="263" text-anchor="middle">+0</text>
+<rect x="892" y="236" width="96" height="43" fill="#efc4bf"/><text class="label" x="940" y="263" text-anchor="middle">+2</text>
+<rect x="998" y="236" width="96" height="43" fill="#efc4bf"/><text class="label" x="1046" y="263" text-anchor="middle">+2</text>
+<text class="label" x="24" y="322">宽度 15</text>
+<rect x="150" y="294" width="96" height="43" fill="#c8e3d7"/><text class="label" x="198" y="321" text-anchor="middle">+0</text>
+<rect x="256" y="294" width="96" height="43" fill="#efc4bf"/><text class="label" x="304" y="321" text-anchor="middle">+2</text>
+<rect x="362" y="294" width="96" height="43" fill="#efc4bf"/><text class="label" x="410" y="321" text-anchor="middle">+2</text>
+<rect x="468" y="294" width="96" height="43" fill="#c8e3d7"/><text class="label" x="516" y="321" text-anchor="middle">+0</text>
+<rect x="574" y="294" width="96" height="43" fill="#efc4bf"/><text class="label" x="622" y="321" text-anchor="middle">+2</text>
+<rect x="680" y="294" width="96" height="43" fill="#efc4bf"/><text class="label" x="728" y="321" text-anchor="middle">+2</text>
+<rect x="786" y="294" width="96" height="43" fill="#c8e3d7"/><text class="label" x="834" y="321" text-anchor="middle">+0</text>
+<rect x="892" y="294" width="96" height="43" fill="#efc4bf"/><text class="label" x="940" y="321" text-anchor="middle">+2</text>
+<rect x="998" y="294" width="96" height="43" fill="#efc4bf"/><text class="label" x="1046" y="321" text-anchor="middle">+2</text>
+<text class="note" x="24" y="405">绿色：本实例仍最优；红色：次优。正确允许重开的版本在全部参数组合中均返回最短路径。</text></svg>

@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="850" viewBox="0 0 1200 850">
+<rect width="100%" height="100%" fill="white"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#293e4d">
+<text x="28" y="38" font-size="25" font-weight="bold">固定共享图：容量、缓存命中与淘汰</text>
+<text x="28" y="69" font-size="14" fill="#566c80">seed=20261301，p=1；条目不是字节内存，命中数不等于实际避免的搜索量。</text>
+<text x="28" y="115" font-size="17">表峰值与淘汰次数</text>
+<line x1="100" y1="315.0" x2="1150" y2="315.0" stroke="#dce5ed"/>
+<text x="88" y="320.0" text-anchor="end" font-size="13">0.00</text>
+<line x1="100" y1="271.25" x2="1150" y2="271.25" stroke="#dce5ed"/>
+<text x="88" y="276.25" text-anchor="end" font-size="13">276.36</text>
+<line x1="100" y1="227.5" x2="1150" y2="227.5" stroke="#dce5ed"/>
+<text x="88" y="232.5" text-anchor="end" font-size="13">552.72</text>
+<line x1="100" y1="183.75" x2="1150" y2="183.75" stroke="#dce5ed"/>
+<text x="88" y="188.75" text-anchor="end" font-size="13">829.08</text>
+<line x1="100" y1="140.0" x2="1150" y2="140.0" stroke="#dce5ed"/>
+<text x="88" y="145.0" text-anchor="end" font-size="13">1105.44</text>
+<text x="165.625" y="340" text-anchor="middle" font-size="14">0</text>
+<text x="296.875" y="340" text-anchor="middle" font-size="14">4</text>
+<text x="428.125" y="340" text-anchor="middle" font-size="14">8</text>
+<text x="559.375" y="340" text-anchor="middle" font-size="14">16</text>
+<text x="690.625" y="340" text-anchor="middle" font-size="14">32</text>
+<text x="821.875" y="340" text-anchor="middle" font-size="14">64</text>
+<text x="953.125" y="340" text-anchor="middle" font-size="14">128</text>
+<text x="1084.375" y="340" text-anchor="middle" font-size="14">all</text>
+<circle cx="165.625" cy="315.0" r="3.4" fill="#64748b"/>
+<circle cx="296.875" cy="314.36676798378926" r="3.4" fill="#64748b"/>
+<circle cx="428.125" cy="313.7335359675785" r="3.4" fill="#64748b"/>
+<circle cx="559.375" cy="312.46707193515704" r="3.4" fill="#64748b"/>
+<circle cx="690.625" cy="309.9341438703141" r="3.4" fill="#64748b"/>
+<circle cx="821.875" cy="304.86828774062815" r="3.4" fill="#64748b"/>
+<circle cx="953.125" cy="303.1268996960486" r="3.4" fill="#64748b"/>
+<circle cx="1084.375" cy="303.1268996960486" r="3.4" fill="#64748b"/>
+<polyline points="165.625,315.0 296.875,314.36676798378926 428.125,313.7335359675785 559.375,312.46707193515704 690.625,309.9341438703141 821.875,304.86828774062815 953.125,303.1268996960486 1084.375,303.1268996960486" fill="none" stroke="#64748b" stroke-width="2"/>
+<path d="M105,368h22" stroke="#64748b" stroke-width="3"/>
+<text x="135" y="373" font-size="13">峰值条目</text>
+<circle cx="165.625" cy="315.0" r="3.4" fill="#bb7d34"/>
+<circle cx="296.875" cy="158.75" r="3.4" fill="#bb7d34"/>
+<circle cx="428.125" cy="180.59650455927053" r="3.4" fill="#bb7d34"/>
+<circle cx="559.375" cy="231.57168186423507" r="3.4" fill="#bb7d34"/>
+<circle cx="690.625" cy="287.45440729483283" r="3.4" fill="#bb7d34"/>
+<circle cx="821.875" cy="313.25861195542046" r="3.4" fill="#bb7d34"/>
+<circle cx="953.125" cy="315.0" r="3.4" fill="#bb7d34"/>
+<circle cx="1084.375" cy="315.0" r="3.4" fill="#bb7d34"/>
+<polyline points="165.625,315.0 296.875,158.75 428.125,180.59650455927053 559.375,231.57168186423507 690.625,287.45440729483283 821.875,313.25861195542046 953.125,315.0 1084.375,315.0" fill="none" stroke="#bb7d34" stroke-width="2"/>
+<path d="M370,368h22" stroke="#bb7d34" stroke-width="3"/>
+<text x="400" y="373" font-size="13">淘汰次数</text>
+<text x="28" y="455" font-size="17">真正缓存返回与非闭窗命中</text>
+<line x1="100" y1="655.0" x2="1150" y2="655.0" stroke="#dce5ed"/>
+<text x="88" y="660.0" text-anchor="end" font-size="13">0.00</text>
+<line x1="100" y1="611.25" x2="1150" y2="611.25" stroke="#dce5ed"/>
+<text x="88" y="616.25" text-anchor="end" font-size="13">79.80</text>
+<line x1="100" y1="567.5" x2="1150" y2="567.5" stroke="#dce5ed"/>
+<text x="88" y="572.5" text-anchor="end" font-size="13">159.60</text>
+<line x1="100" y1="523.75" x2="1150" y2="523.75" stroke="#dce5ed"/>
+<text x="88" y="528.75" text-anchor="end" font-size="13">239.40</text>
+<line x1="100" y1="480.0" x2="1150" y2="480.0" stroke="#dce5ed"/>
+<text x="88" y="485.0" text-anchor="end" font-size="13">319.20</text>
+<text x="165.625" y="680" text-anchor="middle" font-size="14">0</text>
+<text x="296.875" y="680" text-anchor="middle" font-size="14">4</text>
+<text x="428.125" y="680" text-anchor="middle" font-size="14">8</text>
+<text x="559.375" y="680" text-anchor="middle" font-size="14">16</text>
+<text x="690.625" y="680" text-anchor="middle" font-size="14">32</text>
+<text x="821.875" y="680" text-anchor="middle" font-size="14">64</text>
+<text x="953.125" y="680" text-anchor="middle" font-size="14">128</text>
+<text x="1084.375" y="680" text-anchor="middle" font-size="14">all</text>
+<circle cx="165.625" cy="655.0" r="3.4" fill="#64748b"/>
+<circle cx="296.875" cy="603.4649122807018" r="3.4" fill="#64748b"/>
+<circle cx="428.125" cy="553.5745614035088" r="3.4" fill="#64748b"/>
+<circle cx="559.375" cy="498.75" r="3.4" fill="#64748b"/>
+<circle cx="690.625" cy="543.1578947368421" r="3.4" fill="#64748b"/>
+<circle cx="821.875" cy="601.2719298245614" r="3.4" fill="#64748b"/>
+<circle cx="953.125" cy="601.2719298245614" r="3.4" fill="#64748b"/>
+<circle cx="1084.375" cy="601.2719298245614" r="3.4" fill="#64748b"/>
+<polyline points="165.625,655.0 296.875,603.4649122807018 428.125,553.5745614035088 559.375,498.75 690.625,543.1578947368421 821.875,601.2719298245614 953.125,601.2719298245614 1084.375,601.2719298245614" fill="none" stroke="#64748b" stroke-width="2"/>
+<path d="M105,708h22" stroke="#64748b" stroke-width="3"/>
+<text x="135" y="713" font-size="13">缓存直接返回</text>
+<circle cx="165.625" cy="655.0" r="3.4" fill="#bb7d34"/>
+<circle cx="296.875" cy="654.4517543859649" r="3.4" fill="#bb7d34"/>
+<circle cx="428.125" cy="653.9035087719299" r="3.4" fill="#bb7d34"/>
+<circle cx="559.375" cy="650.6140350877193" r="3.4" fill="#bb7d34"/>
+<circle cx="690.625" cy="646.2280701754386" r="3.4" fill="#bb7d34"/>
+<circle cx="821.875" cy="647.8728070175439" r="3.4" fill="#bb7d34"/>
+<circle cx="953.125" cy="647.8728070175439" r="3.4" fill="#bb7d34"/>
+<circle cx="1084.375" cy="647.8728070175439" r="3.4" fill="#bb7d34"/>
+<polyline points="165.625,655.0 296.875,654.4517543859649 428.125,653.9035087719299 559.375,650.6140350877193 690.625,646.2280701754386 821.875,647.8728070175439 953.125,647.8728070175439 1084.375,647.8728070175439" fill="none" stroke="#bb7d34" stroke-width="2"/>
+<path d="M370,708h22" stroke="#bb7d34" stroke-width="3"/>
+<text x="400" y="713" font-size="13">命中仍需搜索</text>
+</g></svg>

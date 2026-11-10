@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1270" viewBox="0 0 1200 1270" role="img" aria-label="并列规则与邻居顺序的影响范围">
+<style>text{font-family:'Microsoft YaHei', 'Noto Sans CJK SC', Arial, sans-serif;fill:#263746} .title{font-size:22px;font-weight:700}.label{font-size:14px}.note{font-size:12px;fill:#536575}</style>
+<rect width="1200" height="1270" fill="#ffffff"/>
+<text class="title" x="24" y="34">并列规则与邻居顺序的影响范围</text>
+<text class="note" x="24" y="60">所有配置均以独立 BFS 校验最优步数；同长路径可以不同。f 平台分解和不同路径数见 CSV。</text>
+<text class="label" x="24" y="90">PDF 样例：24 种方向顺序下扩展节点的最小 / 中位 / 最大值</text>
+<line x1="90" y1="285.0" x2="1165" y2="285.0" stroke="#e2e8ee"/>
+<text class="note" x="82" y="289.0" text-anchor="end">0.0</text>
+<line x1="90" y1="241.25" x2="1165" y2="241.25" stroke="#e2e8ee"/>
+<text class="note" x="82" y="245.25" text-anchor="end">3.6</text>
+<line x1="90" y1="197.5" x2="1165" y2="197.5" stroke="#e2e8ee"/>
+<text class="note" x="82" y="201.5" text-anchor="end">7.3</text>
+<line x1="90" y1="153.75" x2="1165" y2="153.75" stroke="#e2e8ee"/>
+<text class="note" x="82" y="157.75" text-anchor="end">10.9</text>
+<line x1="90" y1="110.0" x2="1165" y2="110.0" stroke="#e2e8ee"/>
+<text class="note" x="82" y="114.0" text-anchor="end">14.6</text>
+<text class="note" x="269.16666666666663" y="304" text-anchor="middle">最小值</text>
+<text class="note" x="627.5" y="304" text-anchor="middle">中位数</text>
+<text class="note" x="985.8333333333334" y="304" text-anchor="middle">最大值</text>
+<polyline points="269.17,128.75 627.50,128.75 985.83,128.75" fill="none" stroke="#708ba3" stroke-width="2"/>
+<circle cx="269.16666666666663" cy="128.75000000000003" r="3" fill="#708ba3"/>
+<circle cx="627.5" cy="128.75000000000003" r="3" fill="#708ba3"/>
+<circle cx="985.8333333333334" cy="128.75000000000003" r="3" fill="#708ba3"/>
+<line x1="100" y1="330" x2="120" y2="330" stroke="#708ba3" stroke-width="3"/>
+<text class="note" x="127" y="334">fifo</text>
+<polyline points="269.17,200.87 627.50,164.81 985.83,128.75" fill="none" stroke="#45a6a1" stroke-width="2"/>
+<circle cx="269.16666666666663" cy="200.86538461538464" r="3" fill="#45a6a1"/>
+<circle cx="627.5" cy="164.80769230769232" r="3" fill="#45a6a1"/>
+<circle cx="985.8333333333334" cy="128.75000000000003" r="3" fill="#45a6a1"/>
+<line x1="350" y1="330" x2="370" y2="330" stroke="#45a6a1" stroke-width="3"/>
+<text class="note" x="377" y="334">lifo</text>
+<polyline points="269.17,200.87 627.50,164.81 985.83,128.75" fill="none" stroke="#d88c33" stroke-width="2"/>
+<circle cx="269.16666666666663" cy="200.86538461538464" r="3" fill="#d88c33"/>
+<circle cx="627.5" cy="164.80769230769232" r="3" fill="#d88c33"/>
+<circle cx="985.8333333333334" cy="128.75000000000003" r="3" fill="#d88c33"/>
+<line x1="600" y1="330" x2="620" y2="330" stroke="#d88c33" stroke-width="3"/>
+<text class="note" x="627" y="334">low_h</text>
+<text class="label" x="24" y="370">开阔对角端点：24 种方向顺序下扩展节点的最小 / 中位 / 最大值</text>
+<line x1="90" y1="565.0" x2="1165" y2="565.0" stroke="#e2e8ee"/>
+<text class="note" x="82" y="569.0" text-anchor="end">0.0</text>
+<line x1="90" y1="521.25" x2="1165" y2="521.25" stroke="#e2e8ee"/>
+<text class="note" x="82" y="525.25" text-anchor="end">728.0</text>
+<line x1="90" y1="477.5" x2="1165" y2="477.5" stroke="#e2e8ee"/>
+<text class="note" x="82" y="481.5" text-anchor="end">1456.0</text>
+<line x1="90" y1="433.75" x2="1165" y2="433.75" stroke="#e2e8ee"/>
+<text class="note" x="82" y="437.75" text-anchor="end">2184.0</text>
+<line x1="90" y1="390.0" x2="1165" y2="390.0" stroke="#e2e8ee"/>
+<text class="note" x="82" y="394.0" text-anchor="end">2912.0</text>
+<text class="note" x="269.16666666666663" y="584" text-anchor="middle">最小值</text>
+<text class="note" x="627.5" y="584" text-anchor="middle">中位数</text>
+<text class="note" x="985.8333333333334" y="584" text-anchor="middle">最大值</text>
+<polyline points="269.17,408.75 627.50,408.75 985.83,408.75" fill="none" stroke="#708ba3" stroke-width="2"/>
+<circle cx="269.16666666666663" cy="408.75000000000006" r="3" fill="#708ba3"/>
+<circle cx="627.5" cy="408.75000000000006" r="3" fill="#708ba3"/>
+<circle cx="985.8333333333334" cy="408.75000000000006" r="3" fill="#708ba3"/>
+<line x1="100" y1="610" x2="120" y2="610" stroke="#708ba3" stroke-width="3"/>
+<text class="note" x="127" y="614">fifo</text>
+<polyline points="269.17,558.99 627.50,558.99 985.83,558.99" fill="none" stroke="#45a6a1" stroke-width="2"/>
+<circle cx="269.16666666666663" cy="558.9903846153846" r="3" fill="#45a6a1"/>
+<circle cx="627.5" cy="558.9903846153846" r="3" fill="#45a6a1"/>
+<circle cx="985.8333333333334" cy="558.9903846153846" r="3" fill="#45a6a1"/>
+<line x1="350" y1="610" x2="370" y2="610" stroke="#45a6a1" stroke-width="3"/>
+<text class="note" x="377" y="614">lifo</text>
+<polyline points="269.17,558.99 627.50,558.99 985.83,558.99" fill="none" stroke="#d88c33" stroke-width="2"/>
+<circle cx="269.16666666666663" cy="558.9903846153846" r="3" fill="#d88c33"/>
+<circle cx="627.5" cy="558.9903846153846" r="3" fill="#d88c33"/>
+<circle cx="985.8333333333334" cy="558.9903846153846" r="3" fill="#d88c33"/>
+<line x1="600" y1="610" x2="620" y2="610" stroke="#d88c33" stroke-width="3"/>
+<text class="note" x="627" y="614">low_h</text>
+<text class="label" x="24" y="650">长墙绕行：24 种方向顺序下扩展节点的最小 / 中位 / 最大值</text>
+<line x1="90" y1="845.0" x2="1165" y2="845.0" stroke="#e2e8ee"/>
+<text class="note" x="82" y="849.0" text-anchor="end">0.0</text>
+<line x1="90" y1="801.25" x2="1165" y2="801.25" stroke="#e2e8ee"/>
+<text class="note" x="82" y="805.25" text-anchor="end">679.0</text>
+<line x1="90" y1="757.5" x2="1165" y2="757.5" stroke="#e2e8ee"/>
+<text class="note" x="82" y="761.5" text-anchor="end">1358.0</text>
+<line x1="90" y1="713.75" x2="1165" y2="713.75" stroke="#e2e8ee"/>
+<text class="note" x="82" y="717.75" text-anchor="end">2037.0</text>
+<line x1="90" y1="670.0" x2="1165" y2="670.0" stroke="#e2e8ee"/>
+<text class="note" x="82" y="674.0" text-anchor="end">2716.0</text>
+<text class="note" x="269.16666666666663" y="864" text-anchor="middle">最小值</text>
+<text class="note" x="627.5" y="864" text-anchor="middle">中位数</text>
+<text class="note" x="985.8333333333334" y="864" text-anchor="middle">最大值</text>
+<polyline points="269.17,688.75 627.50,688.75 985.83,688.75" fill="none" stroke="#708ba3" stroke-width="2"/>
+<circle cx="269.16666666666663" cy="688.75" r="3" fill="#708ba3"/>
+<circle cx="627.5" cy="688.75" r="3" fill="#708ba3"/>
+<circle cx="985.8333333333334" cy="688.75" r="3" fill="#708ba3"/>
+<line x1="100" y1="890" x2="120" y2="890" stroke="#708ba3" stroke-width="3"/>
+<text class="note" x="127" y="894">fifo</text>
+<polyline points="269.17,759.88 627.50,759.88 985.83,759.88" fill="none" stroke="#45a6a1" stroke-width="2"/>
+<circle cx="269.16666666666663" cy="759.8840206185567" r="3" fill="#45a6a1"/>
+<circle cx="627.5" cy="759.8840206185567" r="3" fill="#45a6a1"/>
+<circle cx="985.8333333333334" cy="759.8840206185567" r="3" fill="#45a6a1"/>
+<line x1="350" y1="890" x2="370" y2="890" stroke="#45a6a1" stroke-width="3"/>
+<text class="note" x="377" y="894">lifo</text>
+<polyline points="269.17,761.43 627.50,761.43 985.83,761.43" fill="none" stroke="#d88c33" stroke-width="2"/>
+<circle cx="269.16666666666663" cy="761.430412371134" r="3" fill="#d88c33"/>
+<circle cx="627.5" cy="761.430412371134" r="3" fill="#d88c33"/>
+<circle cx="985.8333333333334" cy="761.430412371134" r="3" fill="#d88c33"/>
+<line x1="600" y1="890" x2="620" y2="890" stroke="#d88c33" stroke-width="3"/>
+<text class="note" x="627" y="894">low_h</text>
+<text class="label" x="24" y="930">DFS 完美迷宫：24 种方向顺序下扩展节点的最小 / 中位 / 最大值</text>
+<line x1="90" y1="1125.0" x2="1165" y2="1125.0" stroke="#e2e8ee"/>
+<text class="note" x="82" y="1129.0" text-anchor="end">0.0</text>
+<line x1="90" y1="1081.25" x2="1165" y2="1081.25" stroke="#e2e8ee"/>
+<text class="note" x="82" y="1085.25" text-anchor="end">74.5</text>
+<line x1="90" y1="1037.5" x2="1165" y2="1037.5" stroke="#e2e8ee"/>
+<text class="note" x="82" y="1041.5" text-anchor="end">149.0</text>
+<line x1="90" y1="993.75" x2="1165" y2="993.75" stroke="#e2e8ee"/>
+<text class="note" x="82" y="997.75" text-anchor="end">223.4</text>
+<line x1="90" y1="950.0" x2="1165" y2="950.0" stroke="#e2e8ee"/>
+<text class="note" x="82" y="954.0" text-anchor="end">297.9</text>
+<text class="note" x="269.16666666666663" y="1144" text-anchor="middle">最小值</text>
+<text class="note" x="627.5" y="1144" text-anchor="middle">中位数</text>
+<text class="note" x="985.8333333333334" y="1144" text-anchor="middle">最大值</text>
+<polyline points="269.17,968.75 627.50,968.75 985.83,968.75" fill="none" stroke="#708ba3" stroke-width="2"/>
+<circle cx="269.16666666666663" cy="968.75" r="3" fill="#708ba3"/>
+<circle cx="627.5" cy="968.75" r="3" fill="#708ba3"/>
+<circle cx="985.8333333333334" cy="968.75" r="3" fill="#708ba3"/>
+<line x1="100" y1="1170" x2="120" y2="1170" stroke="#708ba3" stroke-width="3"/>
+<text class="note" x="127" y="1174">fifo</text>
+<polyline points="269.17,968.75 627.50,968.75 985.83,968.75" fill="none" stroke="#45a6a1" stroke-width="2"/>
+<circle cx="269.16666666666663" cy="968.75" r="3" fill="#45a6a1"/>
+<circle cx="627.5" cy="968.75" r="3" fill="#45a6a1"/>
+<circle cx="985.8333333333334" cy="968.75" r="3" fill="#45a6a1"/>
+<line x1="350" y1="1170" x2="370" y2="1170" stroke="#45a6a1" stroke-width="3"/>
+<text class="note" x="377" y="1174">lifo</text>
+<polyline points="269.17,970.51 627.50,970.51 985.83,970.51" fill="none" stroke="#d88c33" stroke-width="2"/>
+<circle cx="269.16666666666663" cy="970.5122180451128" r="3" fill="#d88c33"/>
+<circle cx="627.5" cy="970.5122180451128" r="3" fill="#d88c33"/>
+<circle cx="985.8333333333334" cy="970.5122180451128" r="3" fill="#d88c33"/>
+<line x1="600" y1="1170" x2="620" y2="1170" stroke="#d88c33" stroke-width="3"/>
+<text class="note" x="627" y="1174">low_h</text>
+</svg>

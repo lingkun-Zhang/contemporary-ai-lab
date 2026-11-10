@@ -1,0 +1,641 @@
+{
+  "expected": 8,
+  "incorrect": {
+    "value": 6,
+    "trace": [
+      {
+        "event": "wrong_store_as_exact",
+        "path": "root/0/0",
+        "value": 5
+      },
+      {
+        "event": "wrong_store_as_exact",
+        "path": "root/0/1/0",
+        "value": 6
+      },
+      {
+        "event": "wrong_store_as_exact",
+        "path": "root/0/1",
+        "value": 6
+      },
+      {
+        "event": "wrong_store_as_exact",
+        "path": "root/0",
+        "value": 5
+      },
+      {
+        "event": "wrong_exact_hit",
+        "path": "root/1/0",
+        "value": 6
+      },
+      {
+        "event": "wrong_store_as_exact",
+        "path": "root/1/1",
+        "value": 8
+      },
+      {
+        "event": "wrong_store_as_exact",
+        "path": "root/1",
+        "value": 6
+      },
+      {
+        "event": "wrong_store_as_exact",
+        "path": "root",
+        "value": 6
+      }
+    ],
+    "warning": "Intentionally incorrect ablation only; a cutoff bound is not an exact value."
+  },
+  "safe": {
+    "value": 8,
+    "stats": {
+      "visited_nodes": 10,
+      "internal_nodes": 5,
+      "leaf_evaluations": 4,
+      "tt_returns": 1,
+      "tt_probes": 10,
+      "tt_hits": 2,
+      "exact_hits": 1,
+      "bound_cutoffs": 0,
+      "noncutting_hits": 1,
+      "stores": 9,
+      "table_peak_entries": 8,
+      "table_final_entries": 8,
+      "cutoff_events": 1,
+      "skipped_child_roots": 1,
+      "bound_crossings": 1
+    },
+    "trace": [
+      {
+        "event": "enter",
+        "path": "root",
+        "is_maximizing_player": true,
+        "depth": 0,
+        "alpha": "-inf",
+        "beta": "inf",
+        "node_id": 2221706741568
+      },
+      {
+        "event": "probe",
+        "path": "root",
+        "is_maximizing_player": true,
+        "depth": 0,
+        "hit": false,
+        "cached_value": null,
+        "cached_bound": null,
+        "can_return": false,
+        "node_id": 2221706741568,
+        "alpha": "-inf",
+        "beta": "inf"
+      },
+      {
+        "event": "enter",
+        "path": "root/0",
+        "is_maximizing_player": false,
+        "depth": 1,
+        "alpha": "-inf",
+        "beta": "inf",
+        "node_id": 2221706741664
+      },
+      {
+        "event": "probe",
+        "path": "root/0",
+        "is_maximizing_player": false,
+        "depth": 1,
+        "hit": false,
+        "cached_value": null,
+        "cached_bound": null,
+        "can_return": false,
+        "node_id": 2221706741664,
+        "alpha": "-inf",
+        "beta": "inf"
+      },
+      {
+        "event": "enter",
+        "path": "root/0/0",
+        "is_maximizing_player": true,
+        "depth": 2,
+        "alpha": "-inf",
+        "beta": "inf",
+        "node_id": 2221706741952
+      },
+      {
+        "event": "probe",
+        "path": "root/0/0",
+        "is_maximizing_player": true,
+        "depth": 2,
+        "hit": false,
+        "cached_value": null,
+        "cached_bound": null,
+        "can_return": false,
+        "node_id": 2221706741952,
+        "alpha": "-inf",
+        "beta": "inf"
+      },
+      {
+        "event": "leaf",
+        "path": "root/0/0",
+        "is_maximizing_player": true,
+        "depth": 2,
+        "value": 5
+      },
+      {
+        "event": "store",
+        "path": "root/0/0",
+        "is_maximizing_player": true,
+        "depth": 2,
+        "value": 5,
+        "stored_bound": "exact",
+        "accepted": true,
+        "node_id": 2221706741952
+      },
+      {
+        "event": "return",
+        "path": "root/0/0",
+        "is_maximizing_player": true,
+        "depth": 2,
+        "value": 5,
+        "returned_bound": "exact",
+        "source": "search"
+      },
+      {
+        "event": "update",
+        "path": "root/0",
+        "is_maximizing_player": false,
+        "depth": 1,
+        "child_index": 0,
+        "child_path": "root/0/0",
+        "child_value": 5,
+        "previous_value": "inf",
+        "value": 5,
+        "alpha": "-inf",
+        "beta": 5
+      },
+      {
+        "event": "enter",
+        "path": "root/0/1",
+        "is_maximizing_player": true,
+        "depth": 2,
+        "alpha": "-inf",
+        "beta": 5,
+        "node_id": 2221706744544
+      },
+      {
+        "event": "probe",
+        "path": "root/0/1",
+        "is_maximizing_player": true,
+        "depth": 2,
+        "hit": false,
+        "cached_value": null,
+        "cached_bound": null,
+        "can_return": false,
+        "node_id": 2221706744544,
+        "alpha": "-inf",
+        "beta": 5
+      },
+      {
+        "event": "enter",
+        "path": "root/0/1/0",
+        "is_maximizing_player": false,
+        "depth": 3,
+        "alpha": "-inf",
+        "beta": 5,
+        "node_id": 2221706742384
+      },
+      {
+        "event": "probe",
+        "path": "root/0/1/0",
+        "is_maximizing_player": false,
+        "depth": 3,
+        "hit": false,
+        "cached_value": null,
+        "cached_bound": null,
+        "can_return": false,
+        "node_id": 2221706742384,
+        "alpha": "-inf",
+        "beta": 5
+      },
+      {
+        "event": "leaf",
+        "path": "root/0/1/0",
+        "is_maximizing_player": false,
+        "depth": 3,
+        "value": 6
+      },
+      {
+        "event": "store",
+        "path": "root/0/1/0",
+        "is_maximizing_player": false,
+        "depth": 3,
+        "value": 6,
+        "stored_bound": "exact",
+        "accepted": true,
+        "node_id": 2221706742384
+      },
+      {
+        "event": "return",
+        "path": "root/0/1/0",
+        "is_maximizing_player": false,
+        "depth": 3,
+        "value": 6,
+        "returned_bound": "exact",
+        "source": "search"
+      },
+      {
+        "event": "update",
+        "path": "root/0/1",
+        "is_maximizing_player": true,
+        "depth": 2,
+        "child_index": 0,
+        "child_path": "root/0/1/0",
+        "child_value": 6,
+        "previous_value": "-inf",
+        "value": 6,
+        "alpha": 6,
+        "beta": 5
+      },
+      {
+        "event": "cutoff",
+        "path": "root/0/1",
+        "is_maximizing_player": true,
+        "depth": 2,
+        "value": 6,
+        "alpha": 6,
+        "beta": 5,
+        "remaining_child_indices": [
+          1
+        ],
+        "skipped_children": [
+          "root/0/1/1"
+        ]
+      },
+      {
+        "event": "store",
+        "path": "root/0/1",
+        "is_maximizing_player": true,
+        "depth": 2,
+        "value": 6,
+        "stored_bound": "lower",
+        "accepted": true,
+        "node_id": 2221706744544
+      },
+      {
+        "event": "return",
+        "path": "root/0/1",
+        "is_maximizing_player": true,
+        "depth": 2,
+        "value": 6,
+        "returned_bound": "lower",
+        "source": "search"
+      },
+      {
+        "event": "update",
+        "path": "root/0",
+        "is_maximizing_player": false,
+        "depth": 1,
+        "child_index": 1,
+        "child_path": "root/0/1",
+        "child_value": 6,
+        "previous_value": 5,
+        "value": 5,
+        "alpha": "-inf",
+        "beta": 5
+      },
+      {
+        "event": "store",
+        "path": "root/0",
+        "is_maximizing_player": false,
+        "depth": 1,
+        "value": 5,
+        "stored_bound": "exact",
+        "accepted": true,
+        "node_id": 2221706741664
+      },
+      {
+        "event": "return",
+        "path": "root/0",
+        "is_maximizing_player": false,
+        "depth": 1,
+        "value": 5,
+        "returned_bound": "exact",
+        "source": "search"
+      },
+      {
+        "event": "update",
+        "path": "root",
+        "is_maximizing_player": true,
+        "depth": 0,
+        "child_index": 0,
+        "child_path": "root/0",
+        "child_value": 5,
+        "previous_value": "-inf",
+        "value": 5,
+        "alpha": 5,
+        "beta": "inf"
+      },
+      {
+        "event": "enter",
+        "path": "root/1",
+        "is_maximizing_player": false,
+        "depth": 1,
+        "alpha": 5,
+        "beta": "inf",
+        "node_id": 2221706741232
+      },
+      {
+        "event": "probe",
+        "path": "root/1",
+        "is_maximizing_player": false,
+        "depth": 1,
+        "hit": false,
+        "cached_value": null,
+        "cached_bound": null,
+        "can_return": false,
+        "node_id": 2221706741232,
+        "alpha": 5,
+        "beta": "inf"
+      },
+      {
+        "event": "enter",
+        "path": "root/1/0",
+        "is_maximizing_player": true,
+        "depth": 2,
+        "alpha": 5,
+        "beta": "inf",
+        "node_id": 2221706744544
+      },
+      {
+        "event": "probe",
+        "path": "root/1/0",
+        "is_maximizing_player": true,
+        "depth": 2,
+        "hit": true,
+        "cached_value": 6,
+        "cached_bound": "lower",
+        "can_return": false,
+        "node_id": 2221706744544,
+        "alpha": 5,
+        "beta": "inf"
+      },
+      {
+        "event": "enter",
+        "path": "root/1/0/0",
+        "is_maximizing_player": false,
+        "depth": 3,
+        "alpha": 5,
+        "beta": "inf",
+        "node_id": 2221706742384
+      },
+      {
+        "event": "probe",
+        "path": "root/1/0/0",
+        "is_maximizing_player": false,
+        "depth": 3,
+        "hit": true,
+        "cached_value": 6,
+        "cached_bound": "exact",
+        "can_return": true,
+        "node_id": 2221706742384,
+        "alpha": 5,
+        "beta": "inf"
+      },
+      {
+        "event": "tt_return",
+        "path": "root/1/0/0",
+        "is_maximizing_player": false,
+        "depth": 3,
+        "value": 6,
+        "returned_bound": "exact",
+        "node_id": 2221706742384
+      },
+      {
+        "event": "return",
+        "path": "root/1/0/0",
+        "is_maximizing_player": false,
+        "depth": 3,
+        "value": 6,
+        "returned_bound": "exact",
+        "source": "cache"
+      },
+      {
+        "event": "update",
+        "path": "root/1/0",
+        "is_maximizing_player": true,
+        "depth": 2,
+        "child_index": 0,
+        "child_path": "root/1/0/0",
+        "child_value": 6,
+        "previous_value": "-inf",
+        "value": 6,
+        "alpha": 6,
+        "beta": "inf"
+      },
+      {
+        "event": "enter",
+        "path": "root/1/0/1",
+        "is_maximizing_player": false,
+        "depth": 3,
+        "alpha": 6,
+        "beta": "inf",
+        "node_id": 2221706740896
+      },
+      {
+        "event": "probe",
+        "path": "root/1/0/1",
+        "is_maximizing_player": false,
+        "depth": 3,
+        "hit": false,
+        "cached_value": null,
+        "cached_bound": null,
+        "can_return": false,
+        "node_id": 2221706740896,
+        "alpha": 6,
+        "beta": "inf"
+      },
+      {
+        "event": "leaf",
+        "path": "root/1/0/1",
+        "is_maximizing_player": false,
+        "depth": 3,
+        "value": 9
+      },
+      {
+        "event": "store",
+        "path": "root/1/0/1",
+        "is_maximizing_player": false,
+        "depth": 3,
+        "value": 9,
+        "stored_bound": "exact",
+        "accepted": true,
+        "node_id": 2221706740896
+      },
+      {
+        "event": "return",
+        "path": "root/1/0/1",
+        "is_maximizing_player": false,
+        "depth": 3,
+        "value": 9,
+        "returned_bound": "exact",
+        "source": "search"
+      },
+      {
+        "event": "update",
+        "path": "root/1/0",
+        "is_maximizing_player": true,
+        "depth": 2,
+        "child_index": 1,
+        "child_path": "root/1/0/1",
+        "child_value": 9,
+        "previous_value": 6,
+        "value": 9,
+        "alpha": 9,
+        "beta": "inf"
+      },
+      {
+        "event": "store",
+        "path": "root/1/0",
+        "is_maximizing_player": true,
+        "depth": 2,
+        "value": 9,
+        "stored_bound": "exact",
+        "accepted": true,
+        "node_id": 2221706744544
+      },
+      {
+        "event": "return",
+        "path": "root/1/0",
+        "is_maximizing_player": true,
+        "depth": 2,
+        "value": 9,
+        "returned_bound": "exact",
+        "source": "search"
+      },
+      {
+        "event": "update",
+        "path": "root/1",
+        "is_maximizing_player": false,
+        "depth": 1,
+        "child_index": 0,
+        "child_path": "root/1/0",
+        "child_value": 9,
+        "previous_value": "inf",
+        "value": 9,
+        "alpha": 5,
+        "beta": 9
+      },
+      {
+        "event": "enter",
+        "path": "root/1/1",
+        "is_maximizing_player": true,
+        "depth": 2,
+        "alpha": 5,
+        "beta": 9,
+        "node_id": 2221706742048
+      },
+      {
+        "event": "probe",
+        "path": "root/1/1",
+        "is_maximizing_player": true,
+        "depth": 2,
+        "hit": false,
+        "cached_value": null,
+        "cached_bound": null,
+        "can_return": false,
+        "node_id": 2221706742048,
+        "alpha": 5,
+        "beta": 9
+      },
+      {
+        "event": "leaf",
+        "path": "root/1/1",
+        "is_maximizing_player": true,
+        "depth": 2,
+        "value": 8
+      },
+      {
+        "event": "store",
+        "path": "root/1/1",
+        "is_maximizing_player": true,
+        "depth": 2,
+        "value": 8,
+        "stored_bound": "exact",
+        "accepted": true,
+        "node_id": 2221706742048
+      },
+      {
+        "event": "return",
+        "path": "root/1/1",
+        "is_maximizing_player": true,
+        "depth": 2,
+        "value": 8,
+        "returned_bound": "exact",
+        "source": "search"
+      },
+      {
+        "event": "update",
+        "path": "root/1",
+        "is_maximizing_player": false,
+        "depth": 1,
+        "child_index": 1,
+        "child_path": "root/1/1",
+        "child_value": 8,
+        "previous_value": 9,
+        "value": 8,
+        "alpha": 5,
+        "beta": 8
+      },
+      {
+        "event": "store",
+        "path": "root/1",
+        "is_maximizing_player": false,
+        "depth": 1,
+        "value": 8,
+        "stored_bound": "exact",
+        "accepted": true,
+        "node_id": 2221706741232
+      },
+      {
+        "event": "return",
+        "path": "root/1",
+        "is_maximizing_player": false,
+        "depth": 1,
+        "value": 8,
+        "returned_bound": "exact",
+        "source": "search"
+      },
+      {
+        "event": "update",
+        "path": "root",
+        "is_maximizing_player": true,
+        "depth": 0,
+        "child_index": 1,
+        "child_path": "root/1",
+        "child_value": 8,
+        "previous_value": 5,
+        "value": 8,
+        "alpha": 8,
+        "beta": "inf"
+      },
+      {
+        "event": "store",
+        "path": "root",
+        "is_maximizing_player": true,
+        "depth": 0,
+        "value": 8,
+        "stored_bound": "exact",
+        "accepted": true,
+        "node_id": 2221706741568
+      },
+      {
+        "event": "return",
+        "path": "root",
+        "is_maximizing_player": true,
+        "depth": 0,
+        "value": 8,
+        "returned_bound": "exact",
+        "source": "search"
+      }
+    ],
+    "bound": "exact"
+  }
+}

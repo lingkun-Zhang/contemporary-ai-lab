@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="700" viewBox="0 0 1180 700">
+<style>text{font-family:'Microsoft YaHei','Noto Sans CJK SC',Arial,sans-serif;fill:#273b49}.title{font-size:22px;font-weight:700}.label{font-size:14px}.note{font-size:12px;fill:#526777}</style>
+<rect width="1180" height="700" fill="white"/>
+<text class="title" x="24" y="34">区域预处理的收益取决于地形结构</text>
+<text class="note" x="24" y="60">同一地形的 scope 对照使用完全相同输入；均匀/带状是不同结构，节点收益须与扫描开销一起解释。</text>
+<text class="label" x="24" y="90">隔离零权格固定存在；corrected + low_h 的实际 A* 扩展数</text>
+<line x1="100" y1="280.0" x2="1140" y2="280.0" stroke="#e0e7ec"/>
+<text class="note" x="90" y="284.0" text-anchor="end">0.00</text>
+<line x1="100" y1="237.5" x2="1140" y2="237.5" stroke="#e0e7ec"/>
+<text class="note" x="90" y="241.5" text-anchor="end">2856.00</text>
+<line x1="100" y1="195.0" x2="1140" y2="195.0" stroke="#e0e7ec"/>
+<text class="note" x="90" y="199.0" text-anchor="end">5712.00</text>
+<line x1="100" y1="152.5" x2="1140" y2="152.5" stroke="#e0e7ec"/>
+<text class="note" x="90" y="156.5" text-anchor="end">8568.00</text>
+<line x1="100" y1="110.0" x2="1140" y2="110.0" stroke="#e0e7ec"/>
+<text class="note" x="90" y="114.0" text-anchor="end">11424.00</text>
+<text class="note" x="100.0" y="302" text-anchor="middle">31</text>
+<text class="note" x="1140.0" y="302" text-anchor="middle">101</text>
+<polyline fill="none" stroke="#da9239" stroke-width="2" points="100.00,265.71 1140.00,128.21"/>
+<circle cx="100.0" cy="265.7142857142857" r="3" fill="#da9239"/>
+<circle cx="1140.0" cy="128.21428571428575" r="3" fill="#da9239"/>
+<line x1="100" y1="327" x2="118" y2="327" stroke="#da9239" stroke-width="3"/>
+<text class="note" x="125" y="331">高费带：全图 m</text>
+<polyline fill="none" stroke="#419f96" stroke-width="2" points="100.00,267.35 1140.00,144.91"/>
+<circle cx="100.0" cy="267.3511904761905" r="3" fill="#419f96"/>
+<circle cx="1140.0" cy="144.9107142857143" r="3" fill="#419f96"/>
+<line x1="365" y1="327" x2="383" y2="327" stroke="#419f96" stroke-width="3"/>
+<text class="note" x="390" y="331">高费带：区域 m</text>
+<polyline fill="none" stroke="#718da6" stroke-width="2" points="100.00,265.71 1140.00,128.21"/>
+<circle cx="100.0" cy="265.7142857142857" r="3" fill="#718da6"/>
+<circle cx="1140.0" cy="128.21428571428575" r="3" fill="#718da6"/>
+<line x1="630" y1="327" x2="648" y2="327" stroke="#718da6" stroke-width="3"/>
+<text class="note" x="655" y="331">均匀图：全图 m</text>
+<polyline fill="none" stroke="#477fbd" stroke-width="2" points="100.00,279.11 1140.00,277.02"/>
+<circle cx="100.0" cy="279.1071428571429" r="3" fill="#477fbd"/>
+<circle cx="1140.0" cy="277.0238095238095" r="3" fill="#477fbd"/>
+<line x1="895" y1="327" x2="913" y2="327" stroke="#477fbd" stroke-width="3"/>
+<text class="note" x="920" y="331">均匀图：区域 m</text>
+<text class="label" x="24" y="370">完整查询毫秒中位数：含连通扫描、预处理、搜索和路径回溯</text>
+<line x1="100" y1="560.0" x2="1140" y2="560.0" stroke="#e0e7ec"/>
+<text class="note" x="90" y="564.0" text-anchor="end">0.00</text>
+<line x1="100" y1="517.5" x2="1140" y2="517.5" stroke="#e0e7ec"/>
+<text class="note" x="90" y="521.5" text-anchor="end">27.68</text>
+<line x1="100" y1="475.0" x2="1140" y2="475.0" stroke="#e0e7ec"/>
+<text class="note" x="90" y="479.0" text-anchor="end">55.35</text>
+<line x1="100" y1="432.5" x2="1140" y2="432.5" stroke="#e0e7ec"/>
+<text class="note" x="90" y="436.5" text-anchor="end">83.03</text>
+<line x1="100" y1="390.0" x2="1140" y2="390.0" stroke="#e0e7ec"/>
+<text class="note" x="90" y="394.0" text-anchor="end">110.71</text>
+<text class="note" x="100.0" y="582" text-anchor="middle">31</text>
+<text class="note" x="1140.0" y="582" text-anchor="middle">101</text>
+<polyline fill="none" stroke="#da9239" stroke-width="2" points="100.00,550.89 1140.00,456.34"/>
+<circle cx="100.0" cy="550.8856962442121" r="3" fill="#da9239"/>
+<circle cx="1140.0" cy="456.34233232543403" r="3" fill="#da9239"/>
+<line x1="100" y1="607" x2="118" y2="607" stroke="#da9239" stroke-width="3"/>
+<text class="note" x="125" y="611">高费带：全图 m</text>
+<polyline fill="none" stroke="#419f96" stroke-width="2" points="100.00,546.30 1140.00,408.21"/>
+<circle cx="100.0" cy="546.2978072709903" r="3" fill="#419f96"/>
+<circle cx="1140.0" cy="408.2142857142857" r="3" fill="#419f96"/>
+<line x1="365" y1="607" x2="383" y2="607" stroke="#419f96" stroke-width="3"/>
+<text class="note" x="390" y="611">高费带：区域 m</text>
+<polyline fill="none" stroke="#718da6" stroke-width="2" points="100.00,550.14 1140.00,458.46"/>
+<circle cx="100.0" cy="550.1403280807431" r="3" fill="#718da6"/>
+<circle cx="1140.0" cy="458.4581500980721" r="3" fill="#718da6"/>
+<line x1="630" y1="607" x2="648" y2="607" stroke="#718da6" stroke-width="3"/>
+<text class="note" x="655" y="611">均匀图：全图 m</text>
+<polyline fill="none" stroke="#477fbd" stroke-width="2" points="100.00,556.00 1140.00,518.65"/>
+<circle cx="100.0" cy="555.9989566519789" r="3" fill="#477fbd"/>
+<circle cx="1140.0" cy="518.645938289391" r="3" fill="#477fbd"/>
+<line x1="895" y1="607" x2="913" y2="607" stroke="#477fbd" stroke-width="3"/>
+<text class="note" x="920" y="611">均匀图：区域 m</text>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+<rect width="100%" height="100%" fill="white"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#293e4d">
+<text x="32" y="40" font-size="25" font-weight="bold">延迟准备被剪枝的候选：相同访问树，较少距离请求</text>
+<text x="32" y="75" font-size="14" fill="#566d82">搜索阶段使用已验证矩阵；比值为lazy / matched_eager，31输入内配对后取中位数。</text>
+<line x1="100" y1="540.0" x2="1110" y2="540.0" stroke="#dce5ed"/>
+<text x="82" y="545.0" text-anchor="end" font-size="14">0.0</text>
+<line x1="100" y1="460.0" x2="1110" y2="460.0" stroke="#dce5ed"/>
+<text x="82" y="465.0" text-anchor="end" font-size="14">0.2</text>
+<line x1="100" y1="380.0" x2="1110" y2="380.0" stroke="#dce5ed"/>
+<text x="82" y="385.0" text-anchor="end" font-size="14">0.4</text>
+<line x1="100" y1="300.0" x2="1110" y2="300.0" stroke="#dce5ed"/>
+<text x="82" y="305.0" text-anchor="end" font-size="14">0.6</text>
+<line x1="100" y1="220.0" x2="1110" y2="220.0" stroke="#dce5ed"/>
+<text x="82" y="225.0" text-anchor="end" font-size="14">0.8</text>
+<line x1="100" y1="140.0" x2="1110" y2="140.0" stroke="#dce5ed"/>
+<text x="82" y="145.0" text-anchor="end" font-size="14">1.0</text>
+<text x="225.0" y="575" text-anchor="middle" font-size="17">AB H2</text>
+<rect x="166.0" y="240.0" width="34" height="300.0" fill="#347f9b"/>
+<text x="183.0" y="230.0" text-anchor="middle" font-size="13">0.75</text>
+<rect x="208.0" y="240.0" width="34" height="300.0" fill="#c68435"/>
+<text x="225.0" y="230.0" text-anchor="middle" font-size="13">0.75</text>
+<rect x="250.0" y="140.0" width="34" height="400.0" fill="#64945e"/>
+<text x="267.0" y="130.0" text-anchor="middle" font-size="13">1.00</text>
+<text x="475.0" y="575" text-anchor="middle" font-size="17">AB H4</text>
+<rect x="416.0" y="186.1538461538462" width="34" height="353.8461538461538" fill="#347f9b"/>
+<text x="433.0" y="176.1538461538462" text-anchor="middle" font-size="13">0.88</text>
+<rect x="458.0" y="182.55319148936172" width="34" height="357.4468085106383" fill="#c68435"/>
+<text x="475.0" y="172.55319148936172" text-anchor="middle" font-size="13">0.89</text>
+<rect x="500.0" y="140.0" width="34" height="400.0" fill="#64945e"/>
+<text x="517.0" y="130.0" text-anchor="middle" font-size="13">1.00</text>
+<text x="725.0" y="575" text-anchor="middle" font-size="17">MM H2</text>
+<rect x="666.0" y="140.0" width="34" height="400.0" fill="#347f9b"/>
+<text x="683.0" y="130.0" text-anchor="middle" font-size="13">1.00</text>
+<rect x="708.0" y="140.0" width="34" height="400.0" fill="#c68435"/>
+<text x="725.0" y="130.0" text-anchor="middle" font-size="13">1.00</text>
+<rect x="750.0" y="140.0" width="34" height="400.0" fill="#64945e"/>
+<text x="767.0" y="130.0" text-anchor="middle" font-size="13">1.00</text>
+<text x="975.0" y="575" text-anchor="middle" font-size="17">MM H4</text>
+<rect x="916.0" y="140.0" width="34" height="400.0" fill="#347f9b"/>
+<text x="933.0" y="130.0" text-anchor="middle" font-size="13">1.00</text>
+<rect x="958.0" y="140.0" width="34" height="400.0" fill="#c68435"/>
+<text x="975.0" y="130.0" text-anchor="middle" font-size="13">1.00</text>
+<rect x="1000.0" y="140.0" width="34" height="400.0" fill="#64945e"/>
+<text x="1017.0" y="130.0" text-anchor="middle" font-size="13">1.00</text>
+<rect x="130" y="615" width="22" height="15" fill="#347f9b"/>
+<text x="161" y="628" font-size="15">label</text>
+<rect x="460" y="615" width="22" height="15" fill="#c68435"/>
+<text x="491" y="628" font-size="15">reverse</text>
+<rect x="790" y="615" width="22" height="15" fill="#64945e"/>
+<text x="821" y="628" font-size="15">gain</text>
+<text x="32" y="680" font-size="14">MM无剪枝、gain必须预先计算排序依据：两者为请求量不变的边界对照。</text>
+</g></svg>

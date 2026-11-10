@@ -1,0 +1,261 @@
+{
+  "declared_at_utc": "2026-11-01T14:55:59.690429+00:00",
+  "registration_phase": "Before first formal solver warmup.",
+  "sample_input": {
+    "grid": [
+      [
+        "A",
+        1,
+        1,
+        "X",
+        2,
+        1,
+        "T1"
+      ],
+      [
+        1,
+        "X",
+        6,
+        "X",
+        1,
+        "X",
+        1
+      ],
+      [
+        1,
+        1,
+        "T2",
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        "X",
+        1,
+        "X",
+        8,
+        "X",
+        1,
+        "X"
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        "T3",
+        1,
+        1
+      ],
+      [
+        1,
+        "X",
+        9,
+        "X",
+        1,
+        "X",
+        1
+      ],
+      [
+        "T4",
+        1,
+        1,
+        "X",
+        1,
+        1,
+        "B"
+      ]
+    ],
+    "treasures": [
+      {
+        "id": "T1",
+        "position": [
+          0,
+          6
+        ],
+        "value": 9
+      },
+      {
+        "id": "T2",
+        "position": [
+          2,
+          2
+        ],
+        "value": 6
+      },
+      {
+        "id": "T3",
+        "position": [
+          4,
+          4
+        ],
+        "value": 7
+      },
+      {
+        "id": "T4",
+        "position": [
+          6,
+          0
+        ],
+        "value": 7
+      }
+    ]
+  },
+  "independent_reference_matrix": [
+    [
+      0,
+      12,
+      10,
+      4,
+      8,
+      8
+    ],
+    [
+      12,
+      0,
+      8,
+      8,
+      4,
+      10
+    ],
+    [
+      10,
+      8,
+      0,
+      6,
+      6,
+      12
+    ],
+    [
+      4,
+      8,
+      6,
+      0,
+      6,
+      6
+    ],
+    [
+      8,
+      4,
+      6,
+      6,
+      0,
+      6
+    ],
+    [
+      8,
+      10,
+      12,
+      6,
+      6,
+      0
+    ]
+  ],
+  "phases": {
+    "path_matrix": {
+      "heuristics": [
+        "zero",
+        "manhattan"
+      ],
+      "configurations": 2
+    },
+    "sample_depth": {
+      "depths": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "algorithms": [
+        "minimax",
+        "alphabeta"
+      ],
+      "orders": [
+        "label",
+        "reverse",
+        "gain"
+      ],
+      "configurations": 30
+    },
+    "value_sweep": {
+      "t3_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "depths": [
+        2,
+        4
+      ],
+      "algorithms": [
+        "minimax",
+        "alphabeta"
+      ],
+      "orders": [
+        "label",
+        "reverse",
+        "gain"
+      ],
+      "configurations": 180
+    },
+    "routing": {
+      "depths": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "algorithms": [
+        "minimax",
+        "alphabeta"
+      ],
+      "orders": [
+        "label",
+        "gain"
+      ],
+      "strategies": [
+        "precompute",
+        "on_demand",
+        "repeated"
+      ],
+      "output_modes": [
+        "decision_only",
+        "complete_task"
+      ],
+      "configurations": 96
+    }
+  },
+  "repeats": 7,
+  "batch": 3,
+  "timing_seed": 20261101,
+  "counts": {
+    "total_configurations": 308,
+    "timing_batches": 2156,
+    "timed_top_level_calls": 6468,
+    "terrain_maps": 1,
+    "reward_vectors": 15
+  },
+  "source_sha256": {
+    "run_experiments.py": "cb443ca95219857bd5e9de499ce7cab15379deee54ca9a525c82ce6c78ac3d3e",
+    "treasure_game.py": "56c812ddab8a1ae8d7229cb064dca4ba832878c4d824553822edad26ed76b68b",
+    "reference_tools.py": "99a1b7fdf45095a2c8dadb1e2688e902592a46069d6c8da6044c5175985d41e0",
+    "pdf_sample.json": "3ca804d0d0dcd8aa82fe44bc68da01eafad5508ba4fad903953f14dc91f95003"
+  },
+  "timing_boundary": "Static game phase excludes one prepared matrix, and includes candidate generation/sort/search. Matrix phase includes all30 ordered A* calls. Routing phase includes fresh provider, A*, cache, sort/search and required output completion. Validation/oracle/trace/file output excluded.",
+  "comparison_scope": "Decision-only routing emits the same optimal first move/value, but not all strategies emit a complete matrix. Complete-task phase separately includes full matrix output for every strategy. These output contracts must never be pooled.",
+  "scientific_limits": "One terrain map and15 deterministic reward vectors, not308 independent inputs. Exploration of value boundaries, not a prespecified interior timing optimum. IQR descriptive, no confidence/significance claim."
+}

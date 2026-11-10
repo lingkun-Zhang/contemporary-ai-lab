@@ -1,0 +1,14 @@
+{
+  "all930_prepared_paths_valid": true,
+  "all_selected_actions_and_values_correct": true,
+  "all_same_order_target_pv_and_visit_counters_identical": true,
+  "all_counters_stable": true,
+  "all_complete_contract_matrices_identical": true,
+  "negative_controls_unchanged_lookups": true,
+  "complete_cached_contract_astar_always30": true,
+  "protocol_unchanged": true,
+  "sources_unchanged": true,
+  "total_configurations": 1620,
+  "timing_batches": 8100,
+  "timed_top_level_calls": 24300
+}

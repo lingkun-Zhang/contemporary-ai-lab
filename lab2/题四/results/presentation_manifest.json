@@ -1,0 +1,13 @@
+{
+  "note": "Post-timing analytical boundary checks and figure generation; not additional timed configurations.",
+  "figure_source_sha256": {
+    "draw_q4_figures.py": "090c42680fbc2faf3d9380b2cec21f3057772797ae1512e48eace2c3ed618145"
+  },
+  "artifact_sha256": {
+    "depth_decisions.svg": "4e0822790bf25dd0b62e29fb0ffe89db5132b293d39964558918b47e1ed85298",
+    "routing_cost.svg": "f90f676d8e0e2a8601d614f8a852c5602cccc717e3884dd7893cf1f606fba5df",
+    "sample_map.svg": "da588f816c936eca71b79ce5fedd17b1462cba9823357446667a3cfa589de71f",
+    "value_sweep.svg": "c0848e56950adbf00cfaf84200afecfbb4dd65ae6522d1d5c16b5a1922b09f8f",
+    "decision_boundary_checks.json": "20729c7d3bd30bebe7cb0c07264546a3025bd283e6544e6b1cd0a57edb605e74"
+  }
+}

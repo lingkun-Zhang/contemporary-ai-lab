@@ -1,0 +1,35 @@
+{
+  "declared_design": "Same ordered expanded game tree across sharing probabilities; fresh table each call; left-to-right; full terminal search.",
+  "generated_at_utc": "2026-10-30T05:13:36.924897+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "seed": 20261030,
+  "repeats": 9,
+  "batch": 5,
+  "input_records": 12,
+  "distinct_ordered_expanded_inputs": 5,
+  "configurations": 118,
+  "timing_batches": 1062,
+  "timed_solver_calls": 5310,
+  "max_cache_depth_candidates": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    "all"
+  ],
+  "source_sha256": {
+    "run_transposition_study.py": "9d0ccd3206e713ddca09f17260f7538aee44829b50e91930abfed91499088bc7",
+    "transposition_search.py": "bff70135979f39d877f3f6ba34318aa8e719652971c74134c8b84edd214c18d1",
+    "alphabeta_tree.py": "555b1043143f3137716c73557244e6250df7dbe775c34558e9e6f74c2d4799fb",
+    "pdf_sample.json": "7052a420d5b19a4f4bf1e3300172644df8758b1309d01d15cfe061206294a4db"
+  },
+  "input_sha256": "968d97d43b358ba451f84c91abad09f1494785b1df5785b2eda89430ddb930f4",
+  "timing_boundary": "Already constructed and validated inputs. Includes fresh table creation, lookup, bound checks, stores and all search. Excludes generation, independent oracle, validation, trace and file output. No concurrent benchmark worker.",
+  "interpretation": "Exploratory timing on fixed workloads; IQR is descriptive, not confidence. Do not select and independently confirm a parameter in the same data. Object identity is not structural equality; cache lookup never merges equal independent copies."
+}

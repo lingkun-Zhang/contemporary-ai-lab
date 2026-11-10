@@ -1,0 +1,36 @@
+{
+  "input_maps": 3,
+  "queries_per_map": 40,
+  "candidates": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    8
+  ],
+  "repeats": 9,
+  "timed_batches": 162,
+  "measured_query_executions": 6480,
+  "unique_map_query_k_configurations": 720,
+  "all_shortest_costs_and_paths_verified": true,
+  "path_and_stats_stable_across_repeats": true,
+  "fixed_query_sets_and_landmark_prefixes_verified": true,
+  "best_by_case": [
+    {
+      "case": "long_wall",
+      "best_k": 1,
+      "best_is_interior": true
+    },
+    {
+      "case": "perfect_maze",
+      "best_k": 1,
+      "best_is_interior": true
+    },
+    {
+      "case": "open",
+      "best_k": 0,
+      "best_is_interior": false
+    }
+  ]
+}

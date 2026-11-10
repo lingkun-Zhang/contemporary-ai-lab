@@ -1,0 +1,81 @@
+{
+  "generated_at_utc": "2026-10-30T05:39:07.485614+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "protocol": {
+    "relative_path": "protocol.json",
+    "sha256": "f192c1f387274964dce636e116836cffd06a4b5f071ebeb4362b467383fd12e4"
+  },
+  "source_sha256": {
+    "run_sampling_confirmation.py": "b182cc2026ba714ae4b492dcfdad952aee0a2e05cdf139ca7dd2a071611b8291",
+    "run_experiments.py": "fe9d8bac32ca8bc5fd6b00e332f536b18f483117b9865d738e8dc5d6679f60f2",
+    "alphabeta_tree.py": "555b1043143f3137716c73557244e6250df7dbe775c34558e9e6f74c2d4799fb"
+  },
+  "counts": {
+    "independent_trees": 30,
+    "configurations": 120,
+    "timing_batches": 840,
+    "timed_solver_calls": 2520
+  },
+  "seeds": [
+    20261101,
+    20261102,
+    20261103,
+    20261104,
+    20261105,
+    20261106,
+    20261107,
+    20261108,
+    20261109,
+    20261110,
+    20261111,
+    20261112,
+    20261113,
+    20261114,
+    20261115,
+    20261116,
+    20261117,
+    20261118,
+    20261119,
+    20261120,
+    20261121,
+    20261122,
+    20261123,
+    20261124,
+    20261125,
+    20261126,
+    20261127,
+    20261128,
+    20261129,
+    20261130
+  ],
+  "parameters": {
+    "target_budget": 8,
+    "candidates": [
+      0,
+      4,
+      8,
+      16
+    ],
+    "references": [
+      0,
+      4,
+      16
+    ],
+    "repeats": 7,
+    "batch": 3,
+    "timing_seed": 20261101
+  },
+  "result_files_sha256": {
+    "comparison.csv": "17037170ea1b4d21c4727c363a9f2f7e353ff4d24ea74c5e49413bf8d04891d5",
+    "timing_batches.csv": "c402bcce2cf65de2f8344a1d85fc566d7c9de85bb175dc858f3a35b35ab600d7",
+    "paired_differences.csv": "c2e528d282bfe5ebe5ebe3c48478aa60514fa043acfd4ac1e7f587f9c605a04a",
+    "per_tree_lowpoints.csv": "37e449143093efd9103f62bc38eff5bb81fb106f6e771a824ef9a55a1c185851",
+    "aggregate_summary.csv": "0dd1f85b64df78267127ff059cfa97704d1a14de1eb8c8b57609b1b106c003d9",
+    "budget_summary.csv": "e120329d5652c863b872c7e1742885d5847eebf72266b90d65a4771ae1f08f2e",
+    "outcomes.json": "7c5b7d1e02ae86f5e0d1bd18945e2656e487ef8fd0ed9282ed7ea24c1217ec0f"
+  },
+  "interpretation": "Descriptive confirmation of a fixed target; evidence against a universal optimum is retained. IQR is not confidence/significance, and timing blocks are not independent input trees.",
+  "aggregate_rule": "For work count differences use one difference per tree. For time first pair q8-reference within repeat, take median per tree, then summarize across30 trees.",
+  "timing_boundary": "Prepared and prevalidated tree; execute includes order preparation, extra sampling, sorting and full alpha-beta. Excludes construction, oracle, validation, result checks, trace and file output."
+}

@@ -1,0 +1,14 @@
+{
+  "all_values_correct": true,
+  "all_counters_stable": true,
+  "protocol_unchanged": true,
+  "source_unchanged": true,
+  "base_draw_records": 6,
+  "mixing_case_records": 30,
+  "configurations": 120,
+  "timing_batches": 600,
+  "timed_solver_calls": 1800,
+  "no_new_winner_selected": true,
+  "diagnostics_excluded_from_search": true,
+  "scientific_support_not_assumed": "All ratios, variance, correlations and negative results retained. No assertion that a larger lambda or budget improves speed."
+}

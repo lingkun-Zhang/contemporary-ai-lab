@@ -1,0 +1,182 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1220" height="745" viewBox="0 0 1220 745">
+<style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",Arial,sans-serif;fill:#27394a}.title{font-size:22px;font-weight:700}.label{font-size:13px}.note{font-size:12px;fill:#536575}</style>
+<rect width="1220" height="745" fill="white"/>
+<text class="title" x="24" y="34">扩展节点 / 普通队列 BFS（比值越小搜索量越少）</text>
+<text class="note" x="24" y="60">同一地图逐图除以 BFS，再汇总中位数；竖线为地图间 Q1–Q3，不是计时置信区间。</text>
+<text class="label" x="24" y="87">有解地图；每组有效样本量见 CSV</text>
+<line x1="74" y1="285.00" x2="1184" y2="285.00" stroke="#e1e8ed"/>
+<text class="note" x="66" y="289.00" text-anchor="end">0.00</text>
+<line x1="74" y1="240.00" x2="1184" y2="240.00" stroke="#e1e8ed"/>
+<text class="note" x="66" y="244.00" text-anchor="end">0.28</text>
+<line x1="74" y1="195.00" x2="1184" y2="195.00" stroke="#e1e8ed"/>
+<text class="note" x="66" y="199.00" text-anchor="end">0.56</text>
+<line x1="74" y1="150.00" x2="1184" y2="150.00" stroke="#e1e8ed"/>
+<text class="note" x="66" y="154.00" text-anchor="end">0.84</text>
+<line x1="74" y1="105.00" x2="1184" y2="105.00" stroke="#e1e8ed"/>
+<text class="note" x="66" y="109.00" text-anchor="end">1.12</text>
+<line x1="74" y1="124.29" x2="1184" y2="124.29" stroke="#77899b" stroke-dasharray="4 4"/>
+<text class="note" x="166.50" y="306" text-anchor="middle">30×30, p=0.15</text>
+<rect x="126.50" y="124.29" width="12" height="160.71" fill="#437eaa"/>
+<line x1="132.50" x2="132.50" y1="124.29" y2="124.29" stroke="#243746"/>
+<rect x="143.50" y="124.29" width="12" height="160.71" fill="#8674aa"/>
+<line x1="149.50" x2="149.50" y1="124.29" y2="124.29" stroke="#243746"/>
+<rect x="160.50" y="124.29" width="12" height="160.71" fill="#7b8c99"/>
+<line x1="166.50" x2="166.50" y1="124.29" y2="124.29" stroke="#243746"/>
+<rect x="177.50" y="157.75" width="12" height="127.25" fill="#3e9f91"/>
+<line x1="183.50" x2="183.50" y1="166.24" y2="149.04" stroke="#243746"/>
+<rect x="194.50" y="261.30" width="12" height="23.70" fill="#d38a32"/>
+<line x1="200.50" x2="200.50" y1="265.77" y2="254.42" stroke="#243746"/>
+<text class="note" x="351.50" y="306" text-anchor="middle">30×30, p=0.30</text>
+<rect x="311.50" y="124.29" width="12" height="160.71" fill="#437eaa"/>
+<line x1="317.50" x2="317.50" y1="124.29" y2="124.29" stroke="#243746"/>
+<rect x="328.50" y="124.29" width="12" height="160.71" fill="#8674aa"/>
+<line x1="334.50" x2="334.50" y1="124.29" y2="124.29" stroke="#243746"/>
+<rect x="345.50" y="124.29" width="12" height="160.71" fill="#7b8c99"/>
+<line x1="351.50" x2="351.50" y1="124.29" y2="124.29" stroke="#243746"/>
+<rect x="362.50" y="211.39" width="12" height="73.61" fill="#3e9f91"/>
+<line x1="368.50" x2="368.50" y1="221.60" y2="202.52" stroke="#243746"/>
+<rect x="379.50" y="245.68" width="12" height="39.32" fill="#d38a32"/>
+<line x1="385.50" x2="385.50" y1="257.79" y2="238.39" stroke="#243746"/>
+<text class="note" x="536.50" y="306" text-anchor="middle">60×60, p=0.15</text>
+<rect x="496.50" y="124.29" width="12" height="160.71" fill="#437eaa"/>
+<line x1="502.50" x2="502.50" y1="124.29" y2="124.29" stroke="#243746"/>
+<rect x="513.50" y="124.29" width="12" height="160.71" fill="#8674aa"/>
+<line x1="519.50" x2="519.50" y1="124.29" y2="124.29" stroke="#243746"/>
+<rect x="530.50" y="124.29" width="12" height="160.71" fill="#7b8c99"/>
+<line x1="536.50" x2="536.50" y1="124.29" y2="124.29" stroke="#243746"/>
+<rect x="547.50" y="161.80" width="12" height="123.20" fill="#3e9f91"/>
+<line x1="553.50" x2="553.50" y1="167.40" y2="156.04" stroke="#243746"/>
+<rect x="564.50" y="266.80" width="12" height="18.20" fill="#d38a32"/>
+<line x1="570.50" x2="570.50" y1="272.38" y2="263.80" stroke="#243746"/>
+<text class="note" x="721.50" y="306" text-anchor="middle">60×60, p=0.30</text>
+<rect x="681.50" y="124.29" width="12" height="160.71" fill="#437eaa"/>
+<line x1="687.50" x2="687.50" y1="124.29" y2="124.29" stroke="#243746"/>
+<rect x="698.50" y="124.29" width="12" height="160.71" fill="#8674aa"/>
+<line x1="704.50" x2="704.50" y1="124.29" y2="124.29" stroke="#243746"/>
+<rect x="715.50" y="124.29" width="12" height="160.71" fill="#7b8c99"/>
+<line x1="721.50" x2="721.50" y1="124.29" y2="124.29" stroke="#243746"/>
+<rect x="732.50" y="234.77" width="12" height="50.23" fill="#3e9f91"/>
+<line x1="738.50" x2="738.50" y1="240.70" y2="225.58" stroke="#243746"/>
+<rect x="749.50" y="259.98" width="12" height="25.02" fill="#d38a32"/>
+<line x1="755.50" x2="755.50" y1="269.87" y2="248.22" stroke="#243746"/>
+<text class="note" x="906.50" y="306" text-anchor="middle">100×100, p=0.15</text>
+<rect x="866.50" y="124.29" width="12" height="160.71" fill="#437eaa"/>
+<line x1="872.50" x2="872.50" y1="124.29" y2="124.29" stroke="#243746"/>
+<rect x="883.50" y="124.29" width="12" height="160.71" fill="#8674aa"/>
+<line x1="889.50" x2="889.50" y1="124.29" y2="124.29" stroke="#243746"/>
+<rect x="900.50" y="124.29" width="12" height="160.71" fill="#7b8c99"/>
+<line x1="906.50" x2="906.50" y1="124.29" y2="124.29" stroke="#243746"/>
+<rect x="917.50" y="165.22" width="12" height="119.78" fill="#3e9f91"/>
+<line x1="923.50" x2="923.50" y1="167.44" y2="158.64" stroke="#243746"/>
+<rect x="934.50" y="271.78" width="12" height="13.22" fill="#d38a32"/>
+<line x1="940.50" x2="940.50" y1="273.69" y2="267.15" stroke="#243746"/>
+<text class="note" x="1091.50" y="306" text-anchor="middle">100×100, p=0.30</text>
+<rect x="1051.50" y="124.29" width="12" height="160.71" fill="#437eaa"/>
+<line x1="1057.50" x2="1057.50" y1="124.29" y2="124.29" stroke="#243746"/>
+<rect x="1068.50" y="124.29" width="12" height="160.71" fill="#8674aa"/>
+<line x1="1074.50" x2="1074.50" y1="124.29" y2="124.29" stroke="#243746"/>
+<rect x="1085.50" y="124.29" width="12" height="160.71" fill="#7b8c99"/>
+<line x1="1091.50" x2="1091.50" y1="124.29" y2="124.29" stroke="#243746"/>
+<rect x="1102.50" y="232.41" width="12" height="52.59" fill="#3e9f91"/>
+<line x1="1108.50" x2="1108.50" y1="241.95" y2="220.73" stroke="#243746"/>
+<rect x="1119.50" y="254.21" width="12" height="30.79" fill="#d38a32"/>
+<line x1="1125.50" x2="1125.50" y1="261.57" y2="237.34" stroke="#243746"/>
+<rect x="45" y="333" width="12" height="12" fill="#437eaa"/>
+<text class="note" x="63" y="344">普通队列 BFS</text>
+<rect x="280" y="333" width="12" height="12" fill="#8674aa"/>
+<text class="note" x="298" y="344">匹配内核 / 堆</text>
+<rect x="515" y="333" width="12" height="12" fill="#7b8c99"/>
+<text class="note" x="533" y="344">原 A* / h=0</text>
+<rect x="750" y="333" width="12" height="12" fill="#3e9f91"/>
+<text class="note" x="768" y="344">曼哈顿 / FIFO</text>
+<rect x="985" y="333" width="12" height="12" fill="#d38a32"/>
+<text class="note" x="1003" y="344">曼哈顿 / low_h</text>
+<text class="label" x="24" y="407">无解地图；每组有效样本量见 CSV</text>
+<line x1="74" y1="605.00" x2="1184" y2="605.00" stroke="#e1e8ed"/>
+<text class="note" x="66" y="609.00" text-anchor="end">0.00</text>
+<line x1="74" y1="560.00" x2="1184" y2="560.00" stroke="#e1e8ed"/>
+<text class="note" x="66" y="564.00" text-anchor="end">0.28</text>
+<line x1="74" y1="515.00" x2="1184" y2="515.00" stroke="#e1e8ed"/>
+<text class="note" x="66" y="519.00" text-anchor="end">0.56</text>
+<line x1="74" y1="470.00" x2="1184" y2="470.00" stroke="#e1e8ed"/>
+<text class="note" x="66" y="474.00" text-anchor="end">0.84</text>
+<line x1="74" y1="425.00" x2="1184" y2="425.00" stroke="#e1e8ed"/>
+<text class="note" x="66" y="429.00" text-anchor="end">1.12</text>
+<line x1="74" y1="444.29" x2="1184" y2="444.29" stroke="#77899b" stroke-dasharray="4 4"/>
+<text class="note" x="166.50" y="626" text-anchor="middle">30×30, p=0.15</text>
+<rect x="126.50" y="444.29" width="12" height="160.71" fill="#437eaa"/>
+<line x1="132.50" x2="132.50" y1="444.29" y2="444.29" stroke="#243746"/>
+<rect x="143.50" y="444.29" width="12" height="160.71" fill="#8674aa"/>
+<line x1="149.50" x2="149.50" y1="444.29" y2="444.29" stroke="#243746"/>
+<rect x="160.50" y="444.29" width="12" height="160.71" fill="#7b8c99"/>
+<line x1="166.50" x2="166.50" y1="444.29" y2="444.29" stroke="#243746"/>
+<rect x="177.50" y="444.29" width="12" height="160.71" fill="#3e9f91"/>
+<line x1="183.50" x2="183.50" y1="444.29" y2="444.29" stroke="#243746"/>
+<rect x="194.50" y="444.29" width="12" height="160.71" fill="#d38a32"/>
+<line x1="200.50" x2="200.50" y1="444.29" y2="444.29" stroke="#243746"/>
+<text class="note" x="351.50" y="626" text-anchor="middle">30×30, p=0.30</text>
+<rect x="311.50" y="444.29" width="12" height="160.71" fill="#437eaa"/>
+<line x1="317.50" x2="317.50" y1="444.29" y2="444.29" stroke="#243746"/>
+<rect x="328.50" y="444.29" width="12" height="160.71" fill="#8674aa"/>
+<line x1="334.50" x2="334.50" y1="444.29" y2="444.29" stroke="#243746"/>
+<rect x="345.50" y="444.29" width="12" height="160.71" fill="#7b8c99"/>
+<line x1="351.50" x2="351.50" y1="444.29" y2="444.29" stroke="#243746"/>
+<rect x="362.50" y="444.29" width="12" height="160.71" fill="#3e9f91"/>
+<line x1="368.50" x2="368.50" y1="444.29" y2="444.29" stroke="#243746"/>
+<rect x="379.50" y="444.29" width="12" height="160.71" fill="#d38a32"/>
+<line x1="385.50" x2="385.50" y1="444.29" y2="444.29" stroke="#243746"/>
+<text class="note" x="536.50" y="626" text-anchor="middle">60×60, p=0.15</text>
+<rect x="496.50" y="444.29" width="12" height="160.71" fill="#437eaa"/>
+<line x1="502.50" x2="502.50" y1="444.29" y2="444.29" stroke="#243746"/>
+<rect x="513.50" y="444.29" width="12" height="160.71" fill="#8674aa"/>
+<line x1="519.50" x2="519.50" y1="444.29" y2="444.29" stroke="#243746"/>
+<rect x="530.50" y="444.29" width="12" height="160.71" fill="#7b8c99"/>
+<line x1="536.50" x2="536.50" y1="444.29" y2="444.29" stroke="#243746"/>
+<rect x="547.50" y="444.29" width="12" height="160.71" fill="#3e9f91"/>
+<line x1="553.50" x2="553.50" y1="444.29" y2="444.29" stroke="#243746"/>
+<rect x="564.50" y="444.29" width="12" height="160.71" fill="#d38a32"/>
+<line x1="570.50" x2="570.50" y1="444.29" y2="444.29" stroke="#243746"/>
+<text class="note" x="721.50" y="626" text-anchor="middle">60×60, p=0.30</text>
+<rect x="681.50" y="444.29" width="12" height="160.71" fill="#437eaa"/>
+<line x1="687.50" x2="687.50" y1="444.29" y2="444.29" stroke="#243746"/>
+<rect x="698.50" y="444.29" width="12" height="160.71" fill="#8674aa"/>
+<line x1="704.50" x2="704.50" y1="444.29" y2="444.29" stroke="#243746"/>
+<rect x="715.50" y="444.29" width="12" height="160.71" fill="#7b8c99"/>
+<line x1="721.50" x2="721.50" y1="444.29" y2="444.29" stroke="#243746"/>
+<rect x="732.50" y="444.29" width="12" height="160.71" fill="#3e9f91"/>
+<line x1="738.50" x2="738.50" y1="444.29" y2="444.29" stroke="#243746"/>
+<rect x="749.50" y="444.29" width="12" height="160.71" fill="#d38a32"/>
+<line x1="755.50" x2="755.50" y1="444.29" y2="444.29" stroke="#243746"/>
+<text class="note" x="906.50" y="626" text-anchor="middle">100×100, p=0.15</text>
+<rect x="866.50" y="444.29" width="12" height="160.71" fill="#437eaa"/>
+<line x1="872.50" x2="872.50" y1="444.29" y2="444.29" stroke="#243746"/>
+<rect x="883.50" y="444.29" width="12" height="160.71" fill="#8674aa"/>
+<line x1="889.50" x2="889.50" y1="444.29" y2="444.29" stroke="#243746"/>
+<rect x="900.50" y="444.29" width="12" height="160.71" fill="#7b8c99"/>
+<line x1="906.50" x2="906.50" y1="444.29" y2="444.29" stroke="#243746"/>
+<rect x="917.50" y="444.29" width="12" height="160.71" fill="#3e9f91"/>
+<line x1="923.50" x2="923.50" y1="444.29" y2="444.29" stroke="#243746"/>
+<rect x="934.50" y="444.29" width="12" height="160.71" fill="#d38a32"/>
+<line x1="940.50" x2="940.50" y1="444.29" y2="444.29" stroke="#243746"/>
+<text class="note" x="1091.50" y="626" text-anchor="middle">100×100, p=0.30</text>
+<rect x="1051.50" y="444.29" width="12" height="160.71" fill="#437eaa"/>
+<line x1="1057.50" x2="1057.50" y1="444.29" y2="444.29" stroke="#243746"/>
+<rect x="1068.50" y="444.29" width="12" height="160.71" fill="#8674aa"/>
+<line x1="1074.50" x2="1074.50" y1="444.29" y2="444.29" stroke="#243746"/>
+<rect x="1085.50" y="444.29" width="12" height="160.71" fill="#7b8c99"/>
+<line x1="1091.50" x2="1091.50" y1="444.29" y2="444.29" stroke="#243746"/>
+<rect x="1102.50" y="444.29" width="12" height="160.71" fill="#3e9f91"/>
+<line x1="1108.50" x2="1108.50" y1="444.29" y2="444.29" stroke="#243746"/>
+<rect x="1119.50" y="444.29" width="12" height="160.71" fill="#d38a32"/>
+<line x1="1125.50" x2="1125.50" y1="444.29" y2="444.29" stroke="#243746"/>
+<rect x="45" y="653" width="12" height="12" fill="#437eaa"/>
+<text class="note" x="63" y="664">普通队列 BFS</text>
+<rect x="280" y="653" width="12" height="12" fill="#8674aa"/>
+<text class="note" x="298" y="664">匹配内核 / 堆</text>
+<rect x="515" y="653" width="12" height="12" fill="#7b8c99"/>
+<text class="note" x="533" y="664">原 A* / h=0</text>
+<rect x="750" y="653" width="12" height="12" fill="#3e9f91"/>
+<text class="note" x="768" y="664">曼哈顿 / FIFO</text>
+<rect x="985" y="653" width="12" height="12" fill="#d38a32"/>
+<text class="note" x="1003" y="664">曼哈顿 / low_h</text>
+</svg>

@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1025" viewBox="0 0 1200 1025" role="img" aria-label="连通预检：失败查询比例与完整成本">
+<style>text{font-family:'Microsoft YaHei', 'Noto Sans CJK SC', Arial, sans-serif;fill:#263746} .title{font-size:22px;font-weight:700}.label{font-size:14px}.note{font-size:12px;fill:#536575}</style>
+<rect width="1200" height="1025" fill="#ffffff"/>
+<text class="title" x="24" y="34">连通预检：失败查询比例与完整成本</text>
+<text class="note" x="24" y="59">每次查询均保留整图验证；单次建表收费；全连通图只能生成 0% 异分量查询。</text>
+<text class="label" x="24" y="92">全连通开阔图：100 次查询累计分量估计（ms）；横轴无解比例 %</text>
+<line x1="90" y1="287.0" x2="1165" y2="287.0" stroke="#e2e8ee"/>
+<text class="note" x="82" y="291.0" text-anchor="end">0</text>
+<line x1="90" y1="243.25" x2="1165" y2="243.25" stroke="#e2e8ee"/>
+<text class="note" x="82" y="247.25" text-anchor="end">20</text>
+<line x1="90" y1="199.5" x2="1165" y2="199.5" stroke="#e2e8ee"/>
+<text class="note" x="82" y="203.5" text-anchor="end">41</text>
+<line x1="90" y1="155.75" x2="1165" y2="155.75" stroke="#e2e8ee"/>
+<text class="note" x="82" y="159.75" text-anchor="end">61</text>
+<line x1="90" y1="112.0" x2="1165" y2="112.0" stroke="#e2e8ee"/>
+<text class="note" x="82" y="116.0" text-anchor="end">81</text>
+<text class="note" x="627.5" y="308" text-anchor="middle">0</text>
+<polyline points="627.50,142.06" fill="none" stroke="#487ba7" stroke-width="2.5"/>
+<circle cx="627.5" cy="142.05847706447014" r="3.5" fill="#487ba7"/>
+<line x1="110" y1="335" x2="134" y2="335" stroke="#487ba7" stroke-width="3"/>
+<text class="note" x="141" y="339">原 A*</text>
+<polyline points="627.50,127.91" fill="none" stroke="#d48737" stroke-width="2.5"/>
+<circle cx="627.5" cy="127.9090909090909" r="3.5" fill="#d48737"/>
+<line x1="440" y1="335" x2="464" y2="335" stroke="#d48737" stroke-width="3"/>
+<text class="note" x="471" y="339">连通索引＋A*（含建表）</text>
+<text class="label" x="24" y="392">两大区域隔墙：100 次查询累计分量估计（ms）；横轴无解比例 %</text>
+<line x1="90" y1="587.0" x2="1165" y2="587.0" stroke="#e2e8ee"/>
+<text class="note" x="82" y="591.0" text-anchor="end">0</text>
+<line x1="90" y1="543.25" x2="1165" y2="543.25" stroke="#e2e8ee"/>
+<text class="note" x="82" y="547.25" text-anchor="end">365</text>
+<line x1="90" y1="499.5" x2="1165" y2="499.5" stroke="#e2e8ee"/>
+<text class="note" x="82" y="503.5" text-anchor="end">729</text>
+<line x1="90" y1="455.75" x2="1165" y2="455.75" stroke="#e2e8ee"/>
+<text class="note" x="82" y="459.75" text-anchor="end">1094</text>
+<line x1="90" y1="412.0" x2="1165" y2="412.0" stroke="#e2e8ee"/>
+<text class="note" x="82" y="416.0" text-anchor="end">1459</text>
+<text class="note" x="90.0" y="608" text-anchor="middle">0</text>
+<text class="note" x="358.75" y="608" text-anchor="middle">25</text>
+<text class="note" x="627.5" y="608" text-anchor="middle">50</text>
+<text class="note" x="896.25" y="608" text-anchor="middle">75</text>
+<text class="note" x="1165.0" y="608" text-anchor="middle">100</text>
+<polyline points="90.00,577.97 358.75,542.67 627.50,503.34 896.25,469.04 1165.00,427.91" fill="none" stroke="#487ba7" stroke-width="2.5"/>
+<circle cx="90.0" cy="577.9725713342561" r="3.5" fill="#487ba7"/>
+<circle cx="358.75" cy="542.6685113112459" r="3.5" fill="#487ba7"/>
+<circle cx="627.5" cy="503.3417208682012" r="3.5" fill="#487ba7"/>
+<circle cx="896.25" cy="469.0444312107355" r="3.5" fill="#487ba7"/>
+<circle cx="1165.0" cy="427.90909090909093" r="3.5" fill="#487ba7"/>
+<line x1="110" y1="635" x2="134" y2="635" stroke="#487ba7" stroke-width="3"/>
+<text class="note" x="141" y="639">原 A*</text>
+<polyline points="90.00,576.31 358.75,577.58 627.50,577.38 896.25,578.27 1165.00,579.03" fill="none" stroke="#d48737" stroke-width="2.5"/>
+<circle cx="90.0" cy="576.3097853866059" r="3.5" fill="#d48737"/>
+<circle cx="358.75" cy="577.5810335289548" r="3.5" fill="#d48737"/>
+<circle cx="627.5" cy="577.3778102673365" r="3.5" fill="#d48737"/>
+<circle cx="896.25" cy="578.2699618655151" r="3.5" fill="#d48737"/>
+<circle cx="1165.0" cy="579.0312782662774" r="3.5" fill="#d48737"/>
+<line x1="440" y1="635" x2="464" y2="635" stroke="#d48737" stroke-width="3"/>
+<text class="note" x="471" y="639">连通索引＋A*（含建表）</text>
+<text class="label" x="24" y="692">许多小隔间：100 次查询累计分量估计（ms）；横轴无解比例 %</text>
+<line x1="90" y1="887.0" x2="1165" y2="887.0" stroke="#e2e8ee"/>
+<text class="note" x="82" y="891.0" text-anchor="end">0</text>
+<line x1="90" y1="843.25" x2="1165" y2="843.25" stroke="#e2e8ee"/>
+<text class="note" x="82" y="847.25" text-anchor="end">19</text>
+<line x1="90" y1="799.5" x2="1165" y2="799.5" stroke="#e2e8ee"/>
+<text class="note" x="82" y="803.5" text-anchor="end">38</text>
+<line x1="90" y1="755.75" x2="1165" y2="755.75" stroke="#e2e8ee"/>
+<text class="note" x="82" y="759.75" text-anchor="end">58</text>
+<line x1="90" y1="712.0" x2="1165" y2="712.0" stroke="#e2e8ee"/>
+<text class="note" x="82" y="716.0" text-anchor="end">77</text>
+<text class="note" x="90.0" y="908" text-anchor="middle">0</text>
+<text class="note" x="358.75" y="908" text-anchor="middle">25</text>
+<text class="note" x="627.5" y="908" text-anchor="middle">50</text>
+<text class="note" x="896.25" y="908" text-anchor="middle">75</text>
+<text class="note" x="1165.0" y="908" text-anchor="middle">100</text>
+<polyline points="90.00,748.50 358.75,748.79 627.50,755.55 896.25,750.32 1165.00,749.93" fill="none" stroke="#487ba7" stroke-width="2.5"/>
+<circle cx="90.0" cy="748.5020779519392" r="3.5" fill="#487ba7"/>
+<circle cx="358.75" cy="748.7894819650269" r="3.5" fill="#487ba7"/>
+<circle cx="627.5" cy="755.5482954315067" r="3.5" fill="#487ba7"/>
+<circle cx="896.25" cy="750.3169656120865" r="3.5" fill="#487ba7"/>
+<circle cx="1165.0" cy="749.9325712824618" r="3.5" fill="#487ba7"/>
+<line x1="110" y1="935" x2="134" y2="935" stroke="#487ba7" stroke-width="3"/>
+<text class="note" x="141" y="939">原 A*</text>
+<polyline points="90.00,727.91 358.75,743.23 627.50,743.20 896.25,739.73 1165.00,745.10" fill="none" stroke="#d48737" stroke-width="2.5"/>
+<circle cx="90.0" cy="727.9090909090909" r="3.5" fill="#d48737"/>
+<circle cx="358.75" cy="743.232877891555" r="3.5" fill="#d48737"/>
+<circle cx="627.5" cy="743.1987263716476" r="3.5" fill="#d48737"/>
+<circle cx="896.25" cy="739.7315122861123" r="3.5" fill="#d48737"/>
+<circle cx="1165.0" cy="745.1036222598176" r="3.5" fill="#d48737"/>
+<line x1="440" y1="935" x2="464" y2="935" stroke="#d48737" stroke-width="3"/>
+<text class="note" x="471" y="939">连通索引＋A*（含建表）</text>
+</svg>

@@ -1,0 +1,27 @@
+{
+  "completed_at_utc": "2026-11-10T11:32:59.501583+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "source_sha256": {
+    "weighted_astar.py": "916c28cdb20262ed7f38f76c306319ebe4d8c4cb47961e27f584c4830add61bb",
+    "bucket_astar.py": "a6e9d7402169f8ce4b4c549151f9cce0ba283d9eec66607e83738c5afa06a9df",
+    "run_bucket_study.py": "378b2e5389214e97c6846df0fd0dbe86e8f49c119201d195a629e95cffab4cdd"
+  },
+  "protocol_sha256": "a1d9dd6a152a45a8237873e92b6717edf7167179d8fb3e3a34ed94307ad44743",
+  "base_maps": 12,
+  "scaled_inputs": 84,
+  "configurations": 672,
+  "timing_batches": 4704,
+  "timed_calls": 9408,
+  "all_cost_paths_ledgers_and_trajectory_invariance_validated": true,
+  "files_sha256": {
+    "aggregate_summary.csv": "5b3f4ffff90c5d6e53ce58f28dc9cff62a84844fd66d224205e66dc81ce9a119",
+    "analysis.json": "b0386fc80b7687f93f9efe083c2ef72ae4bc7962f2c18ce31b7cdd8ac1e0a3a0",
+    "comparison.csv": "1643c2cee837d1534b2724d9a09e00b8fb81dec26c1674f5601b55cac01465dd",
+    "paired_deltas.csv": "1b0ad487f547d381a0ae6e2f15a80557d3187d6ba8e51a44601559dbb436466b",
+    "protocol.json": "a1d9dd6a152a45a8237873e92b6717edf7167179d8fb3e3a34ed94307ad44743",
+    "summary.csv": "803268ebb17951fb174d4259941b9c801de1d70cf3be4a46f686d98c3ae2986b",
+    "timing_batches.csv": "6a84f02a6056d78f82645e35f4d753c219a6106ca01fb2471e8707a77acecb85",
+    "timing_calls.csv": "1eb27df0dc9b3e4abed0cd2886e96f45d636d31cc88039f5bad340ecfb218a20"
+  }
+}

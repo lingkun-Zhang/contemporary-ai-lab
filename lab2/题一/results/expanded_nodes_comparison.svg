@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="913" viewBox="0 0 1180 913" role="img" aria-label="各场景实际扩展节点数对比">
+<style>text{font-family:'Microsoft YaHei', 'Noto Sans CJK SC', Arial, sans-serif;fill:#263746} .title{font-size:22px;font-weight:700}.label{font-size:14px}.note{font-size:12px;fill:#536575}</style>
+<rect width="1180" height="913" fill="#ffffff"/>
+<text class="title" x="24" y="34">各场景实际扩展节点数对比</text>
+<rect x="24" y="54" width="14" height="14" fill="#6987a5"/>
+<text class="label" x="46" y="67">h=0 / FIFO</text>
+<rect x="349" y="54" width="14" height="14" fill="#4aa5a0"/>
+<text class="label" x="371" y="67">曼哈顿 / FIFO</text>
+<rect x="674" y="54" width="14" height="14" fill="#e4a44d"/>
+<text class="label" x="696" y="67">曼哈顿 / 较小 h 优先</text>
+<line x1="190.0" y1="96" x2="190.0" y2="848" stroke="#e3e9ed"/>
+<text class="note" x="190.0" y="86" text-anchor="middle">0</text>
+<line x1="418.75" y1="96" x2="418.75" y2="848" stroke="#e3e9ed"/>
+<text class="note" x="418.75" y="86" text-anchor="middle">400</text>
+<line x1="647.5" y1="96" x2="647.5" y2="848" stroke="#e3e9ed"/>
+<text class="note" x="647.5" y="86" text-anchor="middle">800</text>
+<line x1="876.25" y1="96" x2="876.25" y2="848" stroke="#e3e9ed"/>
+<text class="note" x="876.25" y="86" text-anchor="middle">1200</text>
+<line x1="1105.0" y1="96" x2="1105.0" y2="848" stroke="#e3e9ed"/>
+<text class="note" x="1105.0" y="86" text-anchor="middle">1600</text>
+<text class="label" x="24" y="132">PDF 样例</text>
+<rect x="190" y="109" width="8.58" height="10" rx="2" fill="#6987a5"/>
+<text class="note" x="203.58" y="119">15</text>
+<rect x="190" y="122" width="7.43" height="10" rx="2" fill="#4aa5a0"/>
+<text class="note" x="202.43" y="132">13</text>
+<rect x="190" y="135" width="4.00" height="10" rx="2" fill="#e4a44d"/>
+<text class="note" x="199.00" y="145">7</text>
+<text class="label" x="24" y="185">开阔 40×40</text>
+<rect x="190" y="162" width="914.43" height="10" rx="2" fill="#6987a5"/>
+<text class="note" x="1109.43" y="172">1599</text>
+<rect x="190" y="175" width="914.43" height="10" rx="2" fill="#4aa5a0"/>
+<text class="note" x="1109.43" y="185">1599</text>
+<rect x="190" y="188" width="44.61" height="10" rx="2" fill="#e4a44d"/>
+<text class="note" x="239.61" y="198">78</text>
+<text class="label" x="24" y="238">强制绕路</text>
+<rect x="190" y="215" width="336.26" height="10" rx="2" fill="#6987a5"/>
+<text class="note" x="531.26" y="225">588</text>
+<rect x="190" y="228" width="301.38" height="10" rx="2" fill="#4aa5a0"/>
+<text class="note" x="496.38" y="238">527</text>
+<rect x="190" y="241" width="181.86" height="10" rx="2" fill="#e4a44d"/>
+<text class="note" x="376.86" y="251">318</text>
+<text class="label" x="24" y="291">无解地图</text>
+<rect x="190" y="268" width="60.05" height="10" rx="2" fill="#6987a5"/>
+<text class="note" x="255.05" y="278">105</text>
+<rect x="190" y="281" width="60.05" height="10" rx="2" fill="#4aa5a0"/>
+<text class="note" x="255.05" y="291">105</text>
+<rect x="190" y="294" width="60.05" height="10" rx="2" fill="#e4a44d"/>
+<text class="note" x="255.05" y="304">105</text>
+<text class="label" x="24" y="344">多条最短路径</text>
+<rect x="190" y="321" width="112.66" height="10" rx="2" fill="#6987a5"/>
+<text class="note" x="307.66" y="331">197</text>
+<rect x="190" y="334" width="45.75" height="10" rx="2" fill="#4aa5a0"/>
+<text class="note" x="240.75" y="344">80</text>
+<rect x="190" y="347" width="22.30" height="10" rx="2" fill="#e4a44d"/>
+<text class="note" x="217.30" y="357">39</text>
+<text class="label" x="24" y="397">随机 15% #1</text>
+<rect x="190" y="374" width="423.19" height="10" rx="2" fill="#6987a5"/>
+<text class="note" x="618.19" y="384">740</text>
+<rect x="190" y="387" width="302.52" height="10" rx="2" fill="#4aa5a0"/>
+<text class="note" x="497.52" y="397">529</text>
+<rect x="190" y="400" width="53.76" height="10" rx="2" fill="#e4a44d"/>
+<text class="note" x="248.76" y="410">94</text>
+<text class="label" x="24" y="450">随机 15% #2</text>
+<rect x="190" y="427" width="437.48" height="10" rx="2" fill="#6987a5"/>
+<text class="note" x="632.48" y="437">765</text>
+<rect x="190" y="440" width="379.72" height="10" rx="2" fill="#4aa5a0"/>
+<text class="note" x="574.72" y="450">664</text>
+<rect x="190" y="453" width="88.07" height="10" rx="2" fill="#e4a44d"/>
+<text class="note" x="283.07" y="463">154</text>
+<text class="label" x="24" y="503">随机 15% #3</text>
+<rect x="190" y="480" width="436.91" height="10" rx="2" fill="#6987a5"/>
+<text class="note" x="631.91" y="490">764</text>
+<rect x="190" y="493" width="337.98" height="10" rx="2" fill="#4aa5a0"/>
+<text class="note" x="532.98" y="503">591</text>
+<rect x="190" y="506" width="50.90" height="10" rx="2" fill="#e4a44d"/>
+<text class="note" x="245.90" y="516">89</text>
+<text class="label" x="24" y="556">随机 25% #1</text>
+<rect x="190" y="533" width="383.73" height="10" rx="2" fill="#6987a5"/>
+<text class="note" x="578.73" y="543">671</text>
+<rect x="190" y="546" width="162.41" height="10" rx="2" fill="#4aa5a0"/>
+<text class="note" x="357.41" y="556">284</text>
+<rect x="190" y="559" width="58.90" height="10" rx="2" fill="#e4a44d"/>
+<text class="note" x="253.90" y="569">103</text>
+<text class="label" x="24" y="609">随机 25% #2</text>
+<rect x="190" y="586" width="380.87" height="10" rx="2" fill="#6987a5"/>
+<text class="note" x="575.87" y="596">666</text>
+<rect x="190" y="599" width="259.06" height="10" rx="2" fill="#4aa5a0"/>
+<text class="note" x="454.06" y="609">453</text>
+<rect x="190" y="612" width="84.07" height="10" rx="2" fill="#e4a44d"/>
+<text class="note" x="279.07" y="622">147</text>
+<text class="label" x="24" y="662">随机 25% #3</text>
+<rect x="190" y="639" width="399.74" height="10" rx="2" fill="#6987a5"/>
+<text class="note" x="594.74" y="649">699</text>
+<rect x="190" y="652" width="255.06" height="10" rx="2" fill="#4aa5a0"/>
+<text class="note" x="450.06" y="662">446</text>
+<rect x="190" y="665" width="54.90" height="10" rx="2" fill="#e4a44d"/>
+<text class="note" x="249.90" y="675">96</text>
+<text class="label" x="24" y="715">随机 35% #1</text>
+<rect x="190" y="692" width="296.23" height="10" rx="2" fill="#6987a5"/>
+<text class="note" x="491.23" y="702">518</text>
+<rect x="190" y="705" width="134.39" height="10" rx="2" fill="#4aa5a0"/>
+<text class="note" x="329.39" y="715">235</text>
+<rect x="190" y="718" width="78.35" height="10" rx="2" fill="#e4a44d"/>
+<text class="note" x="273.35" y="728">137</text>
+<text class="label" x="24" y="768">随机 35% #2</text>
+<rect x="190" y="745" width="1.72" height="10" rx="2" fill="#6987a5"/>
+<text class="note" x="196.72" y="755">3</text>
+<rect x="190" y="758" width="1.72" height="10" rx="2" fill="#4aa5a0"/>
+<text class="note" x="196.72" y="768">3</text>
+<rect x="190" y="771" width="1.72" height="10" rx="2" fill="#e4a44d"/>
+<text class="note" x="196.72" y="781">3</text>
+<text class="label" x="24" y="821">随机 35% #3</text>
+<rect x="190" y="798" width="313.39" height="10" rx="2" fill="#6987a5"/>
+<text class="note" x="508.39" y="808">548</text>
+<rect x="190" y="811" width="142.97" height="10" rx="2" fill="#4aa5a0"/>
+<text class="note" x="337.97" y="821">250</text>
+<rect x="190" y="824" width="123.53" height="10" rx="2" fill="#e4a44d"/>
+<text class="note" x="318.52" y="834">216</text>
+<text class="note" x="24" y="889">扩展节点：有效出队后实际生成邻居的节点，终点不计入；无解地图同样计入比较。</text>
+</svg>

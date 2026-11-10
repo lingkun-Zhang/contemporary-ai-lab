@@ -1,0 +1,13 @@
+{
+  "all_values_correct": true,
+  "all_counters_stable": true,
+  "protocol_unchanged": true,
+  "source_unchanged": true,
+  "target_budget": 8,
+  "new_winner_selected": false,
+  "independent_trees": 30,
+  "strict_internal_visit_lowpoint_trees": 10,
+  "strict_internal_visit_lowpoint_fraction": 0.3333333333333333,
+  "q8_lower_than_q0_visit_trees": 25,
+  "interpretation": "Descriptive confirmation of a fixed target; evidence against a universal optimum is retained. IQR is not confidence/significance, and timing blocks are not independent input trees."
+}

@@ -1,0 +1,218 @@
+{
+  "declared_at_utc": "2026-11-02T05:10:14.885022+00:00",
+  "registration_phase": "Before first formal A*/game solver warmup.",
+  "families": {
+    "open_weighted": [
+      202611101,
+      202611102,
+      202611103,
+      202611104,
+      202611105,
+      202611106,
+      202611107,
+      202611108,
+      202611109,
+      202611110
+    ],
+    "detour": [
+      202611201,
+      202611202,
+      202611203,
+      202611204,
+      202611205,
+      202611206,
+      202611207,
+      202611208,
+      202611209,
+      202611210
+    ],
+    "random_obstacles": [
+      202611301,
+      202611302,
+      202611303,
+      202611304,
+      202611305,
+      202611306,
+      202611307,
+      202611308,
+      202611309,
+      202611310
+    ]
+  },
+  "values": [
+    9,
+    6,
+    7,
+    7
+  ],
+  "generation": "Connectivity-conditioned maps; largest passable component>=20. Named cells cost1. Detour A/B on opposite sides. No rejection based on search results.",
+  "rejection_audit": [
+    {
+      "case": "open_weighted_s202611101",
+      "attempts": 1
+    },
+    {
+      "case": "open_weighted_s202611102",
+      "attempts": 1
+    },
+    {
+      "case": "open_weighted_s202611103",
+      "attempts": 1
+    },
+    {
+      "case": "open_weighted_s202611104",
+      "attempts": 1
+    },
+    {
+      "case": "open_weighted_s202611105",
+      "attempts": 1
+    },
+    {
+      "case": "open_weighted_s202611106",
+      "attempts": 1
+    },
+    {
+      "case": "open_weighted_s202611107",
+      "attempts": 1
+    },
+    {
+      "case": "open_weighted_s202611108",
+      "attempts": 1
+    },
+    {
+      "case": "open_weighted_s202611109",
+      "attempts": 1
+    },
+    {
+      "case": "open_weighted_s202611110",
+      "attempts": 1
+    },
+    {
+      "case": "detour_s202611201",
+      "attempts": 3
+    },
+    {
+      "case": "detour_s202611202",
+      "attempts": 1
+    },
+    {
+      "case": "detour_s202611203",
+      "attempts": 1
+    },
+    {
+      "case": "detour_s202611204",
+      "attempts": 1
+    },
+    {
+      "case": "detour_s202611205",
+      "attempts": 1
+    },
+    {
+      "case": "detour_s202611206",
+      "attempts": 1
+    },
+    {
+      "case": "detour_s202611207",
+      "attempts": 1
+    },
+    {
+      "case": "detour_s202611208",
+      "attempts": 1
+    },
+    {
+      "case": "detour_s202611209",
+      "attempts": 1
+    },
+    {
+      "case": "detour_s202611210",
+      "attempts": 1
+    },
+    {
+      "case": "random_obstacles_s202611301",
+      "attempts": 1
+    },
+    {
+      "case": "random_obstacles_s202611302",
+      "attempts": 1
+    },
+    {
+      "case": "random_obstacles_s202611303",
+      "attempts": 1
+    },
+    {
+      "case": "random_obstacles_s202611304",
+      "attempts": 1
+    },
+    {
+      "case": "random_obstacles_s202611305",
+      "attempts": 1
+    },
+    {
+      "case": "random_obstacles_s202611306",
+      "attempts": 1
+    },
+    {
+      "case": "random_obstacles_s202611307",
+      "attempts": 1
+    },
+    {
+      "case": "random_obstacles_s202611308",
+      "attempts": 1
+    },
+    {
+      "case": "random_obstacles_s202611309",
+      "attempts": 1
+    },
+    {
+      "case": "random_obstacles_s202611310",
+      "attempts": 1
+    }
+  ],
+  "inputs": {
+    "relative_path": "inputs.json",
+    "sha256": "43733fd5e2ee3289122af494669111b2a7867a510903c1a685ad422a4f3c9675",
+    "independent_maps": 30
+  },
+  "design": {
+    "depths": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "algorithms": [
+      "minimax",
+      "alphabeta"
+    ],
+    "orders": [
+      "label",
+      "reverse",
+      "gain"
+    ],
+    "heuristics": [
+      "zero",
+      "manhattan"
+    ],
+    "repeats": 5,
+    "batch": 3,
+    "timing_seed": 202611140
+  },
+  "counts": {
+    "map_inputs": 30,
+    "game_configurations": 720,
+    "matrix_configurations": 60,
+    "total_configurations": 780,
+    "timing_batches": 3900,
+    "timed_top_level_calls": 11700
+  },
+  "regret_rule": "Use the actual returned first target at H; regret=max(H4 root action values)-H4 value of that action. Do not merge shallow ties or evaluate with shallow U.",
+  "timing_boundary": "Game phase uses a previously computed verified A* matrix, excludes matrix preparation, includes eager candidates/sort/full recursion. Matrix phase includes fresh complete30 A* queries. Validation/oracle/path checks/trace/output excluded. Matrix and game medians are separate and must not be added as an end-to-end measurement.",
+  "timing_data": "timing_calls.csv retains every timed top-level call. timing_batches.csv is the mean per-call time of each batch; per-configuration medians/IQR and paired differences use those repeat-block batch means, not individual calls as independent maps.",
+  "reuse_boundary": "These same30 maps are deliberately reused by the lazy-successor study. They are not two independent samples.",
+  "interpretation": "Three intentionally different map families, paired methods within every instance; family differences are not a single-factor causal effect. Repeated timing IQR is descriptive, not confidence or independent input count.",
+  "source_sha256": {
+    "run_robustness_study.py": "bf508ea8e45e248fbed5dec3fe11f160b67f90c68e3bcffb3a750dd8a524092d",
+    "treasure_game.py": "56c812ddab8a1ae8d7229cb064dca4ba832878c4d824553822edad26ed76b68b",
+    "reference_tools.py": "99a1b7fdf45095a2c8dadb1e2688e902592a46069d6c8da6044c5175985d41e0"
+  }
+}

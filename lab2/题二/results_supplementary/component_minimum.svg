@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="700" viewBox="0 0 1180 700">
+<style>text{font-family:'Microsoft YaHei','Noto Sans CJK SC',Arial,sans-serif;fill:#273b49}.title{font-size:22px;font-weight:700}.label{font-size:14px}.note{font-size:12px;fill:#526777}</style>
+<rect width="1180" height="700" fill="white"/>
+<text class="title" x="24" y="34">不可达零权格与区域最小进入费</text>
+<text class="note" x="24" y="60">X 与零权是拓展；区域 m 不做无解提前返回，收益与开销均来自更强下界及其完整准备。</text>
+<text class="label" x="24" y="90">横轴主体地形边长 n；纵轴扩展数；corrected + low_h</text>
+<line x1="100" y1="280.0" x2="1140" y2="280.0" stroke="#e0e7ec"/>
+<text class="note" x="90" y="284.0" text-anchor="end">0.00</text>
+<line x1="100" y1="237.5" x2="1140" y2="237.5" stroke="#e0e7ec"/>
+<text class="note" x="90" y="241.5" text-anchor="end">2856.00</text>
+<line x1="100" y1="195.0" x2="1140" y2="195.0" stroke="#e0e7ec"/>
+<text class="note" x="90" y="199.0" text-anchor="end">5712.00</text>
+<line x1="100" y1="152.5" x2="1140" y2="152.5" stroke="#e0e7ec"/>
+<text class="note" x="90" y="156.5" text-anchor="end">8568.00</text>
+<line x1="100" y1="110.0" x2="1140" y2="110.0" stroke="#e0e7ec"/>
+<text class="note" x="90" y="114.0" text-anchor="end">11424.00</text>
+<text class="note" x="100.0" y="302" text-anchor="middle">15</text>
+<text class="note" x="293.48837209302326" y="302" text-anchor="middle">31</text>
+<text class="note" x="656.2790697674419" y="302" text-anchor="middle">61</text>
+<text class="note" x="1140.0" y="302" text-anchor="middle">101</text>
+<polyline fill="none" stroke="#da9239" stroke-width="2" points="100.00,276.67 293.49,265.71 656.28,224.64 1140.00,128.21"/>
+<circle cx="100.0" cy="276.66666666666663" r="3" fill="#da9239"/>
+<circle cx="293.48837209302326" cy="265.7142857142857" r="3" fill="#da9239"/>
+<circle cx="656.2790697674419" cy="224.64285714285717" r="3" fill="#da9239"/>
+<circle cx="1140.0" cy="128.21428571428575" r="3" fill="#da9239"/>
+<line x1="100" y1="327" x2="118" y2="327" stroke="#da9239" stroke-width="3"/>
+<text class="note" x="125" y="331">全图 m（被隔离零拖成 0）</text>
+<polyline fill="none" stroke="#419f96" stroke-width="2" points="100.00,276.96 293.49,267.35 656.28,230.89 1140.00,144.91"/>
+<circle cx="100.0" cy="276.96428571428567" r="3" fill="#419f96"/>
+<circle cx="293.48837209302326" cy="267.3511904761905" r="3" fill="#419f96"/>
+<circle cx="656.2790697674419" cy="230.89285714285717" r="3" fill="#419f96"/>
+<circle cx="1140.0" cy="144.9107142857143" r="3" fill="#419f96"/>
+<line x1="365" y1="327" x2="383" y2="327" stroke="#419f96" stroke-width="3"/>
+<text class="note" x="390" y="331">起点可达区域 m</text>
+<text class="label" x="24" y="370">完整查询毫秒中位数，包含完整连通遍历；预处理另测且不与总时间相减</text>
+<line x1="100" y1="560.0" x2="1140" y2="560.0" stroke="#e0e7ec"/>
+<text class="note" x="90" y="564.0" text-anchor="end">0.00</text>
+<line x1="100" y1="517.5" x2="1140" y2="517.5" stroke="#e0e7ec"/>
+<text class="note" x="90" y="521.5" text-anchor="end">27.68</text>
+<line x1="100" y1="475.0" x2="1140" y2="475.0" stroke="#e0e7ec"/>
+<text class="note" x="90" y="479.0" text-anchor="end">55.35</text>
+<line x1="100" y1="432.5" x2="1140" y2="432.5" stroke="#e0e7ec"/>
+<text class="note" x="90" y="436.5" text-anchor="end">83.03</text>
+<line x1="100" y1="390.0" x2="1140" y2="390.0" stroke="#e0e7ec"/>
+<text class="note" x="90" y="394.0" text-anchor="end">110.71</text>
+<text class="note" x="100.0" y="582" text-anchor="middle">15</text>
+<text class="note" x="293.48837209302326" y="582" text-anchor="middle">31</text>
+<text class="note" x="656.2790697674419" y="582" text-anchor="middle">61</text>
+<text class="note" x="1140.0" y="582" text-anchor="middle">101</text>
+<polyline fill="none" stroke="#da9239" stroke-width="2" points="100.00,557.92 293.49,550.89 656.28,521.62 1140.00,456.34"/>
+<circle cx="100.0" cy="557.9187838534095" r="3" fill="#da9239"/>
+<circle cx="293.48837209302326" cy="550.8856962442121" r="3" fill="#da9239"/>
+<circle cx="656.2790697674419" cy="521.6179415633576" r="3" fill="#da9239"/>
+<circle cx="1140.0" cy="456.34233232543403" r="3" fill="#da9239"/>
+<line x1="100" y1="607" x2="118" y2="607" stroke="#da9239" stroke-width="3"/>
+<text class="note" x="125" y="611">全图 m</text>
+<polyline fill="none" stroke="#419f96" stroke-width="2" points="100.00,557.10 293.49,546.30 656.28,501.89 1140.00,408.21"/>
+<circle cx="100.0" cy="557.0979677656888" r="3" fill="#419f96"/>
+<circle cx="293.48837209302326" cy="546.2978072709903" r="3" fill="#419f96"/>
+<circle cx="656.2790697674419" cy="501.8942469286691" r="3" fill="#419f96"/>
+<circle cx="1140.0" cy="408.2142857142857" r="3" fill="#419f96"/>
+<line x1="365" y1="607" x2="383" y2="607" stroke="#419f96" stroke-width="3"/>
+<text class="note" x="390" y="611">可达区域 m</text>
+</svg>

@@ -1,0 +1,22 @@
+{
+  "generated_at_utc": "2026-10-30T05:00:07.200085+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "seed": 20261030,
+  "repeats": 7,
+  "batch": 3,
+  "cases": 35,
+  "distinct_inputs": 32,
+  "configurations": 318,
+  "timing_batches": 2226,
+  "timed_solver_calls": 6678,
+  "source_sha256": {
+    "alphabeta_tree.py": "555b1043143f3137716c73557244e6250df7dbe775c34558e9e6f74c2d4799fb",
+    "run_experiments.py": "fe9d8bac32ca8bc5fd6b00e332f536b18f483117b9865d738e8dc5d6679f60f2",
+    "pdf_sample.json": "7052a420d5b19a4f4bf1e3300172644df8758b1309d01d15cfe061206294a4db"
+  },
+  "input_sha256": "904030be3ed868c97202ce13dbe901123d280f0c97ee2e715552e3875d17cb5f",
+  "timing_boundary": "Prepared TreeNode input; validation, output and trace excluded. Total includes ordering preparation/probes/sort. Search-only excludes preparation, includes callback probes/sort. Seven randomized blocks; no simultaneous timed workers.",
+  "oracle_warning": "Exact full-tree values require prior whole-tree evaluation, counted in total; oracle order is an explanatory reference, not a deployable speed claim.",
+  "sampling_warning": "Same trees, approximate leaf mean affects order only; no admissibility or exact-value claim; budget is exploratory, not independently confirmed."
+}

@@ -1,0 +1,159 @@
+{
+  "created_at_utc": "2026-11-02T05:20:44.056933+00:00",
+  "scope": "Q4 only: cross-map robustness and delayed candidate distance queries; original solver/results retained.",
+  "independent_inputs": "30 new generated maps; lazy study reuses them and includes the original PDF map. Route subset is7 fixed inputs.",
+  "tests": {
+    "methods_passed": 47,
+    "command": "python -B -m unittest discover -v",
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "data_audit": "Independent numerical re-computation passed: Dijkstra, full game enumeration, ledgers, output contracts, raw call-to-batch values, quantiles, paired differences, all summaries and source/protocol/result SHA.",
+  "audit_tool_sha256": "6865d85f005bde64960dd823900dc35d259e1baf28aa291a64807047389a433f",
+  "visual_qa": "Four new SVG figures rendered through Sharp and visually inspected. No clipped text, overlaps or missing glyphs.",
+  "counts": {
+    "new_map_inputs": 30,
+    "robust_configurations": 780,
+    "lazy_configurations": 1620,
+    "timing_batches": 12000,
+    "timed_top_level_calls": 36000
+  },
+  "original_baseline_sha256": {
+    "draw_q4_figures.py": "090c42680fbc2faf3d9380b2cec21f3057772797ae1512e48eace2c3ed618145",
+    "README.md": "1b77e7932acef5220e55ec50f958970e73dbd222bf1a0e07420401b0f46419a4",
+    "reference_tools.py": "99a1b7fdf45095a2c8dadb1e2688e902592a46069d6c8da6044c5175985d41e0",
+    "REPORT.md": "c51602febf1b3ae407a26cb7a15daa21fe8676526f55e56fb1f8642163a10c55",
+    "run_experiments.py": "cb443ca95219857bd5e9de499ce7cab15379deee54ca9a525c82ce6c78ac3d3e",
+    "run_q4.cmd": "ebe04c3cd3aed816921357e38fc2c16a3274498758e5d480b3bcb990c1a96ddf",
+    "test_treasure_game.py": "fba067571f8f92bc8ffe81148ae6494ee87b26920fda350e0a0d219f6d3c1194",
+    "treasure_game.py": "56c812ddab8a1ae8d7229cb064dca4ba832878c4d824553822edad26ed76b68b",
+    "results/comparison.csv": "01aa7aa71df7d9278781b308fe528d09a3fd1db4c357e08c7a915f02f5ce3370",
+    "results/decision_boundary_checks.json": "20729c7d3bd30bebe7cb0c07264546a3025bd283e6544e6b1cd0a57edb605e74",
+    "results/depth_decisions.svg": "4e0822790bf25dd0b62e29fb0ffe89db5132b293d39964558918b47e1ed85298",
+    "results/distance_matrix.csv": "d5b1780330cfa0263516255f822d68a091876be52003e4ce04d1ab7586771696",
+    "results/outcomes.json": "1160b6e86b3d3d0c1475027080159a754bab314ff424b8c81edfb7b448ee4f80",
+    "results/paired_differences.csv": "398aa97ea003393c2c0fc41fb597c7c08f1c52b94ddd57243b60f615a3f99f08",
+    "results/paths.json": "39eeda5c5d9a885a95cec4cce316c3fe217119ae25c309ea834d9a0a11f93460",
+    "results/path_matrix_comparison.csv": "2a451a681cd2d707433fb252bf8f9e29770f3f50fa73b195fd6ac56c39338739",
+    "results/path_queries.csv": "68855c839656b1eb145809383f6b8285d5ed989bc6c8cda7cc4981cc78e24e29",
+    "results/presentation_manifest.json": "d2180aec6531d1ea820535c484370706f0363ce3e6c7d46194271e74becba3b2",
+    "results/protocol.json": "e9a308d5eab8937b8078885df5381ac0d9ff45c107173cd072810d3081b0ab6c",
+    "results/reproducibility.json": "9e1c3e09785a4743664616d12b2dba72b6506f12beae5b7477da95512306e870",
+    "results/root_action_values.csv": "56d10e19cd2c2549529e68b7e3a3e717cc32ac34f88137e935caac0898c98fe6",
+    "results/routing_comparison.csv": "ed7442a29a9a65a65c8280b36df62eb7a3055a2e24f389f8787814cf66bf35fc",
+    "results/routing_cost.svg": "f90f676d8e0e2a8601d614f8a852c5602cccc717e3884dd7893cf1f606fba5df",
+    "results/sample_analysis.json": "37d68ddf2acba2e4fa2b351ec9f7c80a65b35b03f2aacacefe94524600ccbc42",
+    "results/sample_map.svg": "da588f816c936eca71b79ce5fedd17b1462cba9823357446667a3cfa589de71f",
+    "results/sample_order_comparison.csv": "3361f86eba1d94c907eeeafcc71841c218e993ffb56d1cbad6a36374294cc9fd",
+    "results/sample_traces.json": "4e56ac8bc98ddd92c3bfd2932f61ecf36dac935bff793fd27e13cf95528ceb3b",
+    "results/timing_batches.csv": "22d42e6bfd88eb0794e4036c31d787ea1dff2db87d60219d36f3aeaf9aee349e",
+    "results/value_sweep.csv": "9b2e1777fc4b6092eaea7a02b9fcc48b77f0a78c0287d9f44204f24a7eec0a78",
+    "results/value_sweep.svg": "c0848e56950adbf00cfaf84200afecfbb4dd65ae6522d1d5c16b5a1922b09f8f",
+    "samples/pdf_sample.json": "3ca804d0d0dcd8aa82fe44bc68da01eafad5508ba4fad903953f14dc91f95003"
+  },
+  "files_sha256": {
+    "draw_q4_figures.py": "090c42680fbc2faf3d9380b2cec21f3057772797ae1512e48eace2c3ed618145",
+    "lazy_game_search.py": "a3358eef54e1d3eaf476de4f73c51a9fb545e60de370a1100b80440af52de83a",
+    "README.md": "d61c8b5815258948ce9a46c269d35f448452f5dfc24356e1f8290f7c044a10ab",
+    "reference_tools.py": "99a1b7fdf45095a2c8dadb1e2688e902592a46069d6c8da6044c5175985d41e0",
+    "REPORT.md": "470c484c906b564bdb6e5b75904f5e62ab1e3d432150c17ef4d332fd86c556d4",
+    "results/comparison.csv": "01aa7aa71df7d9278781b308fe528d09a3fd1db4c357e08c7a915f02f5ce3370",
+    "results/decision_boundary_checks.json": "20729c7d3bd30bebe7cb0c07264546a3025bd283e6544e6b1cd0a57edb605e74",
+    "results/depth_decisions.svg": "4e0822790bf25dd0b62e29fb0ffe89db5132b293d39964558918b47e1ed85298",
+    "results/distance_matrix.csv": "d5b1780330cfa0263516255f822d68a091876be52003e4ce04d1ab7586771696",
+    "results/outcomes.json": "1160b6e86b3d3d0c1475027080159a754bab314ff424b8c81edfb7b448ee4f80",
+    "results/paired_differences.csv": "398aa97ea003393c2c0fc41fb597c7c08f1c52b94ddd57243b60f615a3f99f08",
+    "results/path_matrix_comparison.csv": "2a451a681cd2d707433fb252bf8f9e29770f3f50fa73b195fd6ac56c39338739",
+    "results/path_queries.csv": "68855c839656b1eb145809383f6b8285d5ed989bc6c8cda7cc4981cc78e24e29",
+    "results/paths.json": "39eeda5c5d9a885a95cec4cce316c3fe217119ae25c309ea834d9a0a11f93460",
+    "results/presentation_manifest.json": "d2180aec6531d1ea820535c484370706f0363ce3e6c7d46194271e74becba3b2",
+    "results/protocol.json": "e9a308d5eab8937b8078885df5381ac0d9ff45c107173cd072810d3081b0ab6c",
+    "results/reproducibility.json": "9e1c3e09785a4743664616d12b2dba72b6506f12beae5b7477da95512306e870",
+    "results/root_action_values.csv": "56d10e19cd2c2549529e68b7e3a3e717cc32ac34f88137e935caac0898c98fe6",
+    "results/routing_comparison.csv": "ed7442a29a9a65a65c8280b36df62eb7a3055a2e24f389f8787814cf66bf35fc",
+    "results/routing_cost.svg": "f90f676d8e0e2a8601d614f8a852c5602cccc717e3884dd7893cf1f606fba5df",
+    "results/sample_analysis.json": "37d68ddf2acba2e4fa2b351ec9f7c80a65b35b03f2aacacefe94524600ccbc42",
+    "results/sample_map.svg": "da588f816c936eca71b79ce5fedd17b1462cba9823357446667a3cfa589de71f",
+    "results/sample_order_comparison.csv": "3361f86eba1d94c907eeeafcc71841c218e993ffb56d1cbad6a36374294cc9fd",
+    "results/sample_traces.json": "4e56ac8bc98ddd92c3bfd2932f61ecf36dac935bff793fd27e13cf95528ceb3b",
+    "results/timing_batches.csv": "22d42e6bfd88eb0794e4036c31d787ea1dff2db87d60219d36f3aeaf9aee349e",
+    "results/value_sweep.csv": "9b2e1777fc4b6092eaea7a02b9fcc48b77f0a78c0287d9f44204f24a7eec0a78",
+    "results/value_sweep.svg": "c0848e56950adbf00cfaf84200afecfbb4dd65ae6522d1d5c16b5a1922b09f8f",
+    "results_lazy/comparison.csv": "ffe2a8c8138294dc4c43df6d0d06231007a03095327a9a8b77d2f9cd7b4ad9f2",
+    "results_lazy/inputs.json": "452c4bbb802de9a97244a5268197c54acf9f29c6d69eb6525fb7a91193bd1cfe",
+    "results_lazy/lazy_lookups.svg": "c751a928a228cc0dd1d26d7738d30fce3441f755fd584316aacc7435dab77d55",
+    "results_lazy/lazy_routing_boundary.svg": "e4902e3628e9353c9dc907ee79a5d481796e51db2d5c7bc6c085d0e8d472d52c",
+    "results_lazy/outcomes.json": "461d49d37257fc786e9864272910c7d7da84a371d47c3024bb8dcfdc527e84c7",
+    "results_lazy/paired_blocks.csv": "1d9ed4b083592f121e43dd6b7b16318b04b33b9feb4d4bf4844b15a732f22cf3",
+    "results_lazy/paired_differences.csv": "bbfb747163e3813404190da806a522e2ca6df11b12665a097c9f017fca99476c",
+    "results_lazy/protocol.json": "3a78cf893b510b7c9c7845785f15fc05fa48e67c60c9accaf7f2b01ad0479d60",
+    "results_lazy/reproducibility.json": "078afa3b4163dab147eb50597a7c37d1e4a175a958b1b2ef204c34a6c05a2067",
+    "results_lazy/summary.csv": "88bdcb1876e5895f08eb9dfefc1368e7acd955ef317f93cdd9c0a92e7e657899",
+    "results_lazy/timing_batches.csv": "9a4996df3397c4e7a918c85105fc7fabd5087f4835c7b2025d92cde506d19ea5",
+    "results_lazy/timing_calls.csv": "777f2a00900279c4b4dc6d4010d51bf93d1689d1a4287a7fac7ddd8656586d0f",
+    "results_robustness/comparison.csv": "20daa2e0d4705db345e9a46490991bb3d1711d078282c441935889edee2b4436",
+    "results_robustness/depth_regret.svg": "ce15fc58fbc350a3074a8d3b576e5be09750186b9a31f8f2910ccdc6046ba91b",
+    "results_robustness/depth_regret_summary.csv": "26d2c8c69930087000155dd8e013af475bd0adaabcaa8ed5a94115a429e3e6c3",
+    "results_robustness/inputs.json": "43733fd5e2ee3289122af494669111b2a7867a510903c1a685ad422a4f3c9675",
+    "results_robustness/matrix_summary.csv": "c385ad9d90bca13592b216cca0b6a556d011f4749216ff46157657245400a2c6",
+    "results_robustness/order_summary.csv": "d2a8d8d8e603c89d01add367d225b15875c0680f533122c2fa8b7b73c53be94e",
+    "results_robustness/outcomes.json": "1610a82bccb0fff253532ef42ba364d6d1474977a00295edd8550de5c801ac84",
+    "results_robustness/paired_differences.csv": "93a9b158372c7ddc8da099a034734c2f21d1b0a582467576af7dde1d5ee5a4f9",
+    "results_robustness/protocol.json": "880814dd2452a0ae0cd2ab7747fe0f64070be418d6cb8b2e36f79bf606d65fba",
+    "results_robustness/reproducibility.json": "bf411d17481722d26b786b94989c2707d8d88dfb8bacc77b59b0821517da31d8",
+    "results_robustness/robustness_pruning.svg": "a5bbcd4b1835b84844cdd4fb61d697ac8e10c20729dd98c18cd55c26bc67ed74",
+    "results_robustness/timing_batches.csv": "a36da235861ee2bebce3fa31410893a3cc3d4551b541ad53c9a594cdc3f96c8d",
+    "results_robustness/timing_calls.csv": "a2a46450e2d44694373c00feb521cd830cc59f31b19896bebbadd6edaab0ba25",
+    "run_experiments.py": "cb443ca95219857bd5e9de499ce7cab15379deee54ca9a525c82ce6c78ac3d3e",
+    "run_lazy_study.py": "4fb31ee9d833a031554836f19e629ab6411390842e70c8b60111d4f5efd17d87",
+    "run_q4.cmd": "e30dd78c721e35e7cfb82eadbfeb87b5db24a4472a89bb39e9e52891fb8a97bd",
+    "run_robustness_study.py": "bf508ea8e45e248fbed5dec3fe11f160b67f90c68e3bcffb3a750dd8a524092d",
+    "samples/pdf_sample.json": "3ca804d0d0dcd8aa82fe44bc68da01eafad5508ba4fad903953f14dc91f95003",
+    "SUPPLEMENTARY_EXPERIMENTS.md": "333b09d00f931317a66b9f0c730ac69d597265445853c74c50186b82f6fa3d3b",
+    "test_lazy_game_search.py": "05abb7572ab7644b14a58930ffe58af7fc2a9645e442ee996b05a7d7b88ae268",
+    "test_lazy_study.py": "535aeef6c6047e5e0c8088095d4141141fcc55e1083acaecef09ccf1a2ce3230",
+    "test_robustness_study.py": "3e8496610644141ba97fe4b9c9d56f8ca670c1d6fdbc20c6dcb954d1a59a947d",
+    "test_treasure_game.py": "fba067571f8f92bc8ffe81148ae6494ee87b26920fda350e0a0d219f6d3c1194",
+    "treasure_game.py": "56c812ddab8a1ae8d7229cb064dca4ba832878c4d824553822edad26ed76b68b"
+  },
+  "note": "This manifest excludes itself. Experiment protocols were frozen before formal solver warmup; this artifact/QA manifest is intentionally recorded after analysis and report generation. Reproduction creates separate timestamped directories and does not overwrite this run.",
+  "editorial_revision": {
+    "date": "2026-11-03",
+    "scope": "Report wording, stale progress descriptions, and navigation only. Solvers, inputs, protocols, raw timings and original figures are unchanged.",
+    "previous_manifest_sha256": "51b356810179124f2bc09051888e0ced7a3c21a50bd268909c807a0ce9d56157",
+    "documents": {
+      "README.md": {
+        "previous_sha256": "1754a943e498715364425994c683b1c7ecce36205c6006405754406440e4cdc0",
+        "current_sha256": "d61c8b5815258948ce9a46c269d35f448452f5dfc24356e1f8290f7c044a10ab"
+      },
+      "REPORT.md": {
+        "previous_sha256": "007637c09582503607b410dd3ff8cf1a4721037ebe77a8145623e9618ee82731",
+        "current_sha256": "470c484c906b564bdb6e5b75904f5e62ab1e3d432150c17ef4d332fd86c556d4"
+      },
+      "SUPPLEMENTARY_EXPERIMENTS.md": {
+        "previous_sha256": "1e39cc22099dc783b9f8d9782db8569ff432496fd7d803c473b476fd7881fb0f",
+        "current_sha256": "333b09d00f931317a66b9f0c730ac69d597265445853c74c50186b82f6fa3d3b"
+      }
+    },
+    "original_baseline_note": "original_baseline_sha256 remains the historical pre-supplement snapshot, including its historical document versions."
+  },
+  "incremental_cache_revision": {
+    "date": "2026-11-10",
+    "scope": "Added an independent incremental-utility cache study, tests and README navigation; original solver and historical experiment inputs/raw timings unchanged.",
+    "previous_manifest_sha256": "3ce07e2e08879dbc2dd25e4e6a4f2d65fba0920b46797696a1cf73d1362869f4",
+    "historical_hash_note": "All earlier fields and editorial_revision hashes remain historical snapshots. This revision identifies the latest README and new experiment manifest.",
+    "documents": {
+      "README.md": {
+        "current_sha256": "bc5299bac4c7d0e887cb34641db361947af18d52a2959d9761fda63abea8091b"
+      },
+      "INCREMENTAL_CACHE_STUDY.md": {
+        "current_sha256": "9959e609daef885bf434311e4444221033df6f55f770aa13c3e92a0716982572"
+      }
+    },
+    "new_experiment_manifest": {
+      "path": "results_incremental_cache/manifest.json",
+      "sha256": "8b432b3da0940f7c05287e58d3964f02e7f2c4ae5f688b35b0302ac6e9214a6c"
+    },
+    "tests_current": 59,
+    "recorded_at_utc": "2026-11-10T11:41:47.616910+00:00"
+  }
+}
