@@ -276,10 +276,18 @@ def load_problem(text):
     if len(lines) < 3:
         raise ValueError("依次输入起点一行、终点一行、可跨行的二维地图")
     try:
-        return (ast.literal_eval(lines[0]), ast.literal_eval(lines[1]),
-                ast.literal_eval("\n".join(lines[2:])))
+        start, end = ast.literal_eval(lines[0]), ast.literal_eval(lines[1])
+        grid = ast.parse("\n".join(lines[2:]), mode="eval").body
+        # 题面直接写 S/E；仅将二维列表或元组的独立格子标记转为字符串。
+        if isinstance(grid, (ast.List, ast.Tuple)):
+            for row in grid.elts:
+                if isinstance(row, (ast.List, ast.Tuple)):
+                    for i, cell in enumerate(row.elts):
+                        if isinstance(cell, ast.Name) and cell.id in {"S", "E", "X"}:
+                            row.elts[i] = ast.copy_location(ast.Constant(cell.id), cell)
+        return start, end, ast.literal_eval(grid)
     except (ValueError, SyntaxError) as exc:
-        raise ValueError("输入格式不正确；请参照 samples/pdf_sample.txt，S/E/X 须加引号") from exc
+        raise ValueError("输入格式不正确；请参照 samples/pdf_sample.txt，S/E/X 可带或不带引号") from exc
 
 
 def main():

@@ -26,6 +26,11 @@ CASE_ROLES = {"bands_101":"primary_confirmation", "bands_31":"cost_transfer",
               "uniform_101":"no_cleanup_action_control", "tight_bands_101":"no_cleanup_action_control"}
 SOURCE_NAMES = ("weighted_astar.py", "heap_compaction.py", "run_experiments.py",
                 "run_heap_tuning.py", "run_heap_confirmation.py")
+# 这两个版本仅在未计时的 load_problem 中不同；不放行其他源码改动。
+CLI_ONLY_REVISION = (
+    "916c28cdb20262ed7f38f76c306319ebe4d8c4cb47961e27f584c4830add61bb",
+    "a01427afc667d82a175fae3d71e778f5c950b976558da645508de217ac3277c1",
+)
 
 
 def sha(path):
@@ -78,9 +83,15 @@ def prepare_protocol(requested, repeats=15, batch=3, seed=20261030):
     old = json.loads((previous / "reproducibility.json").read_text(encoding="utf-8"))
     if seed == old["parameters"]["seed"]:
         raise ValueError("确认轮使用不同于原调参轮的新计时顺序种子")
+    cli_revision = None
     for name, expected in old["source_sha256"].items():
-        if sha(ROOT / name) != expected:
-            raise ValueError(f"原调参来源已改变，不能直接声称同实现确认：{name}")
+        actual = sha(ROOT / name)
+        if actual == expected:
+            continue
+        if name == "weighted_astar.py" and (expected, actual) == CLI_ONLY_REVISION:
+            cli_revision = dict(previous=expected, current=actual, scope="untimed CLI input parser only")
+            continue
+        raise ValueError(f"原调参来源已改变，不能直接声称同实现确认：{name}")
     generated = [case_payload(*group) for group in tuning_cases(seed, sizes=(31, 101))
                  if group[0].slug in FIXED_CASES]
     if tuple(item["case"] for item in generated) != FIXED_CASES:
@@ -120,6 +131,8 @@ def prepare_protocol(requested, repeats=15, batch=3, seed=20261030):
         output_policy="if requested directory is nonempty, create a fresh timestamped run_* subdirectory; never overwrite an existing protocol",
         auxiliary_selection="selection.csv produced by reused runner is descriptive only; confirmation statements evaluate fixed rho=1.5",
     )
+    if cli_revision is not None:
+        protocol["untimed_cli_source_revision"] = cli_revision
     output = fresh_output_dir(requested)
     digest = write_protocol(output, protocol)
     return output, protocol, digest

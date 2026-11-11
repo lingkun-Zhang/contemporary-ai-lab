@@ -7,7 +7,7 @@ import unittest
 
 from weighted_astar import (
     SAMPLE_GOAL, SAMPLE_GRID, SAMPLE_START, astar_cost, astar_search,
-    heuristic_value, prepare_terrain,
+    heuristic_value, load_problem, prepare_terrain,
 )
 
 
@@ -264,6 +264,27 @@ class WeightedAStarTests(unittest.TestCase):
         self.assertEqual(plain.trace, [])
         self.assertEqual(len(traced.trace), traced.stats["expanded_nodes"] + 1)
         self.assertTrue(all(item["g"] + item["h"] == item["f"] for item in traced.trace))
+
+    def test_load_problem_accepts_pdf_markers_and_quoted_form(self):
+        coordinates = "(0, 0)\n(4, 4)\n"
+        bare = """[
+            [S, 1, 1, 8, 1],
+            [1, 8, 3, 1, 1],
+            [1, 8, 1, 8, 1],
+            [1, 1, 1, 8, 1],
+            [8, 8, 1, 1, E]
+        ]"""
+        quoted = repr(SAMPLE_GRID)
+        for grid in (bare, quoted):
+            with self.subTest(grid=grid):
+                self.assertEqual(astar_cost(*load_problem(coordinates + grid)), 7)
+        self.assertEqual(astar_cost(*load_problem("(0, 0)\n(0, 2)\n[[S, X, 'E']]")), -1)
+
+    def test_load_problem_rejects_nonliteral_grid_expressions(self):
+        for invalid in ("[[S, UNKNOWN, E]]", "[[S, str(1), E]]", "[[S, X + '1', E]]"):
+            with self.subTest(invalid=invalid):
+                with self.assertRaises(ValueError):
+                    load_problem("(0, 0)\n(0, 2)\n" + invalid)
 
     def test_invalid_inputs(self):
         invalid = [
