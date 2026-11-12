@@ -2,15 +2,11 @@
 
 本目录完成《实验二要求_new(1).pdf》的题一：在二维迷宫中沿上、下、左、右四个方向寻找从起点到终点的最短路径。坐标采用从 0 开始的 `(行, 列)`，`S` 表示起点，`E` 表示终点，`.` 表示可通行格，`X` 表示障碍。每次移动的代价为 1。返回的路径包含起点和终点；无路可走时返回 `[]`。
 
-基础接口及默认输出遵循 PDF。另有独立 BFS 核验、搜索统计、过程可视化和五组拓展实验，覆盖启发函数、地图结构、规模与密度、同优先级处理、障碍感知地标及其预处理代价。基础结果见 [REPORT.md](REPORT.md)，深入探究见 [EXPLORATION.md](EXPLORATION.md)。
-
-BFS性能基线、节点重开消融、静态连通预检及稳健性分析的3812个搜索配置和75个原数据分析分组见 [BONUS_REPORT.md](BONUS_REPORT.md)。其中冻结闭集是故意错误的消融，正式题目答案继续调用 `maze_astar.astar`。
-
-地标数量调参采用完整批次计时：精确复用原两组 40 查询，k=0、1、2、3、4、8 每批独立建表并执行全部查询，九次重复保留 IQR 和相邻参数配对差，另有开阔图负对照。结果与局部低点限制见 [LANDMARK_TUNING.md](LANDMARK_TUNING.md)。
+样例路径、扩展节点数与 BFS 核验见 [题一报告](REPORT.md)。障碍密度、同分排序和地标实验见 [拓展实验](EXPLORATION.md)，BFS、节点重开和连通性预检的结果见 [补充实验](BONUS_REPORT.md)。
 
 ## 1. 环境与目录
 
-Python 3.9 或更新版本，全部代码仅使用 Python 标准库，不需要安装第三方依赖。以下命令均在本目录中执行。当前电脑推荐使用随附的 `run_q1.cmd`，它会选择可用的 Python，无需先配置环境变量。
+需要 Python 3.9 或更新版本，只用标准库。以下命令均在本目录执行。Windows 可以双击 `run_q1.cmd` 运行样例。
 
 ```text
 maze_astar.py          A* 算法、题目接口与命令行入口
@@ -46,7 +42,7 @@ LANDMARK_CONFIRMATION.md 固定候选的新计时确认与判据说明
 
 ## 2. 运行题目样例
 
-**当前 Windows 电脑推荐方式：**双击 `run_q1.cmd`，即可运行 PDF 样例并显示路径。也可以在 PowerShell 中运行：
+在 PowerShell 中运行：
 
 ```powershell
 .\run_q1.cmd
@@ -161,49 +157,38 @@ python maze_astar.py --input samples/pdf_sample.txt --heuristic manhattan --tie-
 
 ## 5. 复现对照实验与验证
 
-当前 Windows 电脑在 PowerShell 中运行：
+以下命令把复跑数据写到 `../reruns/`。基础实验、拓展实验和地标扫描默认会写入仓库已有的结果目录，因此复跑时请保留命令中的输出参数。
 
 ```powershell
-.\run_q1.cmd tests
-.\run_q1.cmd experiments
-.\run_q1.cmd explorations
+python -B -m unittest discover -v
+python run_experiments.py --repeats 7 --batch 10 --seed 20261022 --output-dir ../reruns/q1-base
+python run_explorations.py --output-dir ../reruns/q1-exploration
 ```
 
-在可直接运行 Python 的环境中：
-
-```powershell
-python -m unittest discover -v
-python run_experiments.py
-python run_explorations.py
-```
-
-完整参数的等效复现命令为：
-
-```powershell
-python run_experiments.py --repeats 7 --batch 10 --seed 20261022 --output-dir results
-```
-
-测试使用独立的广度优先搜索核对最短距离，并检查返回路径是否确实由相邻可通行格子组成。当前共有 63 个单元测试方法：原有40项、整批地标调参5项、独立确认5项，以及走廊压缩13项。前50项验证原输入复用、独立建表、完整计时边界、k=0 基线和配对汇总。原有随机验证使用 300 张固定种子的地图，每图运行三种搜索设置，共 900 次最短路核对；另有 60 张地图覆盖 4 个启发函数 × 3 种并列策略，共 720 个配置，还覆盖邻居排列、地标可采纳性、一致性及随机查询。这些与实验脚本的正式数据分别统计。
+63 项测试包含独立 BFS 核验、路径合法性、地标下界、计时协议和走廊压缩。用固定种子生成的地图还覆盖不同启发函数、同分规则和邻居顺序。
 
 复现四组成本与正确性研究：
 
 ```powershell
-.\run_q1.cmd bonus
+python run_bfs_study.py --output-dir ../reruns/q1-bfs
+python run_reopen_study.py --output-dir ../reruns/q1-reopen
+python run_connectivity_study.py --output-dir ../reruns/q1-connectivity
+python run_evidence_audit.py --output-dir ../reruns/q1-audit
 ```
 
-已配置 Python 的其他环境可运行 `python run_bonus_experiments.py`，或用 `--study bfs/reopen/connectivity/audit` 选择一组。详细参数请查看各子脚本的 `--help`，Windows 快捷入口不转发研究模式后的额外参数。方法、主要结果与文件索引见 [BONUS_REPORT.md](BONUS_REPORT.md)。
+最后一条读取仓库已有的实验结果重新汇总。方法和数据位置见 [补充实验](BONUS_REPORT.md)。
 
 复现地标参数的整批重复测量：
 
 ```powershell
-.\run_q1.cmd tuning
+python run_landmark_tuning.py --landmarks 0 1 2 3 4 8 --queries 40 --repeats 9 --seed 20261029 --output-dir ../reruns/q1-landmark-tuning
 ```
 
-已配置 Python 时等效为 `python run_landmark_tuning.py --landmarks 0 1 2 3 4 8 --queries 40 --repeats 9 --seed 20261029`。输出在 `results/landmark_tuning/`，完整保存 162 个整批原始记录、6480 次查询核验对应的 720 个不同配置、总成本和配对加速比的中位数/IQR/范围。原两图的查询来自原探索元数据，复现时需保留 `results/exploration/reproducibility.json`；它的来源哈希随新结果保存。
+仓库数据在 `results/landmark_tuning/`。调参脚本读取 `results/exploration/reproducibility.json`，复用两张地图的原查询。实验设置和计时见 [地标数量扫描](LANDMARK_TUNING.md)。
 
 长墙在本批已测集合中 k=1 成本最低，九个重复块都快于 k=0 与 k=2；完美迷宫 k=1/2 区间重叠、配对排名波动，报告为近似平台；开阔图仍以不建表的 k=0 最低。新总值直接计完整批次，不能与原逐查询中位数求和估计混用或声称通用最佳 k。
 
-对照实验将结果写入 `results/`：
+仓库中的基础实验结果位于 `results/`：
 
 | 文件 | 内容 |
 |---|---|
@@ -249,18 +234,16 @@ CSV 带 UTF-8 BOM，可直接用 Excel 打开；SVG 可用浏览器查看。具�
 
 第三篇文献用于了解同优先级处理问题，论文重点研究的含零代价动作场景与本题不同；本实验只检查本题单位代价迷宫中的实际变化。
 
-本目录仅包含题一，不涉及加权地形或博弈搜索。
-
 ## 7. 固定候选的独立计时确认
 
-运行 `run_q1.cmd confirmation` 或 `python run_landmark_confirmation.py`。固定三组原地图/原40查询、k=0/1/2，先保存协议再做15个完整计时重复，关注k=1对0和2，不在确认后另选冠军。
+运行 `python run_landmark_confirmation.py --output-dir ../reruns/q1-landmark-confirmation`。在三张原地图上各复用 40 个查询，对地标数 0、1、2 重新计时 15 批。事先固定比较 (k=1) 与 (k=0,2)。
 
-首跑结果在`results/landmark_confirmation/`；已有结果时另建带时间戳的`rerun_*`子目录，不覆盖原确认。也可用`--output-dir`指定新目录。135整批/5400次计时查询与360不同配置全部通过最短路核验。长墙支持原局部低点，迷宫仍有近似平台，开阔图不建地标更快。新5项测试检查原输入、固定比较、协议独占写入及复跑保护。详见[确认报告](LANDMARK_CONFIRMATION.md)，正式报告题一的“地标数量与总运行时间”给出确认结论，必答问题的位置见[要求回答与证据核对](../LAB2_要求回答与证据核对.md)。
+仓库结果在 `results/landmark_confirmation/`。长墙上建一个地标的总耗时更低，迷宫中一个和两个地标的差别较小，开阔图则以不建地标更快。逐批数据和比较方法见 [地标复测](LANDMARK_CONFIRMATION.md)。
 
 
 ## 精确走廊压缩与多查询回本
 
-新增可选模块`corridor_astar.py`，原正式接口和默认算法保持原样。索引适用于静态、无向、四邻接、单位边代价地图，返回的仍是逐格坐标路径。修改地图后需重建；不能直接迁移到题二的免费E加权规则。
+`corridor_astar.py` 把单位代价迷宫中的走廊压缩成边，搜索后还原为逐格路径。地图修改后需重建索引。
 
 ```python
 from corridor_astar import build_corridor_index
@@ -272,10 +255,10 @@ print(result.path, result.cost, result.stats)
 复现完整实验及派生汇总：
 
 ```text
-python -B run_corridor_study.py
-python -B summarize_corridor_study.py --data results/corridor_study
+python -B run_corridor_study.py --output ../reruns/q1-corridor
+python -B summarize_corridor_study.py --data ../reruns/q1-corridor
 ```
 
-首次结果保存到`results/corridor_study/`；已有内容则实验另建`rerun_*`子目录，汇总时将`--data`指向该目录。协议在预热前保存，18张不同地图、64对端点、4个查询数、10种实现、7个计时块都预先固定。完整时间包含独立建图、端点接入、搜索及逐格路径还原；BFS校验在计时外，所有损失均保留。详见[研究报告](CORRIDOR_STUDY.md)。
+仓库结果在 `results/corridor_study/`。输出目录已有结果时，脚本会生成 `rerun_*` 子目录，汇总时把 `--data` 指向该子目录。完整计时包括建图、接入端点、搜索和还原路径。地图、查询数量与计时结果见 [走廊压缩实验](CORRIDOR_STUDY.md)。
 
 新增13项正确性测试包括全部512种3×3障碍布局及46080次搜索，另有长并行走廊、纯环、内部双端点与输入快照检查。宏点展开数与原网格格点不是同一单位，不能直接当作格子访问或内存节省；同内核identity图用于区分压缩与实现开销，现有k=1地标是强基线。

@@ -24,7 +24,7 @@ python run_experiments.py
 python run_transposition_study.py
 ```
 
-当前电脑脚本优先使用已验证的本地 Python；换电脑后可安装 Python 并使用 `py -3`，或设置 `Q3_PYTHON` 为解释器完整路径。
+Windows 上也可以用 `py -3` 代替 `python`，或用 `Q3_PYTHON` 为批处理指定解释器路径。
 
 ```python
 from alphabeta_tree import TreeNode, alpha_beta, minimax, search
@@ -56,7 +56,7 @@ print(result.value, result.stats)
 
 实验默认7块，每块每配置连续调用3次，保存批平均，再计算7块中位数及IQR。所有树先构建并检查；计时排除输入解析、结构预检、轨迹和文件写入，包含策略准备、排序与采样，另保留不含准备的搜索时间。验证和统计不以唯一对象数替代访问发生次数。
 
-已有 `results/` 时，重新实验自动另存带时间戳的子目录，不覆盖此次结果。可用 `python run_experiments.py --output-dir results_new` 指定新位置；生成样例图：`python draw_sample.py --output results/sample_tree.svg`。CSV可用Excel打开，SVG可用浏览器查看，`REPORT.md`可直接预览。
+复跑主实验可用 `python run_experiments.py --output-dir ../reruns/q3-main`。单独画样例树可用 `python draw_sample.py --output ../reruns/q3-sample-tree.svg`。
 
 真值优先/逆序是提前完整求解整棵树后的 oracle 参照，其准备工作计入总时间。采样排序只改变访问顺序，额外叶读取单列；本批未观察到相对不排序的时间收益，仍保留该负结果。正式求解接口保持老师规定的左到右访问。
 
@@ -71,7 +71,7 @@ result = cached_search(sample_tree(), mode="bounds", max_cache_depth=None)
 assert result.value == 5
 ```
 
-此前58项测试通过，其中核心21项、缓存16项、参数与容量实验21项。发现实验118配置、1062原始批、5310次计时，保存在`results_transposition/`；完全相同有序展开输入下改变对象共享程度，并保留纯树负对照、错误精确缓存反例、准入深度参数和完整成本。错误缓存只用于指定反例，不是正式接口的可用模式。
+第一轮缓存实验用同一批展开顺序和叶值，只改变子树共享程度。118 个配置的原始计时在 `results_transposition/`，含无共享树对照和把截断结果误存为精确值的反例。
 
 固定bounds/all后，用新种子的36配置、540批进行独立确认；协议先于预热保存，结果在`results_transposition_confirmation/`。复现：`python run_transposition_confirmation.py`或`run_q3.cmd cache-confirmation`。强共享主比较保留较快方向，纯树均更慢；每组完整配对差及限制见补充报告第8节。
 
@@ -91,7 +91,7 @@ run_q3.cmd extensions
 
 ## Scout阈值探测与重搜成本
 
-新增独立模块`scout_search.py`，先对首孩子精确求值，后续孩子只判断能否严格改善当前候选，需要时才精确重搜。TEST返回布尔判断，支持原来的整数和有限浮点叶值，不增加浅层评价，也不使用置换表。原正式左到右Alpha-Beta入口保持原样。
+`scout_search.py` 先对第一个孩子精确求值。后续孩子先通过 TEST 判断能否严格改善当前值，可能改善时才重新求值。
 
 ```python
 from alphabeta_tree import sample_tree
@@ -104,6 +104,6 @@ python -B -m unittest test_scout_search
 python -B run_scout_study.py
 ```
 
-题三当前69项测试通过，包括新增11项Scout检验。实验默认30份有序输入、3种顺序、原版AB/同模块AB/Scout三实现，共270配置；7块×3次，保留5670次调用的全部探测与重搜成本。结果在`results_scout/`，已有目录时另建`rerun_*`子目录。计时包含排序准备和搜索，排除输入构建、整树预检与独立Minimax校验。
+题三共有 69 项测试，其中 11 项覆盖 Scout。Scout 实验比较 30 份有序输入、3 种顺序和 3 种实现。结果在 `results_scout/`，记录了排序准备、探测和重搜的时间。
 
 首候选最佳的4份边界输入在左序下，Scout/同模块AB时间比中位为0.733、总读叶相同；后置逐次改善组则为1.980、总读叶比2.900。18随机树左序仅8棵配对更快，不能据此普遍替换正式算法。阶段字段`exact_visits`在AB模式表示AB递归访问，不意味着每次内部返回精确值。详细证明、双基线、失败结果及复核见[SCOUT_STUDY.md](SCOUT_STUDY.md)。

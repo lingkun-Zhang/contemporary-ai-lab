@@ -2,11 +2,11 @@
 
 本目录按 PDF 完成题二：四方向移动，从 `u` 进入相邻 `v` 时支付地形权值 `w(v)`；进入终点 E 的最后一步免费。正式接口只返回最小总代价，无解为 `-1`。PDF 样例输出 `7`。
 
-另提供最优路径、逐步费用账本、搜索统计和有证据的启发函数对照。题二的设计、实验数据和深入分析见 [REPORT.md](REPORT.md)。
+加上 `--details` 可查看最优路径、逐步费用和扩展节点数。启发函数推导及对照数据见 [题二报告](REPORT.md)。
 
 ## 1. 环境与目录
 
-Python 3.9 或更新版本，全部程序只使用标准库。当前 Windows 电脑可直接双击 `run_q2.cmd` 运行样例。
+需要 Python 3.9 或更新版本，只用标准库。以下命令均在本目录执行。Windows 可以双击 `run_q2.cmd` 运行样例。
 
 ```text
 weighted_astar.py       正式接口、A*、权重规范化和安全启发函数
@@ -40,9 +40,6 @@ HEAP_CONFIRMATION.md   原提速信号是否重复的独立计时分析
 .\run_q2.cmd
 .\run_q2.cmd --input samples/pdf_sample.txt --details
 .\run_q2.cmd tests
-.\run_q2.cmd experiments
-.\run_q2.cmd supplementary
-.\run_q2.cmd tuning
 ```
 
 默认只输出整数答案。`--details` 输出 JSON，含费用、路径、步数、每步进入费、累计费和统计。
@@ -52,13 +49,16 @@ HEAP_CONFIRMATION.md   原提速信号是否重复的独立计时分析
 ```powershell
 python weighted_astar.py
 python weighted_astar.py --input samples/pdf_sample.txt --details
-python -m unittest discover -v
-python run_experiments.py --seeds 10 --repeats 3 --batch 3 --seed 20261028
-python run_supplementary_experiments.py
-python run_heap_tuning.py
+python -B -m unittest discover -v
 ```
 
-自定义实验参数请直接运行脚本；Windows 入口的研究模式不转发后续参数。
+基础实验、补充实验和堆阈值扫描默认会写入仓库已有的结果目录。复跑时使用下列命令，将新结果写入 `../reruns/`。
+
+```text
+python run_experiments.py --seeds 10 --repeats 3 --batch 3 --seed 20261028 --output-dir ../reruns/q2-base
+python run_supplementary_experiments.py --output-dir ../reruns/q2-supplementary
+python run_heap_tuning.py --output-dir ../reruns/q2-heap-tuning
+```
 
 输入依次为起点一行、终点一行、可跨行的二维数组，坐标从 0 开始：
 
@@ -120,7 +120,7 @@ Python 中可使用 `astar_search(start, end, grid, heuristic='corrected', tie_b
 
 ## 5. 正确性验证与统计口径
 
-本次通过46项测试方法，包括15项核心、4项补充口径、9项堆清理、5项独立确认协议及13项整数桶测试。200 张随机图×4 个安全启发×2 个 m 范围×2 个并列策略，共 3200 个最短性配置；48 张小图逐点验证下界、逐边验证一致性，其中正权与零权各 24 张，global 检查全图，reachable 仅检查 S 可达区域；40 个 3×3 图再用简单路径穷举核对。另有 21×21 三条高权整行专例验证 tight 的起点下界为 63，等于独立最优费用，而旧行列下界为 62。参考 Dijkstra 不复用核心的转换与邻居逻辑。反向距离计算使用原边目的格费用，避免把加权方向弄反。
+共 48 项测试，其中 17 项覆盖 A*、输入和最短路校验，其余覆盖补充实验、堆清理和整数桶。200 张随机图对照独立 Dijkstra，48 张小图逐点检查下界、逐边检查一致性，另有 40 张 3×3 图用简单路径穷举核对。全图下界检查所有通行格，可达区域下界检查从 S 可达的格子。
 
 补充口径测试检查平台统计排除终点、无解无数值阈值、K=11 的费用切换、配对图的可达问题不变，以及可达遍历经过 E 后仍继续并保留真实零权。
 
@@ -164,9 +164,9 @@ CSV 带 UTF-8 BOM，可在 Excel 中查看；SVG 可在浏览器中打开。所�
 
 正式补充运行有 95 条输入记录、89 个不同地图与端点组合；排序组 576、费用比组 72、区域组 56，共 704 个配置全部达到独立参考最优费用，352 条启发条件检查全部通过。带状无障碍图跨种子的重复保留为输入记录，不称为独立地图。
 
-补充结果限定了原优化收益：高费带的 tight 在 FIFO 下扩展960个状态，在low_h下60个；K超过11后本构造改走缺口；区域扫描在均匀图恢复精确下界后可获益，在带状图、原本没有不可达零权或可达区域已有零权时也保留了无收益与额外开销。详细数据、证明、反例和本组时间见报告第5.6—5.8节。
+在同一高费带上，tight 使用 FIFO 扩展 960 个状态，换成 `low_h` 后扩展 60 个。费用比实验在 K 超过 11 后改走缺口。可达区域扫描的收益随地形而变。详细数据见 [题二报告第 5 节](REPORT.md#5-实验结果与机制分析)。
 
-运行 `run_q2.cmd supplementary` 可重新生成 `results_supplementary/`。基础实验与补充实验分别保存环境、输入、参数、原始计时和对应源码哈希；两次运行的时间应在各自同轮对照内解释。
+仓库中的补充数据位于 `results_supplementary/`。比较耗时时使用同一轮的测量。
 
 | 补充目录文件 | 内容 |
 |---|---|
@@ -181,19 +181,19 @@ CSV 带 UTF-8 BOM，可在 Excel 中查看；SVG 可在浏览器中打开。所�
 
 ## 8. 堆清理阈值调参
 
-运行 `run_q2.cmd tuning` 或 `python run_heap_tuning.py`，生成 `results_heap_tuning/`。默认扫描ρ=1.05/1.2/1.5/2/4/8/16/32/inf，与原求解器同批参照；9个重复块、每批3次完整查询，顺序随机交错。方法、实测、内部低点的限制和负对照见 [HEAP_TUNING.md](HEAP_TUNING.md)，正式报告的“结论与适用范围”概括了堆清理的取舍。
+运行 `python run_heap_tuning.py --output-dir ../reruns/q2-heap-tuning`。脚本将不同清理阈值与原求解器放在同一批比较，共 9 批，每批 3 次查询。仓库中的原始数据位于 `results_heap_tuning/`，参数与结果见 [堆清理阈值扫描](HEAP_TUNING.md)。
 
 可选接口为 `from heap_compaction import compacted_astar_search`，调用参数兼容 `astar_search`，末尾增加 `rho=2` 等阈值。它只删除过期记录，保持有效优先级、路径和最优费用；同内核inf不清理，但仍有open维护成本，不能代替原求解器基线。峰值统计包含清理前瞬时堆长，不代表总内存字节。
 
 堆清理的9项测试含3840个随机配置和重开/无解/无过期项/参数边界检查。正式调参70配置全部核验最优费用、路径与有效顺序一致；630个计时批值保存IQR与全范围。阈值效果依赖工作负载，报告同时保留未观察到稳定内部最优及维护成本超过收益的结果。
 
-`previous_timing_ranges.csv` 从旧基础/补充记录直接整理1844组已有计时的中位数、IQR和范围，`previous_timing_sources.json` 保存来源哈希；它不会重跑或覆盖旧实验。可单独运行 `python summarize_timing_ranges.py` 更新该汇总。
+`results_heap_tuning/previous_timing_ranges.csv` 汇总基础和补充实验中 1844 组已有计时。同目录的 `previous_timing_sources.json` 记录来源。可用 `python -c "from summarize_timing_ranges import summarize_existing_timings; summarize_existing_timings('../reruns/q2-timing-summary')"` 另存汇总。
 
 ## 9. 预定参数的独立计时确认
 
-运行 `run_q2.cmd confirmation` 或 `python run_heap_confirmation.py`。关注参数预先固定为ρ=1.5，对照original、同内核inf和有限左右邻居1.2/2；ρ1.05只作过积极清理的成本对照。四个原组合逐格核对输入，不因新种子重抽地图。首个预热前保存protocol并在结束核对SHA。
+运行 `python run_heap_confirmation.py --output-dir ../reruns/q2-heap-confirmation`。复用原来的四组输入，重新计时比较 ρ=1.5 与原求解器、不清理的同内核版本，以及相邻阈值 1.2、2。
 
-首跑结果在`results_heap_confirmation/`，已有结果时另建`run_*`时间戳子目录。24配置/360计时批/1080计时调用均完成，最优费用、路径与有效序列保持。原发现批的提速在本次主比较未重复，严格内部低点也未确认；未改换候选来挑选有利结果。新5项测试检查协议、输入、固定配对、无动作对照和复跑保护。详见[独立确认报告](HEAP_CONFIRMATION.md)，正式报告的“结论与适用范围”概括了复验结果，必答问题的位置见[要求回答与证据核对](../LAB2_要求回答与证据核对.md)。
+原始数据在 `results_heap_confirmation/`。复测保持了最优费用、路径和有效访问顺序。第一次测量观察到的提速在主要对照中未复现。逐批结果见 [堆清理复测](HEAP_CONFIRMATION.md)。
 
 ## 10. 整数桶与公共费用单位
 
@@ -201,10 +201,10 @@ CSV 带 UTF-8 BOM，可在 Excel 中查看；SVG 可在浏览器中打开。所�
 
 ```text
 python -B -m unittest test_bucket_astar
-python -B run_bucket_study.py
-python -B summarize_bucket_study.py --data results_bucket
+python -B run_bucket_study.py --output ../reruns/q2-bucket
+python -B summarize_bucket_study.py --data ../reruns/q2-bucket
 ```
 
 完整记录在`results_bucket/`，包含预热前协议、12张不同基础图、84个费用倍率输入、672配置、4704计时批与9408调用。已有结果时实验另建`rerun_*`子目录；汇总图命令需相应调整`--data`。所有费用、路径、账本及同序轨迹均核验，包含空桶扫描、槽数、回退和新准备工作的完整成本。
 
-零权随机图q=256时，归一化桶相对原始桶时间比的三图中位为0.657，3/3图配对更快；但全部168个输入—排序配对中均未快于原入口。详见[整数桶研究](BUCKET_STUDY.md)，不把表示修正或避免回退包装为普遍提速。
+零权随机图 q=256 时，归一化桶在三张图上都比原始桶快。和原求解器相比，168 组输入与排序的配对中没有一组更快。详见 [整数桶实验](BUCKET_STUDY.md)。

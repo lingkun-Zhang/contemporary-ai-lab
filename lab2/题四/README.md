@@ -20,11 +20,11 @@ run_q4.cmd lazy
 python treasure_game.py
 python treasure_game.py --depth 2 --algorithm minimax --order label
 python -m unittest discover -v
-python run_experiments.py
-python draw_q4_figures.py
+python run_experiments.py --output-dir ../reruns/q4-main
+python draw_q4_figures.py --results-dir ../reruns/q4-main
 ```
 
-当前电脑脚本优先使用已验证的本地Python，换电脑可用`py -3`或设置`Q4_PYTHON`。目前59项测试通过（原有47项，以及收益增量缓存12项）。报告直接回答矩阵、状态、深度差异、剪枝与输入价值边界，见[REPORT.md](REPORT.md)；跨地图与延迟距离查询结果见[补充实验报告](SUPPLEMENTARY_EXPERIMENTS.md)。
+Windows 上也可以用 `py -3` 代替 `python`，或用 `Q4_PYTHON` 为批处理指定解释器路径。题四共有 59 项测试。矩阵、状态和深度比较见[题四报告](REPORT.md)，跨地图和延迟距离查询见[补充实验](SUPPLEMENTARY_EXPERIMENTS.md)。
 
 ```python
 from treasure_game import sample_problem, build_distance_matrix, game_search
@@ -51,7 +51,7 @@ assert (result.best_target, result.best_value) == ("T3", 3)
 | [results/protocol.json](results/protocol.json) | 预热前冻结的完整输入、候选和计时边界 |
 | [results/reproducibility.json](results/reproducibility.json) | 环境与源码/结果SHA |
 
-实验7重复块×每块3次；有6468次顶层计时调用，不能当作独立输入数。只有一张地形和15组价值。复跑默认另建带时间戳子目录，保留原结果；可用`python run_experiments.py --output-dir results_new`指定。新目录图表用`python draw_q4_figures.py --results-dir results_new`生成。
+样例和价值扫描使用一张地形及 15 组价值。每个配置计时 7 块，每块调用 3 次。画图命令读取指定结果目录，并把 SVG 写回该目录。
 
 路由策略实验分`decision_only`和`complete_task`两种输出要求；正式解答始终输出完整6×6矩阵。仅求首步的按需策略不能替代正式矩阵任务。各计时窗包含相应的排序、A*、缓存和预计算开销。T3价值扫描保持Gain公式不变，是自设输入，不是重定义正式题目。
 
